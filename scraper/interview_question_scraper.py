@@ -25,5 +25,10 @@ class InterviewQuestionScraper(BaseScraper):
 # - Clean content
 # - Save datasets
 
-    pass
+
+    def __init__(self):
+        """
+        Initialize interview question scraper.
+        """
+        pass
 

@@ -2,7 +2,7 @@
 Base Scraper Framework
 
 Purpose:
-Provide a common interface for all scraper implementations.
+Provide reusable functionality for all scraper implementations.
 
 Future scraper types:
 
@@ -14,12 +14,14 @@ Future scraper types:
 All scraper classes should inherit from BaseScraper.
 """
 
+import requests
+
 class BaseScraper:
 
 # Base class for all scraper implementations.
 
-# ```
-# Every scraper should follow the same workflow:
+
+# Common workflow:
 
 # Fetch Page
 #     ↓
@@ -29,44 +31,30 @@ class BaseScraper:
 #     ↓
 # Save Data
 
-    def fetch_page(self):
+    def get_page(self, url):
         """
         Fetch webpage content.
 
-        To be implemented by child classes.
+        Args:
+            url (str): Target webpage URL
+
+        Returns:
+            str: Page content
         """
-        pass
 
-    def parse_content(self):
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+
+        return response.text
+
+    def save_to_file(self, filepath, data):
         """
-        Extract useful information from raw content.
+        Save scraped data to a file.
 
-        To be implemented by child classes.
+        Args:
+            filepath (str): Output file path
+            data (str): Data to save
         """
-        pass
 
-    def clean_text(self):
-        """
-        Clean extracted content.
-
-        Examples:
-        - Remove extra spaces
-        - Remove HTML artifacts
-        - Standardize formatting
-
-        To be implemented by child classes.
-        """
-        pass
-
-    def save_data(self):
-        """
-        Save processed data to storage.
-
-        Examples:
-        - TXT files
-        - CSV files
-        - JSON files
-
-        To be implemented by child classes.
-        """
-        pass
+        with open(filepath, "w", encoding="utf-8") as file:
+            file.write(data)
