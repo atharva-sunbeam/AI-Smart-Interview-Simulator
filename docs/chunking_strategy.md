@@ -16,7 +16,7 @@ Chunk quality directly impacts retrieval quality in a RAG system.
 
 Documents are split using a predefined size.
 
-Example:
+Examples:
 
 * 500 characters
 * 500 words
@@ -167,32 +167,65 @@ Recursive chunking provides the best balance between:
 
 # Recommended Configuration
 
-Chunk Size:
+## Chunk Size
 
-* 500–800 words
+Recommended:
 
-Chunk Overlap:
+* 300–500 tokens
 
-* 50–100 words
+Reason:
 
-Purpose of overlap:
+Modern embedding models process tokens rather than words or characters.
+
+Token-based chunking aligns better with:
+
+* Embedding generation
+* Retrieval quality
+* Context window limitations
+
+---
+
+## Chunk Overlap
+
+Recommended:
+
+* 50–100 tokens
+
+Purpose:
 
 * Preserve context between neighboring chunks
 * Improve retrieval quality
+* Reduce information loss at chunk boundaries
+
+---
+
+# Why Not Character-Based Chunking?
+
+Character counts do not accurately represent semantic content.
+
+A code snippet and a paragraph explanation may have similar character lengths but very different information density.
+
+---
+
+# Why Not Word-Based Chunking?
+
+Word counts are more useful than character counts but still do not align directly with how embedding models process text.
+
+Most modern embedding models operate on tokens.
 
 ---
 
 # Future Enhancement
 
-Phase 1:
+## Phase 1
 
 * Recursive Chunking
 
-Phase 2:
+## Phase 2
 
 * Recursive Chunking with Metadata Filtering
 
-Phase 3:
+## Phase 3
 
 * Semantic Chunking for selected premium datasets if required
 
@@ -201,5 +234,11 @@ Phase 3:
 # Final Decision
 
 For this project, Recursive Chunking is the recommended approach.
+
+Configuration:
+
+* Recursive Chunking
+* 300–500 tokens per chunk
+* 50–100 token overlap
 
 It offers the best trade-off between implementation complexity, retrieval accuracy, scalability, and maintainability while supporting future RAG enhancements.

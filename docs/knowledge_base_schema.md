@@ -20,21 +20,37 @@ Each row in `knowledge_base.csv` represents a single chunk of text.
 # Data Flow
 
 Web Scraping
+
 ↓
+
 Raw Documents
+
 ↓
+
 Cleaning
+
 ↓
+
 Metadata Enrichment
+
 ↓
+
 Chunking
+
 ↓
+
 knowledge_base.csv
+
 ↓
+
 Embeddings
+
 ↓
+
 ChromaDB
+
 ↓
+
 RAG Retrieval
 
 ---
@@ -47,6 +63,7 @@ RAG Retrieval
 | document_id      | Yes      | Original document identifier                                                              |
 | source_type      | Yes      | Type of source (interview_question, technical_doc, job_description, interview_experience) |
 | role             | Yes      | Target role (Python Developer, Data Engineer, ML Engineer, Data Analyst)                  |
+| domain           | Yes      | Broad technology domain (Python, SQL, Kafka, Spark, Airflow, ML, NLP)                     |
 | topic            | Yes      | Main topic category                                                                       |
 | subtopic         | No       | Detailed classification within topic                                                      |
 | difficulty       | No       | Easy, Medium, Hard                                                                        |
@@ -56,6 +73,7 @@ RAG Retrieval
 | tags             | No       | Additional metadata tags                                                                  |
 | source_title     | No       | Title of original source                                                                  |
 | source_url       | No       | Original source URL                                                                       |
+| created_at       | Yes      | Timestamp when chunk was created                                                          |
 | chunk_index      | Yes      | Position of chunk in original document                                                    |
 | total_chunks     | Yes      | Total chunks generated from source document                                               |
 | embedding_status | No       | pending, generated, failed                                                                |
@@ -87,6 +105,20 @@ Future roles can be added without schema changes.
 
 ---
 
+# Domain Examples
+
+| Domain  | Example Topics                       |
+| ------- | ------------------------------------ |
+| Python  | OOP, Functions, Exception Handling   |
+| SQL     | Joins, Indexing, Normalization       |
+| Kafka   | Partitions, Consumer Groups, Offsets |
+| Spark   | RDDs, DataFrames, Spark SQL          |
+| Airflow | DAGs, Operators, Scheduling          |
+| ML      | Regression, Classification           |
+| NLP     | Tokenization, Embeddings             |
+
+---
+
 # Example Chunk Metadata
 
 Document:
@@ -95,7 +127,9 @@ Document:
 
 After chunking:
 
-Document ID: DOC_KAFKA_001
+Document ID:
+
+DOC_KAFKA_001
 
 Chunks:
 
@@ -105,6 +139,12 @@ Chunks:
 
 All chunks share the same document_id while maintaining unique chunk_id values.
 
+Example metadata:
+
+* domain = Kafka
+* topic = Consumer Groups
+* subtopic = Offset Management
+
 ---
 
 # Why This Schema?
@@ -113,13 +153,25 @@ All chunks share the same document_id while maintaining unique chunk_id values.
 
 Supports vector database ingestion and metadata filtering.
 
+---
+
 ## Scalability
 
 Can handle 40,000+ chunk records.
 
+---
+
 ## Traceability
 
 Every chunk can be linked back to its original source.
+
+---
+
+## Freshness Tracking
+
+The `created_at` field allows tracking of document updates and future re-ingestion processes.
+
+---
 
 ## Interview Simulation
 
@@ -127,8 +179,40 @@ Supports role-based and topic-based retrieval for generating relevant interview 
 
 ---
 
+# Metadata Filtering Examples
+
+Examples of future retrieval filters:
+
+```python
+domain = Kafka
+```
+
+```python
+role = Data Engineer
+```
+
+```python
+difficulty = Medium
+```
+
+```python
+source_type = technical_doc
+```
+
+These filters improve retrieval accuracy and relevance.
+
+---
+
 # Final Decision
 
-Each row in knowledge_base.csv will represent one chunk of text, not one document.
+Each row in `knowledge_base.csv` will represent one chunk of text, not one document.
+
+The combination of:
+
+* domain
+* topic
+* subtopic
+
+provides hierarchical metadata for efficient retrieval and filtering.
 
 This aligns with industry-standard RAG architectures and improves retrieval quality.
