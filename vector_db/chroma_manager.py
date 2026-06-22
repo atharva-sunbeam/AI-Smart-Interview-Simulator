@@ -1,11 +1,3 @@
-"""
-ChromaDB Manager
-
-Purpose:
-Manage storage and retrieval of knowledge-base
-embeddings using ChromaDB.
-"""
-
 import chromadb
 
 class ChromaManager:
@@ -30,15 +22,32 @@ class ChromaManager:
         self,
         ids,
         documents,
-        embeddings=None,
-        metadatas=None,
+        embeddings,
+        metadatas,
     ):
         """
         Add documents to ChromaDB.
+
+        Required:
+        - ids
+        - documents
+        - embeddings
+        - metadatas
         """
 
         if self.collection is None:
             self.create_collection()
+
+        if not (
+            len(ids)
+            == len(documents)
+            == len(embeddings)
+            == len(metadatas)
+        ):
+            raise ValueError(
+                "ids, documents, embeddings, and metadatas "
+                "must have the same length."
+            )
 
         self.collection.add(
             ids=ids,
@@ -51,7 +60,6 @@ class ChromaManager:
         """
         Return total documents in collection.
         """
-
         if self.collection is None:
             self.create_collection()
 
@@ -61,7 +69,6 @@ class ChromaManager:
         """
         Semantic search.
         """
-
         if self.collection is None:
             self.create_collection()
 
@@ -69,14 +76,4 @@ class ChromaManager:
             query_texts=[query_text],
             n_results=n_results,
         )
-    
-
-if __name__ == "__main__":
-    manager = ChromaManager()
-    manager.create_collection()
-
-    
-    print(
-        f"Collection '{manager.COLLECTION_NAME}' initialized."
-    )
     
