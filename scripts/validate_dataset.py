@@ -1,132 +1,39 @@
-"""
-Dataset Validation Script
+from collections import Counter
 
-Purpose:
-Validate scraped interview question datasets before cleaning
-and chunking.
+DATASET_PATH = "datasets/raw/python_questions.txt"
 
-Metrics:
-
-* Total Questions
-* Unique Questions
-* Duplicate Questions
-* Duplicate Percentage
-* Empty Lines
-* Short Questions
-* Long Questions
-* Average Length
-  """
-
-from pathlib import Path
-
-DATASET_PATH = Path(
-"datasets/raw/python_questions.txt"
-)
 
 def main():
-    with open(
-    DATASET_PATH,
-    "r",
-    encoding="utf-8"
-    ) as file:
-        questions = file.readlines()
+    try:
+        with open(DATASET_PATH, "r", encoding="utf-8") as file:
+            lines = file.readlines()
 
+        total_lines = len(lines)
 
-    questions = [
-        question.strip()
-        for question in questions
-    ]
+        empty_lines = sum(1 for line in lines if not line.strip())
 
-    total_questions = len(questions)
+        questions = [line.strip() for line in lines if line.strip()]
 
-    unique_questions = len(
-        set(questions)
-    )
+        total_questions = len(questions)
 
-    duplicates = (
-        total_questions -
-        unique_questions
-    )
+        unique_questions = len(set(questions))
 
-    duplicate_percentage = 0
+        duplicates = total_questions - unique_questions
 
-    if total_questions > 0:
-        duplicate_percentage = (
-            duplicates /
-            total_questions
-        ) * 100
-
-    empty_lines = sum(
-        1
-        for question in questions
-        if not question
-    )
-
-    short_questions = sum(
-        1
-        for question in questions
-        if len(question) < 10
-    )
-
-    long_questions = sum(
-        1
-        for question in questions
-        if len(question) > 300
-    )
-
-    non_empty_questions = [
-        question
-        for question in questions
-        if question
-    ]
-
-    average_length = 0
-
-    if non_empty_questions:
         average_length = (
-            sum(
-                len(question)
-                for question in non_empty_questions
-            )
-            /
-            len(non_empty_questions)
+            sum(len(question) for question in questions) / total_questions
+            if total_questions > 0
+            else 0
         )
 
-    print(
-        f"Total Questions: {total_questions}"
-    )
+        print(f"Total Questions: {total_questions}")
+        print(f"Unique Questions: {unique_questions}")
+        print(f"Duplicates: {duplicates}")
+        print(f"Empty Lines: {empty_lines}")
+        print(f"Average Length: {average_length:.2f} characters")
 
-    print(
-        f"Unique Questions: {unique_questions}"
-    )
-
-    print(
-        f"Duplicates: {duplicates}"
-    )
-
-    print(
-        f"Duplicate %: "
-        f"{duplicate_percentage:.2f}%"
-    )
-
-    print(
-        f"Empty Lines: {empty_lines}"
-    )
-
-    print(
-        f"Short Questions: "
-        f"{short_questions}"
-    )
-
-    print(
-        f"Long Questions: "
-        f"{long_questions}"
-    )
-
-    print(
-        f"Average Length: "
-        f"{average_length:.2f}"
-    )
+    except FileNotFoundError:
+        print(f"Dataset not found: {DATASET_PATH}")
 
 
 if __name__ == "__main__":
