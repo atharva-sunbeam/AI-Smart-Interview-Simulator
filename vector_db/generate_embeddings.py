@@ -2,8 +2,7 @@
 Embedding Generation Pipeline
 
 Purpose:
-Generate embeddings from the knowledge base
-for future storage in ChromaDB.
+Generate semantic embeddings from the knowledge base.
 
 Model:
 sentence-transformers/all-MiniLM-L6-v2
@@ -18,19 +17,28 @@ from pathlib import Path
 
 from sentence_transformers import SentenceTransformer
 
-KNOWLEDGE_BASE_FILE = Path(
-"datasets/processed/knowledge_base.csv"
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+KNOWLEDGE_BASE_FILE = (
+    PROJECT_ROOT /
+    "datasets" /
+    "processed" /
+    "knowledge_base.csv"
 )
 
-EMBEDDING_FILE = Path(
-"datasets/processed/chunk_embeddings.pkl"
+EMBEDDING_FILE = (
+    PROJECT_ROOT /
+    "datasets" /
+    "processed" /
+    "chunk_embeddings.pkl"
 )
+
 
 def load_knowledge_base():
-
-# Load knowledge base records.
-
-    records = []
+    """
+    Load knowledge base records.
+    """
 
     with open(
         KNOWLEDGE_BASE_FILE,
@@ -44,32 +52,91 @@ def load_knowledge_base():
 
     return records
 
-def generate_embeddings(records):
 
-# Generate embeddings for chunk content.
+def generate_embeddings(records):
+    """
+    Generate embeddings for knowledge base content.
+    """
 
     model = SentenceTransformer(
         "all-MiniLM-L6-v2"
     )
 
+    contents = [
+        record["content"]
+        for record in records
+    ]
+
+    vectors = model.encode(
+        contents,
+        show_progress_bar=True
+    )
+
     embeddings = []
 
-    for record in records:
-
-        embedding = model.encode(
-            record["content"]
-        )
+    for record, vector in zip(
+        records,
+        vectors
+    ):
 
         embeddings.append({
-            "chunk_id": record["chunk_id"],
-            "embedding": embedding
+            "chunk_id":
+                record["chunk_id"],
+
+            "content":
+                record["content"],
+
+            "metadata": {
+                "document_id":
+                    record.get(
+                        "document_id",
+                        ""
+                    ),
+
+                "source_type":
+                    record.get(
+                        "source_type",
+                        ""
+                    ),
+
+                "domain":
+                    record.get(
+                        "domain",
+                        ""
+                    ),
+
+                "topic":
+                    record.get(
+                        "topic",
+                        ""
+                    )
+            },
+
+            "embedding":
+                vector.tolist()
         })
 
     return embeddings
 
-def save_embeddings(embeddings):
 
-# Save embeddings to disk.
+def get_embedding_dimension():
+    """
+    Return embedding dimension.
+    """
+
+    model = SentenceTransformer(
+        "all-MiniLM-L6-v2"
+    )
+
+    return model.get_embedding_dimension()
+
+
+def save_embeddings(
+    embeddings
+):
+    """
+    Save embeddings to disk.
+    """
 
     EMBEDDING_FILE.parent.mkdir(
         parents=True,
@@ -90,7 +157,6 @@ def save_embeddings(embeddings):
 def main():
     records = load_knowledge_base()
 
-
     embeddings = generate_embeddings(
         records
     )
@@ -110,7 +176,12 @@ def main():
     )
 
     print(
-        f"Saved embeddings to "
+        f"Embedding Dimension: "
+        f"{get_embedding_dimension()}"
+    )
+
+    print(
+        f"Saved embeddings to:\n"
         f"{EMBEDDING_FILE}"
     )
 
