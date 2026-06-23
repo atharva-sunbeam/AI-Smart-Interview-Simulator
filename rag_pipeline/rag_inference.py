@@ -23,6 +23,7 @@ from vector_db.chroma_manager import ChromaManager
 
 class RAGInference:
 
+
     def __init__(self):
         self.retriever = ChromaManager()
         self.retriever.create_collection()
@@ -60,7 +61,7 @@ class RAGInference:
         context_text = "\n".join(context)
 
         return f"""
-   
+    ```
 
     Question:
     {query}
@@ -71,7 +72,7 @@ class RAGInference:
     Answer:
     """
 
-   
+    
     def generate_answer(
         self,
         query: str,
@@ -86,7 +87,7 @@ class RAGInference:
         context_text = "\n".join(context)
 
         return f"""
-   
+    
 
     Question:
     {query}
@@ -98,6 +99,7 @@ class RAGInference:
     Generated answer placeholder.
     """
 
+    
     def run(
         self,
         query: str,
@@ -118,7 +120,7 @@ class RAGInference:
             "context": context,
             "answer": answer,
         }
-   
+    
 
 if __name__ == "__main__":
 

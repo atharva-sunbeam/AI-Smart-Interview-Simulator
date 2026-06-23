@@ -6,6 +6,7 @@ from rag_pipeline.rag_inference import RAGInference
 
 def main():
 
+    
     query = "What are decorators in Python?"
 
     rag = RAGInference()
@@ -28,7 +29,7 @@ def main():
 
     print("\nGenerated Answer:")
     print(result["answer"])
-
+    
 
 if __name__ == "__main__":
     main()
