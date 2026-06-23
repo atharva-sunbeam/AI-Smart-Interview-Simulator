@@ -35,6 +35,7 @@ class RoleClassifier:
             y,
             test_size=0.2,
             random_state=42,
+            stratify=y,
         )
 
         self.model.fit(X_train, y_train)
