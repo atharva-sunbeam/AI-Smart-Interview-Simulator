@@ -61,8 +61,6 @@ class RAGInference:
         context_text = "\n".join(context)
 
         return f"""
-    ```
-
     Question:
     {query}
 
@@ -84,18 +82,15 @@ class RAGInference:
         Replace with Ollama/Mistral later.
         """
 
-        context_text = "\n".join(context)
+        prompt = self.build_prompt(
+            query=query,
+            context=context,
+        )
 
         return f"""
-    
+    Prompt:
+    {prompt}
 
-    Question:
-    {query}
-
-    Context:
-    {context_text}
-
-    Answer:
     Generated answer placeholder.
     """
 
