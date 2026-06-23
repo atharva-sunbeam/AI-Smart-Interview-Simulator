@@ -9,23 +9,17 @@ from agents.question_generation_agent import (
 
 def test_agent_creation():
 
-    agent = (
-        QuestionGenerationAgent()
-    )
+    agent = QuestionGenerationAgent()
 
     assert agent is not None
 
 
 def test_generate_question():
 
-    agent = (
-        QuestionGenerationAgent()
-    )
+    agent = QuestionGenerationAgent()
 
-    question = (
-        agent.generate_question(
-            "Python Developer"
-        )
+    question = agent.generate_question(
+        "Python Developer"
     )
 
     assert question is not None
@@ -33,18 +27,14 @@ def test_generate_question():
 
 def test_build_prompt():
 
-    agent = (
-        QuestionGenerationAgent()
-    )
+    agent = QuestionGenerationAgent()
 
-    prompt = (
-        agent.build_prompt(
-            role="Python Developer",
-            context=[
-                "Python decorators modify function behavior."
-            ]
-        )
+    prompt = agent.build_prompt(
+        role="Python Developer",
+        context=[
+            "Python decorators modify function behavior."
+        ]
     )
 
     assert "Candidate Role" in prompt
-    assert "Relevant Knowledge Base Context" in prompt
+    assert "Relevant Context" in prompt
