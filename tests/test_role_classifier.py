@@ -1,14 +1,21 @@
-from ml_models.role_prediction.train_role_classifier import RoleClassifier
+from ml_models.role_prediction.train_role_classifier import (
+RoleClassifier,
+)
 
-def test_predict_role():
-    """
-    Placeholder test.
+def test_classifier_creation():
 
-    ```
-    Will be expanded once
-    TF-IDF and Random Forest
-    are implemented.
-    """
+
     classifier = RoleClassifier()
+
     assert classifier is not None
+    
+
+def test_predict_role_method_exists():
+    
+    classifier = RoleClassifier()
+
+    assert hasattr(
+        classifier,
+        "predict_role",
+    )
 
