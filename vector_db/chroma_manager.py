@@ -77,3 +77,29 @@ class ChromaManager:
             n_results=n_results,
         )
     
+    def delete_collection(self):
+        """
+        Delete the current collection.
+        """
+
+        try:
+            self.client.delete_collection(
+                name=self.COLLECTION_NAME
+            )
+        except Exception:
+            pass
+
+        self.collection = None
+
+    def reset_collection(self):
+        """
+        Delete and recreate collection.
+        Useful for testing and experiments.
+        """
+
+        try:
+            self.delete_collection()
+        except Exception:
+            pass
+
+        self.create_collection()

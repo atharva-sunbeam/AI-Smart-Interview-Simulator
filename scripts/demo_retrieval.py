@@ -2,17 +2,7 @@
 RAG Retrieval Demonstration
 
 Purpose:
-Demonstrate the retrieval stage of the RAG pipeline.
-
-Flow:
-
-Query
-↓
-Retriever
-↓
-Retrieve Context
-↓
-Display Results
+Demonstrate retrieval from ChromaDB.
 """
 
 from vector_db.chroma_manager import ChromaManager
@@ -22,21 +12,19 @@ def retrieve_context(query: str, n_results: int = 3):
     manager.create_collection()
 
     
-    results = manager.search_documents(
+    return manager.search_documents(
         query_text=query,
         n_results=n_results,
     )
-
-    return results
     
 
 def print_results(results):
     print("\nRetrieved Context:\n")
 
-
+    
     documents = results.get("documents", [])
 
-    if not documents:
+    if not documents or not documents[0]:
         print("No documents found.")
         return
 
@@ -44,14 +32,16 @@ def print_results(results):
         print(f"{i}.")
         print(document)
         print()
-    
+
 
 if __name__ == "__main__":
+
+
     query = "What is inheritance in Python?"
 
-print(f"\nQuery: {query}")
+    print(f"\nQuery: {query}")
 
-results = retrieve_context(query)
+    results = retrieve_context(query)
 
-print_results(results)
+    print_results(results)
 
