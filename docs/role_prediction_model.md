@@ -2,152 +2,94 @@
 
 ## Purpose
 
-The Role Prediction Model identifies the most suitable technical role for a candidate based on resume content.
-
-This module introduces Machine Learning into the Smart Interview Simulator and enables role-specific interview generation.
+Predict a candidate's most suitable technical role based on resume skills and keywords.
 
 ---
 
 # Architecture
 
-Resume Upload
-↓
-Resume Parsing
-↓
-Skill Extraction (spaCy NLP)
-↓
-Resume Text
+Resume Skills
 ↓
 TF-IDF Vectorization
 ↓
-Random Forest Classifier
+Logistic Regression
 ↓
 Predicted Role
 
 ---
 
-# Why Role Prediction?
+# Supported Roles
 
-Different roles require different interview questions.
-
-Examples:
-
-### Python Developer
-
-Focus Areas:
-
-* Python
-* OOP
-* APIs
-* Django / Flask
+1. Python Developer
+2. Data Engineer
+3. ML Engineer
+4. Data Analyst
 
 ---
 
-### Data Engineer
+# Input
 
-Focus Areas:
+Example Resume Skills:
 
-* SQL
-* Kafka
-* Spark
-* Airflow
-* ETL Pipelines
-
----
-
-### ML Engineer
-
-Focus Areas:
-
-* Machine Learning
-* Deep Learning
-* Feature Engineering
-* Model Deployment
+Python
+SQL
+Spark
+Kafka
+Airflow
 
 ---
 
-### Data Analyst
+# TF-IDF Vectorization
 
-Focus Areas:
-
-* SQL
-* Excel
-* Statistics
-* Power BI
-* Tableau
-
----
-
-# Input Features
-
-Resume information:
-
-* Skills
-* Projects
-* Certifications
-* Experience
-* Technical Keywords
+Converts resume text into numerical features.
 
 Example:
 
-Python, SQL, Kafka, Spark, Airflow
+Input:
 
----
+Python SQL Spark Kafka
 
-# NLP Processing
+Output:
 
-Tool:
-
-spaCy
-
-Tasks:
-
-* Tokenization
-* Named Entity Recognition
-* Skill Extraction
-* Text Normalization
-
----
-
-# Machine Learning Pipeline
-
-Resume Text
-↓
-TF-IDF Vectorization
-↓
-Feature Matrix
-↓
-Random Forest Classifier
-↓
-Predicted Role
-
----
-
-# Why TF-IDF?
-
-TF-IDF converts resume text into numerical features.
+[0.24, 0.12, 0.45, ...]
 
 Benefits:
 
 * Lightweight
+* Fast
 * Interpretable
-* Fast training
 * Effective for text classification
 
 ---
 
-# Why Random Forest?
+# Logistic Regression
 
-Benefits:
+Classifier used to predict the most likely role.
 
-* Handles high-dimensional features
-* Robust to noise
-* Easy to explain during interviews
-* Strong baseline classifier
+Reasons:
+
+* Simple baseline model
+* Fast training
+* Easy to explain in interviews
+* Works well with TF-IDF features
 
 ---
 
-# Evaluation Metrics
+# Example Prediction
+
+Input:
+
+Python SQL Spark Kafka Airflow ETL
+
+Output:
+
+Data Engineer
+
+---
+
+# Evaluation
+
+Metrics:
 
 * Accuracy
 * Precision
@@ -156,36 +98,20 @@ Benefits:
 
 Target:
 
-Accuracy > 80%
+80%+ accuracy
 
 ---
 
-# Output
+# Integration
 
-Example:
-
-Input Resume:
-
-Python
-SQL
-Kafka
-Spark
-Airflow
-
-Predicted Role:
-
-Data Engineer
-
----
-
-# Integration with Interview System
-
-Predicted Role
+Resume
+↓
+Skill Extraction (spaCy)
+↓
+Role Prediction
 ↓
 RAG Retrieval
 ↓
 Question Generation Agent
-↓
-Role-Specific Interview
 
-This ensures that generated interview questions match the candidate's profile and career path.
+Role prediction enables personalized interview questions aligned with the candidate's skill set.

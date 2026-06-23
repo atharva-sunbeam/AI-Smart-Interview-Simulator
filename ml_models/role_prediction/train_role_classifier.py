@@ -1,94 +1,99 @@
-"""
-Role Prediction Model
+import joblib
+import pandas as pd
 
-Purpose:
-Predict a candidate's target role based on
-resume content using NLP and Machine Learning.
-
-Future Pipeline:
-
-Resume Text
-↓
-Text Cleaning
-↓
-TF-IDF Vectorization
-↓
-Random Forest Classifier
-↓
-Predicted Role
-"""
-
-from typing import List
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.linear_model import LogisticRegression
+from sklearn.pipeline import Pipeline
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
 
 class RoleClassifier:
-    """
-    Resume Role Prediction Model
-    """
 
+    
     def __init__(self):
-        self.vectorizer = None
-        self.model = None
 
-    def load_dataset(self, dataset_path: str):
-        """
-        Load labeled resume dataset.
+        self.model = Pipeline(
+            [
+                ("tfidf", TfidfVectorizer()),
+                ("classifier", LogisticRegression(max_iter=1000))
+            ]
+        )
 
-        Expected Columns:
-        - resume_text
-        - role
-        """
-        pass
+    def load_dataset(self, dataset_path):
 
-    def preprocess_text(self, text: str):
-        """
-        Perform preprocessing:
+        return pd.read_csv(dataset_path)
 
-        - Lowercasing
-        - Stopword removal
-        - Tokenization
-        - Lemmatization
+    def train_model(self, dataset_path):
 
-        Future:
-        - spaCy NLP pipeline
-        """
-        pass
+        df = self.load_dataset(dataset_path)
 
-    def train_model(self, X, y):
-        """
-        Future Implementation:
+        X = df["text"]
+        y = df["role"]
 
-        TF-IDF
-            +
-        Random Forest
+        X_train, X_test, y_train, y_test = train_test_split(
+            X,
+            y,
+            test_size=0.2,
+            random_state=42,
+        )
 
-        Train role classifier.
-        """
-        pass
+        self.model.fit(X_train, y_train)
 
-    def evaluate_model(self, X_test, y_test):
-        """
-        Future Metrics:
+        predictions = self.model.predict(X_test)
 
-        - Accuracy
-        - Precision
-        - Recall
-        - F1 Score
-        """
-        pass
+        accuracy = accuracy_score(
+            y_test,
+            predictions,
+        )
 
-    def predict_role(self, resume_text: str):
-        """
-        Predict role from resume text.
+        print(f"Accuracy: {accuracy:.2f}")
 
-        Possible Outputs:
+        return accuracy
 
-        - Python Developer
-        - Data Engineer
-        - ML Engineer
-        - Data Analyst
-        """
-        pass
+    def save_model(
+        self,
+        model_path="ml_models/role_prediction/role_classifier.pkl",
+    ):
+
+        joblib.dump(
+            self.model,
+            model_path,
+        )
+
+    def load_model(
+        self,
+        model_path="ml_models/role_prediction/role_classifier.pkl",
+    ):
+
+        self.model = joblib.load(model_path)
+
+    def predict_role(self, resume_text):
+
+        prediction = self.model.predict(
+            [resume_text]
+        )
+
+        return prediction[0]
     
 
 if __name__ == "__main__":
-    print("Role Classifier Module Initialized")
+
+
+    classifier = RoleClassifier()
+
+    classifier.train_model(
+        "datasets/raw/role_training_data.csv"
+    )
+
+    classifier.save_model()
+
+    sample_resume = (
+        "Python SQL Spark Kafka Airflow ETL"
+    )
+
+    role = classifier.predict_role(
+        sample_resume
+    )
+
+    print(f"Predicted Role: {role}")
+
