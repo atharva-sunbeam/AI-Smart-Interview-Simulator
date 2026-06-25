@@ -7,13 +7,14 @@ Generate and save the final interview report.
 
 import json
 from pathlib import Path
+from datetime import datetime
+
 
 class ReportGenerator:
     """
     Generates the final interview report.
     """
 
-    
     def generate_final_report(
         self,
         candidate_name,
@@ -34,12 +35,25 @@ class ReportGenerator:
             else 0
         )
 
+        if average_score >= 80:
+            overall_result = "Excellent"
+
+        elif average_score >= 60:
+            overall_result = "Good"
+
+        else:
+            overall_result = "Needs Improvement"
+
         report = {
             "candidate_name": candidate_name,
             "predicted_role": predicted_role,
+            "interview_date": datetime.now().strftime(
+                "%Y-%m-%d %H:%M"
+            ),
             "questions_asked": questions_asked,
             "scores": scores,
             "average_score": average_score,
+            "overall_result": overall_result,
             "strengths": strengths,
             "weaknesses": weaknesses,
             "recommendations": recommendations,
@@ -77,7 +91,7 @@ class ReportGenerator:
 
 
 if __name__ == "__main__":
-    
+
     generator = ReportGenerator()
 
     report = generator.generate_final_report(
@@ -104,5 +118,8 @@ if __name__ == "__main__":
 
     generator.save_report(report)
 
-    print(report)
+    print("\nInterview Report")
+    print("-" * 40)
 
+    for key, value in report.items():
+        print(f"{key}: {value}")
