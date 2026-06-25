@@ -29,6 +29,10 @@ from agents.question_generation_agent import (
     QuestionGenerationAgent,
 )
 
+from agents.answer_evaluation_agent import (
+    AnswerEvaluationAgent,
+)
+
 
 class InterviewSession:
     """
@@ -41,9 +45,14 @@ class InterviewSession:
             QuestionGenerationAgent()
         )
 
+        self.evaluator = (
+            AnswerEvaluationAgent()
+        )
+
         self.current_role = None
         self.current_question = None
         self.current_answer = None
+        self.expected_answer = None
 
         self.session_history = []
 
@@ -58,7 +67,7 @@ class InterviewSession:
         self.current_role = predicted_role
 
         print(
-            f"\nInterview Session Started"
+            "\nInterview Session Started"
         )
 
         print(
@@ -67,7 +76,7 @@ class InterviewSession:
 
     def ask_question(self):
         """
-        Generate and return interview question.
+        Generate interview question.
         """
 
         self.current_question = (
@@ -75,6 +84,32 @@ class InterviewSession:
                 self.current_role
             )
         )
+
+        #
+        # Placeholder expected answer.
+        # Later this will come from:
+        #
+        # Knowledge Base
+        # or
+        # Retrieved Context
+        #
+        if (
+            self.current_question ==
+            "Explain decorators in Python."
+        ):
+
+            self.expected_answer = (
+                "Decorators are functions that "
+                "modify or extend the behavior "
+                "of other functions without "
+                "changing their source code."
+            )
+
+        else:
+
+            self.expected_answer = (
+                "Reference answer not available."
+            )
 
         return self.current_question
 
@@ -94,35 +129,31 @@ class InterviewSession:
 
     def evaluate_answer(self):
         """
-        Placeholder evaluation.
-
-        Will later integrate:
-        AnswerEvaluationAgent
+        Evaluate candidate answer using
+        AnswerEvaluationAgent.
         """
 
-        score = 8
-
-        feedback = (
-            "Good answer. Demonstrates "
-            "basic understanding."
+        result = (
+            self.evaluator.evaluate_answer(
+                expected_answer=self.expected_answer,
+                candidate_answer=self.current_answer
+            )
         )
 
         interview_record = {
             "role": self.current_role,
             "question": self.current_question,
-            "answer": self.current_answer,
-            "score": score,
-            "feedback": feedback,
+            "expected_answer": self.expected_answer,
+            "candidate_answer": self.current_answer,
+            "score": result["score"],
+            "feedback": result["feedback"],
         }
 
         self.session_history.append(
             interview_record
         )
 
-        return {
-            "score": score,
-            "feedback": feedback,
-        }
+        return result
 
     def generate_report(self):
         """
@@ -154,7 +185,7 @@ class InterviewSession:
             "total_questions": total_questions,
             "average_score": round(
                 average_score,
-                2,
+                2
             ),
             "details": self.session_history,
         }
@@ -170,15 +201,19 @@ def main():
         "Python Developer"
     )
 
-    question = session.ask_question()
+    question = (
+        session.ask_question()
+    )
 
     print(
         f"\nQuestion:\n{question}"
     )
 
     candidate_answer = (
-        "Decorators modify the "
-        "behavior of functions."
+        "Decorators are functions that "
+        "modify the behavior of other "
+        "functions without changing "
+        "their original code."
     )
 
     session.submit_answer(
