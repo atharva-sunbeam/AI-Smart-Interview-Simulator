@@ -28,9 +28,9 @@ GenAI-powered interview preparation platform using:
 
 
 
-\- Developer A
+\- Developer A - Shreyas Deshingkar
 
-\- Developer B
+\- Developer B - Atharva Birje
 
 
 
