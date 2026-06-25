@@ -2,25 +2,29 @@
 Streamlit Frontend
 
 Purpose:
-Provide a web interface for the
-AI Smart Interview Simulator.
+Provide UI for the AI Smart Interview Simulator.
+
+Architecture:
+
+Streamlit UI
+      ↓
+SystemController
+      ↓
+Complete Backend
 """
 
+import os
 import sys
-from pathlib import Path
 import tempfile
+from pathlib import Path
 
 import streamlit as st
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.append(str(PROJECT_ROOT))
 
-from agents.resume_parser import ResumeParser
-from ml_models.role_prediction.train_role_classifier import (
-    RoleClassifier,
-)
-from backend.interview_session import (
-    InterviewSession,
+from backend.system_controller import (
+    SystemController,
 )
 
 
@@ -39,11 +43,13 @@ st.markdown("---")
 
 
 # --------------------------------------------------
-# Session State Initialization
+# Session State
 # --------------------------------------------------
 
-if "session" not in st.session_state:
-    st.session_state.session = InterviewSession()
+if "controller" not in st.session_state:
+    st.session_state.controller = (
+        SystemController()
+    )
 
 if "predicted_role" not in st.session_state:
     st.session_state.predicted_role = None
@@ -56,87 +62,18 @@ if "evaluation" not in st.session_state:
 
 
 # --------------------------------------------------
-# Functions
+# Resume Upload
 # --------------------------------------------------
 
-def upload_resume():
-    """
-    Upload resume PDF.
-    """
-
-    uploaded_file = st.file_uploader(
-        "Upload Resume (PDF)",
-        type=["pdf"]
-    )
-
-    return uploaded_file
-
-
-def display_predicted_role(role):
-    """
-    Display predicted role.
-    """
-
-    st.success(
-        f"Predicted Role: {role}"
-    )
-
-
-def show_question(question):
-    """
-    Display generated question.
-    """
-
-    st.subheader("Interview Question")
-
-    st.info(question)
-
-
-def accept_answer():
-    """
-    Accept candidate answer.
-    """
-
-    answer = st.text_area(
-        "Enter Your Answer",
-        height=200
-    )
-
-    return answer
-
-
-def display_score(result):
-    """
-    Display evaluation score.
-    """
-
-    st.subheader("Evaluation")
-
-    st.metric(
-        "Score",
-        result["score"]
-    )
-
-    st.write(
-        f"Feedback: {result['feedback']}"
-    )
-
-
-def display_report(report):
-    """
-    Display final report.
-    """
-
-    st.subheader("Interview Report")
-
-    st.json(report)
+uploaded_resume = st.file_uploader(
+    "Upload Resume (PDF)",
+    type=["pdf"]
+)
 
 
 # --------------------------------------------------
-# Main Workflow
+# Resume Processing
 # --------------------------------------------------
-
-uploaded_resume = upload_resume()
 
 if uploaded_resume:
 
@@ -155,136 +92,128 @@ if uploaded_resume:
         "Resume uploaded successfully."
     )
 
-    parser = ResumeParser()
-
-    resume_text = (
-        parser.extract_text_from_pdf(
-            temp_resume_path
-        )
+    controller = (
+        st.session_state.controller
     )
 
-    cleaned_text = (
-        parser.clean_resume_text(
-            resume_text
-        )
+    result = controller.run_complete_pipeline(
+        temp_resume_path
     )
 
-    extracted_skills = (
-        parser.extract_skills(
-            cleaned_text
-        )
+    os.remove(
+        temp_resume_path
     )
 
     st.subheader(
         "Extracted Skills"
     )
 
-    st.write(extracted_skills)
+    st.write(
+        result["skills"]
+    )
 
-    # ----------------------------------------
-    # Role Prediction
-    # ----------------------------------------
-
-    try:
-
-        classifier = RoleClassifier()
-
-        classifier.load_model()
-
-        predicted_role = (
-            classifier.predict_role(
-                cleaned_text
-            )
-        )
-
-    except Exception:
-
-        #
-        # Fallback for demo purposes
-        #
-        predicted_role = (
-            "Python Developer"
-        )
+    st.success(
+        f"Predicted Role: {result['role']}"
+    )
 
     st.session_state.predicted_role = (
-        predicted_role
+        result["role"]
     )
-
-    display_predicted_role(
-        predicted_role
-    )
-
-    # ----------------------------------------
-    # Start Interview
-    # ----------------------------------------
 
     if st.button(
         "Start Interview"
     ):
 
-        session = (
-            st.session_state.session
-        )
-
-        session.start_session(
-            predicted_role
+        controller.start_interview(
+            result["role"]
         )
 
         question = (
-            session.ask_question()
+            controller.ask_question()
         )
 
         st.session_state.question = (
             question
         )
 
+
 # --------------------------------------------------
-# Show Question
+# Question Display
 # --------------------------------------------------
 
 if st.session_state.question:
 
-    show_question(
+    st.subheader(
+        "Interview Question"
+    )
+
+    st.info(
         st.session_state.question
     )
 
-    answer = accept_answer()
+    answer = st.text_area(
+        "Enter Your Answer",
+        height=200
+    )
 
     if st.button(
         "Submit Answer"
     ):
 
-        session = (
-            st.session_state.session
-        )
+        if not answer.strip():
 
-        session.submit_answer(
-            answer
-        )
+            st.warning(
+                "Please enter an answer."
+            )
 
-        result = (
-            session.evaluate_answer()
-        )
+        else:
 
-        st.session_state.evaluation = (
-            result
-        )
+            controller = (
+                st.session_state.controller
+            )
+
+            controller.submit_answer(
+                answer
+            )
+
+            evaluation = (
+                controller.evaluate_answer()
+            )
+
+            st.session_state.evaluation = (
+                evaluation
+            )
+
 
 # --------------------------------------------------
-# Display Evaluation
+# Evaluation
 # --------------------------------------------------
 
 if st.session_state.evaluation:
 
-    display_score(
-        st.session_state.evaluation
+    st.subheader(
+        "Evaluation"
+    )
+
+    st.metric(
+        "Score",
+        st.session_state.evaluation["score"]
+    )
+
+    st.write(
+        f"Feedback: "
+        f"{st.session_state.evaluation['feedback']}"
     )
 
     report = (
-        st.session_state.session
+        st.session_state.controller
         .generate_report()
     )
 
-    display_report(
+    st.subheader(
+        "Interview Report"
+    )
+
+    st.json(
         report
     )

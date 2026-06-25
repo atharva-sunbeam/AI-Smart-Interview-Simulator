@@ -1,19 +1,9 @@
 """
-Resume Parser Agent
+Resume Parser
 
 Purpose:
-Extract text from resumes and identify
-technical skills.
-
-Pipeline:
-
-PDF Resume
-      ↓
-Text Extraction
-      ↓
-Cleaning
-      ↓
-Skill Extraction
+Extract text from resume PDFs,
+clean the text, and extract skills.
 """
 
 import re
@@ -28,66 +18,63 @@ SKILLS = [
     "machine learning",
     "deep learning",
     "nlp",
-    "pandas",
-    "numpy",
-    "scikit-learn",
     "tensorflow",
     "pytorch",
+    "scikit-learn",
     "spark",
     "kafka",
     "airflow",
-    "aws",
-    "docker",
-    "kubernetes",
-    "etl",
-    "power bi",
+    "hadoop",
     "tableau",
+    "power bi",
     "excel",
+    "pandas",
+    "numpy",
+    "django",
+    "flask",
+    "fastapi",
+    "docker",
+    "postgresql",
+    "mysql",
 ]
 
 
 class ResumeParser:
     """
-    Resume Parser Agent
+    Resume Parser class.
     """
 
     def extract_text_from_pdf(
         self,
-        pdf_path
+        pdf_path,
     ):
         """
         Extract text from PDF resume.
         """
 
-        pdf_path = Path(pdf_path)
-
         text = ""
+
+        pdf_path = Path(pdf_path)
 
         with open(
             pdf_path,
-            "rb"
+            "rb",
         ) as file:
 
-            reader = PyPDF2.PdfReader(
-                file
-            )
+            reader = PyPDF2.PdfReader(file)
 
             for page in reader.pages:
 
-                page_text = (
-                    page.extract_text()
-                )
+                page_text = page.extract_text()
 
                 if page_text:
-                    text += (
-                        page_text + "\n"
-                    )
+                    text += page_text + "\n"
 
         return text
 
     def clean_resume_text(
         self,
-        text
+        text,
     ):
         """
         Clean extracted resume text.
@@ -98,89 +85,97 @@ class ResumeParser:
         text = re.sub(
             r"\s+",
             " ",
-            text
+            text,
         )
 
         text = re.sub(
             r"[^a-zA-Z0-9+#.\s]",
             " ",
-            text
+            text,
         )
 
         return text.strip()
 
     def extract_skills(
         self,
-        text
+        text,
     ):
         """
-        Extract technical skills using
-        keyword matching.
+        Extract skills using keyword matching.
         """
 
         extracted_skills = []
 
         for skill in SKILLS:
 
-            if skill.lower() in text:
+            pattern = rf"\b{re.escape(skill.lower())}\b"
 
-                extracted_skills.append(
-                    skill
-                )
+            if re.search(
+                pattern,
+                text.lower(),
+            ):
+                extracted_skills.append(skill)
 
         return sorted(
-            list(
-                set(
-                    extracted_skills
-                )
-            )
+            list(set(extracted_skills))
         )
 
+    def parse_resume(
+        self,
+        resume_path,
+    ):
+        """
+        Complete resume parsing pipeline.
 
-def main():
+        Returns:
+        {
+            "raw_text": ...,
+            "cleaned_text": ...,
+            "skills": [...]
+        }
+        """
 
-    sample_resume = (
-        "sample_resume.pdf"
-    )
-
-    parser = ResumeParser()
-
-    try:
-
-        text = (
-            parser.extract_text_from_pdf(
-                sample_resume
-            )
+        raw_text = self.extract_text_from_pdf(
+            resume_path
         )
 
-        cleaned_text = (
-            parser.clean_resume_text(
-                text
-            )
+        cleaned_text = self.clean_resume_text(
+            raw_text
         )
 
-        skills = (
-            parser.extract_skills(
-                cleaned_text
-            )
+        skills = self.extract_skills(
+            cleaned_text
         )
 
-        print(
-            "\nExtracted Skills:\n"
-        )
-
-        for skill in skills:
-
-            print(
-                f"- {skill}"
-            )
-
-    except FileNotFoundError:
-
-        print(
-            "Sample resume not found."
-        )
+        return {
+            "raw_text": raw_text,
+            "cleaned_text": cleaned_text,
+            "skills": skills,
+        }
 
 
 if __name__ == "__main__":
-    main()
+
+    parser = ResumeParser()
+
+    sample_path = "Resume.pdf"
+
+    try:
+
+        result = parser.parse_resume(
+            sample_path
+        )
+
+        print(
+            "\nExtracted Skills:"
+        )
+
+        print(
+            result["skills"]
+        )
+
+    except Exception as error:
+
+        print(
+            f"Error: {error}"
+        )
