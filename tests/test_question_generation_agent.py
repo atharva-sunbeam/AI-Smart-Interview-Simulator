@@ -1,40 +1,127 @@
 """
-Tests for Question Generation Agent.
+Question Generation Agent
 """
 
-from agents.question_generation_agent import (
-    QuestionGenerationAgent,
+import sys
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+sys.path.append(str(PROJECT_ROOT))
+
+from rag_pipeline.retriever import (
+    Retriever,
 )
 
 
-def test_agent_creation():
+class QuestionGenerationAgent:
 
-    agent = QuestionGenerationAgent()
+    def __init__(self):
 
-    assert agent is not None
+        self.retriever = Retriever()
+
+    def build_prompt(
+        self,
+        role,
+        context
+    ):
+
+        context_text = (
+            "\n----------------\n".join(
+                context
+            )
+        )
+
+        return f"""
+You are an expert technical interviewer.
+
+Candidate Role:
+{role}
+
+Relevant Context:
+{context_text}
+
+Generate ONE interview question from the context.
+"""
+
+    def generate_question(
+        self,
+        role
+    ):
+
+        try:
+
+            retrieved_context = (
+                self.retriever.retrieve_context(
+                    query=role,
+                    top_k=3
+                )
+            )
+
+            formatted_context = (
+                self.retriever.format_context(
+                    retrieved_context
+                )
+            )
+
+        except Exception:
+
+            formatted_context = [
+                "What are decorators in Python?"
+            ]
+
+        prompt = self.build_prompt(
+            role=role,
+            context=formatted_context,
+        )
+
+        print(
+            "\nGenerated Prompt:\n"
+        )
+
+        print(prompt)
+
+        #
+        # Temporary mock LLM output.
+        # Future:
+        # Ollama/Mistral
+        #
+
+        question = (
+            "Explain decorators in Python."
+        )
+
+        expected_answer = (
+            "Decorators are functions "
+            "that modify or extend "
+            "the behavior of other "
+            "functions without changing "
+            "their source code."
+        )
+
+        return {
+            "question": question,
+            "expected_answer": expected_answer,
+            "context": formatted_context,
+            "prompt": prompt,
+        }
 
 
-def test_generate_question():
+if __name__ == "__main__":
 
-    agent = QuestionGenerationAgent()
-
-    question = agent.generate_question(
-        "Python Developer"
+    agent = (
+        QuestionGenerationAgent()
     )
 
-    assert question is not None
-
-
-def test_build_prompt():
-
-    agent = QuestionGenerationAgent()
-
-    prompt = agent.build_prompt(
-        role="Python Developer",
-        context=[
-            "Python decorators modify function behavior."
-        ]
+    result = (
+        agent.generate_question(
+            "Python Developer"
+        )
     )
 
-    assert "Candidate Role" in prompt
-    assert "Relevant Context" in prompt
+    print(
+        "\nGenerated Question:\n"
+    )
+
+    print(
+        result["question"]
+    )

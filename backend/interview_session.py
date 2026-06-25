@@ -1,22 +1,5 @@
 """
 Interview Session Orchestrator
-
-Purpose:
-Coordinate the complete interview workflow.
-
-Pipeline:
-
-Resume
-    ↓
-Role Prediction
-    ↓
-Question Generation
-    ↓
-Candidate Answer
-    ↓
-Answer Evaluation
-    ↓
-Interview Report
 """
 
 import sys
@@ -35,9 +18,6 @@ from agents.answer_evaluation_agent import (
 
 
 class InterviewSession:
-    """
-    Orchestrates the complete interview process.
-    """
 
     def __init__(self):
 
@@ -60,9 +40,6 @@ class InterviewSession:
         self,
         predicted_role
     ):
-        """
-        Start interview session.
-        """
 
         self.current_role = predicted_role
 
@@ -75,41 +52,20 @@ class InterviewSession:
         )
 
     def ask_question(self):
-        """
-        Generate interview question.
-        """
 
-        self.current_question = (
+        result = (
             self.question_agent.generate_question(
                 self.current_role
             )
         )
 
-        #
-        # Placeholder expected answer.
-        # Later this will come from:
-        #
-        # Knowledge Base
-        # or
-        # Retrieved Context
-        #
-        if (
-            self.current_question ==
-            "Explain decorators in Python."
-        ):
+        self.current_question = (
+            result["question"]
+        )
 
-            self.expected_answer = (
-                "Decorators are functions that "
-                "modify or extend the behavior "
-                "of other functions without "
-                "changing their source code."
-            )
-
-        else:
-
-            self.expected_answer = (
-                "Reference answer not available."
-            )
+        self.expected_answer = (
+            result["expected_answer"]
+        )
 
         return self.current_question
 
@@ -117,9 +73,6 @@ class InterviewSession:
         self,
         answer
     ):
-        """
-        Store candidate answer.
-        """
 
         self.current_answer = answer
 
@@ -128,10 +81,6 @@ class InterviewSession:
         )
 
     def evaluate_answer(self):
-        """
-        Evaluate candidate answer using
-        AnswerEvaluationAgent.
-        """
 
         result = (
             self.evaluator.evaluate_answer(
@@ -156,9 +105,6 @@ class InterviewSession:
         return result
 
     def generate_report(self):
-        """
-        Generate final interview report.
-        """
 
         total_questions = len(
             self.session_history
@@ -180,7 +126,7 @@ class InterviewSession:
             total_score / total_questions
         )
 
-        report = {
+        return {
             "role": self.current_role,
             "total_questions": total_questions,
             "average_score": round(
@@ -190,10 +136,8 @@ class InterviewSession:
             "details": self.session_history,
         }
 
-        return report
 
-
-def main():
+if __name__ == "__main__":
 
     session = InterviewSession()
 
@@ -209,37 +153,14 @@ def main():
         f"\nQuestion:\n{question}"
     )
 
-    candidate_answer = (
-        "Decorators are functions that "
-        "modify the behavior of other "
-        "functions without changing "
-        "their original code."
-    )
-
     session.submit_answer(
-        candidate_answer
+        "Decorators modify the behavior of functions."
     )
 
-    evaluation = (
+    print(
         session.evaluate_answer()
     )
 
     print(
-        "\nEvaluation:"
-    )
-
-    print(evaluation)
-
-    report = (
         session.generate_report()
     )
-
-    print(
-        "\nFinal Report:\n"
-    )
-
-    print(report)
-
-
-if __name__ == "__main__":
-    main()

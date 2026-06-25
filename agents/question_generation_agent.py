@@ -2,24 +2,24 @@
 Question Generation Agent
 
 Purpose:
-Generate interview questions based on
-candidate role and RAG context.
+Generate interview questions using
+retrieved RAG context.
 """
 
 import sys
 from pathlib import Path
 
-# Add project root to Python path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.append(str(PROJECT_ROOT))
 
-from rag_pipeline.retriever import Retriever
+from rag_pipeline.retriever import (
+    Retriever,
+)
 
 
 class QuestionGenerationAgent:
     """
-    Agent responsible for generating
-    interview questions.
+    Generate interview questions.
     """
 
     def __init__(self):
@@ -29,113 +29,119 @@ class QuestionGenerationAgent:
     def build_prompt(
         self,
         role,
-        context
+        context,
     ):
         """
-        Build prompt for question generation.
+        Build prompt for future LLM integration.
         """
 
-        formatted_context = (
-            "\n----------------\n".join(
-                context
-            )
+        context_text = "\n----------------\n".join(
+            context
         )
 
-        prompt = f"""
+        return f"""
 You are an expert technical interviewer.
 
 Candidate Role:
 {role}
 
 Relevant Context:
-{formatted_context}
+{context_text}
 
 Generate one technical interview question.
 """
 
-        return prompt
-
     def generate_question(
         self,
-        role
+        role,
     ):
         """
-        Generate interview question.
+        Generate question using retrieved context.
+
+        Returns:
+        {
+            "question": "...",
+            "expected_answer": "...",
+            "context": [...],
+            "prompt": "..."
+        }
         """
 
         try:
 
-            retrieved_chunks = (
+            retrieved_context = (
                 self.retriever.retrieve_context(
                     query=role,
-                    top_k=3
+                    top_k=3,
                 )
             )
 
-            context = []
-
-            for chunk in retrieved_chunks:
-
-                if isinstance(chunk, dict):
-                    context.append(
-                        chunk.get(
-                            "content",
-                            ""
-                        )
-                    )
-                else:
-                    context.append(
-                        str(chunk)
-                    )
+            formatted_context = (
+                self.retriever.format_context(
+                    retrieved_context
+                )
+            )
 
         except Exception:
 
-            context = [
-                "No context available."
+            formatted_context = [
+                "What are decorators in Python?"
             ]
 
         prompt = self.build_prompt(
             role=role,
-            context=context
+            context=formatted_context,
         )
 
-        print("\nGenerated Prompt:\n")
+        print(
+            "\nGenerated Prompt:\n"
+        )
+
         print(prompt)
 
-        mock_questions = {
-            "Python Developer":
-                "Explain decorators in Python.",
+        #
+        # Placeholder question generation.
+        # Replace with Ollama/Mistral later.
+        #
 
-            "Data Engineer":
-                "Explain Kafka architecture and partitions.",
-
-            "ML Engineer":
-                "What is overfitting in Machine Learning?",
-
-            "Data Analyst":
-                "Explain the difference between INNER JOIN and LEFT JOIN."
-        }
-
-        return mock_questions.get(
-            role,
-            "Explain an important project you have worked on."
+        question = (
+            "Explain decorators in Python."
         )
+
+        expected_answer = (
+            "Decorators are functions that "
+            "modify or extend the behavior "
+            "of other functions without "
+            "changing their source code."
+        )
+
+        return {
+            "question": question,
+            "expected_answer": expected_answer,
+            "context": formatted_context,
+            "prompt": prompt,
+        }
 
 
 def main():
 
-    agent = QuestionGenerationAgent()
+    agent = (
+        QuestionGenerationAgent()
+    )
 
-    role = "Python Developer"
-
-    question = (
+    result = (
         agent.generate_question(
-            role
+            "Python Developer"
         )
     )
 
-    print("\nGenerated Question:\n")
-    print(question)
+    print(
+        "\nGenerated Question:\n"
+    )
+
+    print(
+        result["question"]
+    )
 
 
 if __name__ == "__main__":
