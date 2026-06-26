@@ -1,0 +1,11 @@
+name,skills,expected_role
+John Doe,"Python SQL Spark Kafka Airflow ETL",Data Engineer
+Alice Smith,"Python Django Flask REST API Git Docker",Python Developer
+Bob Johnson,"TensorFlow PyTorch NLP Deep Learning Scikit-learn",ML Engineer
+Charlie Brown,"SQL Excel Power BI Tableau Statistics",Data Analyst
+David Wilson,"Java Spring Boot Microservices Docker Kubernetes",Java Developer
+Emma Davis,"Python Pandas NumPy SQL Machine Learning",ML Engineer
+Frank Miller,"Kafka Spark Hadoop Hive Airflow",Data Engineer
+Grace Lee,"Python FastAPI PostgreSQL Docker AWS",Python Developer
+Henry Clark,"SQL Tableau Excel Power BI Data Visualization",Data Analyst
+Isabella Moore,"Python NLP Transformers LangChain LLM",ML Engineer
