@@ -3,12 +3,6 @@ System Controller
 
 Purpose:
 Central orchestration layer.
-
-Frontend
-    ↓
-SystemController
-    ↓
-Backend Modules
 """
 
 import sys
@@ -46,31 +40,76 @@ class SystemController:
             InterviewSession()
         )
 
-    # --------------------------------------------------
-    # Complete Resume Pipeline
-    # --------------------------------------------------
-
     def run_complete_pipeline(
         self,
         resume_path
     ):
         """
-        Execute:
-
         Resume
             ↓
-        Parsing
+        Parse
             ↓
-        Skill Extraction
-            ↓
-        Role Prediction
+        Predict Role
         """
 
-        parsed_data = (
-            self.resume_parser.parse_resume(
+        try:
+
+            if not Path(
                 resume_path
+            ).exists():
+
+                raise FileNotFoundError
+
+            parsed_data = (
+                self.resume_parser.parse_resume(
+                    resume_path
+                )
             )
-        )
+
+        except FileNotFoundError:
+
+            print(
+                "Resume file not found."
+            )
+
+            return {
+                "skills": [],
+                "cleaned_text": "",
+                "role":
+                    "Python Developer",
+            }
+
+        except Exception as error:
+
+            print(
+                f"Resume parsing failed: "
+                f"{error}"
+            )
+
+            return {
+                "skills": [],
+                "cleaned_text": "",
+                "role":
+                    "Python Developer",
+            }
+
+        if not parsed_data[
+            "cleaned_text"
+        ]:
+
+            print(
+                "Empty resume text."
+            )
+
+            return {
+                "skills":
+                    parsed_data["skills"],
+
+                "cleaned_text": "",
+
+                "role":
+                    "Python Developer",
+            }
 
         try:
 
@@ -78,11 +117,28 @@ class SystemController:
 
             role = (
                 self.role_classifier.predict_role(
-                    parsed_data["cleaned_text"]
+                    parsed_data[
+                        "cleaned_text"
+                    ]
                 )
             )
 
-        except Exception:
+        except FileNotFoundError:
+
+            print(
+                "Role model not found."
+            )
+
+            role = (
+                "Python Developer"
+            )
+
+        except Exception as error:
+
+            print(
+                f"Prediction error: "
+                f"{error}"
+            )
 
             role = (
                 "Python Developer"
@@ -93,15 +149,13 @@ class SystemController:
                 parsed_data["skills"],
 
             "cleaned_text":
-                parsed_data["cleaned_text"],
+                parsed_data[
+                    "cleaned_text"
+                ],
 
             "role":
                 role
         }
-
-    # --------------------------------------------------
-    # Interview Session
-    # --------------------------------------------------
 
     def start_interview(
         self,
@@ -114,42 +168,86 @@ class SystemController:
 
     def ask_question(self):
 
-        return (
-            self.interview_session.ask_question()
-        )
+        try:
+
+            return (
+                self.interview_session.ask_question()
+            )
+
+        except FileNotFoundError:
+
+            print(
+                "Embeddings file missing."
+            )
+
+            return (
+                "Explain Python decorators."
+            )
+
+        except Exception as error:
+
+            print(
+                f"Retriever error: "
+                f"{error}"
+            )
+
+            return (
+                "Explain Python decorators."
+            )
 
     def submit_answer(
         self,
         answer
     ):
 
+        if not answer.strip():
+
+            raise ValueError(
+                "Candidate answer is empty."
+            )
+
         self.interview_session.submit_answer(
             answer
         )
 
-    def evaluate_answer(self):
+    def evaluate_answer(
+        self,
+    ):
 
-        return (
-            self.interview_session.evaluate_answer()
-        )
+        try:
 
-    def generate_report(self):
+            return (
+                self.interview_session.evaluate_answer()
+            )
+
+        except Exception as error:
+
+            print(
+                f"Evaluation failed: "
+                f"{error}"
+            )
+
+            return {
+                "score": 0,
+                "feedback":
+                    "Evaluation unavailable.",
+            }
+
+    def generate_report(
+        self,
+    ):
 
         return (
             self.interview_session.generate_report()
         )
 
 
-def main():
+if __name__ == "__main__":
 
     controller = (
         SystemController()
     )
 
     print(
-        "System Controller initialized."
+        "System Controller Initialized."
     )
-
-
-if __name__ == "__main__":
-    main()
