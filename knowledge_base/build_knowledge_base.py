@@ -27,6 +27,9 @@ KNOWLEDGE_BASE_FILE = (
 
 
 class KnowledgeBaseBuilder:
+    """
+    Builds the final knowledge base.
+    """
 
     def load_chunks(self):
 
@@ -78,6 +81,55 @@ class KnowledgeBaseBuilder:
             )
 
         return chunks
+
+    def merge_records(
+        self,
+        chunks,
+        metadata
+    ):
+        """
+        Merge chunks and metadata.
+        """
+
+        metadata_lookup = {
+            record["chunk_id"]: record
+            for record in metadata
+        }
+
+        merged_records = []
+
+        for chunk in chunks:
+
+            chunk_id = chunk["chunk_id"]
+
+            if chunk_id in metadata_lookup:
+
+                merged_records.append(
+                    {
+                        "chunk_id": chunk_id,
+
+                        "document_id":
+                            metadata_lookup[
+                                chunk_id
+                            ].get(
+                                "document_id",
+                                "UNKNOWN"
+                            ),
+
+                        "topic":
+                            metadata_lookup[
+                                chunk_id
+                            ].get(
+                                "topic",
+                                "General"
+                            ),
+
+                        "content":
+                            chunk["content"],
+                    }
+                )
+
+        return merged_records
 
     def save_knowledge_base(
         self,
