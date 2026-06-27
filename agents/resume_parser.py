@@ -108,26 +108,33 @@ class ResumeParser:
 
         for skill in SKILLS:
 
-            pattern = rf"\b{re.escape(skill.lower())}\b"
+            pattern = (
+                rf"\b{re.escape(skill.lower())}\b"
+            )
 
             if re.search(
                 pattern,
                 text.lower(),
             ):
-                extracted_skills.append(skill)
+                extracted_skills.append(
+                    skill
+                )
 
         return sorted(
-            list(set(extracted_skills))
+            list(
+                set(extracted_skills)
+            )
         )
 
     def parse_resume(
         self,
-        resume_path,
+        pdf_path,
     ):
         """
         Complete resume parsing pipeline.
 
         Returns:
+
         {
             "raw_text": ...,
             "cleaned_text": ...,
@@ -135,12 +142,14 @@ class ResumeParser:
         }
         """
 
-        raw_text = self.extract_text_from_pdf(
-            resume_path
+        text = self.extract_text_from_pdf(
+            pdf_path
         )
 
-        cleaned_text = self.clean_resume_text(
-            raw_text
+        cleaned_text = (
+            self.clean_resume_text(
+                text
+            )
         )
 
         skills = self.extract_skills(
@@ -148,8 +157,9 @@ class ResumeParser:
         )
 
         return {
-            "raw_text": raw_text,
-            "cleaned_text": cleaned_text,
+            "raw_text": text,
+            "cleaned_text":
+                cleaned_text,
             "skills": skills,
         }
 
@@ -158,12 +168,16 @@ if __name__ == "__main__":
 
     parser = ResumeParser()
 
-    sample_path = "Resume.pdf"
+    sample_resume = (
+        "Resume.pdf"
+    )
 
     try:
 
-        result = parser.parse_resume(
-            sample_path
+        result = (
+            parser.parse_resume(
+                sample_resume
+            )
         )
 
         print(

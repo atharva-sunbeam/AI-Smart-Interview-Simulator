@@ -18,6 +18,9 @@ from agents.answer_evaluation_agent import (
 
 
 class InterviewSession:
+    """
+    Orchestrates the complete interview process.
+    """
 
     def __init__(self):
 
@@ -81,21 +84,49 @@ class InterviewSession:
         )
 
     def evaluate_answer(self):
+        """
+        Evaluate candidate answer.
+        """
+
+        if not self.expected_answer:
+
+            self.expected_answer = (
+                "Reference answer not available."
+            )
+
+        if not self.current_answer:
+
+            self.current_answer = ""
 
         result = (
             self.evaluator.evaluate_answer(
-                expected_answer=self.expected_answer,
-                candidate_answer=self.current_answer
+                expected_answer=
+                    self.expected_answer,
+
+                candidate_answer=
+                    self.current_answer
             )
         )
 
         interview_record = {
-            "role": self.current_role,
-            "question": self.current_question,
-            "expected_answer": self.expected_answer,
-            "candidate_answer": self.current_answer,
-            "score": result["score"],
-            "feedback": result["feedback"],
+
+            "role":
+                self.current_role,
+
+            "question":
+                self.current_question,
+
+            "expected_answer":
+                self.expected_answer,
+
+            "candidate_answer":
+                self.current_answer,
+
+            "score":
+                result["score"],
+
+            "feedback":
+                result["feedback"],
         }
 
         self.session_history.append(
@@ -126,7 +157,7 @@ class InterviewSession:
             total_score / total_questions
         )
 
-        return {
+        report = {
             "role": self.current_role,
             "total_questions": total_questions,
             "average_score": round(
@@ -136,8 +167,10 @@ class InterviewSession:
             "details": self.session_history,
         }
 
+        return report
 
-if __name__ == "__main__":
+
+def main():
 
     session = InterviewSession()
 
@@ -154,13 +187,29 @@ if __name__ == "__main__":
     )
 
     session.submit_answer(
-        "Decorators modify the behavior of functions."
+        "Decorators modify functions."
     )
 
-    print(
+    evaluation = (
         session.evaluate_answer()
     )
 
     print(
+        "\nEvaluation:"
+    )
+
+    print(evaluation)
+
+    report = (
         session.generate_report()
     )
+
+    print(
+        "\nFinal Report:\n"
+    )
+
+    print(report)
+
+
+if __name__ == "__main__":
+    main()
