@@ -33,7 +33,7 @@ from agents.answer_evaluation_agent import (
 
 class InterviewSession:
     """
-    Orchestrates the complete interview session.
+    Orchestrates the complete interview process.
     """
 
     def __init__(self):
@@ -136,42 +136,50 @@ class InterviewSession:
             "\nAnswer submitted successfully."
         )
 
-    def evaluate_answer(self) -> Dict:
+    def evaluate_answer(self):
         """
-        Evaluate candidate answer using
-        AnswerEvaluationAgent.
+        Evaluate candidate answer.
         """
 
-        if self.current_question is None:
-            raise RuntimeError(
-                "No interview question available."
+        if not self.expected_answer:
+
+            self.expected_answer = (
+                "Reference answer not available."
             )
 
-        if self.expected_answer is None:
-            raise RuntimeError(
-                "Expected answer is unavailable."
-            )
+        if not self.current_answer:
 
-        if self.current_answer is None:
-            raise RuntimeError(
-                "Candidate answer has not been submitted."
-            )
+            self.current_answer = ""
 
         result = (
             self.evaluator.evaluate_answer(
-                expected_answer=self.expected_answer,
-                candidate_answer=self.current_answer,
+                expected_answer=
+                    self.expected_answer,
+
+                candidate_answer=
+                    self.current_answer
             )
         )
 
         interview_record = {
-            "role": self.current_role,
-            "question": self.current_question,
-            "expected_answer": self.expected_answer,
-            "candidate_answer": self.current_answer,
-            "score": result["score"],
-            "similarity": result["similarity"],
-            "feedback": result["feedback"],
+
+            "role":
+                self.current_role,
+
+            "question":
+                self.current_question,
+
+            "expected_answer":
+                self.expected_answer,
+
+            "candidate_answer":
+                self.current_answer,
+
+            "score":
+                result["score"],
+
+            "feedback":
+                result["feedback"],
         }
 
         self.session_history.append(
@@ -216,20 +224,7 @@ class InterviewSession:
             2,
         )
 
-        if average_score >= 80:
-            overall_result = "Excellent"
-
-        elif average_score >= 60:
-            overall_result = "Good"
-
-        else:
-            overall_result = (
-                "Needs Improvement"
-            )
-
-        self.session_completed = True
-
-        return {
+        report = {
             "role": self.current_role,
             "total_questions": total_questions,
             "average_score": average_score,
@@ -237,8 +232,10 @@ class InterviewSession:
             "details": self.session_history,
         }
 
+        return report
 
-if __name__ == "__main__":
+
+def main():
 
     session = InterviewSession()
 
@@ -252,15 +249,29 @@ if __name__ == "__main__":
     print(question)
 
     session.submit_answer(
-        "Decorators modify the behaviour of functions."
+        "Decorators modify functions."
     )
 
-    result = session.evaluate_answer()
+    evaluation = (
+        session.evaluate_answer()
+    )
 
-    print("\nEvaluation Result")
-    print(result)
+    print(
+        "\nEvaluation:"
+    )
 
-    report = session.generate_report()
+    print(evaluation)
 
-    print("\nInterview Report")
+    report = (
+        session.generate_report()
+    )
+
+    print(
+        "\nFinal Report:\n"
+    )
+
     print(report)
+
+
+if __name__ == "__main__":
+    main()

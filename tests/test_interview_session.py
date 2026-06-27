@@ -1,7 +1,3 @@
-"""
-Tests for Interview Session.
-"""
-
 from backend.interview_session import (
     InterviewSession,
 )
@@ -28,22 +24,35 @@ def test_start_session():
     )
 
 
+def test_ask_question():
+
+    session = InterviewSession()
+
+    session.start_session(
+        "Python Developer"
+    )
+
+    question = (
+        session.ask_question()
+    )
+
+    assert isinstance(
+        question,
+        str,
+    )
+
+
 def test_submit_answer():
 
     session = InterviewSession()
 
-    answer = (
-        "Python decorators extend "
-        "function behavior."
-    )
-
     session.submit_answer(
-        answer
+        "Sample answer"
     )
 
     assert (
         session.current_answer
-        == answer
+        == "Sample answer"
     )
 
 
@@ -64,6 +73,11 @@ def test_evaluate_answer():
         "Python is a programming language."
     )
 
+    session.expected_answer = (
+        "Decorators modify the behavior "
+        "of functions."
+    )
+
     session.submit_answer(
         "Python is a programming language."
     )
@@ -73,6 +87,7 @@ def test_evaluate_answer():
     )
 
     assert "score" in result
+
     assert "feedback" in result
     assert "similarity" in result
 
@@ -92,6 +107,11 @@ def test_generate_report():
 
     session.expected_answer = (
         "Python is a programming language."
+    )
+
+    session.expected_answer = (
+        "Decorators modify the behavior "
+        "of functions."
     )
 
     session.submit_answer(
