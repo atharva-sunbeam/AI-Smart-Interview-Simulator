@@ -64,8 +64,13 @@ def test_evaluate_answer():
         "Python Developer"
     )
 
+    # Mock interview state
     session.current_question = (
-        "Explain decorators."
+        "What is Python?"
+    )
+
+    session.expected_answer = (
+        "Python is a programming language."
     )
 
     session.expected_answer = (
@@ -74,7 +79,7 @@ def test_evaluate_answer():
     )
 
     session.submit_answer(
-        "Decorators modify functions."
+        "Python is a programming language."
     )
 
     result = (
@@ -84,6 +89,7 @@ def test_evaluate_answer():
     assert "score" in result
 
     assert "feedback" in result
+    assert "similarity" in result
 
 
 def test_generate_report():
@@ -94,8 +100,13 @@ def test_generate_report():
         "Python Developer"
     )
 
+    # Mock interview state
     session.current_question = (
-        "Explain decorators."
+        "What is Python?"
+    )
+
+    session.expected_answer = (
+        "Python is a programming language."
     )
 
     session.expected_answer = (
@@ -104,7 +115,7 @@ def test_generate_report():
     )
 
     session.submit_answer(
-        "Decorators modify functions."
+        "Python is a programming language."
     )
 
     session.evaluate_answer()
@@ -115,5 +126,20 @@ def test_generate_report():
 
     assert (
         report["total_questions"]
+        == 1
+    )
+
+    assert (
+        report["average_score"]
+        >= 0
+    )
+
+    assert (
+        "overall_result"
+        in report
+    )
+
+    assert (
+        len(report["details"])
         == 1
     )
