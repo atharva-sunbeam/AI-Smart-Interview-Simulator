@@ -54,27 +54,23 @@ This generates the trained Logistic Regression model used for role prediction.
 
 # 5. Generate Embeddings
 
-Run the embedding generation pipeline after preparing the knowledge base.
+Generate vector embeddings for the processed knowledge base.
 
 Example:
 
 ```bash
-python embedding_pipeline/generate_embeddings.py
+python vector_db/generate_embeddings.py
 ```
-
----
 
 # 6. Index Documents into ChromaDB
 
-Populate the vector database.
+Index the generated embeddings into ChromaDB for semantic retrieval.
 
 Example:
 
 ```bash
-python vector_db/index_documents.py
+python rag_pipeline/index_documents.py
 ```
-
----
 
 # 7. Run Streamlit
 

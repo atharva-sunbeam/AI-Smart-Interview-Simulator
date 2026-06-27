@@ -53,26 +53,35 @@ Overall Status:
 
 # Future Improvements
 
-* Integrate Ollama with Mistral for LLM-based question generation.
-* Replace placeholder expected answers with RAG-derived answers.
-* Enhance answer evaluation using semantic embeddings and keyword coverage.
-* Introduce adaptive interview difficulty based on candidate performance.
-* Add authentication and persistent interview history.
-* Export reports as PDF in addition to JSON.
-* Improve recommendation engine using candidate performance analytics.
+- Integrate Ollama with Mistral for dynamic interview question generation.
+- Replace keyword-based skill extraction with spaCy Named Entity Recognition (NER).
+- Generate expected answers dynamically using RAG.
+- Improve answer evaluation using semantic embeddings and hybrid scoring.
+- Implement adaptive interview difficulty prediction.
+- Add authentication and persistent interview history.
+- Export interview reports as PDF in addition to JSON.
+- Enhance the recommendation engine using candidate performance analytics.
 
 ---
 
 # ML Components
 
-| Module                  | Technology                   |
-| ----------------------- | ---------------------------- |
-| Resume Skill Extraction | spaCy (planned)              |
-| Role Prediction         | TF-IDF + Logistic Regression |
-| Answer Evaluation       | TF-IDF + Cosine Similarity   |
-| Vector Search           | ChromaDB                     |
-| RAG                     | LangChain                    |
-| LLM                     | Ollama (planned)             |
+Module	Technology
+Resume Skill Extraction	spaCy (planned)
+Role Prediction	TF-IDF + Logistic Regression
+Answer Evaluation	TF-IDF + Cosine Similarity
+Vector Search	ChromaDB
+RAG	LangChain
+LLM	Ollama (planned)
+
+with:
+
+Module	Technology
+Resume Skill Extraction	Keyword Matching
+Role Prediction	TF-IDF + Logistic Regression
+Answer Evaluation	TF-IDF + Cosine Similarity
+Semantic Retrieval	Sentence Transformers + ChromaDB
+RAG Pipeline	LangChain Retriever
 
 ---
 
