@@ -41,3 +41,4 @@ ollama==0.5.1
 faiss-cpu; platform_system != "Windows"
 faster-whisper
 av
+gTTS==2.5.4

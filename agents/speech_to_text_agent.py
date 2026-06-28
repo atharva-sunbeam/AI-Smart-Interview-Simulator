@@ -21,14 +21,21 @@ Interview Evaluation
 from pathlib import Path
 import re
 
-from faster_whisper import WhisperModel
+try:
+    from faster_whisper import WhisperModel
+
+    WHISPER_AVAILABLE = True
+
+except ImportError:
+
+    WHISPER_AVAILABLE = False
 
 
 SUPPORTED_FORMATS = {
     ".wav",
     ".mp3",
     ".m4a",
-    ".ogg"
+    ".ogg",
 }
 
 
@@ -39,33 +46,61 @@ class SpeechToTextAgent:
 
     def __init__(
         self,
-        model_size="base"
+        model_size="base",
     ):
+        """
+        Initialize STT Agent.
+
+        Model loading is lazy-loaded to avoid
+        repeated loading during Streamlit reruns.
+        """
 
         self.model_size = model_size
         self.model = None
 
-        self.load_model()
+        self.audio_directory = Path(
+            "audio/candidate_answers"
+        )
+
+        self.audio_directory.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
 
     def load_model(self):
         """
         Load Faster Whisper model.
         """
 
+        if not WHISPER_AVAILABLE:
+
+            print(
+                "faster-whisper not installed. "
+                "Using mock mode."
+            )
+
+            self.model = None
+
+            return
+
+        print(
+            f"Loading Faster Whisper model: "
+            f"{self.model_size}"
+        )
+
         self.model = WhisperModel(
             self.model_size,
             device="cpu",
-            compute_type="int8"
+            compute_type="int8",
         )
 
         print(
-            f"Loaded Faster Whisper model: "
-            f"{self.model_size}"
+            "Whisper model loaded successfully."
         )
 
     def validate_audio(
         self,
-        audio_path
+        audio_path,
     ):
         """
         Validate audio file.
@@ -86,14 +121,34 @@ class SpeechToTextAgent:
         ):
 
             raise ValueError(
-                "Unsupported audio format."
+                "Unsupported audio format. "
+                "Supported formats: "
+                "wav, mp3, m4a, ogg"
             )
 
         return True
 
+    def clean_transcript(
+        self,
+        transcript,
+    ):
+        """
+        Clean transcript text.
+        """
+
+        transcript = transcript.strip()
+
+        transcript = re.sub(
+            r"\s+",
+            " ",
+            transcript,
+        )
+
+        return transcript
+
     def transcribe_audio(
         self,
-        audio_path
+        audio_path,
     ):
         """
         Convert speech to text.
@@ -103,60 +158,67 @@ class SpeechToTextAgent:
             audio_path
         )
 
-        segments, info = (
-            self.model.transcribe(
-                audio_path
-            )
-        )
+        if self.model is None:
 
-        transcript = " ".join(
-            segment.text
-            for segment in segments
-        )
+            self.load_model()
 
-        transcript = (
-            self.clean_transcript(
-                transcript
-            )
-        )
+        if self.model is None:
 
-        return {
-            "transcript":
-                transcript,
+            return {
+                "transcript":
+                    "Mock transcript generated.",
 
-            "language":
-                info.language,
+                "language":
+                    "en",
 
-            "duration":
-                round(
-                    info.duration,
-                    2
+                "duration":
+                    0.0,
+            }
+
+        try:
+
+            segments, info = (
+                self.model.transcribe(
+                    audio_path
                 )
-        }
+            )
 
-    def clean_transcript(
-        self,
-        transcript
-    ):
-        """
-        Clean transcript text.
-        """
+            transcript = " ".join(
+                segment.text
+                for segment in segments
+            )
 
-        transcript = (
-            transcript.strip()
-        )
+            transcript = (
+                self.clean_transcript(
+                    transcript
+                )
+            )
 
-        transcript = re.sub(
-            r"\s+",
-            " ",
-            transcript
-        )
+            return {
 
-        return transcript
+                "transcript":
+                    transcript,
+
+                "language":
+                    info.language,
+
+                "duration":
+                    round(
+                        info.duration,
+                        2,
+                    ),
+            }
+
+        except Exception as error:
+
+            raise RuntimeError(
+                "Speech recognition failed: "
+                f"{error}"
+            )
 
     def run(
         self,
-        audio_path
+        audio_path,
     ):
         """
         Complete STT pipeline.
@@ -183,7 +245,9 @@ def main():
             sample_audio
         )
 
-        print("\nResult:\n")
+        print(
+            "\nTranscription Result:\n"
+        )
 
         print(result)
 
