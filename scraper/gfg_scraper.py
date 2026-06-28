@@ -2,14 +2,15 @@
 GeeksforGeeks Interview Question Scraper
 
 Purpose:
-Scrape interview questions and answers
-from GeeksforGeeks pages.
+Collect high-quality interview Q&A pairs
+from multiple GeeksforGeeks sources.
 
 Output:
 datasets/raw/gfg_python_qa.csv
 """
 
 import csv
+import time
 import requests
 
 from pathlib import Path
@@ -26,10 +27,54 @@ OUTPUT_FILE = (
 )
 
 
+URLS = [
+
+    # Python
+
+    "https://www.geeksforgeeks.org/python-interview-questions/",
+    "https://www.geeksforgeeks.org/python-oops-interview-questions/",
+    "https://www.geeksforgeeks.org/advanced-python-interview-questions/",
+
+    # SQL
+
+    "https://www.geeksforgeeks.org/sql-interview-questions/",
+    "https://www.geeksforgeeks.org/pl-sql-interview-questions/",
+
+    # Machine Learning
+
+    "https://www.geeksforgeeks.org/machine-learning-interview-questions/",
+    "https://www.geeksforgeeks.org/deep-learning-interview-questions/",
+    "https://www.geeksforgeeks.org/nlp-interview-questions/",
+
+    # Data Engineering
+
+    "https://www.geeksforgeeks.org/data-engineer-interview-questions/",
+    "https://www.geeksforgeeks.org/etl-testing-interview-questions/",
+
+    # Big Data
+
+    "https://www.geeksforgeeks.org/apache-spark-interview-questions/",
+    "https://www.geeksforgeeks.org/hadoop-interview-questions/",
+    "https://www.geeksforgeeks.org/apache-kafka-interview-questions/",
+
+    # Backend / APIs
+
+    "https://www.geeksforgeeks.org/django-interview-questions/",
+    "https://www.geeksforgeeks.org/flask-interview-questions/",
+    "https://www.geeksforgeeks.org/rest-api-interview-questions/",
+
+    # General CS
+
+    "https://www.geeksforgeeks.org/oops-interview-questions/",
+    "https://www.geeksforgeeks.org/dbms-interview-questions/",
+    "https://www.geeksforgeeks.org/os-interview-questions/",
+    "https://www.geeksforgeeks.org/computer-network-interview-questions/",
+]
+
+
 class GFGScraper:
     """
-    Scraper for GeeksforGeeks
-    interview question pages.
+    GeeksforGeeks scraper.
     """
 
     def __init__(self):
@@ -42,23 +87,129 @@ class GFGScraper:
                 )
         }
 
+        self.seen_questions = set()
+
     def fetch_page(
+        self,
+        url,
+        max_retries=3
+    ):
+        """
+        Fetch page with retry logic.
+        """
+
+        for attempt in range(max_retries):
+
+            try:
+
+                response = requests.get(
+                    url,
+                    headers=self.headers,
+                    timeout=20
+                )
+
+                response.raise_for_status()
+
+                return response.text
+
+            except Exception as error:
+
+                print(
+                    f"Attempt {attempt + 1} failed "
+                    f"for {url}"
+                )
+
+                print(error)
+
+                time.sleep(2)
+
+        print(
+            f"Failed to download: {url}"
+        )
+
+        return ""
+
+    def is_valid_question(
+        self,
+        question
+    ):
+        """
+        Validate extracted question.
+        """
+
+        question = question.strip()
+
+        if len(question) < 10:
+            return False
+
+        if len(question) > 250:
+            return False
+
+        if "?" not in question:
+            return False
+
+        invalid_terms = [
+
+            "table of contents",
+            "read more",
+            "download pdf",
+            "navigation",
+            "next article",
+            "previous article",
+            "must read",
+            "related articles",
+            "share this article",
+        ]
+
+        lower_question = (
+            question.lower()
+        )
+
+        for term in invalid_terms:
+
+            if term in lower_question:
+                return False
+
+        return True
+
+    def infer_topic(
         self,
         url
     ):
         """
-        Download webpage HTML.
+        Infer topic from URL.
         """
 
-        response = requests.get(
-            url,
-            headers=self.headers,
-            timeout=20
-        )
+        url = url.lower()
 
-        response.raise_for_status()
+        if "python" in url:
+            return "Python"
 
-        return response.text
+        if "sql" in url:
+            return "SQL"
+
+        if "spark" in url:
+            return "Spark"
+
+        if "kafka" in url:
+            return "Kafka"
+
+        if "machine-learning" in url:
+            return "Machine Learning"
+
+        if "deep-learning" in url:
+            return "Deep Learning"
+
+        if "nlp" in url:
+            return "NLP"
+
+        if "django" in url:
+            return "Django"
+
+        if "flask" in url:
+            return "Flask"
+
+        return "General"
 
     def extract_questions_answers(
         self,
@@ -66,10 +217,7 @@ class GFGScraper:
         source_url
     ):
         """
-        Extract questions and answers.
-
-        GFG commonly stores questions
-        inside h2/h3 tags.
+        Extract Q&A pairs.
         """
 
         soup = BeautifulSoup(
@@ -85,20 +233,40 @@ class GFGScraper:
 
         for heading in headings:
 
-            question = heading.get_text(
-                strip=True
+            question = (
+                heading.get_text(
+                    strip=True
+                )
             )
 
-            if "?" not in question:
+            if not self.is_valid_question(
+                question
+            ):
                 continue
+
+            normalized = (
+                question.lower()
+            )
+
+            if normalized in self.seen_questions:
+                continue
+
+            self.seen_questions.add(
+                normalized
+            )
 
             answer_parts = []
 
-            sibling = heading.find_next_sibling()
+            sibling = (
+                heading.find_next_sibling()
+            )
 
             while sibling:
 
-                if sibling.name in ["h2", "h3"]:
+                if sibling.name in [
+                    "h2",
+                    "h3"
+                ]:
                     break
 
                 text = sibling.get_text(
@@ -107,6 +275,7 @@ class GFGScraper:
                 )
 
                 if text:
+
                     answer_parts.append(
                         text
                     )
@@ -119,17 +288,30 @@ class GFGScraper:
                 answer_parts
             )
 
-            if not answer:
+            if len(answer) < 30:
                 continue
 
             records.append(
                 {
-                    "question": question,
-                    "answer": answer,
-                    "topic": "Python",
-                    "source": "GeeksforGeeks",
-                    "url": source_url,
-                    "difficulty": "Medium"
+                    "question":
+                        question,
+
+                    "answer":
+                        answer,
+
+                    "topic":
+                        self.infer_topic(
+                            source_url
+                        ),
+
+                    "source":
+                        "GeeksforGeeks",
+
+                    "url":
+                        source_url,
+
+                    "difficulty":
+                        "Medium"
                 }
             )
 
@@ -140,7 +322,7 @@ class GFGScraper:
         records
     ):
         """
-        Save extracted records.
+        Save records to CSV.
         """
 
         OUTPUT_FILE.parent.mkdir(
@@ -169,14 +351,17 @@ class GFGScraper:
 
             writer.writeheader()
 
-            writer.writerows(records)
+            writer.writerows(
+                records
+            )
 
         print(
             f"\nSaved {len(records)} records"
         )
 
         print(
-            f"Dataset Path:\n{OUTPUT_FILE}"
+            f"\nDataset Path:\n"
+            f"{OUTPUT_FILE}"
         )
 
 
@@ -184,16 +369,9 @@ def main():
 
     scraper = GFGScraper()
 
-    urls = [
-        (
-            "https://www.geeksforgeeks.org/"
-            "python-interview-questions/"
-        )
-    ]
-
     all_records = []
 
-    for url in urls:
+    for url in URLS:
 
         print(
             f"\nScraping:\n{url}"
@@ -203,6 +381,9 @@ def main():
             url
         )
 
+        if not html:
+            continue
+
         records = (
             scraper.extract_questions_answers(
                 html,
@@ -210,10 +391,22 @@ def main():
             )
         )
 
-        all_records.extend(records)
+        print(
+            f"Collected "
+            f"{len(records)} records"
+        )
+
+        all_records.extend(
+            records
+        )
 
     scraper.save_dataset(
         all_records
+    )
+
+    print(
+        f"\nTotal Unique Records: "
+        f"{len(all_records)}"
     )
 
 
