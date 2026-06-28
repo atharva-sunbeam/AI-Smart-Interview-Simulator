@@ -58,7 +58,6 @@ class SpeechToTextAgent:
         self.model_size = model_size
         self.model = None
 
-        # Automatically create storage folder
         self.audio_directory = Path(
             "audio/candidate_answers"
         )
@@ -159,12 +158,10 @@ class SpeechToTextAgent:
             audio_path
         )
 
-        # Lazy loading
         if self.model is None:
 
             self.load_model()
 
-        # Mock mode fallback
         if self.model is None:
 
             return {

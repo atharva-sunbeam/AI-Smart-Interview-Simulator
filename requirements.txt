@@ -39,3 +39,6 @@ langchain-core==0.3.72
 langchain-text-splitters==0.3.9
 ollama==0.5.1
 faiss-cpu; platform_system != "Windows"
+faster-whisper
+av
+gTTS==2.5.4
