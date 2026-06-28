@@ -2,22 +2,25 @@
 Interview Session Orchestrator
 
 Purpose:
-Manage the interview workflow by coordinating:
+Coordinate the complete interview workflow.
 
+Pipeline:
+
+Resume
+    ↓
 Role Prediction
-        ↓
+    ↓
 Question Generation
-        ↓
+    ↓
 Candidate Answer
-        ↓
+    ↓
 Answer Evaluation
-        ↓
+    ↓
 Interview Report
 """
 
 import sys
 from pathlib import Path
-from typing import Dict, List
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.append(str(PROJECT_ROOT))
@@ -28,6 +31,10 @@ from agents.question_generation_agent import (
 
 from agents.answer_evaluation_agent import (
     AnswerEvaluationAgent,
+)
+
+from agents.speech_to_text_agent import (
+    SpeechToTextAgent,
 )
 
 
@@ -46,38 +53,33 @@ class InterviewSession:
             AnswerEvaluationAgent()
         )
 
+        self.stt_agent = (
+            SpeechToTextAgent()
+        )
+
         self.current_role = None
         self.current_question = None
-        self.expected_answer = None
         self.current_answer = None
+        self.expected_answer = None
 
-        self.session_history: List[Dict] = []
-
-        self.session_completed = False
+        self.session_history = []
 
     def start_session(
         self,
-        predicted_role: str,
-    ) -> None:
-        """
-        Start interview session.
-        """
+        predicted_role
+    ):
 
         self.current_role = predicted_role
 
-        print("\nInterview Session Started")
-        print(f"Role: {predicted_role}")
+        print(
+            "\nInterview Session Started"
+        )
 
-    def ask_question(self) -> str:
-        """
-        Generate an interview question using the
-        QuestionGenerationAgent.
-        """
+        print(
+            f"Role: {predicted_role}"
+        )
 
-        if self.current_role is None:
-            raise RuntimeError(
-                "Interview session has not been started."
-            )
+    def ask_question(self):
 
         result = (
             self.question_agent.generate_question(
@@ -85,50 +87,20 @@ class InterviewSession:
             )
         )
 
-        if not isinstance(result, dict):
-            raise TypeError(
-                "QuestionGenerationAgent must return "
-                "a dictionary containing "
-                "'question' and 'expected_answer'."
-            )
-
-        if (
-            "question" not in result
-            or "expected_answer" not in result
-        ):
-            raise KeyError(
-                "Missing required keys: "
-                "'question' or 'expected_answer'."
-            )
-
-        self.current_question = result["question"]
+        self.current_question = (
+            result["question"]
+        )
 
         self.expected_answer = (
             result["expected_answer"]
         )
 
-        return self.current_question
+        return result
 
     def submit_answer(
         self,
-        answer: str,
-    ) -> None:
-        """
-        Store candidate answer for the
-        current interview question.
-        """
-
-        if self.current_question is None:
-            raise RuntimeError(
-                "No active question. "
-                "Generate a question before "
-                "submitting an answer."
-            )
-
-        if not answer.strip():
-            raise ValueError(
-                "Candidate answer cannot be empty."
-            )
+        answer
+    ):
 
         self.current_answer = answer
 
@@ -136,10 +108,31 @@ class InterviewSession:
             "\nAnswer submitted successfully."
         )
 
+    def submit_audio_answer(
+        self,
+        audio_path
+    ):
+        """
+        Speech → Transcript → Submit Answer
+        """
+
+        result = (
+            self.stt_agent.transcribe_audio(
+                audio_path
+            )
+        )
+
+        transcript = (
+            result["transcript"]
+        )
+
+        self.submit_answer(
+            transcript
+        )
+
+        return result
+
     def evaluate_answer(self):
-        """
-        Evaluate candidate answer.
-        """
 
         if not self.expected_answer:
 
@@ -186,17 +179,9 @@ class InterviewSession:
             interview_record
         )
 
-        # Reset current question state
-        self.current_question = None
-        self.expected_answer = None
-        self.current_answer = None
-
         return result
 
-    def generate_report(self) -> Dict:
-        """
-        Generate interview summary.
-        """
+    def generate_report(self):
 
         total_questions = len(
             self.session_history
@@ -205,13 +190,8 @@ class InterviewSession:
         if total_questions == 0:
 
             return {
-                "role": self.current_role,
                 "total_questions": 0,
                 "average_score": 0,
-                "overall_result": (
-                    "No Interview Conducted"
-                ),
-                "details": [],
             }
 
         total_score = sum(
@@ -219,59 +199,26 @@ class InterviewSession:
             for record in self.session_history
         )
 
-        average_score = round(
-            total_score / total_questions,
-            2,
+        average_score = (
+            total_score / total_questions
         )
 
         report = {
-            "role": self.current_role,
-            "total_questions": total_questions,
-            "average_score": average_score,
-            "overall_result": overall_result,
-            "details": self.session_history,
+
+            "role":
+                self.current_role,
+
+            "total_questions":
+                total_questions,
+
+            "average_score":
+                round(
+                    average_score,
+                    2
+                ),
+
+            "details":
+                self.session_history,
         }
 
         return report
-
-
-def main():
-
-    session = InterviewSession()
-
-    session.start_session(
-        "Python Developer"
-    )
-
-    question = session.ask_question()
-
-    print("\nQuestion:")
-    print(question)
-
-    session.submit_answer(
-        "Decorators modify functions."
-    )
-
-    evaluation = (
-        session.evaluate_answer()
-    )
-
-    print(
-        "\nEvaluation:"
-    )
-
-    print(evaluation)
-
-    report = (
-        session.generate_report()
-    )
-
-    print(
-        "\nFinal Report:\n"
-    )
-
-    print(report)
-
-
-if __name__ == "__main__":
-    main()

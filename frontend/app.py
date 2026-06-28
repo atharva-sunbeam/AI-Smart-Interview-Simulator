@@ -184,6 +184,85 @@ if st.session_state.question:
                 evaluation
             )
 
+# ===================================
+# Voice Answer Section
+# ===================================
+
+st.subheader(
+    "🎤 Voice Answer"
+)
+
+audio_file = st.file_uploader(
+    "Upload Answer Audio",
+    type=[
+        "wav",
+        "mp3",
+        "m4a",
+        "ogg"
+    ]
+)
+
+transcript = ""
+
+if audio_file:
+
+    audio_directory = (
+        PROJECT_ROOT
+        / "audio"
+        / "candidate_answers"
+    )
+
+    audio_directory.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    audio_path = (
+        audio_directory
+        / audio_file.name
+    )
+
+    with open(
+        audio_path,
+        "wb"
+    ) as file:
+
+        file.write(
+            audio_file.getbuffer()
+        )
+
+    try:
+
+        st.info(
+            "Transcribing audio..."
+        )
+
+        result = (
+            st.session_state.controller
+            .interview_session
+            .submit_audio_answer(
+                str(audio_path)
+            )
+        )
+
+        transcript = (
+            result["transcript"]
+        )
+
+        st.subheader(
+            "📝 Transcript"
+        )
+
+        st.text_area(
+            "Recognized Speech",
+            transcript,
+            height=150
+        )
+
+    except Exception as error:
+
+        st.error(error)
+        
 
 # --------------------------------------------------
 # Evaluation
