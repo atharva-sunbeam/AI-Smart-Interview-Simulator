@@ -143,7 +143,9 @@ if uploaded_resume:
 
 if st.session_state.question_data:
 
-    st.markdown("### Interview Question")
+    st.subheader(
+        "Interview Question"
+    )
 
     st.write(
         st.session_state.question_data[
@@ -152,34 +154,25 @@ if st.session_state.question_data:
     )
 
     audio_path = (
-    st.session_state.question_data.get(
-        "audio_path"
-    )
-)
-
-if audio_path:
-
-    st.subheader(
-        "🔊 Listen Question"
+        st.session_state.question_data.get(
+            "audio_path"
+        )
     )
 
-    st.audio(
-        audio_path,
-        format="audio/mp3"
-    )
+    if audio_path:
 
-    if st.button(
-        "🎧 Replay Question"
-    ):
+        st.subheader(
+            "🔊 Listen Question"
+        )
 
         st.audio(
             audio_path,
-            format="audio/mp3"
+            format="audio/mp3",
         )
 
     answer = st.text_area(
         "Enter Your Answer",
-        height=200
+        height=200,
     )
 
     if st.button(
