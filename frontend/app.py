@@ -54,8 +54,8 @@ if "controller" not in st.session_state:
 if "predicted_role" not in st.session_state:
     st.session_state.predicted_role = None
 
-if "question" not in st.session_state:
-    st.session_state.question = None
+if "question_data" not in st.session_state:
+    st.session_state.question_data = None
 
 if "evaluation" not in st.session_state:
     st.session_state.evaluation = None
@@ -128,12 +128,12 @@ if uploaded_resume:
             result["role"]
         )
 
-        question = (
+        question_data = (
             controller.ask_question()
         )
 
-        st.session_state.question = (
-            question
+        st.session_state.question_data = (
+            question_data
         )
 
 
@@ -141,15 +141,41 @@ if uploaded_resume:
 # Question Display
 # --------------------------------------------------
 
-if st.session_state.question:
+if st.session_state.question_data:
+
+    st.markdown("### Interview Question")
+
+    st.write(
+        st.session_state.question_data[
+            "question"
+        ]
+    )
+
+    audio_path = (
+    st.session_state.question_data.get(
+        "audio_path"
+    )
+)
+
+if audio_path:
 
     st.subheader(
-        "Interview Question"
+        "🔊 Listen Question"
     )
 
-    st.info(
-        st.session_state.question
+    st.audio(
+        audio_path,
+        format="audio/mp3"
     )
+
+    if st.button(
+        "🎧 Replay Question"
+    ):
+
+        st.audio(
+            audio_path,
+            format="audio/mp3"
+        )
 
     answer = st.text_area(
         "Enter Your Answer",
@@ -183,6 +209,7 @@ if st.session_state.question:
             st.session_state.evaluation = (
                 evaluation
             )
+            st.session_state.question_data = None
 
 # ===================================
 # Voice Answer Section
