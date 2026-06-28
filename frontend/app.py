@@ -60,6 +60,14 @@ if "question_data" not in st.session_state:
 if "evaluation" not in st.session_state:
     st.session_state.evaluation = None
 
+# Voice Interview Session State
+
+if "transcript" not in st.session_state:
+    st.session_state.transcript = ""
+
+if "voice_evaluation" not in st.session_state:
+    st.session_state.voice_evaluation = None
+
 
 # --------------------------------------------------
 # Resume Upload
@@ -170,6 +178,10 @@ if st.session_state.question_data:
             format="audio/mp3",
         )
 
+    # ----------------------------------------------
+    # Text Answer
+    # ----------------------------------------------
+
     answer = st.text_area(
         "Enter Your Answer",
         height=200,
@@ -202,7 +214,9 @@ if st.session_state.question_data:
             st.session_state.evaluation = (
                 evaluation
             )
+
             st.session_state.question_data = None
+
 
 # ===================================
 # Voice Answer Section
@@ -221,8 +235,6 @@ audio_file = st.file_uploader(
         "ogg"
     ]
 )
-
-transcript = ""
 
 if audio_file:
 
@@ -269,23 +281,72 @@ if audio_file:
             result["transcript"]
         )
 
-        st.subheader(
-            "📝 Transcript"
+        st.session_state.transcript = (
+            transcript
         )
 
-        st.text_area(
-            "Recognized Speech",
-            transcript,
-            height=150
+        st.success(
+            "Audio transcribed successfully."
         )
 
     except Exception as error:
 
         st.error(error)
-        
+
+
+# ===================================
+# Transcript Preview
+# ===================================
+
+st.subheader(
+    "📝 Transcript"
+)
+
+st.text_area(
+    "Recognized Speech",
+    value=st.session_state.transcript,
+    height=150,
+    key="transcript_preview"
+)
+
+
+# ===================================
+# Voice Evaluation
+# ===================================
+
+if st.button(
+    "Evaluate Voice Answer"
+):
+
+    if not st.session_state.transcript.strip():
+
+        st.warning(
+            "Please upload and transcribe an audio answer first."
+        )
+
+    else:
+
+        try:
+
+            controller = (
+                st.session_state.controller
+            )
+
+            evaluation = (
+                controller.evaluate_answer()
+            )
+
+            st.session_state.voice_evaluation = (
+                evaluation
+            )
+
+        except Exception as error:
+
+            st.error(error)
+
 
 # --------------------------------------------------
-# Evaluation
+# Text Evaluation
 # --------------------------------------------------
 
 if st.session_state.evaluation:
@@ -300,9 +361,48 @@ if st.session_state.evaluation:
     )
 
     st.write(
-        f"Feedback: "
-        f"{st.session_state.evaluation['feedback']}"
+        "Feedback:",
+        st.session_state.evaluation["feedback"]
     )
+
+
+# --------------------------------------------------
+# Voice Evaluation Display
+# --------------------------------------------------
+
+if (
+    st.session_state.voice_evaluation
+    is not None
+):
+
+    st.subheader(
+        "Voice Evaluation"
+    )
+
+    st.metric(
+        "Score",
+        st.session_state.voice_evaluation[
+            "score"
+        ]
+    )
+
+    st.write(
+        "Feedback:",
+        st.session_state.voice_evaluation[
+            "feedback"
+        ]
+    )
+
+
+# --------------------------------------------------
+# Interview Report
+# --------------------------------------------------
+
+if (
+    st.session_state.evaluation
+    or
+    st.session_state.voice_evaluation
+):
 
     report = (
         st.session_state.controller
