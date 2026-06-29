@@ -37,14 +37,21 @@ def test_ask_question():
     )
 
     assert isinstance(
-        question,
-        str,
+    question,
+    dict,
     )
+
+    assert "question" in question
+    assert "expected_answer" in question
 
 
 def test_submit_answer():
 
     session = InterviewSession()
+
+    session.current_question = (
+        "Explain decorators."
+    )
 
     session.submit_answer(
         "Sample answer"
@@ -52,7 +59,8 @@ def test_submit_answer():
 
     assert (
         session.current_answer
-        == "Sample answer"
+        ==
+        "Sample answer"
     )
 
 

@@ -31,25 +31,39 @@ def test_parse_questions():
     )
 
     mock_response = {
-        "items": [
-            {
-                "title":
-                    "What is Python?",
+    "items": [
+        {
+            "title":
+                "What is Python?",
 
-                "tags":
-                    ["python"],
+            "body":
+                (
+                    "Explain Python programming "
+                    "language and its features."
+                ),
 
-                "score":
-                    100,
+            "tags":
+                ["python"],
 
-                "accepted_answer_id":
-                    12345,
+            "score":
+                100,
 
-                "link":
-                    "https://stackoverflow.com",
-            }
-        ]
-    }
+            "accepted_answer":
+                (
+                    "Python is a high-level "
+                    "interpreted programming "
+                    "language widely used in "
+                    "software development."
+                ),
+
+            "accepted_answer_id":
+                12345,
+
+            "link":
+                "https://stackoverflow.com",
+        }
+    ]
+}
 
     records = (
         scraper.parse_questions(
