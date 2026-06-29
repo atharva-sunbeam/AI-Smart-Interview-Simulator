@@ -79,9 +79,12 @@ def test_question_generation():
     )
 
     assert isinstance(
-        question,
-        str,
+    question,
+    dict,
     )
+
+    assert "question" in question
+    assert "expected_answer" in question
 
 
 def test_report_generation():

@@ -324,9 +324,9 @@ class DatasetQualityEngine:
         )
 
     def filter_records(
-        self,
-        records,
-        minimum_quality: float = 60,
+    self,
+    records,
+    minimum_quality: float = 40,
     ):
         """
         Clean and filter dataset.

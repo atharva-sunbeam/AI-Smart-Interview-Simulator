@@ -56,7 +56,11 @@ def test_filter_records():
                 50,
 
             "accepted_answer":
-                "123",
+                (
+                    "Python is a high-level "
+                    "programming language used "
+                    "for multiple domains."
+                ),
         }
     ]
 

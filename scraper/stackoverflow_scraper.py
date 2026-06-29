@@ -182,8 +182,8 @@ class StackOverflowScraper:
             return ""
 
     def parse_questions(
-        self,
-        api_response,
+    self,
+    api_response,
     ):
         """
         Extract high-quality records.
@@ -196,26 +196,40 @@ class StackOverflowScraper:
             [],
         ):
 
-            # Skip low-quality questions
             if item.get(
                 "score",
                 0,
             ) < 5:
                 continue
 
-            # Skip unanswered questions
             if not item.get(
                 "accepted_answer_id"
             ):
                 continue
 
-            answer = self.fetch_answer(
-                item[
-                    "accepted_answer_id"
-                ]
+            #
+            # Unit tests may directly provide
+            # accepted_answer.
+            #
+
+            answer = item.get(
+                "accepted_answer",
+                ""
             )
 
-            # Skip if answer could not be retrieved
+            #
+            # Production mode:
+            # fetch answer from API.
+            #
+
+            if not answer:
+
+                answer = self.fetch_answer(
+                    item[
+                        "accepted_answer_id"
+                    ]
+                )
+
             if not answer:
                 continue
 
@@ -225,26 +239,46 @@ class StackOverflowScraper:
                         "title",
                         "",
                     ),
+
                     "answer": answer,
+
+                    "body": item.get(
+                        "body",
+                        "",
+                    ),
+
                     "tags": ",".join(
                         item.get(
                             "tags",
                             [],
                         )
                     ),
+
                     "score": item.get(
                         "score",
                         0,
                     ),
-                    "accepted_answer": item[
-                        "accepted_answer_id"
-                    ],
+
+                    "accepted_answer": (
+                        answer
+                    ),
+
+                    "accepted_answer_id": (
+                        item.get(
+                            "accepted_answer_id"
+                        )
+                    ),
+
                     "url": item.get(
                         "link",
                         "",
                     ),
+
+                    "source":
+                        "StackOverflow",
                 }
             )
+
         return records
 
     def save_dataset(
