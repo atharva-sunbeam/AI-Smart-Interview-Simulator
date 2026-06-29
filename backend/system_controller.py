@@ -25,6 +25,9 @@ from backend.interview_session import (
 
 
 class SystemController:
+    """
+    Central orchestration layer.
+    """
 
     def __init__(self):
 
@@ -45,11 +48,13 @@ class SystemController:
         resume_path
     ):
         """
+        Complete resume processing pipeline.
+
         Resume
             ↓
-        Parse
+        Resume Parsing
             ↓
-        Predict Role
+        Role Prediction
         """
 
         try:
@@ -73,8 +78,11 @@ class SystemController:
             )
 
             return {
+
                 "skills": [],
+
                 "cleaned_text": "",
+
                 "role":
                     "Python Developer",
             }
@@ -87,23 +95,30 @@ class SystemController:
             )
 
             return {
+
                 "skills": [],
+
                 "cleaned_text": "",
+
                 "role":
                     "Python Developer",
             }
 
-        if not parsed_data[
+        if not parsed_data.get(
             "cleaned_text"
-        ]:
+        ):
 
             print(
                 "Empty resume text."
             )
 
             return {
+
                 "skills":
-                    parsed_data["skills"],
+                    parsed_data.get(
+                        "skills",
+                        []
+                    ),
 
                 "cleaned_text": "",
 
@@ -145,13 +160,18 @@ class SystemController:
             )
 
         return {
+
             "skills":
-                parsed_data["skills"],
+                parsed_data.get(
+                    "skills",
+                    []
+                ),
 
             "cleaned_text":
-                parsed_data[
-                    "cleaned_text"
-                ],
+                parsed_data.get(
+                    "cleaned_text",
+                    ""
+                ),
 
             "role":
                 role
@@ -161,12 +181,20 @@ class SystemController:
         self,
         role
     ):
+        """
+        Start interview session.
+        """
 
         self.interview_session.start_session(
             role
         )
 
-    def ask_question(self):
+    def ask_question(
+        self
+    ):
+        """
+        Generate interview question.
+        """
 
         try:
 
@@ -180,9 +208,37 @@ class SystemController:
                 "Embeddings file missing."
             )
 
-            return (
-                "Explain Python decorators."
-            )
+            return {
+
+                "question":
+                    "Explain Python decorators.",
+
+                "expected_answer":
+                    "Decorators extend the behaviour "
+                    "of functions without modifying "
+                    "their source code.",
+
+                "audio_path":
+                    None,
+
+                "question_number":
+                    (
+                        self.interview_session
+                        .questions_asked + 1
+                    ),
+
+                "max_questions":
+                    (
+                        self.interview_session
+                        .max_questions
+                    ),
+
+                "difficulty":
+                    (
+                        self.interview_session
+                        .current_difficulty
+                    ),
+            }
 
         except Exception as error:
 
@@ -191,14 +247,45 @@ class SystemController:
                 f"{error}"
             )
 
-            return (
-                "Explain Python decorators."
-            )
+            return {
+
+                "question":
+                    "Explain Python decorators.",
+
+                "expected_answer":
+                    "Decorators extend the behaviour "
+                    "of functions without modifying "
+                    "their source code.",
+
+                "audio_path":
+                    None,
+
+                "question_number":
+                    (
+                        self.interview_session
+                        .questions_asked + 1
+                    ),
+
+                "max_questions":
+                    (
+                        self.interview_session
+                        .max_questions
+                    ),
+
+                "difficulty":
+                    (
+                        self.interview_session
+                        .current_difficulty
+                    ),
+            }
 
     def submit_answer(
         self,
         answer
     ):
+        """
+        Submit candidate answer.
+        """
 
         if not answer.strip():
 
@@ -213,6 +300,9 @@ class SystemController:
     def evaluate_answer(
         self,
     ):
+        """
+        Evaluate candidate answer.
+        """
 
         try:
 
@@ -228,14 +318,21 @@ class SystemController:
             )
 
             return {
+
                 "score": 0,
+
+                "similarity": 0,
+
                 "feedback":
-                    "Evaluation unavailable.",
+                    "Evaluation unavailable."
             }
 
     def generate_report(
         self,
     ):
+        """
+        Generate interview report.
+        """
 
         return (
             self.interview_session.generate_report()
