@@ -27,6 +27,9 @@ sys.path.append(str(PROJECT_ROOT))
 from backend.system_controller import (
     SystemController,
 )
+from agents.realtime_audio_agent import (
+    RealtimeAudioAgent,
+)
 
 # --------------------------------------------------
 # Page Configuration
@@ -52,6 +55,16 @@ if "controller" not in st.session_state:
     st.session_state.controller = (
         SystemController()
     )
+
+if "realtime_audio" not in st.session_state:
+
+    st.session_state.realtime_audio = (
+        RealtimeAudioAgent()
+    )
+
+if "live_listening" not in st.session_state:
+
+    st.session_state.live_listening = False
 
 if "predicted_role" not in st.session_state:
     st.session_state.predicted_role = None
@@ -247,7 +260,11 @@ if st.session_state.question_data:
     if audio_path:
 
         st.subheader(
-            "🔊 Listen Question"
+            "🤖 AI Interviewer"
+        )
+
+        st.info(
+            "🔊 AI is asking the interview question..."
         )
 
         st.audio(
@@ -293,104 +310,109 @@ if st.session_state.question_data:
             st.rerun()
 
     # ------------------------------------------
-    # Voice Answer
+    # Live Voice Interview
     # ------------------------------------------
 
     st.markdown("---")
 
     st.subheader(
-        "🎤 Voice Answer"
+        "🎤 Candidate Response"
     )
 
-    audio_file = st.file_uploader(
-        "Upload Answer Audio",
-        type=[
-            "wav",
-            "mp3",
-            "m4a",
-            "ogg"
-        ]
+    st.caption(
+        "Answer naturally as if speaking to a real interviewer."
     )
 
-    if audio_file:
+    audio_agent = (
+        st.session_state.realtime_audio
+    )
 
-        audio_directory = (
-            PROJECT_ROOT
-            / "audio"
-            / "candidate_answers"
+    col1, col2 = st.columns(2)
+
+    with col1:
+
+        if st.button(
+            "🎤 Start Speaking"
+        ):
+
+            audio_agent.clear_transcript()
+
+            audio_agent.start_stream()
+
+            st.session_state.live_listening = True
+
+    with col2:
+
+        if st.button(
+            "⏹ Stop Speaking"
+        ):
+
+            audio_agent.stop_stream()
+
+            st.session_state.live_listening = False
+
+    # ------------------------------------------
+
+    if st.session_state.live_listening:
+
+        st.success(
+            "🟢 Microphone Active"
         )
 
-        audio_directory.mkdir(
-            parents=True,
-            exist_ok=True
+        st.caption(
+            "Listening for your response..."
         )
 
-        audio_path = (
-            audio_directory /
-            f"{uuid.uuid4().hex}_"
-            f"{audio_file.name}"
+    else:
+
+        st.warning(
+            "⚪ Click 'Start Speaking' to answer."
         )
 
-        with open(
-            audio_path,
-            "wb"
-        ) as file:
-
-            file.write(
-                audio_file.getbuffer()
-            )
-
-        try:
-
-            result = (
-                st.session_state.controller
-                .interview_session
-                .submit_audio_answer(
-                    str(audio_path)
-                )
-            )
-
-            st.session_state.transcript = (
-                result["transcript"]
-            )
-
-            st.success(
-                "Audio transcribed successfully."
-            )
-
-            if os.path.exists(
-                audio_path
-            ):
-                os.remove(
-                    audio_path
-                )
-
-        except Exception as error:
-
-            st.error(error)
+    # ------------------------------------------
+    # Live Transcript
+    # ------------------------------------------
 
     st.subheader(
-        "📝 Transcript"
+        "📝 Live Speech Transcript"
     )
 
-    edited_transcript = st.text_area(
-        "Recognized Speech",
-        value=st.session_state.transcript,
-        height=150
+    st.caption(
+        "Speech recognized in real time."
+    )
+
+    live_transcript = (
+        audio_agent.get_transcript()
     )
 
     st.session_state.transcript = (
-        edited_transcript
+        live_transcript
     )
 
+    st.text_area(
+
+        "Live Transcript",
+
+        value=live_transcript,
+
+        height=180,
+
+        disabled=False,
+
+    )
+
+    # ------------------------------------------
+    # Voice Evaluation
+    # ------------------------------------------
+
     if st.button(
-        "Evaluate Voice Answer"
+        "✅ Submit Voice Answer"
     ):
 
         if not st.session_state.transcript.strip():
 
             st.warning(
-                "Please upload and transcribe audio first."
+                "Please speak before submitting."
             )
 
         else:
@@ -410,7 +432,12 @@ if st.session_state.question_data:
                 )
 
                 st.session_state.question_data = None
+
+                audio_agent.clear_transcript()
+
                 st.session_state.transcript = ""
+
+                st.session_state.live_listening = False
 
                 st.rerun()
 
@@ -418,55 +445,60 @@ if st.session_state.question_data:
 
                 st.error(error)
 
-# --------------------------------------------------
-# Evaluation Section
-# --------------------------------------------------
+    # --------------------------------------------------
+    # Evaluation Section
+    # --------------------------------------------------
 
-latest_evaluation = (
-    st.session_state.evaluation
-    or
-    st.session_state.voice_evaluation
-)
-
-if latest_evaluation:
-
-    st.markdown("---")
-
-    st.subheader(
-        "Evaluation"
+    latest_evaluation = (
+        st.session_state.evaluation
+        or
+        st.session_state.voice_evaluation
     )
 
-    col1, col2 = st.columns(2)
+    if latest_evaluation:
 
-    with col1:
+        st.markdown("---")
 
-        st.metric(
-            "Score",
-            latest_evaluation["score"]
+        st.subheader(
+            "Evaluation"
         )
 
-    with col2:
+        col1, col2 = st.columns(2)
 
-        st.metric(
-            "Next Difficulty",
+        with col1:
+
+            st.metric(
+                "Score",
+                latest_evaluation["score"]
+            )
+
+        with col2:
+
+            st.metric(
+                "Next Difficulty",
+                st.session_state.controller
+                .interview_session
+                .current_difficulty
+            )
+            
+        session = (
             st.session_state.controller
             .interview_session
-            .current_difficulty
         )
 
-    st.success(
-        latest_evaluation["feedback"]
-    )
+        st.success(
+            latest_evaluation["feedback"]
+        )
 
-    session = (
-        st.session_state.controller
-        .interview_session
-    )
 
     # --------------------------------------
     # Next Question
     # --------------------------------------
-
+    session = (
+            st.session_state.controller
+            .interview_session
+    )
+    
     if not session.interview_completed():
 
         if st.button(
