@@ -1,21 +1,31 @@
-# Python cache
+# Python
 __pycache__/
-*.pyc
-
-# Pytest cache
-.pytest_cache/
+*.py[cod]
+*.pyo
 
 # Virtual Environment
+env/
 venv/
-.env/
+.venv/
 
-# IDE files
+# IDE
 .vscode/
 .idea/
 
-# Generated datasets
-datasets/processed/*.pkl
+# Environment
+.env
 
-# OS files
+# Chroma DB
+vector_db/
+chroma_db/
+
+# Audio
+generated_audio/
+audio/generated_questions/
+
+# Cache
+.pytest_cache/
+
+# OS
 .DS_Store
 Thumbs.db
