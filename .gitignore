@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.env
+
+# Streamlit
+.streamlit/
+
+# Databases & Vector DB
+vector_db/chroma/
+*.db
+*.sqlite
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

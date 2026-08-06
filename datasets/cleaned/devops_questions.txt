@@ -1,0 +1,38 @@
+Q: What is the primary difference between a Docker container and a Virtual Machine (VM)?
+A: Virtual Machines isolate hardware using a hypervisor and run full guest operating systems, resulting in higher resource overhead. Docker containers isolate application processes at the OS level using Linux cgroups and namespaces, sharing the host OS kernel for lightweight, fast execution.
+
+----------------------------------------
+Q: Explain the key components of a Kubernetes cluster architecture.
+A: A Kubernetes cluster consists of Control Plane nodes (API Server, etcd key-value store, Scheduler, and Controller Manager) and Worker nodes (Kubelet, Kube-Proxy, and Container Runtime like containerd or Docker) that execute pod workloads.
+
+----------------------------------------
+Q: How does Infrastructure as Code (IaC) work in Terraform, and what is the role of the terraform.tfstate file?
+A: Terraform defines infrastructure in declarative HCL files. The terraform.tfstate file stores metadata mapping defined resource configurations to real-world cloud provider objects (e.g., AWS EC2 instances), allowing Terraform to compute delta changes during plan and apply execution.
+
+----------------------------------------
+Q: Describe the difference between Blue-Green Deployment and Canary Deployment.
+A: Blue-Green deployment runs two identical environments (Blue=Live, Green=New), switching all traffic to Green once validated. Canary deployment gradually routes a small percentage of user traffic (e.g., 5%) to the new release while monitoring error rates before completing a full rollout.
+
+----------------------------------------
+Q: How do Kubernetes Pods, Deployments, and Services relate to each other?
+A: A Pod is the smallest deployable unit containing one or more containers. A Deployment manages Pod replicas, handling rolling updates and rollbacks. A Service provides a stable networking endpoint and load balancer to route external or internal traffic to matching Pods.
+
+----------------------------------------
+Q: What is a CI/CD pipeline, and what are its core stages?
+A: CI/CD (Continuous Integration and Continuous Deployment) automates software delivery. Its core stages include Code Checkout, Static Code Analysis & Linting, Automated Unit & Integration Testing, Container Image Build & Push, and Deployment to staging/production.
+
+----------------------------------------
+Q: Explain how AWS IAM roles differ from IAM users and access keys.
+A: IAM Users represent individual human users with long-term credentials (passwords/access keys). IAM Roles grant temporary security credentials to AWS services (like EC2 or Lambda) or federated users without sharing permanent keys, following the principle of least privilege.
+
+----------------------------------------
+Q: What is the purpose of Kubernetes Ingress and Ingress Controllers?
+A: Ingress is an API object that defines HTTP/HTTPS routing rules (host-based or path-based) to expose cluster services. An Ingress Controller (like NGINX or Traefik) implements these rules by configuring a reverse proxy to balance inbound traffic.
+
+----------------------------------------
+Q: How does Ansible achieve agentless configuration management?
+A: Ansible connects to target servers using standard SSH (for Linux) or WinRM (for Windows) and executes idempotent Python playbooks directly on the remote host without requiring a permanent background agent daemon.
+
+----------------------------------------
+Q: What strategies are used for Disaster Recovery (DR) in cloud architecture?
+A: Cloud DR strategies range from simple Backup & Restore (RTO/RPO in hours), Pilot Light (minimal standby database running), Warm Standby (scaled-down duplicate environment), to Multi-Region Active-Active deployment (near-zero RTO/RPO).

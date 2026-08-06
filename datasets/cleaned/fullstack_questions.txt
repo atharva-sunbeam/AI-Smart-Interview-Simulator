@@ -1,0 +1,30 @@
+Q: What is the difference between Server-Side Rendering (SSR) and Client-Side Rendering (CSR)?
+A: SSR generates complete HTML pages on the server for each request, delivering faster initial page loads and superior SEO. CSR downloads a minimal HTML shell along with JavaScript bundles, rendering content dynamically in the browser, providing smoother single-page app transitions after initial load.
+
+----------------------------------------
+Q: Explain how React's Virtual DOM and Reconciliation algorithm work.
+A: React creates an in-memory lightweight representation of the real DOM. When state changes occur, React creates a new Virtual DOM tree, compares it with the previous tree using the diffing algorithm, and efficiently updates only the modified real DOM nodes (reconciliation).
+
+----------------------------------------
+Q: What is CORS (Cross-Origin Resource Sharing), and how is it resolved on full-stack applications?
+A: CORS is a browser security mechanism restricting web pages from making API requests to a domain different from the domain that served the web page. It is resolved by configuring the backend server to return appropriate HTTP response headers like `Access-Control-Allow-Origin`.
+
+----------------------------------------
+Q: How does the Node.js Event Loop handle non-blocking asynchronous I/O?
+A: Node.js runs single-threaded JavaScript logic on an Event Loop. Asynchronous operations (like file reads or DB queries) are delegated to the libuv thread pool or OS kernel. When completed, callbacks are queued into microtask and macrotask queues to be executed without blocking the main thread.
+
+----------------------------------------
+Q: What are React Hooks, and what rules must be followed when using useEffect and useState?
+A: Hooks allow functional components to manage state and side effects. Key rules include: only call hooks at the top level of React functions (never inside loops or conditions), and always specify accurate dependency arrays in `useEffect` to avoid infinite re-renders.
+
+----------------------------------------
+Q: Explain the difference between REST APIs and WebSockets.
+A: REST APIs operate over HTTP using a stateless request-response model initiated by the client. WebSockets establish a persistent, full-duplex TCP connection allowing bi-directional real-time communication initiated by either client or server.
+
+----------------------------------------
+Q: What is State Hydration in Next.js or SSR frameworks?
+A: State Hydration is the process where client-side JavaScript attaches event listeners and state management logic to static HTML pre-rendered on the server, making the page interactive once the script executes.
+
+----------------------------------------
+Q: How do you secure Web Applications against Cross-Site Scripting (XSS) and CSRF attacks?
+A: XSS is mitigated by sanitizing input data, escaping rendered HTML, and setting Content Security Policy (CSP) headers. CSRF is prevented using anti-CSRF tokens, SameSite cookie attributes (`SameSite=Strict`), and verifying Origin/Referer headers.

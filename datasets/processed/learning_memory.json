@@ -1,0 +1,186 @@
+[
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Classification Metrics",
+    "question": "How do you evaluate a classification model? Explain Precision, Recall, F1-Score.",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 1.8,
+    "feedback": "Your answer is on the right track! The explanation was incomplete. To improve, make sure to mention and define terms like: accuracy, measures, both, positive. "
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "How does LangChain organize agent execution using tools, memory, and chains?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 1.8,
+    "feedback": "Your answer is on the right track! The explanation was incomplete. To improve, make sure to mention and define terms like: turns, engines, external, apis. "
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "How does LangChain organize agent execution using tools, memory, and chains?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 1.8,
+    "feedback": "Your answer is on the right track! The explanation was incomplete. To improve, make sure to mention and define terms like: tools, outputs, evaluators, conversation. "
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "How does LangChain organize agent execution using tools, memory, and chains?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 1.8,
+    "feedback": "Your answer is on the right track! The explanation was incomplete. To improve, make sure to mention and define terms like: invoke, such, engines, loops. "
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "How does LangChain organize agent execution using tools, memory, and chains?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 1.8,
+    "feedback": "Your answer is on the right track! The explanation was incomplete. To improve, make sure to mention and define terms like: primitives, engines, agents, stores. "
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "How does LangChain organize agent execution using tools, memory, and chains?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 1.8,
+    "feedback": "Your answer is on the right track! The explanation was incomplete. To improve, make sure to mention and define terms like: stores, state, apis, turns. "
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "How does LangChain organize agent execution using tools, memory, and chains?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 1.8,
+    "feedback": "Your answer is on the right track! The explanation was incomplete. To improve, make sure to mention and define terms like: python, connect, llms, outputs. "
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "Design a LangChain-based architecture to integrate a large language model with a custom database query tool and a web scraper, where the LLM must use the query tool to retrieve relevant data and the web scraper to fetch additional context, and then combine the outputs to generate a final response. How would you implement the reasoning loop to manage the interactions between the LLM, the database query tool, and the web scraper, and what primitives would you use to maintain the conversation state across multiple turns?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 2.0,
+    "feedback": "The candidate's answer briefly mentions the use of a vector store like ChromaDB and the retrieval of relevant documents, which is a relevant concept in integrating a large language model with external tools. However, the answer lacks crucial details about the LangChain primitives used, the LLM reasoning loop, and how conversation state is maintained across turns, making it a very incomplete response. To improve, the candidate should delve deeper into the architecture design, explaining how the LLM interacts with the custom database query tool and web scraper, and how LangChain's primitives facilitate these interactions."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "Design a LangChain-based architecture for a conversational AI agent that integrates with a third-party database API and a custom Python function to generate personalized product recommendations for e-commerce users. The agent should be able to retrieve user preferences from the database, use the LLM to generate a list of relevant products, and then invoke the Python function to filter the products based on the user's location and purchase history. How would you implement the tool invocation logic, memory management, and conversation flow using LangChain's primitives, and what benefits or challenges do you foresee in this approach?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 2.0,
+    "feedback": "The candidate's answer is incomplete and lacks key technical details, only mentioning the Retrieval-Augmented Generation (RAG) concept and its interaction with a vector store, but failing to address the main question about designing a LangChain-based architecture for a conversational AI agent. To improve, the candidate should provide a more comprehensive answer that includes tool invocation logic, memory management, and conversation flow using LangChain's primitives. Additionally, discussing potential benefits and challenges of the approach would demonstrate a deeper understanding of the topic."
+  },
+  {
+    "role": "DevOps / Cloud Engineer",
+    "topic": "Containerization & Docker",
+    "question": "Suppose you're tasked with designing a CI/CD pipeline for a machine learning model developed using Python, scikit-learn, and NLTK, which is containerized using Docker and deployed on a Kubernetes cluster in the cloud. The model is trained on a large dataset stored in an Oracle database and utilizes Spark for data processing. After each code commit, the pipeline should automatically build a new Docker image, run unit tests and integration tests using Pytest, and deploy the updated model to a staging environment on Databricks for validation. If the validation is successful, the pipeline should then deploy the model to a production environment. How would you design this pipeline, and what tools or services would you use to implement each stage, ensuring that the pipeline is scalable, secure, and efficient?",
+    "answer": "A scalable CI/CD pipeline for this ML project can be designed as follows:\n\nSource Control: Store code in GitHub/GitLab. Every commit triggers the pipeline using GitHub Actions, GitLab CI/CD, or Jenkins.\nBuild: Install dependencies, package the Python application, build a Docker image, and push it to Docker Hub or a cloud container registry (ECR/GCR/ACR).\nTesting: Run Pytest for unit and integration tests. Use test coverage tools and static analysis (e.g., flake8, SonarQube) to ensure code quality.\nData Processing: Read training data from Oracle Database using JDBC and process it with Apache Spark. Training can be executed on Databricks for distributed computing.\nContainerization: Package the trained model, scikit-learn, NLTK, and required dependencies into the Docker image.\nStaging Deployment: Deploy the image to a Kubernetes staging cluster on Databricks or cloud infrastructure using Helm manifests. Run validation tests and model performance checks.\nProduction Deployment: If validation passes, automatically promote the same Docker image to the production Kubernetes cluster using rolling or blue-green deployment to minimize downtime.\nMonitoring & Security: Use Prometheus and Grafana for monitoring, MLflow for model versioning, Kubernetes Secrets or HashiCorp Vault for credentials, and image scanning tools like Trivy before deployment.\n\nThis pipeline is automated, scalable, secure, and reliable, enabling continuous integration, testing, validation, and deployment of machine learning models with minimal manual intervention.",
+    "score": 9.0,
+    "feedback": "The candidate's answer effectively outlines a comprehensive CI/CD pipeline for the machine learning model, covering key aspects such as automated testing, containerization, and deployment to staging and production environments, while also addressing security and monitoring considerations. However, the candidate could further improve their answer by providing more detailed explanations of how they would implement specific components, such as the integration with the Oracle database and the use of Spark for data processing, as well as discussing potential error handling and rollback strategies. Additionally, mentioning the use of GitHub webhooks for triggering the pipeline and exploring more advanced security measures could further enhance the response."
+  },
+  {
+    "role": "DevOps / Cloud Engineer",
+    "topic": "Infrastructure as Code",
+    "question": "How does Infrastructure as Code (IaC) work in Terraform, and what is the role of the terraform.tfstate file?",
+    "answer": "Infrastructure as Code (IaC) in Terraform allows you to define and manage cloud infrastructure (such as VMs, networks, Kubernetes clusters, and databases) using declarative configuration files (.tf). When you run terraform init, terraform plan, and terraform apply, Terraform compares the desired infrastructure in the configuration files with the current infrastructure and creates, updates, or deletes resources to match the desired state.\n\nThe terraform.tfstate file is Terraform's state file, which stores the current state of all managed infrastructure, including resource IDs and metadata. Terraform uses this file to determine what changes are needed during future deployments, making infrastructure updates efficient and preventing unnecessary resource recreation. In production, the state file is typically stored remotely (e.g., AWS S3, Azure Storage, or Terraform Cloud) with locking enabled to support team collaboration and avoid conflicts.",
+    "score": 9.0,
+    "feedback": "The candidate's answer accurately describes the core concept of Infrastructure as Code (IaC) in Terraform, including the use of declarative configuration files and the terraform.tfstate file to manage infrastructure state. However, to achieve a perfect score, the candidate could have explicitly mentioned the use of HashiCorp Configuration Language (HCL) for defining infrastructure configurations and provided more detail on how Terraform computes delta changes using the state file. Overall, the answer demonstrates a solid understanding of Terraform's IaC capabilities and state management."
+  },
+  {
+    "role": "DevOps / Cloud Engineer",
+    "topic": "Containerization & Docker",
+    "question": "A company is migrating its monolithic application to a microservices architecture using Docker containers, with multiple services requiring different dependencies and environments. However, the development team is experiencing inconsistencies in container performance and resource utilization across different host machines. As a DevOps/Cloud Engineer, how would you design and implement a strategy to ensure consistent and efficient deployment of Docker containers across the fleet, considering factors such as resource allocation, networking, and monitoring?",
+    "answer": "To ensure consistent and efficient Docker container deployment, I would use Kubernetes as the container orchestration platform. Each microservice would have its own Docker image with versioning, and deployments would be managed using Helm. I would define CPU and memory requests/limits for every container to ensure fair resource allocation and prevent resource starvation. For networking, I would use Kubernetes Services and an Ingress Controller for service discovery and load balancing. Configuration and secrets would be managed using ConfigMaps and Secrets. I would implement horizontal auto-scaling (HPA) based on CPU or custom metrics to handle varying workloads. For monitoring and logging, I would use Prometheus and Grafana for metrics, along with the ELK/EFK stack for centralized logging. Finally, I would automate deployments through a CI/CD pipeline (GitHub Actions/Jenkins/GitLab CI) to ensure every environment uses the same Docker images and deployment configurations, resulting in scalable, secure, and consistent deployments across all hosts.",
+    "score": 8.0,
+    "feedback": "The candidate's answer demonstrates a good understanding of container orchestration using Kubernetes, resource allocation, and monitoring, as well as the importance of automation through CI/CD pipelines. However, the response could be improved by discussing the standardization of host machine configurations, utilizing containerization best practices for efficient resource allocation, and exploring the use of Docker Compose for smaller-scale deployments or development environments, which were missing from the provided answer. Overall, the candidate's approach is well-structured, but could benefit from a more comprehensive consideration of the entire deployment ecosystem."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "Design an LLM agent using LangChain to optimize tool usage and memory allocation",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 4.0,
+    "feedback": "The candidate's answer touches on the concept of retrieving relevant documents using RAG and vector stores like ChromaDB, which is a good start, but it lacks detailed explanation on agent execution, tool integration, and memory management. To improve, the candidate should provide a more comprehensive design that includes how the LLM agent will optimize tool usage and memory allocation, and how the chain of tools will be optimized for efficient execution. Additionally, the candidate should elaborate on how the agent will handle different tools and memory constraints to provide a more complete solution."
+  },
+  {
+    "role": "Backend Engineer",
+    "topic": "Event Streaming & Queues",
+    "question": "Design a Kafka-based queue for real-time NLP task processing in a Python backend system",
+    "answer": "A Kafka-based queue for real-time NLP processing consists of a Python backend (FastAPI/Flask) acting as a Kafka producer, which sends incoming text-processing requests to a Kafka topic (e.g., nlp-tasks). Multiple Python consumer workers use libraries like NLTK, spaCy, or scikit-learn to process the tasks in parallel and store the results in a database or publish them to a results topic. Using Kafka partitions, consumer groups, and Docker/Kubernetes ensures the system is scalable, fault-tolerant, and capable of handling high-throughput real-time NLP workloads.",
+    "score": 7.5,
+    "feedback": "**Main Question Feedback:** The candidate's answer demonstrates a good understanding of the high-level architecture of a Kafka-based queue for real-time NLP task processing, including the role of Python producers and consumers, as well as the importance of scalability and fault tolerance. However, the answer lacks specific details on Kafka cluster setup, topic configuration, and Python producer/consumer implementation, which are crucial for a comprehensive design. To improve, the candidate should provide more technical specifics, such as broker configuration, topic partitioning, and consumer group management, to demonstrate a deeper understanding of the system's design and implementation.\n\n**Follow-up Feedback:** The candidate's answer demonstrates a good understanding of offset management and task idempotence in Kafka consumer workers, correctly suggesting manual offset commits and storing processed task IDs in a database or cache to prevent duplicate processing. However, the answer lacks specific details about Kafka cluster setup and topic configuration, which are crucial for a comprehensive solution. To improve, the candidate should provide more context about their Kafka configuration and Python implementation choices, such as consumer group settings and error handling mechanisms."
+  },
+  {
+    "role": "Backend Engineer",
+    "topic": "Microservices Architecture",
+    "question": "Design a microservice for real-time NLP tasks using Kafka and Python",
+    "answer": "A real-time NLP microservice can be built using FastAPI as the Python backend and Apache Kafka for asynchronous messaging. The API publishes NLP requests (e.g., sentiment analysis or text classification) to a Kafka topic, while multiple Python consumer workers process them using NLTK, spaCy, or scikit-learn and store or return the results. Deploying the service with Docker and Kubernetes ensures scalability, fault tolerance, and high performance for real-time processing.",
+    "score": 8.0,
+    "feedback": "**Main Question Feedback:** The candidate's answer correctly identifies key components of the microservice, including the use of FastAPI, Apache Kafka, and popular NLP libraries like NLTK, spaCy, or scikit-learn, demonstrating a good understanding of the technology stack. However, the answer lacks specific details on Kafka topic creation, partitioning, and replication strategies, as well as how the NLP tasks will be distributed among the consumer workers, which are crucial for a scalable and fault-tolerant design. To improve, the candidate should provide more technical depth on these aspects and consider discussing error handling, monitoring, and logging mechanisms for the microservice.\n\n**Follow-up Feedback:** The candidate's answer demonstrates a good understanding of handling Kafka consumer group rebalancing and preventing duplicate NLP task processing by utilizing manual offset commits and implementing idempotence with unique task IDs. However, the response lacks specific details on Kafka topic creation and the use of Python consumer/producer for NLP task distribution, which are crucial aspects of the question. To improve, the candidate should provide more comprehensive examples, including code snippets or architecture diagrams, to illustrate their approach to Kafka topic creation and task distribution using Python."
+  },
+  {
+    "role": "Backend Engineer",
+    "topic": "Backend Core",
+    "question": "Design a load balancer for HTTP/2 multiplexing vs HTTP/1.1 connections",
+    "answer": "For HTTP/2, I would use a load balancer such as NGINX, HAProxy, or a cloud load balancer that supports connection multiplexing, allowing multiple requests to share a single TCP connection, reducing latency and improving throughput. For HTTP/1.1, I would enable keep-alive connections and use round-robin or least-connections load-balancing algorithms to efficiently distribute requests across backend servers. Health checks, SSL/TLS termination, and auto-scaling would ensure high availability and performance.",
+    "score": 4.5,
+    "feedback": "**Main Question Feedback:** The candidate's answer demonstrates a good understanding of the key differences between HTTP/1.1 and HTTP/2, including the use of connection multiplexing in HTTP/2 and keep-alive connections in HTTP/1.1. However, the answer lacks specific details on how the load balancer would optimize performance for each protocol, such as handling header compression, stream prioritization, and flow control in HTTP/2. To improve, the candidate could provide more technical specifics on how the chosen load balancer would be configured to take full advantage of HTTP/2's features.\n\n**Follow-up Feedback:** The candidate's answer is completely unacceptable and demonstrates a lack of understanding of the question and the topic of HTTP/2 connection prioritization and dependency management. A suitable answer should have discussed the benefits of HTTP/2 multiplexing, compared connection handling approaches, and explored performance optimization strategies, rather than providing a flippant and unprofessional response. To improve, the candidate should study the fundamentals of HTTP/2 and load balancer design, and practice providing technical and thoughtful answers to complex questions."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "Design an LLM agent using LangChain to optimize tool execution with dynamic memory allocation",
+    "answer": "I will akjsdbfliajbdvcliasjv`189335t-0=--=;';./,']\\][p\\]][p][dfb;.s;rkewtpq3847190678UEB979284698-0I--0]dbo;SVODNCWIUJBDVEO23",
+    "score": 1.0,
+    "feedback": "**Main Question Feedback:** The candidate's answer is completely incoherent and lacks any relevant technical details, failing to address the key concepts of LangChain, tools, memory, chains, optimization, and dynamic allocation. To improve, the candidate should provide a clear and structured response that outlines a viable design for an LLM agent using LangChain, including specific examples and technical explanations. A good starting point would be to define the architecture and components of the LLM agent and explain how they interact to optimize tool execution with dynamic memory allocation.\n\n**Follow-up Feedback:** The candidate's response is completely unrelated to the question, failing to address the topic of memory allocation strategy or any relevant technical concepts such as LangChain or dynamic allocation. To improve, the candidate should focus on providing clear and concise technical answers that directly address the question, rather than making non-technical statements. A more appropriate response would have discussed optimization techniques and tools related to memory management."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "RAG Architecture",
+    "question": "Design RAG architecture for a question-answering system using LLM and Retrieval components",
+    "answer": "A Retrieval-Augmented Generation (RAG) system consists of a document store (PDFs, databases, or knowledge base), where documents are converted into embeddings using an embedding model and stored in a vector database (e.g., ChromaDB, FAISS, or Pinecone). When a user submits a question, the query is embedded and the retriever fetches the most relevant documents. These documents, along with the user's question, are passed as context to an LLM (e.g., GPT or Llama), which generates an accurate, context-aware answer. This architecture improves response accuracy by grounding the LLM on relevant retrieved information while reducing hallucinations",
+    "score": 8.0,
+    "feedback": "The candidate's answer correctly identifies the key components of a RAG architecture, including the document store, embedding model, vector database, retriever, and LLM integration, demonstrating a good understanding of the system's overall design. However, the answer lacks specific details on knowledge indexing and how the retrieval module is optimized for efficient querying, which are crucial aspects of a well-designed RAG system. To improve, the candidate should provide more technical details on these components and explain how they contribute to the system's overall performance and accuracy."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Vector DBs & Embeddings",
+    "question": "Design a Vector DB architecture for LLM embeddings using Pinecone and Streamlit",
+    "answer": "A Vector DB architecture using Pinecone and Streamlit starts with users uploading documents through a Streamlit interface. The documents are split into chunks, converted into embeddings using an embedding model (e.g., OpenAI or Sentence Transformers), and stored in Pinecone. When a user asks a question, the query is embedded and Pinecone retrieves the most similar document chunks. These retrieved chunks are passed to an LLM to generate a context-aware answer, which is then displayed in the Streamlit application. This architecture enables fast, scalable, and accurate semantic search and question answering.",
+    "score": 6.0,
+    "feedback": "The candidate's answer correctly identifies the use of Streamlit as a frontend for user interaction and Pinecone for storing and retrieving embeddings, which is a good start. However, the answer lacks details on data ingestion and querying mechanisms, such as the use of Kafka for handling large volumes of data and SQL for querying the database, which are crucial components of a Vector DB architecture. To improve, the candidate should consider adding these missing details to provide a more comprehensive and robust architecture design."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "How does LangChain use tools and memory to execute agent tasks?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 6.0,
+    "feedback": "The candidate has shown some understanding of the LangChain ecosystem by mentioning the retrieval of relevant documents from a vector store, which is a key aspect of tool usage. However, to improve, they should also discuss how memory is utilized to store context and how chains are used for sequential task management to provide a more comprehensive answer. With some additional context on these points, their response would be more aligned with the expected key points."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "How do LLM agents use frameworks to coordinate tasks?",
+    "answer": "LLM agents use frameworks such as LangChain, LangGraph, or CrewAI to coordinate tasks by breaking complex requests into smaller steps, invoking the appropriate tools or APIs, managing memory and context, and orchestrating the workflow between multiple agents or components. This enables the agent to plan, execute, and combine results efficiently to complete complex tasks autonomously.",
+    "score": 8.5,
+    "feedback": "**Main Question Feedback:** The candidate has demonstrated a good understanding of how LLM agents utilize frameworks like LangChain and LangGraph to coordinate tasks, and has correctly highlighted the importance of breaking down complex requests and managing workflow. However, to further improve, they could have explicitly mentioned the underlying mechanisms such as API calls, shared memory, or message passing that enable this coordination. With a bit more technical depth, their answer would be even more comprehensive and effective.\n\n**Follow-up Feedback:** The candidate provided a relevant real-world example of a RAG-based customer support chatbot, correctly highlighting how LangChain coordinates the workflow and manages tasks such as retrieving documents and generating responses. To further improve, they could have explicitly mentioned the underlying mechanisms like API calls, shared memory, or message passing that enable this coordination, but overall their answer demonstrated a good understanding of LangChain's application. With a bit more emphasis on the technical details, their response would be even stronger."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Fine-Tuning vs In-Context Learning",
+    "question": "What is the main difference between Fine-Tuning and In-Context Learning in LLMs?",
+    "answer": "The Fine-Tuning is used for the specific task or use case for example if we want to create an agent specialized in something we use fine tuning while In-context learning is used by providing the context for the model by keeping the same parameters.\n",
+    "score": 8.0,
+    "feedback": "The candidate has correctly identified the main difference between Fine-Tuning and In-Context Learning, highlighting that Fine-Tuning is used for specific tasks and In-Context Learning adapts using input prompts without changing model parameters. To further improve, they could explicitly mention that Fine-Tuning updates model weights, and provide more precise examples to illustrate the distinction. Overall, their answer demonstrates a good understanding of the concepts, with minor details needing clarification."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "How does LangChain use tools and memory for agent execution?",
+    "answer": "LangChain uses tools (such as APIs, databases, search engines, or calculators) to perform actions beyond the LLM's built-in knowledge. It uses memory to retain previous conversation context and relevant information, allowing the agent to maintain continuity, make better decisions, and execute multi-step tasks more effectively.",
+    "score": 8.0,
+    "feedback": "The candidate has correctly identified that LangChain utilizes tools to extend the capabilities of the LLM and memory to store context and relevant information, which is a crucial aspect of agent execution. To further improve, the candidate could explicitly mention the concept of \"chains\" for sequential execution, highlighting how LangChain enables agents to perform complex tasks by linking multiple tools and memory interactions together. Overall, the response demonstrates a solid understanding of LangChain's core components and their roles in agent execution."
+  }
+]

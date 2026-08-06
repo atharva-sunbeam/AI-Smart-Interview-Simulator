@@ -1,0 +1,38 @@
+Q: What is Retrieval-Augmented Generation (RAG) and why is it preferred over fine-tuning for factual domain knowledge?
+A: RAG retrieves relevant external documents from a vector database based on semantic similarity and injects them into the LLM prompt at inference time. It avoids costly model retraining, eliminates hallucination of static domain facts, and allows real-time updates to knowledge bases.
+
+----------------------------------------
+Q: Explain how Vector Embeddings work and how Cosine Similarity measures semantic distance.
+A: Vector embeddings transform textual chunks into high-dimensional numerical vectors capturing semantic meaning. Cosine similarity calculates the cosine of the angle between two vectors in vector space, returning a score between -1 and 1 where 1 represents identical semantic context regardless of vector length.
+
+----------------------------------------
+Q: What is the role of Vector Databases like ChromaDB, Pinecone, or Qdrant in LLM applications?
+A: Vector databases index high-dimensional embeddings using specialized algorithms like HNSW (Hierarchical Navigable Small World) or IVF (Inverted File Index) to perform fast, scalable approximate nearest neighbor (ANN) similarity searches across millions of documents.
+
+----------------------------------------
+Q: How does LangChain organize agent execution using tools, memory, and chains?
+A: LangChain provides primitives to connect LLMs with external tools (APIs, search engines, python evaluators) and memory stores. Agents use LLM reasoning loops (such as ReAct) to decide which tool to invoke, process tool outputs, and maintain conversation state across interaction turns.
+
+----------------------------------------
+Q: What is context window truncation, and how do chunking strategies impact RAG retrieval quality?
+A: LLMs have finite context limits (e.g. 8k, 32k, 128k tokens). Chunking divides large documents into smaller overlapping passages. If chunks are too small, context is lost; if too large, irrelevant noise pollutes the embedding, reducing vector search retrieval precision.
+
+----------------------------------------
+Q: What is LLM Quantization (e.g., GGUF, AWQ, EXL2), and how does it reduce memory footprints?
+A: Quantization converts full-precision 16-bit or 32-bit floating-point weight matrices into lower-bit representations (like 4-bit or 8-bit integers). This dramatically reduces GPU/CPU VRAM usage and speeds up token generation while retaining over 95% of model accuracy.
+
+----------------------------------------
+Q: How do you mitigate hallucinations in LLM applications?
+A: Hallucination mitigation techniques include grounding prompts with authoritative RAG context, enforcing strict system prompts ("Answer strictly using provided context"), using low temperature sampling (0.0-0.2), and validating outputs against guardrails or secondary evaluator LLMs.
+
+----------------------------------------
+Q: What is the difference between Fine-Tuning (LoRA/QLoRA) and In-Context Learning?
+A: Fine-Tuning updates specific model weights (or lightweight adapter matrices in LoRA) on domain-specific datasets to change style, tone, or task behavior. In-Context Learning provides instructions, prompt templates, and few-shot examples directly in the input prompt without altering model weights.
+
+----------------------------------------
+Q: Explain the architecture of Transformer Models and the Self-Attention Mechanism.
+A: Transformers rely on Self-Attention to dynamically compute dependencies between every token in a sequence simultaneously using Query, Key, and Value matrices. Multi-Head Attention allows the model to jointly attend to information from different representation subspaces at different positions.
+
+----------------------------------------
+Q: How do multi-agent frameworks (like CrewAI or AutoGen) coordinate task execution?
+A: Multi-agent frameworks assign specialized roles, goals, and backstories to individual LLM agents. A supervisor or task manager orchestrates sequential or hierarchical workflows, delegating sub-tasks, passing structured agent outputs, and handling inter-agent communication.
