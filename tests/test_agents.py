@@ -25,7 +25,7 @@ class TestAIInterviewSystem(unittest.TestCase):
         """
         res = self.resume_agent.parse_resume(sample_resume)
         self.assertIn("LANGCHAIN", res["skills"])
-        self.assertIn(res["recommended_role"], ["AI / LLM Engineer", "DevOps / Cloud Engineer"])
+        self.assertIn(res["recommended_role"], ["AI / LLM Engineer", "DevOps / Cloud Engineer", "Cloud Engineer (AWS / Azure / GCP)"])
 
     def test_rag_retrieval_and_self_learning(self):
         questions = self.rag.retrieve_questions(role="Python Developer", difficulty="Medium", k=2)
@@ -64,11 +64,11 @@ class TestAIInterviewSystem(unittest.TestCase):
 
         # 3. Adaptive difficulty stage progression test
         history_high = [{"score": 9.0}, {"score": 8.5}]
-        new_diff = self.super_agent.get_adaptive_difficulty("Medium", history_high)
+        new_diff = self.super_agent.get_adaptive_difficulty("Medium", history_high, adaptive_mode=True)
         self.assertEqual(new_diff, "Hard")
 
         history_low = [{"score": 3.0}, {"score": 4.0}]
-        new_diff_low = self.super_agent.get_adaptive_difficulty("Medium", history_low)
+        new_diff_low = self.super_agent.get_adaptive_difficulty("Medium", history_low, adaptive_mode=True)
         self.assertEqual(new_diff_low, "Easy")
 
         # 4. Report generation & self-learning save

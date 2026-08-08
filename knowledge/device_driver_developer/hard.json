@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "Design a scalable distributed architecture utilizing Linux Device Driver Model for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Linux Device Driver Model across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Linux Device Driver Model.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "How would you optimize latency and throughput for Linux Device Driver Model under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Linux Device Driver Model.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Linux Device Driver Model?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Linux Device Driver Model.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "How do you perform deep performance profiling and memory leak detection on Linux Device Driver Model in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Linux Device Driver Model and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Linux Device Driver Model.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "Design a scalable distributed architecture utilizing Character & Block Drivers for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Character & Block Drivers across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Character & Block Drivers.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "How would you optimize latency and throughput for Character & Block Drivers under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Character & Block Drivers.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Character & Block Drivers?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Character & Block Drivers.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "How do you perform deep performance profiling and memory leak detection on Character & Block Drivers in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Character & Block Drivers and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Character & Block Drivers.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "Design a scalable distributed architecture utilizing Interrupt Handling & DMA for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Interrupt Handling & DMA across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Interrupt Handling & DMA.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "How would you optimize latency and throughput for Interrupt Handling & DMA under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Interrupt Handling & DMA.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Interrupt Handling & DMA?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Interrupt Handling & DMA.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "How do you perform deep performance profiling and memory leak detection on Interrupt Handling & DMA in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Interrupt Handling & DMA and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Interrupt Handling & DMA.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "Design a scalable distributed architecture utilizing Kernel Modules & Compilation for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Kernel Modules & Compilation across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Kernel Modules & Compilation.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "How would you optimize latency and throughput for Kernel Modules & Compilation under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Kernel Modules & Compilation.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Kernel Modules & Compilation?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Kernel Modules & Compilation.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "How do you perform deep performance profiling and memory leak detection on Kernel Modules & Compilation in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Kernel Modules & Compilation and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Kernel Modules & Compilation.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "Design a scalable distributed architecture utilizing Memory Allocation (kmalloc) for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Memory Allocation (kmalloc) across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Memory Allocation (kmalloc).",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "How would you optimize latency and throughput for Memory Allocation (kmalloc) under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Memory Allocation (kmalloc).",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Memory Allocation (kmalloc)?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Memory Allocation (kmalloc).",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "How do you perform deep performance profiling and memory leak detection on Memory Allocation (kmalloc) in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Memory Allocation (kmalloc) and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Memory Allocation (kmalloc).",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  }
+]

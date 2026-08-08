@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Java & Kotlin Fundamentals",
+    "question": "What is Java & Kotlin Fundamentals in Android Developer, and why is it important?",
+    "answer": "Java & Kotlin Fundamentals is a foundational concept in Android Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Java & Kotlin Fundamentals",
+    "question": "Define the basic syntax or primary usage of Java & Kotlin Fundamentals.",
+    "answer": "The primary syntax for Java & Kotlin Fundamentals involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Java & Kotlin Fundamentals",
+    "question": "What is the main difference between basic primitives and Java & Kotlin Fundamentals?",
+    "answer": "Basic primitives store single value types, whereas Java & Kotlin Fundamentals organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Java & Kotlin Fundamentals",
+    "question": "What is a common beginner mistake when working with Java & Kotlin Fundamentals?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Java & Kotlin Fundamentals.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Java & Kotlin Fundamentals",
+    "question": "State two key advantages of using Java & Kotlin Fundamentals in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Java & Kotlin Fundamentals",
+    "question": "How do you initialize or instantiate Java & Kotlin Fundamentals in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Java & Kotlin Fundamentals",
+    "question": "What role does Java & Kotlin Fundamentals play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Java & Kotlin Fundamentals",
+    "question": "Explain the simple step-by-step workflow of executing Java & Kotlin Fundamentals.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Java & Kotlin Fundamentals",
+    "question": "What is the recommended naming convention when defining Java & Kotlin Fundamentals?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Java & Kotlin Fundamentals",
+    "question": "List the basic prerequisites needed before implementing Java & Kotlin Fundamentals.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Android SDK & Activity Lifecycle",
+    "question": "What is Android SDK & Activity Lifecycle in Android Developer, and why is it important?",
+    "answer": "Android SDK & Activity Lifecycle is a foundational concept in Android Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Android SDK & Activity Lifecycle",
+    "question": "Define the basic syntax or primary usage of Android SDK & Activity Lifecycle.",
+    "answer": "The primary syntax for Android SDK & Activity Lifecycle involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Android SDK & Activity Lifecycle",
+    "question": "What is the main difference between basic primitives and Android SDK & Activity Lifecycle?",
+    "answer": "Basic primitives store single value types, whereas Android SDK & Activity Lifecycle organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Android SDK & Activity Lifecycle",
+    "question": "What is a common beginner mistake when working with Android SDK & Activity Lifecycle?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Android SDK & Activity Lifecycle.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Android SDK & Activity Lifecycle",
+    "question": "State two key advantages of using Android SDK & Activity Lifecycle in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Android SDK & Activity Lifecycle",
+    "question": "How do you initialize or instantiate Android SDK & Activity Lifecycle in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Android SDK & Activity Lifecycle",
+    "question": "What role does Android SDK & Activity Lifecycle play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Android SDK & Activity Lifecycle",
+    "question": "Explain the simple step-by-step workflow of executing Android SDK & Activity Lifecycle.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Android SDK & Activity Lifecycle",
+    "question": "What is the recommended naming convention when defining Android SDK & Activity Lifecycle?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Android SDK & Activity Lifecycle",
+    "question": "List the basic prerequisites needed before implementing Android SDK & Activity Lifecycle.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "UI Design & Jetpack Compose",
+    "question": "What is UI Design & Jetpack Compose in Android Developer, and why is it important?",
+    "answer": "UI Design & Jetpack Compose is a foundational concept in Android Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "UI Design & Jetpack Compose",
+    "question": "Define the basic syntax or primary usage of UI Design & Jetpack Compose.",
+    "answer": "The primary syntax for UI Design & Jetpack Compose involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "UI Design & Jetpack Compose",
+    "question": "What is the main difference between basic primitives and UI Design & Jetpack Compose?",
+    "answer": "Basic primitives store single value types, whereas UI Design & Jetpack Compose organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "UI Design & Jetpack Compose",
+    "question": "What is a common beginner mistake when working with UI Design & Jetpack Compose?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in UI Design & Jetpack Compose.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "UI Design & Jetpack Compose",
+    "question": "State two key advantages of using UI Design & Jetpack Compose in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "UI Design & Jetpack Compose",
+    "question": "How do you initialize or instantiate UI Design & Jetpack Compose in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "UI Design & Jetpack Compose",
+    "question": "What role does UI Design & Jetpack Compose play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "UI Design & Jetpack Compose",
+    "question": "Explain the simple step-by-step workflow of executing UI Design & Jetpack Compose.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "UI Design & Jetpack Compose",
+    "question": "What is the recommended naming convention when defining UI Design & Jetpack Compose?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "UI Design & Jetpack Compose",
+    "question": "List the basic prerequisites needed before implementing UI Design & Jetpack Compose.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Retrofit",
+    "question": "What is REST APIs & Retrofit in Android Developer, and why is it important?",
+    "answer": "REST APIs & Retrofit is a foundational concept in Android Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Retrofit",
+    "question": "Define the basic syntax or primary usage of REST APIs & Retrofit.",
+    "answer": "The primary syntax for REST APIs & Retrofit involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Retrofit",
+    "question": "What is the main difference between basic primitives and REST APIs & Retrofit?",
+    "answer": "Basic primitives store single value types, whereas REST APIs & Retrofit organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Retrofit",
+    "question": "What is a common beginner mistake when working with REST APIs & Retrofit?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in REST APIs & Retrofit.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Retrofit",
+    "question": "State two key advantages of using REST APIs & Retrofit in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Retrofit",
+    "question": "How do you initialize or instantiate REST APIs & Retrofit in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Retrofit",
+    "question": "What role does REST APIs & Retrofit play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Retrofit",
+    "question": "Explain the simple step-by-step workflow of executing REST APIs & Retrofit.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Retrofit",
+    "question": "What is the recommended naming convention when defining REST APIs & Retrofit?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Retrofit",
+    "question": "List the basic prerequisites needed before implementing REST APIs & Retrofit.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQLite & Room DB",
+    "question": "What is SQLite & Room DB in Android Developer, and why is it important?",
+    "answer": "SQLite & Room DB is a foundational concept in Android Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQLite & Room DB",
+    "question": "Define the basic syntax or primary usage of SQLite & Room DB.",
+    "answer": "The primary syntax for SQLite & Room DB involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQLite & Room DB",
+    "question": "What is the main difference between basic primitives and SQLite & Room DB?",
+    "answer": "Basic primitives store single value types, whereas SQLite & Room DB organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQLite & Room DB",
+    "question": "What is a common beginner mistake when working with SQLite & Room DB?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in SQLite & Room DB.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQLite & Room DB",
+    "question": "State two key advantages of using SQLite & Room DB in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQLite & Room DB",
+    "question": "How do you initialize or instantiate SQLite & Room DB in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQLite & Room DB",
+    "question": "What role does SQLite & Room DB play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQLite & Room DB",
+    "question": "Explain the simple step-by-step workflow of executing SQLite & Room DB.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQLite & Room DB",
+    "question": "What is the recommended naming convention when defining SQLite & Room DB?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQLite & Room DB",
+    "question": "List the basic prerequisites needed before implementing SQLite & Room DB.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "App Architecture (MVVM)",
+    "question": "What is App Architecture (MVVM) in Android Developer, and why is it important?",
+    "answer": "App Architecture (MVVM) is a foundational concept in Android Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "App Architecture (MVVM)",
+    "question": "Define the basic syntax or primary usage of App Architecture (MVVM).",
+    "answer": "The primary syntax for App Architecture (MVVM) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "App Architecture (MVVM)",
+    "question": "What is the main difference between basic primitives and App Architecture (MVVM)?",
+    "answer": "Basic primitives store single value types, whereas App Architecture (MVVM) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "App Architecture (MVVM)",
+    "question": "What is a common beginner mistake when working with App Architecture (MVVM)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in App Architecture (MVVM).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "App Architecture (MVVM)",
+    "question": "State two key advantages of using App Architecture (MVVM) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "App Architecture (MVVM)",
+    "question": "How do you initialize or instantiate App Architecture (MVVM) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "App Architecture (MVVM)",
+    "question": "What role does App Architecture (MVVM) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "App Architecture (MVVM)",
+    "question": "Explain the simple step-by-step workflow of executing App Architecture (MVVM).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "App Architecture (MVVM)",
+    "question": "What is the recommended naming convention when defining App Architecture (MVVM)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "App Architecture (MVVM)",
+    "question": "List the basic prerequisites needed before implementing App Architecture (MVVM).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

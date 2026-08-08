@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Firewall Configuration & Policies",
+    "question": "How do you implement practical error handling when working with Firewall Configuration & Policies in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Firewall Configuration & Policies",
+    "question": "Describe a real-world debugging scenario involving Firewall Configuration & Policies and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Firewall Configuration & Policies",
+    "question": "How does Firewall Configuration & Policies perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Firewall Configuration & Policies",
+    "question": "What are the best practices for structuring code related to Firewall Configuration & Policies?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Firewall Configuration & Policies",
+    "question": "In a practical project, how do you integrate Firewall Configuration & Policies with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Firewall Configuration & Policies",
+    "question": "Compare and contrast two alternative approaches for executing Firewall Configuration & Policies.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Firewall Configuration & Policies",
+    "question": "How do you write a unit test for a function that relies on Firewall Configuration & Policies?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Firewall Configuration & Policies",
+    "question": "What performance bottlenecks can arise if Firewall Configuration & Policies is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Firewall Configuration & Policies",
+    "question": "How do you refactor legacy code using modern standards for Firewall Configuration & Policies?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Firewall Configuration & Policies",
+    "question": "Explain how data validation is applied to Firewall Configuration & Policies payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "VPN Protocols (IPsec/SSL)",
+    "question": "How do you implement practical error handling when working with VPN Protocols (IPsec/SSL) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "VPN Protocols (IPsec/SSL)",
+    "question": "Describe a real-world debugging scenario involving VPN Protocols (IPsec/SSL) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "VPN Protocols (IPsec/SSL)",
+    "question": "How does VPN Protocols (IPsec/SSL) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "VPN Protocols (IPsec/SSL)",
+    "question": "What are the best practices for structuring code related to VPN Protocols (IPsec/SSL)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "VPN Protocols (IPsec/SSL)",
+    "question": "In a practical project, how do you integrate VPN Protocols (IPsec/SSL) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "VPN Protocols (IPsec/SSL)",
+    "question": "Compare and contrast two alternative approaches for executing VPN Protocols (IPsec/SSL).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "VPN Protocols (IPsec/SSL)",
+    "question": "How do you write a unit test for a function that relies on VPN Protocols (IPsec/SSL)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "VPN Protocols (IPsec/SSL)",
+    "question": "What performance bottlenecks can arise if VPN Protocols (IPsec/SSL) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "VPN Protocols (IPsec/SSL)",
+    "question": "How do you refactor legacy code using modern standards for VPN Protocols (IPsec/SSL)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "VPN Protocols (IPsec/SSL)",
+    "question": "Explain how data validation is applied to VPN Protocols (IPsec/SSL) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Intrusion Detection/Prevention (Snort)",
+    "question": "How do you implement practical error handling when working with Intrusion Detection/Prevention (Snort) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Intrusion Detection/Prevention (Snort)",
+    "question": "Describe a real-world debugging scenario involving Intrusion Detection/Prevention (Snort) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Intrusion Detection/Prevention (Snort)",
+    "question": "How does Intrusion Detection/Prevention (Snort) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Intrusion Detection/Prevention (Snort)",
+    "question": "What are the best practices for structuring code related to Intrusion Detection/Prevention (Snort)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Intrusion Detection/Prevention (Snort)",
+    "question": "In a practical project, how do you integrate Intrusion Detection/Prevention (Snort) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Intrusion Detection/Prevention (Snort)",
+    "question": "Compare and contrast two alternative approaches for executing Intrusion Detection/Prevention (Snort).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Intrusion Detection/Prevention (Snort)",
+    "question": "How do you write a unit test for a function that relies on Intrusion Detection/Prevention (Snort)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Intrusion Detection/Prevention (Snort)",
+    "question": "What performance bottlenecks can arise if Intrusion Detection/Prevention (Snort) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Intrusion Detection/Prevention (Snort)",
+    "question": "How do you refactor legacy code using modern standards for Intrusion Detection/Prevention (Snort)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Intrusion Detection/Prevention (Snort)",
+    "question": "Explain how data validation is applied to Intrusion Detection/Prevention (Snort) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Access Control (NAC)",
+    "question": "How do you implement practical error handling when working with Network Access Control (NAC) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Access Control (NAC)",
+    "question": "Describe a real-world debugging scenario involving Network Access Control (NAC) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Access Control (NAC)",
+    "question": "How does Network Access Control (NAC) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Access Control (NAC)",
+    "question": "What are the best practices for structuring code related to Network Access Control (NAC)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Access Control (NAC)",
+    "question": "In a practical project, how do you integrate Network Access Control (NAC) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Access Control (NAC)",
+    "question": "Compare and contrast two alternative approaches for executing Network Access Control (NAC).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Access Control (NAC)",
+    "question": "How do you write a unit test for a function that relies on Network Access Control (NAC)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Access Control (NAC)",
+    "question": "What performance bottlenecks can arise if Network Access Control (NAC) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Access Control (NAC)",
+    "question": "How do you refactor legacy code using modern standards for Network Access Control (NAC)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Access Control (NAC)",
+    "question": "Explain how data validation is applied to Network Access Control (NAC) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Zero Trust Architecture",
+    "question": "How do you implement practical error handling when working with Zero Trust Architecture in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Zero Trust Architecture",
+    "question": "Describe a real-world debugging scenario involving Zero Trust Architecture and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Zero Trust Architecture",
+    "question": "How does Zero Trust Architecture perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Zero Trust Architecture",
+    "question": "What are the best practices for structuring code related to Zero Trust Architecture?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Zero Trust Architecture",
+    "question": "In a practical project, how do you integrate Zero Trust Architecture with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Zero Trust Architecture",
+    "question": "Compare and contrast two alternative approaches for executing Zero Trust Architecture.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Zero Trust Architecture",
+    "question": "How do you write a unit test for a function that relies on Zero Trust Architecture?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Zero Trust Architecture",
+    "question": "What performance bottlenecks can arise if Zero Trust Architecture is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Zero Trust Architecture",
+    "question": "How do you refactor legacy code using modern standards for Zero Trust Architecture?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Zero Trust Architecture",
+    "question": "Explain how data validation is applied to Zero Trust Architecture payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Data Warehousing",
+    "question": "What is Data Warehousing in Data Warehouse Engineer, and why is it important?",
+    "answer": "Data Warehousing is a foundational concept in Data Warehouse Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "Define the basic syntax or primary usage of Data Warehousing.",
+    "answer": "The primary syntax for Data Warehousing involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "What is the main difference between basic primitives and Data Warehousing?",
+    "answer": "Basic primitives store single value types, whereas Data Warehousing organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "What is a common beginner mistake when working with Data Warehousing?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Data Warehousing.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "State two key advantages of using Data Warehousing in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "How do you initialize or instantiate Data Warehousing in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "What role does Data Warehousing play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "Explain the simple step-by-step workflow of executing Data Warehousing.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "What is the recommended naming convention when defining Data Warehousing?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "List the basic prerequisites needed before implementing Data Warehousing.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Star & Snowflake Schema",
+    "question": "What is Star & Snowflake Schema in Data Warehouse Engineer, and why is it important?",
+    "answer": "Star & Snowflake Schema is a foundational concept in Data Warehouse Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Star & Snowflake Schema",
+    "question": "Define the basic syntax or primary usage of Star & Snowflake Schema.",
+    "answer": "The primary syntax for Star & Snowflake Schema involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Star & Snowflake Schema",
+    "question": "What is the main difference between basic primitives and Star & Snowflake Schema?",
+    "answer": "Basic primitives store single value types, whereas Star & Snowflake Schema organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Star & Snowflake Schema",
+    "question": "What is a common beginner mistake when working with Star & Snowflake Schema?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Star & Snowflake Schema.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Star & Snowflake Schema",
+    "question": "State two key advantages of using Star & Snowflake Schema in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Star & Snowflake Schema",
+    "question": "How do you initialize or instantiate Star & Snowflake Schema in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Star & Snowflake Schema",
+    "question": "What role does Star & Snowflake Schema play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Star & Snowflake Schema",
+    "question": "Explain the simple step-by-step workflow of executing Star & Snowflake Schema.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Star & Snowflake Schema",
+    "question": "What is the recommended naming convention when defining Star & Snowflake Schema?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Star & Snowflake Schema",
+    "question": "List the basic prerequisites needed before implementing Star & Snowflake Schema.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL Pipelines",
+    "question": "What is ETL Pipelines in Data Warehouse Engineer, and why is it important?",
+    "answer": "ETL Pipelines is a foundational concept in Data Warehouse Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL Pipelines",
+    "question": "Define the basic syntax or primary usage of ETL Pipelines.",
+    "answer": "The primary syntax for ETL Pipelines involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL Pipelines",
+    "question": "What is the main difference between basic primitives and ETL Pipelines?",
+    "answer": "Basic primitives store single value types, whereas ETL Pipelines organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL Pipelines",
+    "question": "What is a common beginner mistake when working with ETL Pipelines?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in ETL Pipelines.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL Pipelines",
+    "question": "State two key advantages of using ETL Pipelines in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL Pipelines",
+    "question": "How do you initialize or instantiate ETL Pipelines in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL Pipelines",
+    "question": "What role does ETL Pipelines play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL Pipelines",
+    "question": "Explain the simple step-by-step workflow of executing ETL Pipelines.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL Pipelines",
+    "question": "What is the recommended naming convention when defining ETL Pipelines?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL Pipelines",
+    "question": "List the basic prerequisites needed before implementing ETL Pipelines.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Redshift / Snowflake",
+    "question": "What is Redshift / Snowflake in Data Warehouse Engineer, and why is it important?",
+    "answer": "Redshift / Snowflake is a foundational concept in Data Warehouse Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Redshift / Snowflake",
+    "question": "Define the basic syntax or primary usage of Redshift / Snowflake.",
+    "answer": "The primary syntax for Redshift / Snowflake involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Redshift / Snowflake",
+    "question": "What is the main difference between basic primitives and Redshift / Snowflake?",
+    "answer": "Basic primitives store single value types, whereas Redshift / Snowflake organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Redshift / Snowflake",
+    "question": "What is a common beginner mistake when working with Redshift / Snowflake?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Redshift / Snowflake.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Redshift / Snowflake",
+    "question": "State two key advantages of using Redshift / Snowflake in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Redshift / Snowflake",
+    "question": "How do you initialize or instantiate Redshift / Snowflake in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Redshift / Snowflake",
+    "question": "What role does Redshift / Snowflake play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Redshift / Snowflake",
+    "question": "Explain the simple step-by-step workflow of executing Redshift / Snowflake.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Redshift / Snowflake",
+    "question": "What is the recommended naming convention when defining Redshift / Snowflake?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Redshift / Snowflake",
+    "question": "List the basic prerequisites needed before implementing Redshift / Snowflake.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Query Tuning",
+    "question": "What is SQL Query Tuning in Data Warehouse Engineer, and why is it important?",
+    "answer": "SQL Query Tuning is a foundational concept in Data Warehouse Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Query Tuning",
+    "question": "Define the basic syntax or primary usage of SQL Query Tuning.",
+    "answer": "The primary syntax for SQL Query Tuning involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Query Tuning",
+    "question": "What is the main difference between basic primitives and SQL Query Tuning?",
+    "answer": "Basic primitives store single value types, whereas SQL Query Tuning organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Query Tuning",
+    "question": "What is a common beginner mistake when working with SQL Query Tuning?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in SQL Query Tuning.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Query Tuning",
+    "question": "State two key advantages of using SQL Query Tuning in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Query Tuning",
+    "question": "How do you initialize or instantiate SQL Query Tuning in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Query Tuning",
+    "question": "What role does SQL Query Tuning play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Query Tuning",
+    "question": "Explain the simple step-by-step workflow of executing SQL Query Tuning.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Query Tuning",
+    "question": "What is the recommended naming convention when defining SQL Query Tuning?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Query Tuning",
+    "question": "List the basic prerequisites needed before implementing SQL Query Tuning.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

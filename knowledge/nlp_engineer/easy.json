@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Python & Text Processing",
+    "question": "What is Python & Text Processing in NLP Engineer, and why is it important?",
+    "answer": "Python & Text Processing is a foundational concept in NLP Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & Text Processing",
+    "question": "Define the basic syntax or primary usage of Python & Text Processing.",
+    "answer": "The primary syntax for Python & Text Processing involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & Text Processing",
+    "question": "What is the main difference between basic primitives and Python & Text Processing?",
+    "answer": "Basic primitives store single value types, whereas Python & Text Processing organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & Text Processing",
+    "question": "What is a common beginner mistake when working with Python & Text Processing?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Python & Text Processing.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & Text Processing",
+    "question": "State two key advantages of using Python & Text Processing in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & Text Processing",
+    "question": "How do you initialize or instantiate Python & Text Processing in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & Text Processing",
+    "question": "What role does Python & Text Processing play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & Text Processing",
+    "question": "Explain the simple step-by-step workflow of executing Python & Text Processing.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & Text Processing",
+    "question": "What is the recommended naming convention when defining Python & Text Processing?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & Text Processing",
+    "question": "List the basic prerequisites needed before implementing Python & Text Processing.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "NLP Fundamentals & NLTK",
+    "question": "What is NLP Fundamentals & NLTK in NLP Engineer, and why is it important?",
+    "answer": "NLP Fundamentals & NLTK is a foundational concept in NLP Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "NLP Fundamentals & NLTK",
+    "question": "Define the basic syntax or primary usage of NLP Fundamentals & NLTK.",
+    "answer": "The primary syntax for NLP Fundamentals & NLTK involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "NLP Fundamentals & NLTK",
+    "question": "What is the main difference between basic primitives and NLP Fundamentals & NLTK?",
+    "answer": "Basic primitives store single value types, whereas NLP Fundamentals & NLTK organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "NLP Fundamentals & NLTK",
+    "question": "What is a common beginner mistake when working with NLP Fundamentals & NLTK?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in NLP Fundamentals & NLTK.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "NLP Fundamentals & NLTK",
+    "question": "State two key advantages of using NLP Fundamentals & NLTK in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "NLP Fundamentals & NLTK",
+    "question": "How do you initialize or instantiate NLP Fundamentals & NLTK in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "NLP Fundamentals & NLTK",
+    "question": "What role does NLP Fundamentals & NLTK play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "NLP Fundamentals & NLTK",
+    "question": "Explain the simple step-by-step workflow of executing NLP Fundamentals & NLTK.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "NLP Fundamentals & NLTK",
+    "question": "What is the recommended naming convention when defining NLP Fundamentals & NLTK?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "NLP Fundamentals & NLTK",
+    "question": "List the basic prerequisites needed before implementing NLP Fundamentals & NLTK.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Text Embeddings & Word2Vec",
+    "question": "What is Text Embeddings & Word2Vec in NLP Engineer, and why is it important?",
+    "answer": "Text Embeddings & Word2Vec is a foundational concept in NLP Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Text Embeddings & Word2Vec",
+    "question": "Define the basic syntax or primary usage of Text Embeddings & Word2Vec.",
+    "answer": "The primary syntax for Text Embeddings & Word2Vec involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Text Embeddings & Word2Vec",
+    "question": "What is the main difference between basic primitives and Text Embeddings & Word2Vec?",
+    "answer": "Basic primitives store single value types, whereas Text Embeddings & Word2Vec organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Text Embeddings & Word2Vec",
+    "question": "What is a common beginner mistake when working with Text Embeddings & Word2Vec?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Text Embeddings & Word2Vec.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Text Embeddings & Word2Vec",
+    "question": "State two key advantages of using Text Embeddings & Word2Vec in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Text Embeddings & Word2Vec",
+    "question": "How do you initialize or instantiate Text Embeddings & Word2Vec in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Text Embeddings & Word2Vec",
+    "question": "What role does Text Embeddings & Word2Vec play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Text Embeddings & Word2Vec",
+    "question": "Explain the simple step-by-step workflow of executing Text Embeddings & Word2Vec.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Text Embeddings & Word2Vec",
+    "question": "What is the recommended naming convention when defining Text Embeddings & Word2Vec?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Text Embeddings & Word2Vec",
+    "question": "List the basic prerequisites needed before implementing Text Embeddings & Word2Vec.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Transformers & BERT",
+    "question": "What is Transformers & BERT in NLP Engineer, and why is it important?",
+    "answer": "Transformers & BERT is a foundational concept in NLP Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Transformers & BERT",
+    "question": "Define the basic syntax or primary usage of Transformers & BERT.",
+    "answer": "The primary syntax for Transformers & BERT involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Transformers & BERT",
+    "question": "What is the main difference between basic primitives and Transformers & BERT?",
+    "answer": "Basic primitives store single value types, whereas Transformers & BERT organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Transformers & BERT",
+    "question": "What is a common beginner mistake when working with Transformers & BERT?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Transformers & BERT.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Transformers & BERT",
+    "question": "State two key advantages of using Transformers & BERT in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Transformers & BERT",
+    "question": "How do you initialize or instantiate Transformers & BERT in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Transformers & BERT",
+    "question": "What role does Transformers & BERT play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Transformers & BERT",
+    "question": "Explain the simple step-by-step workflow of executing Transformers & BERT.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Transformers & BERT",
+    "question": "What is the recommended naming convention when defining Transformers & BERT?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Transformers & BERT",
+    "question": "List the basic prerequisites needed before implementing Transformers & BERT.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LLM & Fine-Tuning",
+    "question": "What is LLM & Fine-Tuning in NLP Engineer, and why is it important?",
+    "answer": "LLM & Fine-Tuning is a foundational concept in NLP Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LLM & Fine-Tuning",
+    "question": "Define the basic syntax or primary usage of LLM & Fine-Tuning.",
+    "answer": "The primary syntax for LLM & Fine-Tuning involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LLM & Fine-Tuning",
+    "question": "What is the main difference between basic primitives and LLM & Fine-Tuning?",
+    "answer": "Basic primitives store single value types, whereas LLM & Fine-Tuning organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LLM & Fine-Tuning",
+    "question": "What is a common beginner mistake when working with LLM & Fine-Tuning?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in LLM & Fine-Tuning.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LLM & Fine-Tuning",
+    "question": "State two key advantages of using LLM & Fine-Tuning in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LLM & Fine-Tuning",
+    "question": "How do you initialize or instantiate LLM & Fine-Tuning in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LLM & Fine-Tuning",
+    "question": "What role does LLM & Fine-Tuning play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LLM & Fine-Tuning",
+    "question": "Explain the simple step-by-step workflow of executing LLM & Fine-Tuning.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LLM & Fine-Tuning",
+    "question": "What is the recommended naming convention when defining LLM & Fine-Tuning?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LLM & Fine-Tuning",
+    "question": "List the basic prerequisites needed before implementing LLM & Fine-Tuning.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

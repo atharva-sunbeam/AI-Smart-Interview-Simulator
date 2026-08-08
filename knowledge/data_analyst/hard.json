@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Excel & Statistics",
+    "question": "Design a scalable distributed architecture utilizing Excel & Statistics for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Excel & Statistics across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Excel & Statistics.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "How would you optimize latency and throughput for Excel & Statistics under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Excel & Statistics.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Excel & Statistics?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Excel & Statistics.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "How do you perform deep performance profiling and memory leak detection on Excel & Statistics in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Excel & Statistics and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Excel & Statistics.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "Design a scalable distributed architecture utilizing SQL Queries & Joins for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling SQL Queries & Joins across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying SQL Queries & Joins.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "How would you optimize latency and throughput for SQL Queries & Joins under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in SQL Queries & Joins.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on SQL Queries & Joins?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard SQL Queries & Joins.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "How do you perform deep performance profiling and memory leak detection on SQL Queries & Joins in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with SQL Queries & Joins and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for SQL Queries & Joins.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "Design a scalable distributed architecture utilizing Data Cleaning & Pandas for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Data Cleaning & Pandas across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Data Cleaning & Pandas.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "How would you optimize latency and throughput for Data Cleaning & Pandas under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Data Cleaning & Pandas.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Data Cleaning & Pandas?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Data Cleaning & Pandas.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "How do you perform deep performance profiling and memory leak detection on Data Cleaning & Pandas in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Data Cleaning & Pandas and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Data Cleaning & Pandas.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "Design a scalable distributed architecture utilizing Data Visualization (Tableau/PowerBI) for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Data Visualization (Tableau/PowerBI) across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Data Visualization (Tableau/PowerBI).",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "How would you optimize latency and throughput for Data Visualization (Tableau/PowerBI) under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Data Visualization (Tableau/PowerBI).",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Data Visualization (Tableau/PowerBI)?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Data Visualization (Tableau/PowerBI).",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "How do you perform deep performance profiling and memory leak detection on Data Visualization (Tableau/PowerBI) in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Data Visualization (Tableau/PowerBI) and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Data Visualization (Tableau/PowerBI).",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "Design a scalable distributed architecture utilizing EDA & Reporting for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling EDA & Reporting across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying EDA & Reporting.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "How would you optimize latency and throughput for EDA & Reporting under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in EDA & Reporting.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on EDA & Reporting?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard EDA & Reporting.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "How do you perform deep performance profiling and memory leak detection on EDA & Reporting in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with EDA & Reporting and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for EDA & Reporting.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  }
+]

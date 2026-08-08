@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Server Architecture & APIs",
+    "question": "What is Server Architecture & APIs in Backend Developer, and why is it important?",
+    "answer": "Server Architecture & APIs is a foundational concept in Backend Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Server Architecture & APIs",
+    "question": "Define the basic syntax or primary usage of Server Architecture & APIs.",
+    "answer": "The primary syntax for Server Architecture & APIs involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Server Architecture & APIs",
+    "question": "What is the main difference between basic primitives and Server Architecture & APIs?",
+    "answer": "Basic primitives store single value types, whereas Server Architecture & APIs organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Server Architecture & APIs",
+    "question": "What is a common beginner mistake when working with Server Architecture & APIs?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Server Architecture & APIs.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Server Architecture & APIs",
+    "question": "State two key advantages of using Server Architecture & APIs in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Server Architecture & APIs",
+    "question": "How do you initialize or instantiate Server Architecture & APIs in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Server Architecture & APIs",
+    "question": "What role does Server Architecture & APIs play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Server Architecture & APIs",
+    "question": "Explain the simple step-by-step workflow of executing Server Architecture & APIs.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Server Architecture & APIs",
+    "question": "What is the recommended naming convention when defining Server Architecture & APIs?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Server Architecture & APIs",
+    "question": "List the basic prerequisites needed before implementing Server Architecture & APIs.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Databases & Indexing",
+    "question": "What is Databases & Indexing in Backend Developer, and why is it important?",
+    "answer": "Databases & Indexing is a foundational concept in Backend Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Databases & Indexing",
+    "question": "Define the basic syntax or primary usage of Databases & Indexing.",
+    "answer": "The primary syntax for Databases & Indexing involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Databases & Indexing",
+    "question": "What is the main difference between basic primitives and Databases & Indexing?",
+    "answer": "Basic primitives store single value types, whereas Databases & Indexing organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Databases & Indexing",
+    "question": "What is a common beginner mistake when working with Databases & Indexing?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Databases & Indexing.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Databases & Indexing",
+    "question": "State two key advantages of using Databases & Indexing in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Databases & Indexing",
+    "question": "How do you initialize or instantiate Databases & Indexing in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Databases & Indexing",
+    "question": "What role does Databases & Indexing play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Databases & Indexing",
+    "question": "Explain the simple step-by-step workflow of executing Databases & Indexing.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Databases & Indexing",
+    "question": "What is the recommended naming convention when defining Databases & Indexing?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Databases & Indexing",
+    "question": "List the basic prerequisites needed before implementing Databases & Indexing.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Caching (Redis)",
+    "question": "What is Caching (Redis) in Backend Developer, and why is it important?",
+    "answer": "Caching (Redis) is a foundational concept in Backend Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Caching (Redis)",
+    "question": "Define the basic syntax or primary usage of Caching (Redis).",
+    "answer": "The primary syntax for Caching (Redis) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Caching (Redis)",
+    "question": "What is the main difference between basic primitives and Caching (Redis)?",
+    "answer": "Basic primitives store single value types, whereas Caching (Redis) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Caching (Redis)",
+    "question": "What is a common beginner mistake when working with Caching (Redis)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Caching (Redis).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Caching (Redis)",
+    "question": "State two key advantages of using Caching (Redis) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Caching (Redis)",
+    "question": "How do you initialize or instantiate Caching (Redis) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Caching (Redis)",
+    "question": "What role does Caching (Redis) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Caching (Redis)",
+    "question": "Explain the simple step-by-step workflow of executing Caching (Redis).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Caching (Redis)",
+    "question": "What is the recommended naming convention when defining Caching (Redis)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Caching (Redis)",
+    "question": "List the basic prerequisites needed before implementing Caching (Redis).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Async & Message Queues",
+    "question": "What is Async & Message Queues in Backend Developer, and why is it important?",
+    "answer": "Async & Message Queues is a foundational concept in Backend Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Async & Message Queues",
+    "question": "Define the basic syntax or primary usage of Async & Message Queues.",
+    "answer": "The primary syntax for Async & Message Queues involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Async & Message Queues",
+    "question": "What is the main difference between basic primitives and Async & Message Queues?",
+    "answer": "Basic primitives store single value types, whereas Async & Message Queues organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Async & Message Queues",
+    "question": "What is a common beginner mistake when working with Async & Message Queues?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Async & Message Queues.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Async & Message Queues",
+    "question": "State two key advantages of using Async & Message Queues in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Async & Message Queues",
+    "question": "How do you initialize or instantiate Async & Message Queues in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Async & Message Queues",
+    "question": "What role does Async & Message Queues play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Async & Message Queues",
+    "question": "Explain the simple step-by-step workflow of executing Async & Message Queues.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Async & Message Queues",
+    "question": "What is the recommended naming convention when defining Async & Message Queues?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Async & Message Queues",
+    "question": "List the basic prerequisites needed before implementing Async & Message Queues.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microservices & Security",
+    "question": "What is Microservices & Security in Backend Developer, and why is it important?",
+    "answer": "Microservices & Security is a foundational concept in Backend Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microservices & Security",
+    "question": "Define the basic syntax or primary usage of Microservices & Security.",
+    "answer": "The primary syntax for Microservices & Security involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microservices & Security",
+    "question": "What is the main difference between basic primitives and Microservices & Security?",
+    "answer": "Basic primitives store single value types, whereas Microservices & Security organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microservices & Security",
+    "question": "What is a common beginner mistake when working with Microservices & Security?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Microservices & Security.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microservices & Security",
+    "question": "State two key advantages of using Microservices & Security in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microservices & Security",
+    "question": "How do you initialize or instantiate Microservices & Security in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microservices & Security",
+    "question": "What role does Microservices & Security play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microservices & Security",
+    "question": "Explain the simple step-by-step workflow of executing Microservices & Security.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microservices & Security",
+    "question": "What is the recommended naming convention when defining Microservices & Security?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microservices & Security",
+    "question": "List the basic prerequisites needed before implementing Microservices & Security.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Performance Tuning",
+    "question": "What is Performance Tuning in Backend Developer, and why is it important?",
+    "answer": "Performance Tuning is a foundational concept in Backend Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Performance Tuning",
+    "question": "Define the basic syntax or primary usage of Performance Tuning.",
+    "answer": "The primary syntax for Performance Tuning involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Performance Tuning",
+    "question": "What is the main difference between basic primitives and Performance Tuning?",
+    "answer": "Basic primitives store single value types, whereas Performance Tuning organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Performance Tuning",
+    "question": "What is a common beginner mistake when working with Performance Tuning?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Performance Tuning.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Performance Tuning",
+    "question": "State two key advantages of using Performance Tuning in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Performance Tuning",
+    "question": "How do you initialize or instantiate Performance Tuning in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Performance Tuning",
+    "question": "What role does Performance Tuning play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Performance Tuning",
+    "question": "Explain the simple step-by-step workflow of executing Performance Tuning.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Performance Tuning",
+    "question": "What is the recommended naming convention when defining Performance Tuning?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Performance Tuning",
+    "question": "List the basic prerequisites needed before implementing Performance Tuning.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

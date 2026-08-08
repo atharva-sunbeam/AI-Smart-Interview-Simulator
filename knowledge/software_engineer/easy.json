@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Data Structures & Algorithms",
+    "question": "What is Data Structures & Algorithms in Software Engineer, and why is it important?",
+    "answer": "Data Structures & Algorithms is a foundational concept in Software Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Structures & Algorithms",
+    "question": "Define the basic syntax or primary usage of Data Structures & Algorithms.",
+    "answer": "The primary syntax for Data Structures & Algorithms involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Structures & Algorithms",
+    "question": "What is the main difference between basic primitives and Data Structures & Algorithms?",
+    "answer": "Basic primitives store single value types, whereas Data Structures & Algorithms organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Structures & Algorithms",
+    "question": "What is a common beginner mistake when working with Data Structures & Algorithms?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Data Structures & Algorithms.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Structures & Algorithms",
+    "question": "State two key advantages of using Data Structures & Algorithms in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Structures & Algorithms",
+    "question": "How do you initialize or instantiate Data Structures & Algorithms in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Structures & Algorithms",
+    "question": "What role does Data Structures & Algorithms play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Structures & Algorithms",
+    "question": "Explain the simple step-by-step workflow of executing Data Structures & Algorithms.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Structures & Algorithms",
+    "question": "What is the recommended naming convention when defining Data Structures & Algorithms?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Structures & Algorithms",
+    "question": "List the basic prerequisites needed before implementing Data Structures & Algorithms.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Design Principles",
+    "question": "What is OOP & Design Principles in Software Engineer, and why is it important?",
+    "answer": "OOP & Design Principles is a foundational concept in Software Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Design Principles",
+    "question": "Define the basic syntax or primary usage of OOP & Design Principles.",
+    "answer": "The primary syntax for OOP & Design Principles involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Design Principles",
+    "question": "What is the main difference between basic primitives and OOP & Design Principles?",
+    "answer": "Basic primitives store single value types, whereas OOP & Design Principles organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Design Principles",
+    "question": "What is a common beginner mistake when working with OOP & Design Principles?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in OOP & Design Principles.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Design Principles",
+    "question": "State two key advantages of using OOP & Design Principles in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Design Principles",
+    "question": "How do you initialize or instantiate OOP & Design Principles in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Design Principles",
+    "question": "What role does OOP & Design Principles play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Design Principles",
+    "question": "Explain the simple step-by-step workflow of executing OOP & Design Principles.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Design Principles",
+    "question": "What is the recommended naming convention when defining OOP & Design Principles?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Design Principles",
+    "question": "List the basic prerequisites needed before implementing OOP & Design Principles.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "System Design",
+    "question": "What is System Design in Software Engineer, and why is it important?",
+    "answer": "System Design is a foundational concept in Software Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "System Design",
+    "question": "Define the basic syntax or primary usage of System Design.",
+    "answer": "The primary syntax for System Design involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "System Design",
+    "question": "What is the main difference between basic primitives and System Design?",
+    "answer": "Basic primitives store single value types, whereas System Design organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "System Design",
+    "question": "What is a common beginner mistake when working with System Design?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in System Design.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "System Design",
+    "question": "State two key advantages of using System Design in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "System Design",
+    "question": "How do you initialize or instantiate System Design in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "System Design",
+    "question": "What role does System Design play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "System Design",
+    "question": "Explain the simple step-by-step workflow of executing System Design.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "System Design",
+    "question": "What is the recommended naming convention when defining System Design?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "System Design",
+    "question": "List the basic prerequisites needed before implementing System Design.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database & SQL",
+    "question": "What is Database & SQL in Software Engineer, and why is it important?",
+    "answer": "Database & SQL is a foundational concept in Software Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database & SQL",
+    "question": "Define the basic syntax or primary usage of Database & SQL.",
+    "answer": "The primary syntax for Database & SQL involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database & SQL",
+    "question": "What is the main difference between basic primitives and Database & SQL?",
+    "answer": "Basic primitives store single value types, whereas Database & SQL organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database & SQL",
+    "question": "What is a common beginner mistake when working with Database & SQL?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Database & SQL.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database & SQL",
+    "question": "State two key advantages of using Database & SQL in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database & SQL",
+    "question": "How do you initialize or instantiate Database & SQL in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database & SQL",
+    "question": "What role does Database & SQL play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database & SQL",
+    "question": "Explain the simple step-by-step workflow of executing Database & SQL.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database & SQL",
+    "question": "What is the recommended naming convention when defining Database & SQL?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database & SQL",
+    "question": "List the basic prerequisites needed before implementing Database & SQL.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Testing & CI/CD",
+    "question": "What is Testing & CI/CD in Software Engineer, and why is it important?",
+    "answer": "Testing & CI/CD is a foundational concept in Software Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Testing & CI/CD",
+    "question": "Define the basic syntax or primary usage of Testing & CI/CD.",
+    "answer": "The primary syntax for Testing & CI/CD involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Testing & CI/CD",
+    "question": "What is the main difference between basic primitives and Testing & CI/CD?",
+    "answer": "Basic primitives store single value types, whereas Testing & CI/CD organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Testing & CI/CD",
+    "question": "What is a common beginner mistake when working with Testing & CI/CD?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Testing & CI/CD.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Testing & CI/CD",
+    "question": "State two key advantages of using Testing & CI/CD in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Testing & CI/CD",
+    "question": "How do you initialize or instantiate Testing & CI/CD in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Testing & CI/CD",
+    "question": "What role does Testing & CI/CD play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Testing & CI/CD",
+    "question": "Explain the simple step-by-step workflow of executing Testing & CI/CD.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Testing & CI/CD",
+    "question": "What is the recommended naming convention when defining Testing & CI/CD?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Testing & CI/CD",
+    "question": "List the basic prerequisites needed before implementing Testing & CI/CD.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

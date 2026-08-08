@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "OpenCV & Image Processing",
+    "question": "How do you implement practical error handling when working with OpenCV & Image Processing in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OpenCV & Image Processing",
+    "question": "Describe a real-world debugging scenario involving OpenCV & Image Processing and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OpenCV & Image Processing",
+    "question": "How does OpenCV & Image Processing perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OpenCV & Image Processing",
+    "question": "What are the best practices for structuring code related to OpenCV & Image Processing?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OpenCV & Image Processing",
+    "question": "In a practical project, how do you integrate OpenCV & Image Processing with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OpenCV & Image Processing",
+    "question": "Compare and contrast two alternative approaches for executing OpenCV & Image Processing.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OpenCV & Image Processing",
+    "question": "How do you write a unit test for a function that relies on OpenCV & Image Processing?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OpenCV & Image Processing",
+    "question": "What performance bottlenecks can arise if OpenCV & Image Processing is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OpenCV & Image Processing",
+    "question": "How do you refactor legacy code using modern standards for OpenCV & Image Processing?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OpenCV & Image Processing",
+    "question": "Explain how data validation is applied to OpenCV & Image Processing payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CNN Architectures",
+    "question": "How do you implement practical error handling when working with CNN Architectures in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CNN Architectures",
+    "question": "Describe a real-world debugging scenario involving CNN Architectures and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CNN Architectures",
+    "question": "How does CNN Architectures perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CNN Architectures",
+    "question": "What are the best practices for structuring code related to CNN Architectures?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CNN Architectures",
+    "question": "In a practical project, how do you integrate CNN Architectures with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CNN Architectures",
+    "question": "Compare and contrast two alternative approaches for executing CNN Architectures.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CNN Architectures",
+    "question": "How do you write a unit test for a function that relies on CNN Architectures?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CNN Architectures",
+    "question": "What performance bottlenecks can arise if CNN Architectures is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CNN Architectures",
+    "question": "How do you refactor legacy code using modern standards for CNN Architectures?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CNN Architectures",
+    "question": "Explain how data validation is applied to CNN Architectures payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Object Detection (YOLO)",
+    "question": "How do you implement practical error handling when working with Object Detection (YOLO) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Object Detection (YOLO)",
+    "question": "Describe a real-world debugging scenario involving Object Detection (YOLO) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Object Detection (YOLO)",
+    "question": "How does Object Detection (YOLO) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Object Detection (YOLO)",
+    "question": "What are the best practices for structuring code related to Object Detection (YOLO)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Object Detection (YOLO)",
+    "question": "In a practical project, how do you integrate Object Detection (YOLO) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Object Detection (YOLO)",
+    "question": "Compare and contrast two alternative approaches for executing Object Detection (YOLO).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Object Detection (YOLO)",
+    "question": "How do you write a unit test for a function that relies on Object Detection (YOLO)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Object Detection (YOLO)",
+    "question": "What performance bottlenecks can arise if Object Detection (YOLO) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Object Detection (YOLO)",
+    "question": "How do you refactor legacy code using modern standards for Object Detection (YOLO)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Object Detection (YOLO)",
+    "question": "Explain how data validation is applied to Object Detection (YOLO) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PyTorch / TensorFlow",
+    "question": "How do you implement practical error handling when working with PyTorch / TensorFlow in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PyTorch / TensorFlow",
+    "question": "Describe a real-world debugging scenario involving PyTorch / TensorFlow and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PyTorch / TensorFlow",
+    "question": "How does PyTorch / TensorFlow perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PyTorch / TensorFlow",
+    "question": "What are the best practices for structuring code related to PyTorch / TensorFlow?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PyTorch / TensorFlow",
+    "question": "In a practical project, how do you integrate PyTorch / TensorFlow with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PyTorch / TensorFlow",
+    "question": "Compare and contrast two alternative approaches for executing PyTorch / TensorFlow.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PyTorch / TensorFlow",
+    "question": "How do you write a unit test for a function that relies on PyTorch / TensorFlow?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PyTorch / TensorFlow",
+    "question": "What performance bottlenecks can arise if PyTorch / TensorFlow is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PyTorch / TensorFlow",
+    "question": "How do you refactor legacy code using modern standards for PyTorch / TensorFlow?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PyTorch / TensorFlow",
+    "question": "Explain how data validation is applied to PyTorch / TensorFlow payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Model Optimization",
+    "question": "How do you implement practical error handling when working with Model Optimization in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Model Optimization",
+    "question": "Describe a real-world debugging scenario involving Model Optimization and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Model Optimization",
+    "question": "How does Model Optimization perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Model Optimization",
+    "question": "What are the best practices for structuring code related to Model Optimization?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Model Optimization",
+    "question": "In a practical project, how do you integrate Model Optimization with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Model Optimization",
+    "question": "Compare and contrast two alternative approaches for executing Model Optimization.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Model Optimization",
+    "question": "How do you write a unit test for a function that relies on Model Optimization?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Model Optimization",
+    "question": "What performance bottlenecks can arise if Model Optimization is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Model Optimization",
+    "question": "How do you refactor legacy code using modern standards for Model Optimization?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Model Optimization",
+    "question": "Explain how data validation is applied to Model Optimization payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

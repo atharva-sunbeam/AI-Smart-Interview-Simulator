@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Linux Command Line & Shell Scripting",
+    "question": "How do you implement practical error handling when working with Linux Command Line & Shell Scripting in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Command Line & Shell Scripting",
+    "question": "Describe a real-world debugging scenario involving Linux Command Line & Shell Scripting and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Command Line & Shell Scripting",
+    "question": "How does Linux Command Line & Shell Scripting perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Command Line & Shell Scripting",
+    "question": "What are the best practices for structuring code related to Linux Command Line & Shell Scripting?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Command Line & Shell Scripting",
+    "question": "In a practical project, how do you integrate Linux Command Line & Shell Scripting with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Command Line & Shell Scripting",
+    "question": "Compare and contrast two alternative approaches for executing Linux Command Line & Shell Scripting.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Command Line & Shell Scripting",
+    "question": "How do you write a unit test for a function that relies on Linux Command Line & Shell Scripting?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Command Line & Shell Scripting",
+    "question": "What performance bottlenecks can arise if Linux Command Line & Shell Scripting is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Command Line & Shell Scripting",
+    "question": "How do you refactor legacy code using modern standards for Linux Command Line & Shell Scripting?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Command Line & Shell Scripting",
+    "question": "Explain how data validation is applied to Linux Command Line & Shell Scripting payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "User & Permission Management",
+    "question": "How do you implement practical error handling when working with User & Permission Management in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "User & Permission Management",
+    "question": "Describe a real-world debugging scenario involving User & Permission Management and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "User & Permission Management",
+    "question": "How does User & Permission Management perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "User & Permission Management",
+    "question": "What are the best practices for structuring code related to User & Permission Management?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "User & Permission Management",
+    "question": "In a practical project, how do you integrate User & Permission Management with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "User & Permission Management",
+    "question": "Compare and contrast two alternative approaches for executing User & Permission Management.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "User & Permission Management",
+    "question": "How do you write a unit test for a function that relies on User & Permission Management?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "User & Permission Management",
+    "question": "What performance bottlenecks can arise if User & Permission Management is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "User & Permission Management",
+    "question": "How do you refactor legacy code using modern standards for User & Permission Management?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "User & Permission Management",
+    "question": "Explain how data validation is applied to User & Permission Management payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Process Management & Systemd",
+    "question": "How do you implement practical error handling when working with Process Management & Systemd in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Process Management & Systemd",
+    "question": "Describe a real-world debugging scenario involving Process Management & Systemd and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Process Management & Systemd",
+    "question": "How does Process Management & Systemd perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Process Management & Systemd",
+    "question": "What are the best practices for structuring code related to Process Management & Systemd?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Process Management & Systemd",
+    "question": "In a practical project, how do you integrate Process Management & Systemd with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Process Management & Systemd",
+    "question": "Compare and contrast two alternative approaches for executing Process Management & Systemd.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Process Management & Systemd",
+    "question": "How do you write a unit test for a function that relies on Process Management & Systemd?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Process Management & Systemd",
+    "question": "What performance bottlenecks can arise if Process Management & Systemd is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Process Management & Systemd",
+    "question": "How do you refactor legacy code using modern standards for Process Management & Systemd?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Process Management & Systemd",
+    "question": "Explain how data validation is applied to Process Management & Systemd payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Package Management (yum/apt)",
+    "question": "How do you implement practical error handling when working with Package Management (yum/apt) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Package Management (yum/apt)",
+    "question": "Describe a real-world debugging scenario involving Package Management (yum/apt) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Package Management (yum/apt)",
+    "question": "How does Package Management (yum/apt) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Package Management (yum/apt)",
+    "question": "What are the best practices for structuring code related to Package Management (yum/apt)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Package Management (yum/apt)",
+    "question": "In a practical project, how do you integrate Package Management (yum/apt) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Package Management (yum/apt)",
+    "question": "Compare and contrast two alternative approaches for executing Package Management (yum/apt).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Package Management (yum/apt)",
+    "question": "How do you write a unit test for a function that relies on Package Management (yum/apt)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Package Management (yum/apt)",
+    "question": "What performance bottlenecks can arise if Package Management (yum/apt) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Package Management (yum/apt)",
+    "question": "How do you refactor legacy code using modern standards for Package Management (yum/apt)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Package Management (yum/apt)",
+    "question": "Explain how data validation is applied to Package Management (yum/apt) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Networking & Firewall (iptables/ufw)",
+    "question": "How do you implement practical error handling when working with Networking & Firewall (iptables/ufw) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Networking & Firewall (iptables/ufw)",
+    "question": "Describe a real-world debugging scenario involving Networking & Firewall (iptables/ufw) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Networking & Firewall (iptables/ufw)",
+    "question": "How does Networking & Firewall (iptables/ufw) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Networking & Firewall (iptables/ufw)",
+    "question": "What are the best practices for structuring code related to Networking & Firewall (iptables/ufw)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Networking & Firewall (iptables/ufw)",
+    "question": "In a practical project, how do you integrate Networking & Firewall (iptables/ufw) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Networking & Firewall (iptables/ufw)",
+    "question": "Compare and contrast two alternative approaches for executing Networking & Firewall (iptables/ufw).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Networking & Firewall (iptables/ufw)",
+    "question": "How do you write a unit test for a function that relies on Networking & Firewall (iptables/ufw)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Networking & Firewall (iptables/ufw)",
+    "question": "What performance bottlenecks can arise if Networking & Firewall (iptables/ufw) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Networking & Firewall (iptables/ufw)",
+    "question": "How do you refactor legacy code using modern standards for Networking & Firewall (iptables/ufw)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Networking & Firewall (iptables/ufw)",
+    "question": "Explain how data validation is applied to Networking & Firewall (iptables/ufw) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Storage & LVM",
+    "question": "How do you implement practical error handling when working with Storage & LVM in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Storage & LVM",
+    "question": "Describe a real-world debugging scenario involving Storage & LVM and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Storage & LVM",
+    "question": "How does Storage & LVM perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Storage & LVM",
+    "question": "What are the best practices for structuring code related to Storage & LVM?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Storage & LVM",
+    "question": "In a practical project, how do you integrate Storage & LVM with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Storage & LVM",
+    "question": "Compare and contrast two alternative approaches for executing Storage & LVM.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Storage & LVM",
+    "question": "How do you write a unit test for a function that relies on Storage & LVM?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Storage & LVM",
+    "question": "What performance bottlenecks can arise if Storage & LVM is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Storage & LVM",
+    "question": "How do you refactor legacy code using modern standards for Storage & LVM?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Storage & LVM",
+    "question": "Explain how data validation is applied to Storage & LVM payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "C++ Syntax & Pointers",
+    "question": "How do you implement practical error handling when working with C++ Syntax & Pointers in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C++ Syntax & Pointers",
+    "question": "Describe a real-world debugging scenario involving C++ Syntax & Pointers and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C++ Syntax & Pointers",
+    "question": "How does C++ Syntax & Pointers perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C++ Syntax & Pointers",
+    "question": "What are the best practices for structuring code related to C++ Syntax & Pointers?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C++ Syntax & Pointers",
+    "question": "In a practical project, how do you integrate C++ Syntax & Pointers with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C++ Syntax & Pointers",
+    "question": "Compare and contrast two alternative approaches for executing C++ Syntax & Pointers.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C++ Syntax & Pointers",
+    "question": "How do you write a unit test for a function that relies on C++ Syntax & Pointers?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C++ Syntax & Pointers",
+    "question": "What performance bottlenecks can arise if C++ Syntax & Pointers is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C++ Syntax & Pointers",
+    "question": "How do you refactor legacy code using modern standards for C++ Syntax & Pointers?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C++ Syntax & Pointers",
+    "question": "Explain how data validation is applied to C++ Syntax & Pointers payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Memory Management & STL",
+    "question": "How do you implement practical error handling when working with Memory Management & STL in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Memory Management & STL",
+    "question": "Describe a real-world debugging scenario involving Memory Management & STL and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Memory Management & STL",
+    "question": "How does Memory Management & STL perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Memory Management & STL",
+    "question": "What are the best practices for structuring code related to Memory Management & STL?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Memory Management & STL",
+    "question": "In a practical project, how do you integrate Memory Management & STL with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Memory Management & STL",
+    "question": "Compare and contrast two alternative approaches for executing Memory Management & STL.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Memory Management & STL",
+    "question": "How do you write a unit test for a function that relies on Memory Management & STL?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Memory Management & STL",
+    "question": "What performance bottlenecks can arise if Memory Management & STL is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Memory Management & STL",
+    "question": "How do you refactor legacy code using modern standards for Memory Management & STL?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Memory Management & STL",
+    "question": "Explain how data validation is applied to Memory Management & STL payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP & Polymorphism",
+    "question": "How do you implement practical error handling when working with OOP & Polymorphism in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP & Polymorphism",
+    "question": "Describe a real-world debugging scenario involving OOP & Polymorphism and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP & Polymorphism",
+    "question": "How does OOP & Polymorphism perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP & Polymorphism",
+    "question": "What are the best practices for structuring code related to OOP & Polymorphism?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP & Polymorphism",
+    "question": "In a practical project, how do you integrate OOP & Polymorphism with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP & Polymorphism",
+    "question": "Compare and contrast two alternative approaches for executing OOP & Polymorphism.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP & Polymorphism",
+    "question": "How do you write a unit test for a function that relies on OOP & Polymorphism?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP & Polymorphism",
+    "question": "What performance bottlenecks can arise if OOP & Polymorphism is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP & Polymorphism",
+    "question": "How do you refactor legacy code using modern standards for OOP & Polymorphism?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP & Polymorphism",
+    "question": "Explain how data validation is applied to OOP & Polymorphism payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Templates & Modern C++",
+    "question": "How do you implement practical error handling when working with Templates & Modern C++ in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Templates & Modern C++",
+    "question": "Describe a real-world debugging scenario involving Templates & Modern C++ and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Templates & Modern C++",
+    "question": "How does Templates & Modern C++ perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Templates & Modern C++",
+    "question": "What are the best practices for structuring code related to Templates & Modern C++?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Templates & Modern C++",
+    "question": "In a practical project, how do you integrate Templates & Modern C++ with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Templates & Modern C++",
+    "question": "Compare and contrast two alternative approaches for executing Templates & Modern C++.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Templates & Modern C++",
+    "question": "How do you write a unit test for a function that relies on Templates & Modern C++?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Templates & Modern C++",
+    "question": "What performance bottlenecks can arise if Templates & Modern C++ is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Templates & Modern C++",
+    "question": "How do you refactor legacy code using modern standards for Templates & Modern C++?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Templates & Modern C++",
+    "question": "Explain how data validation is applied to Templates & Modern C++ payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Concurrency & Multithreading",
+    "question": "How do you implement practical error handling when working with Concurrency & Multithreading in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Concurrency & Multithreading",
+    "question": "Describe a real-world debugging scenario involving Concurrency & Multithreading and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Concurrency & Multithreading",
+    "question": "How does Concurrency & Multithreading perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Concurrency & Multithreading",
+    "question": "What are the best practices for structuring code related to Concurrency & Multithreading?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Concurrency & Multithreading",
+    "question": "In a practical project, how do you integrate Concurrency & Multithreading with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Concurrency & Multithreading",
+    "question": "Compare and contrast two alternative approaches for executing Concurrency & Multithreading.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Concurrency & Multithreading",
+    "question": "How do you write a unit test for a function that relies on Concurrency & Multithreading?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Concurrency & Multithreading",
+    "question": "What performance bottlenecks can arise if Concurrency & Multithreading is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Concurrency & Multithreading",
+    "question": "How do you refactor legacy code using modern standards for Concurrency & Multithreading?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Concurrency & Multithreading",
+    "question": "Explain how data validation is applied to Concurrency & Multithreading payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Structures",
+    "question": "How do you implement practical error handling when working with Data Structures in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Structures",
+    "question": "Describe a real-world debugging scenario involving Data Structures and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Structures",
+    "question": "How does Data Structures perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Structures",
+    "question": "What are the best practices for structuring code related to Data Structures?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Structures",
+    "question": "In a practical project, how do you integrate Data Structures with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Structures",
+    "question": "Compare and contrast two alternative approaches for executing Data Structures.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Structures",
+    "question": "How do you write a unit test for a function that relies on Data Structures?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Structures",
+    "question": "What performance bottlenecks can arise if Data Structures is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Structures",
+    "question": "How do you refactor legacy code using modern standards for Data Structures?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Structures",
+    "question": "Explain how data validation is applied to Data Structures payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

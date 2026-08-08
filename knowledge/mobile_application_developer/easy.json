@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "What is Mobile OS Fundamentals in Mobile Application Developer, and why is it important?",
+    "answer": "Mobile OS Fundamentals is a foundational concept in Mobile Application Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "Define the basic syntax or primary usage of Mobile OS Fundamentals.",
+    "answer": "The primary syntax for Mobile OS Fundamentals involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "What is the main difference between basic primitives and Mobile OS Fundamentals?",
+    "answer": "Basic primitives store single value types, whereas Mobile OS Fundamentals organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "What is a common beginner mistake when working with Mobile OS Fundamentals?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Mobile OS Fundamentals.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "State two key advantages of using Mobile OS Fundamentals in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "How do you initialize or instantiate Mobile OS Fundamentals in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "What role does Mobile OS Fundamentals play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "Explain the simple step-by-step workflow of executing Mobile OS Fundamentals.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "What is the recommended naming convention when defining Mobile OS Fundamentals?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "List the basic prerequisites needed before implementing Mobile OS Fundamentals.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "What is Cross-Platform Frameworks in Mobile Application Developer, and why is it important?",
+    "answer": "Cross-Platform Frameworks is a foundational concept in Mobile Application Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "Define the basic syntax or primary usage of Cross-Platform Frameworks.",
+    "answer": "The primary syntax for Cross-Platform Frameworks involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "What is the main difference between basic primitives and Cross-Platform Frameworks?",
+    "answer": "Basic primitives store single value types, whereas Cross-Platform Frameworks organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "What is a common beginner mistake when working with Cross-Platform Frameworks?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Cross-Platform Frameworks.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "State two key advantages of using Cross-Platform Frameworks in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "How do you initialize or instantiate Cross-Platform Frameworks in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "What role does Cross-Platform Frameworks play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "Explain the simple step-by-step workflow of executing Cross-Platform Frameworks.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "What is the recommended naming convention when defining Cross-Platform Frameworks?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "List the basic prerequisites needed before implementing Cross-Platform Frameworks.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "What is Mobile Security & Storage in Mobile Application Developer, and why is it important?",
+    "answer": "Mobile Security & Storage is a foundational concept in Mobile Application Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "Define the basic syntax or primary usage of Mobile Security & Storage.",
+    "answer": "The primary syntax for Mobile Security & Storage involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "What is the main difference between basic primitives and Mobile Security & Storage?",
+    "answer": "Basic primitives store single value types, whereas Mobile Security & Storage organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "What is a common beginner mistake when working with Mobile Security & Storage?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Mobile Security & Storage.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "State two key advantages of using Mobile Security & Storage in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "How do you initialize or instantiate Mobile Security & Storage in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "What role does Mobile Security & Storage play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "Explain the simple step-by-step workflow of executing Mobile Security & Storage.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "What is the recommended naming convention when defining Mobile Security & Storage?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "List the basic prerequisites needed before implementing Mobile Security & Storage.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "What is REST APIs & Push Notifications in Mobile Application Developer, and why is it important?",
+    "answer": "REST APIs & Push Notifications is a foundational concept in Mobile Application Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "Define the basic syntax or primary usage of REST APIs & Push Notifications.",
+    "answer": "The primary syntax for REST APIs & Push Notifications involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "What is the main difference between basic primitives and REST APIs & Push Notifications?",
+    "answer": "Basic primitives store single value types, whereas REST APIs & Push Notifications organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "What is a common beginner mistake when working with REST APIs & Push Notifications?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in REST APIs & Push Notifications.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "State two key advantages of using REST APIs & Push Notifications in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "How do you initialize or instantiate REST APIs & Push Notifications in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "What role does REST APIs & Push Notifications play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "Explain the simple step-by-step workflow of executing REST APIs & Push Notifications.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "What is the recommended naming convention when defining REST APIs & Push Notifications?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "List the basic prerequisites needed before implementing REST APIs & Push Notifications.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "What is Publishing & Testing in Mobile Application Developer, and why is it important?",
+    "answer": "Publishing & Testing is a foundational concept in Mobile Application Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "Define the basic syntax or primary usage of Publishing & Testing.",
+    "answer": "The primary syntax for Publishing & Testing involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "What is the main difference between basic primitives and Publishing & Testing?",
+    "answer": "Basic primitives store single value types, whereas Publishing & Testing organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "What is a common beginner mistake when working with Publishing & Testing?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Publishing & Testing.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "State two key advantages of using Publishing & Testing in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "How do you initialize or instantiate Publishing & Testing in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "What role does Publishing & Testing play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "Explain the simple step-by-step workflow of executing Publishing & Testing.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "What is the recommended naming convention when defining Publishing & Testing?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "List the basic prerequisites needed before implementing Publishing & Testing.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

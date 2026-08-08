@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "C++ Syntax & Pointers",
+    "question": "What is C++ Syntax & Pointers in C++ Developer, and why is it important?",
+    "answer": "C++ Syntax & Pointers is a foundational concept in C++ Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C++ Syntax & Pointers",
+    "question": "Define the basic syntax or primary usage of C++ Syntax & Pointers.",
+    "answer": "The primary syntax for C++ Syntax & Pointers involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C++ Syntax & Pointers",
+    "question": "What is the main difference between basic primitives and C++ Syntax & Pointers?",
+    "answer": "Basic primitives store single value types, whereas C++ Syntax & Pointers organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C++ Syntax & Pointers",
+    "question": "What is a common beginner mistake when working with C++ Syntax & Pointers?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in C++ Syntax & Pointers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C++ Syntax & Pointers",
+    "question": "State two key advantages of using C++ Syntax & Pointers in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C++ Syntax & Pointers",
+    "question": "How do you initialize or instantiate C++ Syntax & Pointers in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C++ Syntax & Pointers",
+    "question": "What role does C++ Syntax & Pointers play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C++ Syntax & Pointers",
+    "question": "Explain the simple step-by-step workflow of executing C++ Syntax & Pointers.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C++ Syntax & Pointers",
+    "question": "What is the recommended naming convention when defining C++ Syntax & Pointers?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C++ Syntax & Pointers",
+    "question": "List the basic prerequisites needed before implementing C++ Syntax & Pointers.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Memory Management & STL",
+    "question": "What is Memory Management & STL in C++ Developer, and why is it important?",
+    "answer": "Memory Management & STL is a foundational concept in C++ Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Memory Management & STL",
+    "question": "Define the basic syntax or primary usage of Memory Management & STL.",
+    "answer": "The primary syntax for Memory Management & STL involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Memory Management & STL",
+    "question": "What is the main difference between basic primitives and Memory Management & STL?",
+    "answer": "Basic primitives store single value types, whereas Memory Management & STL organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Memory Management & STL",
+    "question": "What is a common beginner mistake when working with Memory Management & STL?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Memory Management & STL.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Memory Management & STL",
+    "question": "State two key advantages of using Memory Management & STL in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Memory Management & STL",
+    "question": "How do you initialize or instantiate Memory Management & STL in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Memory Management & STL",
+    "question": "What role does Memory Management & STL play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Memory Management & STL",
+    "question": "Explain the simple step-by-step workflow of executing Memory Management & STL.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Memory Management & STL",
+    "question": "What is the recommended naming convention when defining Memory Management & STL?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Memory Management & STL",
+    "question": "List the basic prerequisites needed before implementing Memory Management & STL.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Polymorphism",
+    "question": "What is OOP & Polymorphism in C++ Developer, and why is it important?",
+    "answer": "OOP & Polymorphism is a foundational concept in C++ Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Polymorphism",
+    "question": "Define the basic syntax or primary usage of OOP & Polymorphism.",
+    "answer": "The primary syntax for OOP & Polymorphism involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Polymorphism",
+    "question": "What is the main difference between basic primitives and OOP & Polymorphism?",
+    "answer": "Basic primitives store single value types, whereas OOP & Polymorphism organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Polymorphism",
+    "question": "What is a common beginner mistake when working with OOP & Polymorphism?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in OOP & Polymorphism.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Polymorphism",
+    "question": "State two key advantages of using OOP & Polymorphism in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Polymorphism",
+    "question": "How do you initialize or instantiate OOP & Polymorphism in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Polymorphism",
+    "question": "What role does OOP & Polymorphism play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Polymorphism",
+    "question": "Explain the simple step-by-step workflow of executing OOP & Polymorphism.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Polymorphism",
+    "question": "What is the recommended naming convention when defining OOP & Polymorphism?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Polymorphism",
+    "question": "List the basic prerequisites needed before implementing OOP & Polymorphism.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Templates & Modern C++",
+    "question": "What is Templates & Modern C++ in C++ Developer, and why is it important?",
+    "answer": "Templates & Modern C++ is a foundational concept in C++ Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Templates & Modern C++",
+    "question": "Define the basic syntax or primary usage of Templates & Modern C++.",
+    "answer": "The primary syntax for Templates & Modern C++ involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Templates & Modern C++",
+    "question": "What is the main difference between basic primitives and Templates & Modern C++?",
+    "answer": "Basic primitives store single value types, whereas Templates & Modern C++ organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Templates & Modern C++",
+    "question": "What is a common beginner mistake when working with Templates & Modern C++?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Templates & Modern C++.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Templates & Modern C++",
+    "question": "State two key advantages of using Templates & Modern C++ in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Templates & Modern C++",
+    "question": "How do you initialize or instantiate Templates & Modern C++ in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Templates & Modern C++",
+    "question": "What role does Templates & Modern C++ play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Templates & Modern C++",
+    "question": "Explain the simple step-by-step workflow of executing Templates & Modern C++.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Templates & Modern C++",
+    "question": "What is the recommended naming convention when defining Templates & Modern C++?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Templates & Modern C++",
+    "question": "List the basic prerequisites needed before implementing Templates & Modern C++.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Concurrency & Multithreading",
+    "question": "What is Concurrency & Multithreading in C++ Developer, and why is it important?",
+    "answer": "Concurrency & Multithreading is a foundational concept in C++ Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Concurrency & Multithreading",
+    "question": "Define the basic syntax or primary usage of Concurrency & Multithreading.",
+    "answer": "The primary syntax for Concurrency & Multithreading involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Concurrency & Multithreading",
+    "question": "What is the main difference between basic primitives and Concurrency & Multithreading?",
+    "answer": "Basic primitives store single value types, whereas Concurrency & Multithreading organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Concurrency & Multithreading",
+    "question": "What is a common beginner mistake when working with Concurrency & Multithreading?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Concurrency & Multithreading.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Concurrency & Multithreading",
+    "question": "State two key advantages of using Concurrency & Multithreading in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Concurrency & Multithreading",
+    "question": "How do you initialize or instantiate Concurrency & Multithreading in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Concurrency & Multithreading",
+    "question": "What role does Concurrency & Multithreading play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Concurrency & Multithreading",
+    "question": "Explain the simple step-by-step workflow of executing Concurrency & Multithreading.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Concurrency & Multithreading",
+    "question": "What is the recommended naming convention when defining Concurrency & Multithreading?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Concurrency & Multithreading",
+    "question": "List the basic prerequisites needed before implementing Concurrency & Multithreading.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Structures",
+    "question": "What is Data Structures in C++ Developer, and why is it important?",
+    "answer": "Data Structures is a foundational concept in C++ Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Structures",
+    "question": "Define the basic syntax or primary usage of Data Structures.",
+    "answer": "The primary syntax for Data Structures involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Structures",
+    "question": "What is the main difference between basic primitives and Data Structures?",
+    "answer": "Basic primitives store single value types, whereas Data Structures organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Structures",
+    "question": "What is a common beginner mistake when working with Data Structures?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Data Structures.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Structures",
+    "question": "State two key advantages of using Data Structures in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Structures",
+    "question": "How do you initialize or instantiate Data Structures in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Structures",
+    "question": "What role does Data Structures play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Structures",
+    "question": "Explain the simple step-by-step workflow of executing Data Structures.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Structures",
+    "question": "What is the recommended naming convention when defining Data Structures?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Structures",
+    "question": "List the basic prerequisites needed before implementing Data Structures.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

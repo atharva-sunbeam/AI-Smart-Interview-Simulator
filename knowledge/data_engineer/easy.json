@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Python & SQL",
+    "question": "What is Python & SQL in Data Engineer, and why is it important?",
+    "answer": "Python & SQL is a foundational concept in Data Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & SQL",
+    "question": "Define the basic syntax or primary usage of Python & SQL.",
+    "answer": "The primary syntax for Python & SQL involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & SQL",
+    "question": "What is the main difference between basic primitives and Python & SQL?",
+    "answer": "Basic primitives store single value types, whereas Python & SQL organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & SQL",
+    "question": "What is a common beginner mistake when working with Python & SQL?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Python & SQL.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & SQL",
+    "question": "State two key advantages of using Python & SQL in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & SQL",
+    "question": "How do you initialize or instantiate Python & SQL in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & SQL",
+    "question": "What role does Python & SQL play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & SQL",
+    "question": "Explain the simple step-by-step workflow of executing Python & SQL.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & SQL",
+    "question": "What is the recommended naming convention when defining Python & SQL?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & SQL",
+    "question": "List the basic prerequisites needed before implementing Python & SQL.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing & Modeling",
+    "question": "What is Data Warehousing & Modeling in Data Engineer, and why is it important?",
+    "answer": "Data Warehousing & Modeling is a foundational concept in Data Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing & Modeling",
+    "question": "Define the basic syntax or primary usage of Data Warehousing & Modeling.",
+    "answer": "The primary syntax for Data Warehousing & Modeling involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing & Modeling",
+    "question": "What is the main difference between basic primitives and Data Warehousing & Modeling?",
+    "answer": "Basic primitives store single value types, whereas Data Warehousing & Modeling organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing & Modeling",
+    "question": "What is a common beginner mistake when working with Data Warehousing & Modeling?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Data Warehousing & Modeling.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing & Modeling",
+    "question": "State two key advantages of using Data Warehousing & Modeling in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing & Modeling",
+    "question": "How do you initialize or instantiate Data Warehousing & Modeling in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing & Modeling",
+    "question": "What role does Data Warehousing & Modeling play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing & Modeling",
+    "question": "Explain the simple step-by-step workflow of executing Data Warehousing & Modeling.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing & Modeling",
+    "question": "What is the recommended naming convention when defining Data Warehousing & Modeling?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing & Modeling",
+    "question": "List the basic prerequisites needed before implementing Data Warehousing & Modeling.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "What is ETL/ELT Pipelines in Data Engineer, and why is it important?",
+    "answer": "ETL/ELT Pipelines is a foundational concept in Data Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "Define the basic syntax or primary usage of ETL/ELT Pipelines.",
+    "answer": "The primary syntax for ETL/ELT Pipelines involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "What is the main difference between basic primitives and ETL/ELT Pipelines?",
+    "answer": "Basic primitives store single value types, whereas ETL/ELT Pipelines organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "What is a common beginner mistake when working with ETL/ELT Pipelines?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in ETL/ELT Pipelines.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "State two key advantages of using ETL/ELT Pipelines in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "How do you initialize or instantiate ETL/ELT Pipelines in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "What role does ETL/ELT Pipelines play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "Explain the simple step-by-step workflow of executing ETL/ELT Pipelines.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "What is the recommended naming convention when defining ETL/ELT Pipelines?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "List the basic prerequisites needed before implementing ETL/ELT Pipelines.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Apache Spark & PySpark",
+    "question": "What is Apache Spark & PySpark in Data Engineer, and why is it important?",
+    "answer": "Apache Spark & PySpark is a foundational concept in Data Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Apache Spark & PySpark",
+    "question": "Define the basic syntax or primary usage of Apache Spark & PySpark.",
+    "answer": "The primary syntax for Apache Spark & PySpark involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Apache Spark & PySpark",
+    "question": "What is the main difference between basic primitives and Apache Spark & PySpark?",
+    "answer": "Basic primitives store single value types, whereas Apache Spark & PySpark organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Apache Spark & PySpark",
+    "question": "What is a common beginner mistake when working with Apache Spark & PySpark?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Apache Spark & PySpark.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Apache Spark & PySpark",
+    "question": "State two key advantages of using Apache Spark & PySpark in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Apache Spark & PySpark",
+    "question": "How do you initialize or instantiate Apache Spark & PySpark in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Apache Spark & PySpark",
+    "question": "What role does Apache Spark & PySpark play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Apache Spark & PySpark",
+    "question": "Explain the simple step-by-step workflow of executing Apache Spark & PySpark.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Apache Spark & PySpark",
+    "question": "What is the recommended naming convention when defining Apache Spark & PySpark?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Apache Spark & PySpark",
+    "question": "List the basic prerequisites needed before implementing Apache Spark & PySpark.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kafka & Streaming",
+    "question": "What is Kafka & Streaming in Data Engineer, and why is it important?",
+    "answer": "Kafka & Streaming is a foundational concept in Data Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kafka & Streaming",
+    "question": "Define the basic syntax or primary usage of Kafka & Streaming.",
+    "answer": "The primary syntax for Kafka & Streaming involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kafka & Streaming",
+    "question": "What is the main difference between basic primitives and Kafka & Streaming?",
+    "answer": "Basic primitives store single value types, whereas Kafka & Streaming organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kafka & Streaming",
+    "question": "What is a common beginner mistake when working with Kafka & Streaming?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Kafka & Streaming.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kafka & Streaming",
+    "question": "State two key advantages of using Kafka & Streaming in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kafka & Streaming",
+    "question": "How do you initialize or instantiate Kafka & Streaming in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kafka & Streaming",
+    "question": "What role does Kafka & Streaming play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kafka & Streaming",
+    "question": "Explain the simple step-by-step workflow of executing Kafka & Streaming.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kafka & Streaming",
+    "question": "What is the recommended naming convention when defining Kafka & Streaming?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kafka & Streaming",
+    "question": "List the basic prerequisites needed before implementing Kafka & Streaming.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "BigData (Hadoop/Hive)",
+    "question": "What is BigData (Hadoop/Hive) in Data Engineer, and why is it important?",
+    "answer": "BigData (Hadoop/Hive) is a foundational concept in Data Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "BigData (Hadoop/Hive)",
+    "question": "Define the basic syntax or primary usage of BigData (Hadoop/Hive).",
+    "answer": "The primary syntax for BigData (Hadoop/Hive) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "BigData (Hadoop/Hive)",
+    "question": "What is the main difference between basic primitives and BigData (Hadoop/Hive)?",
+    "answer": "Basic primitives store single value types, whereas BigData (Hadoop/Hive) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "BigData (Hadoop/Hive)",
+    "question": "What is a common beginner mistake when working with BigData (Hadoop/Hive)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in BigData (Hadoop/Hive).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "BigData (Hadoop/Hive)",
+    "question": "State two key advantages of using BigData (Hadoop/Hive) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "BigData (Hadoop/Hive)",
+    "question": "How do you initialize or instantiate BigData (Hadoop/Hive) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "BigData (Hadoop/Hive)",
+    "question": "What role does BigData (Hadoop/Hive) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "BigData (Hadoop/Hive)",
+    "question": "Explain the simple step-by-step workflow of executing BigData (Hadoop/Hive).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "BigData (Hadoop/Hive)",
+    "question": "What is the recommended naming convention when defining BigData (Hadoop/Hive)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "BigData (Hadoop/Hive)",
+    "question": "List the basic prerequisites needed before implementing BigData (Hadoop/Hive).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

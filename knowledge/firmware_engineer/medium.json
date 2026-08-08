@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "How do you implement practical error handling when working with C Programming & Register Manipulation in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "Describe a real-world debugging scenario involving C Programming & Register Manipulation and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "How does C Programming & Register Manipulation perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "What are the best practices for structuring code related to C Programming & Register Manipulation?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "In a practical project, how do you integrate C Programming & Register Manipulation with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "Compare and contrast two alternative approaches for executing C Programming & Register Manipulation.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "How do you write a unit test for a function that relies on C Programming & Register Manipulation?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "What performance bottlenecks can arise if C Programming & Register Manipulation is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "How do you refactor legacy code using modern standards for C Programming & Register Manipulation?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "Explain how data validation is applied to C Programming & Register Manipulation payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "How do you implement practical error handling when working with Microcontroller Architecture in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "Describe a real-world debugging scenario involving Microcontroller Architecture and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "How does Microcontroller Architecture perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "What are the best practices for structuring code related to Microcontroller Architecture?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "In a practical project, how do you integrate Microcontroller Architecture with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "Compare and contrast two alternative approaches for executing Microcontroller Architecture.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "How do you write a unit test for a function that relies on Microcontroller Architecture?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "What performance bottlenecks can arise if Microcontroller Architecture is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "How do you refactor legacy code using modern standards for Microcontroller Architecture?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "Explain how data validation is applied to Microcontroller Architecture payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "How do you implement practical error handling when working with Hardware Abstraction Layer (HAL) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "Describe a real-world debugging scenario involving Hardware Abstraction Layer (HAL) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "How does Hardware Abstraction Layer (HAL) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "What are the best practices for structuring code related to Hardware Abstraction Layer (HAL)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "In a practical project, how do you integrate Hardware Abstraction Layer (HAL) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "Compare and contrast two alternative approaches for executing Hardware Abstraction Layer (HAL).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "How do you write a unit test for a function that relies on Hardware Abstraction Layer (HAL)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "What performance bottlenecks can arise if Hardware Abstraction Layer (HAL) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "How do you refactor legacy code using modern standards for Hardware Abstraction Layer (HAL)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "Explain how data validation is applied to Hardware Abstraction Layer (HAL) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "How do you implement practical error handling when working with Interrupts & Timers in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "Describe a real-world debugging scenario involving Interrupts & Timers and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "How does Interrupts & Timers perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "What are the best practices for structuring code related to Interrupts & Timers?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "In a practical project, how do you integrate Interrupts & Timers with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "Compare and contrast two alternative approaches for executing Interrupts & Timers.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "How do you write a unit test for a function that relies on Interrupts & Timers?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "What performance bottlenecks can arise if Interrupts & Timers is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "How do you refactor legacy code using modern standards for Interrupts & Timers?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "Explain how data validation is applied to Interrupts & Timers payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "How do you implement practical error handling when working with Low Power Optimization in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "Describe a real-world debugging scenario involving Low Power Optimization and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "How does Low Power Optimization perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "What are the best practices for structuring code related to Low Power Optimization?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "In a practical project, how do you integrate Low Power Optimization with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "Compare and contrast two alternative approaches for executing Low Power Optimization.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "How do you write a unit test for a function that relies on Low Power Optimization?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "What performance bottlenecks can arise if Low Power Optimization is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "How do you refactor legacy code using modern standards for Low Power Optimization?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "Explain how data validation is applied to Low Power Optimization payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

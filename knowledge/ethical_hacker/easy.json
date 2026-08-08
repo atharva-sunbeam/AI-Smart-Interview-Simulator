@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Footprinting & Reconnaissance",
+    "question": "What is Footprinting & Reconnaissance in Ethical Hacker, and why is it important?",
+    "answer": "Footprinting & Reconnaissance is a foundational concept in Ethical Hacker. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Footprinting & Reconnaissance",
+    "question": "Define the basic syntax or primary usage of Footprinting & Reconnaissance.",
+    "answer": "The primary syntax for Footprinting & Reconnaissance involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Footprinting & Reconnaissance",
+    "question": "What is the main difference between basic primitives and Footprinting & Reconnaissance?",
+    "answer": "Basic primitives store single value types, whereas Footprinting & Reconnaissance organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Footprinting & Reconnaissance",
+    "question": "What is a common beginner mistake when working with Footprinting & Reconnaissance?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Footprinting & Reconnaissance.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Footprinting & Reconnaissance",
+    "question": "State two key advantages of using Footprinting & Reconnaissance in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Footprinting & Reconnaissance",
+    "question": "How do you initialize or instantiate Footprinting & Reconnaissance in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Footprinting & Reconnaissance",
+    "question": "What role does Footprinting & Reconnaissance play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Footprinting & Reconnaissance",
+    "question": "Explain the simple step-by-step workflow of executing Footprinting & Reconnaissance.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Footprinting & Reconnaissance",
+    "question": "What is the recommended naming convention when defining Footprinting & Reconnaissance?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Footprinting & Reconnaissance",
+    "question": "List the basic prerequisites needed before implementing Footprinting & Reconnaissance.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Port Scanning & Nmap",
+    "question": "What is Port Scanning & Nmap in Ethical Hacker, and why is it important?",
+    "answer": "Port Scanning & Nmap is a foundational concept in Ethical Hacker. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Port Scanning & Nmap",
+    "question": "Define the basic syntax or primary usage of Port Scanning & Nmap.",
+    "answer": "The primary syntax for Port Scanning & Nmap involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Port Scanning & Nmap",
+    "question": "What is the main difference between basic primitives and Port Scanning & Nmap?",
+    "answer": "Basic primitives store single value types, whereas Port Scanning & Nmap organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Port Scanning & Nmap",
+    "question": "What is a common beginner mistake when working with Port Scanning & Nmap?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Port Scanning & Nmap.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Port Scanning & Nmap",
+    "question": "State two key advantages of using Port Scanning & Nmap in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Port Scanning & Nmap",
+    "question": "How do you initialize or instantiate Port Scanning & Nmap in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Port Scanning & Nmap",
+    "question": "What role does Port Scanning & Nmap play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Port Scanning & Nmap",
+    "question": "Explain the simple step-by-step workflow of executing Port Scanning & Nmap.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Port Scanning & Nmap",
+    "question": "What is the recommended naming convention when defining Port Scanning & Nmap?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Port Scanning & Nmap",
+    "question": "List the basic prerequisites needed before implementing Port Scanning & Nmap.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Exploitation Techniques",
+    "question": "What is Exploitation Techniques in Ethical Hacker, and why is it important?",
+    "answer": "Exploitation Techniques is a foundational concept in Ethical Hacker. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Exploitation Techniques",
+    "question": "Define the basic syntax or primary usage of Exploitation Techniques.",
+    "answer": "The primary syntax for Exploitation Techniques involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Exploitation Techniques",
+    "question": "What is the main difference between basic primitives and Exploitation Techniques?",
+    "answer": "Basic primitives store single value types, whereas Exploitation Techniques organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Exploitation Techniques",
+    "question": "What is a common beginner mistake when working with Exploitation Techniques?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Exploitation Techniques.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Exploitation Techniques",
+    "question": "State two key advantages of using Exploitation Techniques in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Exploitation Techniques",
+    "question": "How do you initialize or instantiate Exploitation Techniques in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Exploitation Techniques",
+    "question": "What role does Exploitation Techniques play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Exploitation Techniques",
+    "question": "Explain the simple step-by-step workflow of executing Exploitation Techniques.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Exploitation Techniques",
+    "question": "What is the recommended naming convention when defining Exploitation Techniques?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Exploitation Techniques",
+    "question": "List the basic prerequisites needed before implementing Exploitation Techniques.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Wireless & Mobile Hacking",
+    "question": "What is Wireless & Mobile Hacking in Ethical Hacker, and why is it important?",
+    "answer": "Wireless & Mobile Hacking is a foundational concept in Ethical Hacker. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Wireless & Mobile Hacking",
+    "question": "Define the basic syntax or primary usage of Wireless & Mobile Hacking.",
+    "answer": "The primary syntax for Wireless & Mobile Hacking involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Wireless & Mobile Hacking",
+    "question": "What is the main difference between basic primitives and Wireless & Mobile Hacking?",
+    "answer": "Basic primitives store single value types, whereas Wireless & Mobile Hacking organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Wireless & Mobile Hacking",
+    "question": "What is a common beginner mistake when working with Wireless & Mobile Hacking?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Wireless & Mobile Hacking.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Wireless & Mobile Hacking",
+    "question": "State two key advantages of using Wireless & Mobile Hacking in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Wireless & Mobile Hacking",
+    "question": "How do you initialize or instantiate Wireless & Mobile Hacking in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Wireless & Mobile Hacking",
+    "question": "What role does Wireless & Mobile Hacking play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Wireless & Mobile Hacking",
+    "question": "Explain the simple step-by-step workflow of executing Wireless & Mobile Hacking.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Wireless & Mobile Hacking",
+    "question": "What is the recommended naming convention when defining Wireless & Mobile Hacking?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Wireless & Mobile Hacking",
+    "question": "List the basic prerequisites needed before implementing Wireless & Mobile Hacking.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Social Engineering",
+    "question": "What is Social Engineering in Ethical Hacker, and why is it important?",
+    "answer": "Social Engineering is a foundational concept in Ethical Hacker. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Social Engineering",
+    "question": "Define the basic syntax or primary usage of Social Engineering.",
+    "answer": "The primary syntax for Social Engineering involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Social Engineering",
+    "question": "What is the main difference between basic primitives and Social Engineering?",
+    "answer": "Basic primitives store single value types, whereas Social Engineering organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Social Engineering",
+    "question": "What is a common beginner mistake when working with Social Engineering?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Social Engineering.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Social Engineering",
+    "question": "State two key advantages of using Social Engineering in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Social Engineering",
+    "question": "How do you initialize or instantiate Social Engineering in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Social Engineering",
+    "question": "What role does Social Engineering play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Social Engineering",
+    "question": "Explain the simple step-by-step workflow of executing Social Engineering.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Social Engineering",
+    "question": "What is the recommended naming convention when defining Social Engineering?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Social Engineering",
+    "question": "List the basic prerequisites needed before implementing Social Engineering.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

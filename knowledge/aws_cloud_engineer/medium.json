@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "How do you implement practical error handling when working with AWS Core Services (EC2, S3, VPC) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "Describe a real-world debugging scenario involving AWS Core Services (EC2, S3, VPC) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "How does AWS Core Services (EC2, S3, VPC) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "What are the best practices for structuring code related to AWS Core Services (EC2, S3, VPC)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "In a practical project, how do you integrate AWS Core Services (EC2, S3, VPC) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "Compare and contrast two alternative approaches for executing AWS Core Services (EC2, S3, VPC).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "How do you write a unit test for a function that relies on AWS Core Services (EC2, S3, VPC)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "What performance bottlenecks can arise if AWS Core Services (EC2, S3, VPC) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "How do you refactor legacy code using modern standards for AWS Core Services (EC2, S3, VPC)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "Explain how data validation is applied to AWS Core Services (EC2, S3, VPC) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "How do you implement practical error handling when working with IAM & AWS Security in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "Describe a real-world debugging scenario involving IAM & AWS Security and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "How does IAM & AWS Security perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "What are the best practices for structuring code related to IAM & AWS Security?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "In a practical project, how do you integrate IAM & AWS Security with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "Compare and contrast two alternative approaches for executing IAM & AWS Security.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "How do you write a unit test for a function that relies on IAM & AWS Security?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "What performance bottlenecks can arise if IAM & AWS Security is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "How do you refactor legacy code using modern standards for IAM & AWS Security?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "Explain how data validation is applied to IAM & AWS Security payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "How do you implement practical error handling when working with Database Services (RDS, DynamoDB) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "Describe a real-world debugging scenario involving Database Services (RDS, DynamoDB) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "How does Database Services (RDS, DynamoDB) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "What are the best practices for structuring code related to Database Services (RDS, DynamoDB)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "In a practical project, how do you integrate Database Services (RDS, DynamoDB) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "Compare and contrast two alternative approaches for executing Database Services (RDS, DynamoDB).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "How do you write a unit test for a function that relies on Database Services (RDS, DynamoDB)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "What performance bottlenecks can arise if Database Services (RDS, DynamoDB) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "How do you refactor legacy code using modern standards for Database Services (RDS, DynamoDB)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "Explain how data validation is applied to Database Services (RDS, DynamoDB) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "How do you implement practical error handling when working with Serverless (Lambda) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "Describe a real-world debugging scenario involving Serverless (Lambda) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "How does Serverless (Lambda) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "What are the best practices for structuring code related to Serverless (Lambda)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "In a practical project, how do you integrate Serverless (Lambda) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "Compare and contrast two alternative approaches for executing Serverless (Lambda).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "How do you write a unit test for a function that relies on Serverless (Lambda)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "What performance bottlenecks can arise if Serverless (Lambda) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "How do you refactor legacy code using modern standards for Serverless (Lambda)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "Explain how data validation is applied to Serverless (Lambda) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "How do you implement practical error handling when working with CloudFormation / Terraform in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "Describe a real-world debugging scenario involving CloudFormation / Terraform and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "How does CloudFormation / Terraform perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "What are the best practices for structuring code related to CloudFormation / Terraform?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "In a practical project, how do you integrate CloudFormation / Terraform with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "Compare and contrast two alternative approaches for executing CloudFormation / Terraform.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "How do you write a unit test for a function that relies on CloudFormation / Terraform?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "What performance bottlenecks can arise if CloudFormation / Terraform is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "How do you refactor legacy code using modern standards for CloudFormation / Terraform?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "Explain how data validation is applied to CloudFormation / Terraform payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "How do you implement practical error handling when working with AWS Cost & Performance in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "Describe a real-world debugging scenario involving AWS Cost & Performance and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "How does AWS Cost & Performance perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "What are the best practices for structuring code related to AWS Cost & Performance?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "In a practical project, how do you integrate AWS Cost & Performance with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "Compare and contrast two alternative approaches for executing AWS Cost & Performance.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "How do you write a unit test for a function that relies on AWS Cost & Performance?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "What performance bottlenecks can arise if AWS Cost & Performance is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "How do you refactor legacy code using modern standards for AWS Cost & Performance?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "Explain how data validation is applied to AWS Cost & Performance payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

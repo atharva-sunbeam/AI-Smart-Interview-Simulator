@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Information Security Principles",
+    "question": "What is Information Security Principles in Security Analyst, and why is it important?",
+    "answer": "Information Security Principles is a foundational concept in Security Analyst. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Information Security Principles",
+    "question": "Define the basic syntax or primary usage of Information Security Principles.",
+    "answer": "The primary syntax for Information Security Principles involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Information Security Principles",
+    "question": "What is the main difference between basic primitives and Information Security Principles?",
+    "answer": "Basic primitives store single value types, whereas Information Security Principles organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Information Security Principles",
+    "question": "What is a common beginner mistake when working with Information Security Principles?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Information Security Principles.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Information Security Principles",
+    "question": "State two key advantages of using Information Security Principles in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Information Security Principles",
+    "question": "How do you initialize or instantiate Information Security Principles in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Information Security Principles",
+    "question": "What role does Information Security Principles play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Information Security Principles",
+    "question": "Explain the simple step-by-step workflow of executing Information Security Principles.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Information Security Principles",
+    "question": "What is the recommended naming convention when defining Information Security Principles?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Information Security Principles",
+    "question": "List the basic prerequisites needed before implementing Information Security Principles.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Risk Assessment & Compliance",
+    "question": "What is Risk Assessment & Compliance in Security Analyst, and why is it important?",
+    "answer": "Risk Assessment & Compliance is a foundational concept in Security Analyst. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Risk Assessment & Compliance",
+    "question": "Define the basic syntax or primary usage of Risk Assessment & Compliance.",
+    "answer": "The primary syntax for Risk Assessment & Compliance involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Risk Assessment & Compliance",
+    "question": "What is the main difference between basic primitives and Risk Assessment & Compliance?",
+    "answer": "Basic primitives store single value types, whereas Risk Assessment & Compliance organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Risk Assessment & Compliance",
+    "question": "What is a common beginner mistake when working with Risk Assessment & Compliance?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Risk Assessment & Compliance.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Risk Assessment & Compliance",
+    "question": "State two key advantages of using Risk Assessment & Compliance in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Risk Assessment & Compliance",
+    "question": "How do you initialize or instantiate Risk Assessment & Compliance in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Risk Assessment & Compliance",
+    "question": "What role does Risk Assessment & Compliance play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Risk Assessment & Compliance",
+    "question": "Explain the simple step-by-step workflow of executing Risk Assessment & Compliance.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Risk Assessment & Compliance",
+    "question": "What is the recommended naming convention when defining Risk Assessment & Compliance?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Risk Assessment & Compliance",
+    "question": "List the basic prerequisites needed before implementing Risk Assessment & Compliance.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Vulnerability Management",
+    "question": "What is Vulnerability Management in Security Analyst, and why is it important?",
+    "answer": "Vulnerability Management is a foundational concept in Security Analyst. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Vulnerability Management",
+    "question": "Define the basic syntax or primary usage of Vulnerability Management.",
+    "answer": "The primary syntax for Vulnerability Management involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Vulnerability Management",
+    "question": "What is the main difference between basic primitives and Vulnerability Management?",
+    "answer": "Basic primitives store single value types, whereas Vulnerability Management organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Vulnerability Management",
+    "question": "What is a common beginner mistake when working with Vulnerability Management?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Vulnerability Management.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Vulnerability Management",
+    "question": "State two key advantages of using Vulnerability Management in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Vulnerability Management",
+    "question": "How do you initialize or instantiate Vulnerability Management in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Vulnerability Management",
+    "question": "What role does Vulnerability Management play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Vulnerability Management",
+    "question": "Explain the simple step-by-step workflow of executing Vulnerability Management.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Vulnerability Management",
+    "question": "What is the recommended naming convention when defining Vulnerability Management?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Vulnerability Management",
+    "question": "List the basic prerequisites needed before implementing Vulnerability Management.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network & Endpoint Security",
+    "question": "What is Network & Endpoint Security in Security Analyst, and why is it important?",
+    "answer": "Network & Endpoint Security is a foundational concept in Security Analyst. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network & Endpoint Security",
+    "question": "Define the basic syntax or primary usage of Network & Endpoint Security.",
+    "answer": "The primary syntax for Network & Endpoint Security involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network & Endpoint Security",
+    "question": "What is the main difference between basic primitives and Network & Endpoint Security?",
+    "answer": "Basic primitives store single value types, whereas Network & Endpoint Security organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network & Endpoint Security",
+    "question": "What is a common beginner mistake when working with Network & Endpoint Security?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Network & Endpoint Security.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network & Endpoint Security",
+    "question": "State two key advantages of using Network & Endpoint Security in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network & Endpoint Security",
+    "question": "How do you initialize or instantiate Network & Endpoint Security in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network & Endpoint Security",
+    "question": "What role does Network & Endpoint Security play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network & Endpoint Security",
+    "question": "Explain the simple step-by-step workflow of executing Network & Endpoint Security.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network & Endpoint Security",
+    "question": "What is the recommended naming convention when defining Network & Endpoint Security?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network & Endpoint Security",
+    "question": "List the basic prerequisites needed before implementing Network & Endpoint Security.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Incident Handling",
+    "question": "What is Security Incident Handling in Security Analyst, and why is it important?",
+    "answer": "Security Incident Handling is a foundational concept in Security Analyst. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Incident Handling",
+    "question": "Define the basic syntax or primary usage of Security Incident Handling.",
+    "answer": "The primary syntax for Security Incident Handling involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Incident Handling",
+    "question": "What is the main difference between basic primitives and Security Incident Handling?",
+    "answer": "Basic primitives store single value types, whereas Security Incident Handling organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Incident Handling",
+    "question": "What is a common beginner mistake when working with Security Incident Handling?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Security Incident Handling.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Incident Handling",
+    "question": "State two key advantages of using Security Incident Handling in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Incident Handling",
+    "question": "How do you initialize or instantiate Security Incident Handling in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Incident Handling",
+    "question": "What role does Security Incident Handling play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Incident Handling",
+    "question": "Explain the simple step-by-step workflow of executing Security Incident Handling.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Incident Handling",
+    "question": "What is the recommended naming convention when defining Security Incident Handling?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Incident Handling",
+    "question": "List the basic prerequisites needed before implementing Security Incident Handling.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

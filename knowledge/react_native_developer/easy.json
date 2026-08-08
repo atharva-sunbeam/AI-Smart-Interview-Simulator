@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "What is JavaScript / TypeScript in React Native Developer, and why is it important?",
+    "answer": "JavaScript / TypeScript is a foundational concept in React Native Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "Define the basic syntax or primary usage of JavaScript / TypeScript.",
+    "answer": "The primary syntax for JavaScript / TypeScript involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "What is the main difference between basic primitives and JavaScript / TypeScript?",
+    "answer": "Basic primitives store single value types, whereas JavaScript / TypeScript organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "What is a common beginner mistake when working with JavaScript / TypeScript?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in JavaScript / TypeScript.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "State two key advantages of using JavaScript / TypeScript in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "How do you initialize or instantiate JavaScript / TypeScript in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "What role does JavaScript / TypeScript play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "Explain the simple step-by-step workflow of executing JavaScript / TypeScript.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "What is the recommended naming convention when defining JavaScript / TypeScript?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "List the basic prerequisites needed before implementing JavaScript / TypeScript.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "What is React Native Components in React Native Developer, and why is it important?",
+    "answer": "React Native Components is a foundational concept in React Native Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "Define the basic syntax or primary usage of React Native Components.",
+    "answer": "The primary syntax for React Native Components involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "What is the main difference between basic primitives and React Native Components?",
+    "answer": "Basic primitives store single value types, whereas React Native Components organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "What is a common beginner mistake when working with React Native Components?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in React Native Components.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "State two key advantages of using React Native Components in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "How do you initialize or instantiate React Native Components in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "What role does React Native Components play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "Explain the simple step-by-step workflow of executing React Native Components.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "What is the recommended naming convention when defining React Native Components?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "List the basic prerequisites needed before implementing React Native Components.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "What is State Management (Redux/Zustand) in React Native Developer, and why is it important?",
+    "answer": "State Management (Redux/Zustand) is a foundational concept in React Native Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "Define the basic syntax or primary usage of State Management (Redux/Zustand).",
+    "answer": "The primary syntax for State Management (Redux/Zustand) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "What is the main difference between basic primitives and State Management (Redux/Zustand)?",
+    "answer": "Basic primitives store single value types, whereas State Management (Redux/Zustand) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "What is a common beginner mistake when working with State Management (Redux/Zustand)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in State Management (Redux/Zustand).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "State two key advantages of using State Management (Redux/Zustand) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "How do you initialize or instantiate State Management (Redux/Zustand) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "What role does State Management (Redux/Zustand) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "Explain the simple step-by-step workflow of executing State Management (Redux/Zustand).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "What is the recommended naming convention when defining State Management (Redux/Zustand)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "List the basic prerequisites needed before implementing State Management (Redux/Zustand).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "What is Native Modules & Bridges in React Native Developer, and why is it important?",
+    "answer": "Native Modules & Bridges is a foundational concept in React Native Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "Define the basic syntax or primary usage of Native Modules & Bridges.",
+    "answer": "The primary syntax for Native Modules & Bridges involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "What is the main difference between basic primitives and Native Modules & Bridges?",
+    "answer": "Basic primitives store single value types, whereas Native Modules & Bridges organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "What is a common beginner mistake when working with Native Modules & Bridges?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Native Modules & Bridges.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "State two key advantages of using Native Modules & Bridges in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "How do you initialize or instantiate Native Modules & Bridges in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "What role does Native Modules & Bridges play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "Explain the simple step-by-step workflow of executing Native Modules & Bridges.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "What is the recommended naming convention when defining Native Modules & Bridges?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "List the basic prerequisites needed before implementing Native Modules & Bridges.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "What is REST APIs & Storage in React Native Developer, and why is it important?",
+    "answer": "REST APIs & Storage is a foundational concept in React Native Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "Define the basic syntax or primary usage of REST APIs & Storage.",
+    "answer": "The primary syntax for REST APIs & Storage involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "What is the main difference between basic primitives and REST APIs & Storage?",
+    "answer": "Basic primitives store single value types, whereas REST APIs & Storage organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "What is a common beginner mistake when working with REST APIs & Storage?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in REST APIs & Storage.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "State two key advantages of using REST APIs & Storage in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "How do you initialize or instantiate REST APIs & Storage in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "What role does REST APIs & Storage play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "Explain the simple step-by-step workflow of executing REST APIs & Storage.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "What is the recommended naming convention when defining REST APIs & Storage?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "List the basic prerequisites needed before implementing REST APIs & Storage.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "SQL & Relational DBs",
+    "question": "What is SQL & Relational DBs in ETL Developer, and why is it important?",
+    "answer": "SQL & Relational DBs is a foundational concept in ETL Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & Relational DBs",
+    "question": "Define the basic syntax or primary usage of SQL & Relational DBs.",
+    "answer": "The primary syntax for SQL & Relational DBs involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & Relational DBs",
+    "question": "What is the main difference between basic primitives and SQL & Relational DBs?",
+    "answer": "Basic primitives store single value types, whereas SQL & Relational DBs organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & Relational DBs",
+    "question": "What is a common beginner mistake when working with SQL & Relational DBs?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in SQL & Relational DBs.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & Relational DBs",
+    "question": "State two key advantages of using SQL & Relational DBs in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & Relational DBs",
+    "question": "How do you initialize or instantiate SQL & Relational DBs in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & Relational DBs",
+    "question": "What role does SQL & Relational DBs play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & Relational DBs",
+    "question": "Explain the simple step-by-step workflow of executing SQL & Relational DBs.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & Relational DBs",
+    "question": "What is the recommended naming convention when defining SQL & Relational DBs?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & Relational DBs",
+    "question": "List the basic prerequisites needed before implementing SQL & Relational DBs.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "What is ETL/ELT Pipelines in ETL Developer, and why is it important?",
+    "answer": "ETL/ELT Pipelines is a foundational concept in ETL Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "Define the basic syntax or primary usage of ETL/ELT Pipelines.",
+    "answer": "The primary syntax for ETL/ELT Pipelines involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "What is the main difference between basic primitives and ETL/ELT Pipelines?",
+    "answer": "Basic primitives store single value types, whereas ETL/ELT Pipelines organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "What is a common beginner mistake when working with ETL/ELT Pipelines?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in ETL/ELT Pipelines.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "State two key advantages of using ETL/ELT Pipelines in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "How do you initialize or instantiate ETL/ELT Pipelines in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "What role does ETL/ELT Pipelines play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "Explain the simple step-by-step workflow of executing ETL/ELT Pipelines.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "What is the recommended naming convention when defining ETL/ELT Pipelines?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "List the basic prerequisites needed before implementing ETL/ELT Pipelines.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "What is Data Warehousing in ETL Developer, and why is it important?",
+    "answer": "Data Warehousing is a foundational concept in ETL Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "Define the basic syntax or primary usage of Data Warehousing.",
+    "answer": "The primary syntax for Data Warehousing involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "What is the main difference between basic primitives and Data Warehousing?",
+    "answer": "Basic primitives store single value types, whereas Data Warehousing organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "What is a common beginner mistake when working with Data Warehousing?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Data Warehousing.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "State two key advantages of using Data Warehousing in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "How do you initialize or instantiate Data Warehousing in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "What role does Data Warehousing play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "Explain the simple step-by-step workflow of executing Data Warehousing.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "What is the recommended naming convention when defining Data Warehousing?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "List the basic prerequisites needed before implementing Data Warehousing.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Airflow & Scheduling",
+    "question": "What is Airflow & Scheduling in ETL Developer, and why is it important?",
+    "answer": "Airflow & Scheduling is a foundational concept in ETL Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Airflow & Scheduling",
+    "question": "Define the basic syntax or primary usage of Airflow & Scheduling.",
+    "answer": "The primary syntax for Airflow & Scheduling involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Airflow & Scheduling",
+    "question": "What is the main difference between basic primitives and Airflow & Scheduling?",
+    "answer": "Basic primitives store single value types, whereas Airflow & Scheduling organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Airflow & Scheduling",
+    "question": "What is a common beginner mistake when working with Airflow & Scheduling?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Airflow & Scheduling.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Airflow & Scheduling",
+    "question": "State two key advantages of using Airflow & Scheduling in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Airflow & Scheduling",
+    "question": "How do you initialize or instantiate Airflow & Scheduling in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Airflow & Scheduling",
+    "question": "What role does Airflow & Scheduling play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Airflow & Scheduling",
+    "question": "Explain the simple step-by-step workflow of executing Airflow & Scheduling.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Airflow & Scheduling",
+    "question": "What is the recommended naming convention when defining Airflow & Scheduling?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Airflow & Scheduling",
+    "question": "List the basic prerequisites needed before implementing Airflow & Scheduling.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Transformation",
+    "question": "What is Data Transformation in ETL Developer, and why is it important?",
+    "answer": "Data Transformation is a foundational concept in ETL Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Transformation",
+    "question": "Define the basic syntax or primary usage of Data Transformation.",
+    "answer": "The primary syntax for Data Transformation involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Transformation",
+    "question": "What is the main difference between basic primitives and Data Transformation?",
+    "answer": "Basic primitives store single value types, whereas Data Transformation organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Transformation",
+    "question": "What is a common beginner mistake when working with Data Transformation?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Data Transformation.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Transformation",
+    "question": "State two key advantages of using Data Transformation in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Transformation",
+    "question": "How do you initialize or instantiate Data Transformation in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Transformation",
+    "question": "What role does Data Transformation play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Transformation",
+    "question": "Explain the simple step-by-step workflow of executing Data Transformation.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Transformation",
+    "question": "What is the recommended naming convention when defining Data Transformation?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Transformation",
+    "question": "List the basic prerequisites needed before implementing Data Transformation.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

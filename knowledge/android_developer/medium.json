@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Java & Kotlin Fundamentals",
+    "question": "How do you implement practical error handling when working with Java & Kotlin Fundamentals in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Java & Kotlin Fundamentals",
+    "question": "Describe a real-world debugging scenario involving Java & Kotlin Fundamentals and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Java & Kotlin Fundamentals",
+    "question": "How does Java & Kotlin Fundamentals perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Java & Kotlin Fundamentals",
+    "question": "What are the best practices for structuring code related to Java & Kotlin Fundamentals?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Java & Kotlin Fundamentals",
+    "question": "In a practical project, how do you integrate Java & Kotlin Fundamentals with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Java & Kotlin Fundamentals",
+    "question": "Compare and contrast two alternative approaches for executing Java & Kotlin Fundamentals.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Java & Kotlin Fundamentals",
+    "question": "How do you write a unit test for a function that relies on Java & Kotlin Fundamentals?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Java & Kotlin Fundamentals",
+    "question": "What performance bottlenecks can arise if Java & Kotlin Fundamentals is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Java & Kotlin Fundamentals",
+    "question": "How do you refactor legacy code using modern standards for Java & Kotlin Fundamentals?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Java & Kotlin Fundamentals",
+    "question": "Explain how data validation is applied to Java & Kotlin Fundamentals payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Android SDK & Activity Lifecycle",
+    "question": "How do you implement practical error handling when working with Android SDK & Activity Lifecycle in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Android SDK & Activity Lifecycle",
+    "question": "Describe a real-world debugging scenario involving Android SDK & Activity Lifecycle and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Android SDK & Activity Lifecycle",
+    "question": "How does Android SDK & Activity Lifecycle perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Android SDK & Activity Lifecycle",
+    "question": "What are the best practices for structuring code related to Android SDK & Activity Lifecycle?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Android SDK & Activity Lifecycle",
+    "question": "In a practical project, how do you integrate Android SDK & Activity Lifecycle with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Android SDK & Activity Lifecycle",
+    "question": "Compare and contrast two alternative approaches for executing Android SDK & Activity Lifecycle.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Android SDK & Activity Lifecycle",
+    "question": "How do you write a unit test for a function that relies on Android SDK & Activity Lifecycle?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Android SDK & Activity Lifecycle",
+    "question": "What performance bottlenecks can arise if Android SDK & Activity Lifecycle is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Android SDK & Activity Lifecycle",
+    "question": "How do you refactor legacy code using modern standards for Android SDK & Activity Lifecycle?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Android SDK & Activity Lifecycle",
+    "question": "Explain how data validation is applied to Android SDK & Activity Lifecycle payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "UI Design & Jetpack Compose",
+    "question": "How do you implement practical error handling when working with UI Design & Jetpack Compose in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "UI Design & Jetpack Compose",
+    "question": "Describe a real-world debugging scenario involving UI Design & Jetpack Compose and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "UI Design & Jetpack Compose",
+    "question": "How does UI Design & Jetpack Compose perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "UI Design & Jetpack Compose",
+    "question": "What are the best practices for structuring code related to UI Design & Jetpack Compose?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "UI Design & Jetpack Compose",
+    "question": "In a practical project, how do you integrate UI Design & Jetpack Compose with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "UI Design & Jetpack Compose",
+    "question": "Compare and contrast two alternative approaches for executing UI Design & Jetpack Compose.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "UI Design & Jetpack Compose",
+    "question": "How do you write a unit test for a function that relies on UI Design & Jetpack Compose?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "UI Design & Jetpack Compose",
+    "question": "What performance bottlenecks can arise if UI Design & Jetpack Compose is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "UI Design & Jetpack Compose",
+    "question": "How do you refactor legacy code using modern standards for UI Design & Jetpack Compose?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "UI Design & Jetpack Compose",
+    "question": "Explain how data validation is applied to UI Design & Jetpack Compose payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Retrofit",
+    "question": "How do you implement practical error handling when working with REST APIs & Retrofit in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Retrofit",
+    "question": "Describe a real-world debugging scenario involving REST APIs & Retrofit and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Retrofit",
+    "question": "How does REST APIs & Retrofit perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Retrofit",
+    "question": "What are the best practices for structuring code related to REST APIs & Retrofit?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Retrofit",
+    "question": "In a practical project, how do you integrate REST APIs & Retrofit with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Retrofit",
+    "question": "Compare and contrast two alternative approaches for executing REST APIs & Retrofit.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Retrofit",
+    "question": "How do you write a unit test for a function that relies on REST APIs & Retrofit?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Retrofit",
+    "question": "What performance bottlenecks can arise if REST APIs & Retrofit is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Retrofit",
+    "question": "How do you refactor legacy code using modern standards for REST APIs & Retrofit?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Retrofit",
+    "question": "Explain how data validation is applied to REST APIs & Retrofit payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQLite & Room DB",
+    "question": "How do you implement practical error handling when working with SQLite & Room DB in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQLite & Room DB",
+    "question": "Describe a real-world debugging scenario involving SQLite & Room DB and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQLite & Room DB",
+    "question": "How does SQLite & Room DB perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQLite & Room DB",
+    "question": "What are the best practices for structuring code related to SQLite & Room DB?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQLite & Room DB",
+    "question": "In a practical project, how do you integrate SQLite & Room DB with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQLite & Room DB",
+    "question": "Compare and contrast two alternative approaches for executing SQLite & Room DB.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQLite & Room DB",
+    "question": "How do you write a unit test for a function that relies on SQLite & Room DB?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQLite & Room DB",
+    "question": "What performance bottlenecks can arise if SQLite & Room DB is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQLite & Room DB",
+    "question": "How do you refactor legacy code using modern standards for SQLite & Room DB?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQLite & Room DB",
+    "question": "Explain how data validation is applied to SQLite & Room DB payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "App Architecture (MVVM)",
+    "question": "How do you implement practical error handling when working with App Architecture (MVVM) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "App Architecture (MVVM)",
+    "question": "Describe a real-world debugging scenario involving App Architecture (MVVM) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "App Architecture (MVVM)",
+    "question": "How does App Architecture (MVVM) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "App Architecture (MVVM)",
+    "question": "What are the best practices for structuring code related to App Architecture (MVVM)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "App Architecture (MVVM)",
+    "question": "In a practical project, how do you integrate App Architecture (MVVM) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "App Architecture (MVVM)",
+    "question": "Compare and contrast two alternative approaches for executing App Architecture (MVVM).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "App Architecture (MVVM)",
+    "question": "How do you write a unit test for a function that relies on App Architecture (MVVM)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "App Architecture (MVVM)",
+    "question": "What performance bottlenecks can arise if App Architecture (MVVM) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "App Architecture (MVVM)",
+    "question": "How do you refactor legacy code using modern standards for App Architecture (MVVM)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "App Architecture (MVVM)",
+    "question": "Explain how data validation is applied to App Architecture (MVVM) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

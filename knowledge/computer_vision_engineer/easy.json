@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "OpenCV & Image Processing",
+    "question": "What is OpenCV & Image Processing in Computer Vision Engineer, and why is it important?",
+    "answer": "OpenCV & Image Processing is a foundational concept in Computer Vision Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OpenCV & Image Processing",
+    "question": "Define the basic syntax or primary usage of OpenCV & Image Processing.",
+    "answer": "The primary syntax for OpenCV & Image Processing involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OpenCV & Image Processing",
+    "question": "What is the main difference between basic primitives and OpenCV & Image Processing?",
+    "answer": "Basic primitives store single value types, whereas OpenCV & Image Processing organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OpenCV & Image Processing",
+    "question": "What is a common beginner mistake when working with OpenCV & Image Processing?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in OpenCV & Image Processing.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OpenCV & Image Processing",
+    "question": "State two key advantages of using OpenCV & Image Processing in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OpenCV & Image Processing",
+    "question": "How do you initialize or instantiate OpenCV & Image Processing in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OpenCV & Image Processing",
+    "question": "What role does OpenCV & Image Processing play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OpenCV & Image Processing",
+    "question": "Explain the simple step-by-step workflow of executing OpenCV & Image Processing.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OpenCV & Image Processing",
+    "question": "What is the recommended naming convention when defining OpenCV & Image Processing?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OpenCV & Image Processing",
+    "question": "List the basic prerequisites needed before implementing OpenCV & Image Processing.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CNN Architectures",
+    "question": "What is CNN Architectures in Computer Vision Engineer, and why is it important?",
+    "answer": "CNN Architectures is a foundational concept in Computer Vision Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CNN Architectures",
+    "question": "Define the basic syntax or primary usage of CNN Architectures.",
+    "answer": "The primary syntax for CNN Architectures involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CNN Architectures",
+    "question": "What is the main difference between basic primitives and CNN Architectures?",
+    "answer": "Basic primitives store single value types, whereas CNN Architectures organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CNN Architectures",
+    "question": "What is a common beginner mistake when working with CNN Architectures?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in CNN Architectures.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CNN Architectures",
+    "question": "State two key advantages of using CNN Architectures in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CNN Architectures",
+    "question": "How do you initialize or instantiate CNN Architectures in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CNN Architectures",
+    "question": "What role does CNN Architectures play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CNN Architectures",
+    "question": "Explain the simple step-by-step workflow of executing CNN Architectures.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CNN Architectures",
+    "question": "What is the recommended naming convention when defining CNN Architectures?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CNN Architectures",
+    "question": "List the basic prerequisites needed before implementing CNN Architectures.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Object Detection (YOLO)",
+    "question": "What is Object Detection (YOLO) in Computer Vision Engineer, and why is it important?",
+    "answer": "Object Detection (YOLO) is a foundational concept in Computer Vision Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Object Detection (YOLO)",
+    "question": "Define the basic syntax or primary usage of Object Detection (YOLO).",
+    "answer": "The primary syntax for Object Detection (YOLO) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Object Detection (YOLO)",
+    "question": "What is the main difference between basic primitives and Object Detection (YOLO)?",
+    "answer": "Basic primitives store single value types, whereas Object Detection (YOLO) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Object Detection (YOLO)",
+    "question": "What is a common beginner mistake when working with Object Detection (YOLO)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Object Detection (YOLO).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Object Detection (YOLO)",
+    "question": "State two key advantages of using Object Detection (YOLO) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Object Detection (YOLO)",
+    "question": "How do you initialize or instantiate Object Detection (YOLO) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Object Detection (YOLO)",
+    "question": "What role does Object Detection (YOLO) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Object Detection (YOLO)",
+    "question": "Explain the simple step-by-step workflow of executing Object Detection (YOLO).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Object Detection (YOLO)",
+    "question": "What is the recommended naming convention when defining Object Detection (YOLO)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Object Detection (YOLO)",
+    "question": "List the basic prerequisites needed before implementing Object Detection (YOLO).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PyTorch / TensorFlow",
+    "question": "What is PyTorch / TensorFlow in Computer Vision Engineer, and why is it important?",
+    "answer": "PyTorch / TensorFlow is a foundational concept in Computer Vision Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PyTorch / TensorFlow",
+    "question": "Define the basic syntax or primary usage of PyTorch / TensorFlow.",
+    "answer": "The primary syntax for PyTorch / TensorFlow involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PyTorch / TensorFlow",
+    "question": "What is the main difference between basic primitives and PyTorch / TensorFlow?",
+    "answer": "Basic primitives store single value types, whereas PyTorch / TensorFlow organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PyTorch / TensorFlow",
+    "question": "What is a common beginner mistake when working with PyTorch / TensorFlow?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in PyTorch / TensorFlow.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PyTorch / TensorFlow",
+    "question": "State two key advantages of using PyTorch / TensorFlow in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PyTorch / TensorFlow",
+    "question": "How do you initialize or instantiate PyTorch / TensorFlow in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PyTorch / TensorFlow",
+    "question": "What role does PyTorch / TensorFlow play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PyTorch / TensorFlow",
+    "question": "Explain the simple step-by-step workflow of executing PyTorch / TensorFlow.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PyTorch / TensorFlow",
+    "question": "What is the recommended naming convention when defining PyTorch / TensorFlow?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PyTorch / TensorFlow",
+    "question": "List the basic prerequisites needed before implementing PyTorch / TensorFlow.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Model Optimization",
+    "question": "What is Model Optimization in Computer Vision Engineer, and why is it important?",
+    "answer": "Model Optimization is a foundational concept in Computer Vision Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Model Optimization",
+    "question": "Define the basic syntax or primary usage of Model Optimization.",
+    "answer": "The primary syntax for Model Optimization involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Model Optimization",
+    "question": "What is the main difference between basic primitives and Model Optimization?",
+    "answer": "Basic primitives store single value types, whereas Model Optimization organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Model Optimization",
+    "question": "What is a common beginner mistake when working with Model Optimization?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Model Optimization.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Model Optimization",
+    "question": "State two key advantages of using Model Optimization in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Model Optimization",
+    "question": "How do you initialize or instantiate Model Optimization in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Model Optimization",
+    "question": "What role does Model Optimization play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Model Optimization",
+    "question": "Explain the simple step-by-step workflow of executing Model Optimization.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Model Optimization",
+    "question": "What is the recommended naming convention when defining Model Optimization?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Model Optimization",
+    "question": "List the basic prerequisites needed before implementing Model Optimization.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

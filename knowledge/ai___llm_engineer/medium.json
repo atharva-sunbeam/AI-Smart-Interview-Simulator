@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Python Core",
+    "question": "How do you implement practical error handling when working with Python Core in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python Core",
+    "question": "Describe a real-world debugging scenario involving Python Core and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python Core",
+    "question": "How does Python Core perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python Core",
+    "question": "What are the best practices for structuring code related to Python Core?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python Core",
+    "question": "In a practical project, how do you integrate Python Core with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python Core",
+    "question": "Compare and contrast two alternative approaches for executing Python Core.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python Core",
+    "question": "How do you write a unit test for a function that relies on Python Core?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python Core",
+    "question": "What performance bottlenecks can arise if Python Core is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python Core",
+    "question": "How do you refactor legacy code using modern standards for Python Core?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python Core",
+    "question": "Explain how data validation is applied to Python Core payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "How do you implement practical error handling when working with LangChain & CrewAI in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "Describe a real-world debugging scenario involving LangChain & CrewAI and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "How does LangChain & CrewAI perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "What are the best practices for structuring code related to LangChain & CrewAI?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "In a practical project, how do you integrate LangChain & CrewAI with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "Compare and contrast two alternative approaches for executing LangChain & CrewAI.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "How do you write a unit test for a function that relies on LangChain & CrewAI?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "What performance bottlenecks can arise if LangChain & CrewAI is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "How do you refactor legacy code using modern standards for LangChain & CrewAI?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "Explain how data validation is applied to LangChain & CrewAI payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "How do you implement practical error handling when working with Vector DBs & Embeddings in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "Describe a real-world debugging scenario involving Vector DBs & Embeddings and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "How does Vector DBs & Embeddings perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "What are the best practices for structuring code related to Vector DBs & Embeddings?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "In a practical project, how do you integrate Vector DBs & Embeddings with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "Compare and contrast two alternative approaches for executing Vector DBs & Embeddings.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "How do you write a unit test for a function that relies on Vector DBs & Embeddings?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "What performance bottlenecks can arise if Vector DBs & Embeddings is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "How do you refactor legacy code using modern standards for Vector DBs & Embeddings?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "Explain how data validation is applied to Vector DBs & Embeddings payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "How do you implement practical error handling when working with RAG Systems in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "Describe a real-world debugging scenario involving RAG Systems and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "How does RAG Systems perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "What are the best practices for structuring code related to RAG Systems?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "In a practical project, how do you integrate RAG Systems with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "Compare and contrast two alternative approaches for executing RAG Systems.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "How do you write a unit test for a function that relies on RAG Systems?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "What performance bottlenecks can arise if RAG Systems is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "How do you refactor legacy code using modern standards for RAG Systems?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "Explain how data validation is applied to RAG Systems payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "How do you implement practical error handling when working with Prompt Engineering & Guardrails in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "Describe a real-world debugging scenario involving Prompt Engineering & Guardrails and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "How does Prompt Engineering & Guardrails perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "What are the best practices for structuring code related to Prompt Engineering & Guardrails?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "In a practical project, how do you integrate Prompt Engineering & Guardrails with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "Compare and contrast two alternative approaches for executing Prompt Engineering & Guardrails.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "How do you write a unit test for a function that relies on Prompt Engineering & Guardrails?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "What performance bottlenecks can arise if Prompt Engineering & Guardrails is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "How do you refactor legacy code using modern standards for Prompt Engineering & Guardrails?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "Explain how data validation is applied to Prompt Engineering & Guardrails payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "How do you implement practical error handling when working with Fine-Tuning & Quantization in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "Describe a real-world debugging scenario involving Fine-Tuning & Quantization and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "How does Fine-Tuning & Quantization perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "What are the best practices for structuring code related to Fine-Tuning & Quantization?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "In a practical project, how do you integrate Fine-Tuning & Quantization with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "Compare and contrast two alternative approaches for executing Fine-Tuning & Quantization.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "How do you write a unit test for a function that relies on Fine-Tuning & Quantization?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "What performance bottlenecks can arise if Fine-Tuning & Quantization is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "How do you refactor legacy code using modern standards for Fine-Tuning & Quantization?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "Explain how data validation is applied to Fine-Tuning & Quantization payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

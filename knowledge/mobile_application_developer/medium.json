@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "How do you implement practical error handling when working with Mobile OS Fundamentals in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "Describe a real-world debugging scenario involving Mobile OS Fundamentals and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "How does Mobile OS Fundamentals perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "What are the best practices for structuring code related to Mobile OS Fundamentals?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "In a practical project, how do you integrate Mobile OS Fundamentals with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "Compare and contrast two alternative approaches for executing Mobile OS Fundamentals.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "How do you write a unit test for a function that relies on Mobile OS Fundamentals?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "What performance bottlenecks can arise if Mobile OS Fundamentals is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "How do you refactor legacy code using modern standards for Mobile OS Fundamentals?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "Explain how data validation is applied to Mobile OS Fundamentals payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "How do you implement practical error handling when working with Cross-Platform Frameworks in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "Describe a real-world debugging scenario involving Cross-Platform Frameworks and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "How does Cross-Platform Frameworks perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "What are the best practices for structuring code related to Cross-Platform Frameworks?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "In a practical project, how do you integrate Cross-Platform Frameworks with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "Compare and contrast two alternative approaches for executing Cross-Platform Frameworks.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "How do you write a unit test for a function that relies on Cross-Platform Frameworks?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "What performance bottlenecks can arise if Cross-Platform Frameworks is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "How do you refactor legacy code using modern standards for Cross-Platform Frameworks?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "Explain how data validation is applied to Cross-Platform Frameworks payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "How do you implement practical error handling when working with Mobile Security & Storage in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "Describe a real-world debugging scenario involving Mobile Security & Storage and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "How does Mobile Security & Storage perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "What are the best practices for structuring code related to Mobile Security & Storage?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "In a practical project, how do you integrate Mobile Security & Storage with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "Compare and contrast two alternative approaches for executing Mobile Security & Storage.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "How do you write a unit test for a function that relies on Mobile Security & Storage?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "What performance bottlenecks can arise if Mobile Security & Storage is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "How do you refactor legacy code using modern standards for Mobile Security & Storage?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "Explain how data validation is applied to Mobile Security & Storage payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "How do you implement practical error handling when working with REST APIs & Push Notifications in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "Describe a real-world debugging scenario involving REST APIs & Push Notifications and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "How does REST APIs & Push Notifications perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "What are the best practices for structuring code related to REST APIs & Push Notifications?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "In a practical project, how do you integrate REST APIs & Push Notifications with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "Compare and contrast two alternative approaches for executing REST APIs & Push Notifications.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "How do you write a unit test for a function that relies on REST APIs & Push Notifications?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "What performance bottlenecks can arise if REST APIs & Push Notifications is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "How do you refactor legacy code using modern standards for REST APIs & Push Notifications?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "Explain how data validation is applied to REST APIs & Push Notifications payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "How do you implement practical error handling when working with Publishing & Testing in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "Describe a real-world debugging scenario involving Publishing & Testing and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "How does Publishing & Testing perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "What are the best practices for structuring code related to Publishing & Testing?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "In a practical project, how do you integrate Publishing & Testing with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "Compare and contrast two alternative approaches for executing Publishing & Testing.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "How do you write a unit test for a function that relies on Publishing & Testing?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "What performance bottlenecks can arise if Publishing & Testing is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "How do you refactor legacy code using modern standards for Publishing & Testing?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "Explain how data validation is applied to Publishing & Testing payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

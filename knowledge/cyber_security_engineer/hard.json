@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Security Architecture & Design",
+    "question": "Design a scalable distributed architecture utilizing Security Architecture & Design for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Security Architecture & Design across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Security Architecture & Design.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "How would you optimize latency and throughput for Security Architecture & Design under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Security Architecture & Design.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Security Architecture & Design?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Security Architecture & Design.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "How do you perform deep performance profiling and memory leak detection on Security Architecture & Design in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Security Architecture & Design and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Security Architecture & Design.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "Design a scalable distributed architecture utilizing Firewalls, IDS/IPS & WAF for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Firewalls, IDS/IPS & WAF across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Firewalls, IDS/IPS & WAF.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "How would you optimize latency and throughput for Firewalls, IDS/IPS & WAF under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Firewalls, IDS/IPS & WAF.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Firewalls, IDS/IPS & WAF?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Firewalls, IDS/IPS & WAF.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "How do you perform deep performance profiling and memory leak detection on Firewalls, IDS/IPS & WAF in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Firewalls, IDS/IPS & WAF and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Firewalls, IDS/IPS & WAF.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "Design a scalable distributed architecture utilizing Cryptography & PKI for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Cryptography & PKI across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Cryptography & PKI.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "How would you optimize latency and throughput for Cryptography & PKI under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Cryptography & PKI.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Cryptography & PKI?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Cryptography & PKI.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "How do you perform deep performance profiling and memory leak detection on Cryptography & PKI in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Cryptography & PKI and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Cryptography & PKI.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "Design a scalable distributed architecture utilizing Identity & Access Management (IAM) for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Identity & Access Management (IAM) across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Identity & Access Management (IAM).",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "How would you optimize latency and throughput for Identity & Access Management (IAM) under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Identity & Access Management (IAM).",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Identity & Access Management (IAM)?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Identity & Access Management (IAM).",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "How do you perform deep performance profiling and memory leak detection on Identity & Access Management (IAM) in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Identity & Access Management (IAM) and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Identity & Access Management (IAM).",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "Design a scalable distributed architecture utilizing Secure Code Review for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Secure Code Review across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Secure Code Review.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "How would you optimize latency and throughput for Secure Code Review under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Secure Code Review.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Secure Code Review?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Secure Code Review.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "How do you perform deep performance profiling and memory leak detection on Secure Code Review in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Secure Code Review and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Secure Code Review.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  }
+]

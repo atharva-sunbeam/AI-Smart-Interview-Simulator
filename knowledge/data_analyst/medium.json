@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Excel & Statistics",
+    "question": "How do you implement practical error handling when working with Excel & Statistics in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "Describe a real-world debugging scenario involving Excel & Statistics and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "How does Excel & Statistics perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "What are the best practices for structuring code related to Excel & Statistics?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "In a practical project, how do you integrate Excel & Statistics with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "Compare and contrast two alternative approaches for executing Excel & Statistics.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "How do you write a unit test for a function that relies on Excel & Statistics?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "What performance bottlenecks can arise if Excel & Statistics is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "How do you refactor legacy code using modern standards for Excel & Statistics?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "Explain how data validation is applied to Excel & Statistics payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "How do you implement practical error handling when working with SQL Queries & Joins in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "Describe a real-world debugging scenario involving SQL Queries & Joins and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "How does SQL Queries & Joins perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "What are the best practices for structuring code related to SQL Queries & Joins?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "In a practical project, how do you integrate SQL Queries & Joins with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "Compare and contrast two alternative approaches for executing SQL Queries & Joins.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "How do you write a unit test for a function that relies on SQL Queries & Joins?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "What performance bottlenecks can arise if SQL Queries & Joins is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "How do you refactor legacy code using modern standards for SQL Queries & Joins?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "Explain how data validation is applied to SQL Queries & Joins payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "How do you implement practical error handling when working with Data Cleaning & Pandas in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "Describe a real-world debugging scenario involving Data Cleaning & Pandas and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "How does Data Cleaning & Pandas perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "What are the best practices for structuring code related to Data Cleaning & Pandas?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "In a practical project, how do you integrate Data Cleaning & Pandas with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "Compare and contrast two alternative approaches for executing Data Cleaning & Pandas.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "How do you write a unit test for a function that relies on Data Cleaning & Pandas?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "What performance bottlenecks can arise if Data Cleaning & Pandas is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "How do you refactor legacy code using modern standards for Data Cleaning & Pandas?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "Explain how data validation is applied to Data Cleaning & Pandas payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "How do you implement practical error handling when working with Data Visualization (Tableau/PowerBI) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "Describe a real-world debugging scenario involving Data Visualization (Tableau/PowerBI) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "How does Data Visualization (Tableau/PowerBI) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "What are the best practices for structuring code related to Data Visualization (Tableau/PowerBI)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "In a practical project, how do you integrate Data Visualization (Tableau/PowerBI) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "Compare and contrast two alternative approaches for executing Data Visualization (Tableau/PowerBI).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "How do you write a unit test for a function that relies on Data Visualization (Tableau/PowerBI)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "What performance bottlenecks can arise if Data Visualization (Tableau/PowerBI) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "How do you refactor legacy code using modern standards for Data Visualization (Tableau/PowerBI)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "Explain how data validation is applied to Data Visualization (Tableau/PowerBI) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "How do you implement practical error handling when working with EDA & Reporting in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "Describe a real-world debugging scenario involving EDA & Reporting and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "How does EDA & Reporting perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "What are the best practices for structuring code related to EDA & Reporting?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "In a practical project, how do you integrate EDA & Reporting with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "Compare and contrast two alternative approaches for executing EDA & Reporting.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "How do you write a unit test for a function that relies on EDA & Reporting?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "What performance bottlenecks can arise if EDA & Reporting is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "How do you refactor legacy code using modern standards for EDA & Reporting?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "Explain how data validation is applied to EDA & Reporting payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

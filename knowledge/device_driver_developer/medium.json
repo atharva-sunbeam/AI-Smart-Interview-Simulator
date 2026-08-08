@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "How do you implement practical error handling when working with Linux Device Driver Model in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "Describe a real-world debugging scenario involving Linux Device Driver Model and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "How does Linux Device Driver Model perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "What are the best practices for structuring code related to Linux Device Driver Model?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "In a practical project, how do you integrate Linux Device Driver Model with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "Compare and contrast two alternative approaches for executing Linux Device Driver Model.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "How do you write a unit test for a function that relies on Linux Device Driver Model?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "What performance bottlenecks can arise if Linux Device Driver Model is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "How do you refactor legacy code using modern standards for Linux Device Driver Model?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "Explain how data validation is applied to Linux Device Driver Model payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "How do you implement practical error handling when working with Character & Block Drivers in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "Describe a real-world debugging scenario involving Character & Block Drivers and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "How does Character & Block Drivers perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "What are the best practices for structuring code related to Character & Block Drivers?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "In a practical project, how do you integrate Character & Block Drivers with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "Compare and contrast two alternative approaches for executing Character & Block Drivers.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "How do you write a unit test for a function that relies on Character & Block Drivers?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "What performance bottlenecks can arise if Character & Block Drivers is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "How do you refactor legacy code using modern standards for Character & Block Drivers?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "Explain how data validation is applied to Character & Block Drivers payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "How do you implement practical error handling when working with Interrupt Handling & DMA in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "Describe a real-world debugging scenario involving Interrupt Handling & DMA and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "How does Interrupt Handling & DMA perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "What are the best practices for structuring code related to Interrupt Handling & DMA?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "In a practical project, how do you integrate Interrupt Handling & DMA with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "Compare and contrast two alternative approaches for executing Interrupt Handling & DMA.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "How do you write a unit test for a function that relies on Interrupt Handling & DMA?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "What performance bottlenecks can arise if Interrupt Handling & DMA is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "How do you refactor legacy code using modern standards for Interrupt Handling & DMA?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "Explain how data validation is applied to Interrupt Handling & DMA payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "How do you implement practical error handling when working with Kernel Modules & Compilation in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "Describe a real-world debugging scenario involving Kernel Modules & Compilation and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "How does Kernel Modules & Compilation perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "What are the best practices for structuring code related to Kernel Modules & Compilation?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "In a practical project, how do you integrate Kernel Modules & Compilation with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "Compare and contrast two alternative approaches for executing Kernel Modules & Compilation.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "How do you write a unit test for a function that relies on Kernel Modules & Compilation?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "What performance bottlenecks can arise if Kernel Modules & Compilation is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "How do you refactor legacy code using modern standards for Kernel Modules & Compilation?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "Explain how data validation is applied to Kernel Modules & Compilation payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "How do you implement practical error handling when working with Memory Allocation (kmalloc) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "Describe a real-world debugging scenario involving Memory Allocation (kmalloc) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "How does Memory Allocation (kmalloc) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "What are the best practices for structuring code related to Memory Allocation (kmalloc)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "In a practical project, how do you integrate Memory Allocation (kmalloc) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "Compare and contrast two alternative approaches for executing Memory Allocation (kmalloc).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "How do you write a unit test for a function that relies on Memory Allocation (kmalloc)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "What performance bottlenecks can arise if Memory Allocation (kmalloc) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "How do you refactor legacy code using modern standards for Memory Allocation (kmalloc)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "Explain how data validation is applied to Memory Allocation (kmalloc) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

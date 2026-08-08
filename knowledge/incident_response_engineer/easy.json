@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Digital Forensics & Memory Analysis",
+    "question": "What is Digital Forensics & Memory Analysis in Incident Response Engineer, and why is it important?",
+    "answer": "Digital Forensics & Memory Analysis is a foundational concept in Incident Response Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Digital Forensics & Memory Analysis",
+    "question": "Define the basic syntax or primary usage of Digital Forensics & Memory Analysis.",
+    "answer": "The primary syntax for Digital Forensics & Memory Analysis involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Digital Forensics & Memory Analysis",
+    "question": "What is the main difference between basic primitives and Digital Forensics & Memory Analysis?",
+    "answer": "Basic primitives store single value types, whereas Digital Forensics & Memory Analysis organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Digital Forensics & Memory Analysis",
+    "question": "What is a common beginner mistake when working with Digital Forensics & Memory Analysis?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Digital Forensics & Memory Analysis.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Digital Forensics & Memory Analysis",
+    "question": "State two key advantages of using Digital Forensics & Memory Analysis in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Digital Forensics & Memory Analysis",
+    "question": "How do you initialize or instantiate Digital Forensics & Memory Analysis in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Digital Forensics & Memory Analysis",
+    "question": "What role does Digital Forensics & Memory Analysis play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Digital Forensics & Memory Analysis",
+    "question": "Explain the simple step-by-step workflow of executing Digital Forensics & Memory Analysis.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Digital Forensics & Memory Analysis",
+    "question": "What is the recommended naming convention when defining Digital Forensics & Memory Analysis?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Digital Forensics & Memory Analysis",
+    "question": "List the basic prerequisites needed before implementing Digital Forensics & Memory Analysis.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Response Lifecycle (NIST)",
+    "question": "What is Incident Response Lifecycle (NIST) in Incident Response Engineer, and why is it important?",
+    "answer": "Incident Response Lifecycle (NIST) is a foundational concept in Incident Response Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Response Lifecycle (NIST)",
+    "question": "Define the basic syntax or primary usage of Incident Response Lifecycle (NIST).",
+    "answer": "The primary syntax for Incident Response Lifecycle (NIST) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Response Lifecycle (NIST)",
+    "question": "What is the main difference between basic primitives and Incident Response Lifecycle (NIST)?",
+    "answer": "Basic primitives store single value types, whereas Incident Response Lifecycle (NIST) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Response Lifecycle (NIST)",
+    "question": "What is a common beginner mistake when working with Incident Response Lifecycle (NIST)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Incident Response Lifecycle (NIST).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Response Lifecycle (NIST)",
+    "question": "State two key advantages of using Incident Response Lifecycle (NIST) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Response Lifecycle (NIST)",
+    "question": "How do you initialize or instantiate Incident Response Lifecycle (NIST) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Response Lifecycle (NIST)",
+    "question": "What role does Incident Response Lifecycle (NIST) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Response Lifecycle (NIST)",
+    "question": "Explain the simple step-by-step workflow of executing Incident Response Lifecycle (NIST).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Response Lifecycle (NIST)",
+    "question": "What is the recommended naming convention when defining Incident Response Lifecycle (NIST)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Response Lifecycle (NIST)",
+    "question": "List the basic prerequisites needed before implementing Incident Response Lifecycle (NIST).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Threat Hunting",
+    "question": "What is Threat Hunting in Incident Response Engineer, and why is it important?",
+    "answer": "Threat Hunting is a foundational concept in Incident Response Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Threat Hunting",
+    "question": "Define the basic syntax or primary usage of Threat Hunting.",
+    "answer": "The primary syntax for Threat Hunting involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Threat Hunting",
+    "question": "What is the main difference between basic primitives and Threat Hunting?",
+    "answer": "Basic primitives store single value types, whereas Threat Hunting organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Threat Hunting",
+    "question": "What is a common beginner mistake when working with Threat Hunting?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Threat Hunting.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Threat Hunting",
+    "question": "State two key advantages of using Threat Hunting in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Threat Hunting",
+    "question": "How do you initialize or instantiate Threat Hunting in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Threat Hunting",
+    "question": "What role does Threat Hunting play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Threat Hunting",
+    "question": "Explain the simple step-by-step workflow of executing Threat Hunting.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Threat Hunting",
+    "question": "What is the recommended naming convention when defining Threat Hunting?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Threat Hunting",
+    "question": "List the basic prerequisites needed before implementing Threat Hunting.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Root Cause Analysis",
+    "question": "What is Root Cause Analysis in Incident Response Engineer, and why is it important?",
+    "answer": "Root Cause Analysis is a foundational concept in Incident Response Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Root Cause Analysis",
+    "question": "Define the basic syntax or primary usage of Root Cause Analysis.",
+    "answer": "The primary syntax for Root Cause Analysis involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Root Cause Analysis",
+    "question": "What is the main difference between basic primitives and Root Cause Analysis?",
+    "answer": "Basic primitives store single value types, whereas Root Cause Analysis organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Root Cause Analysis",
+    "question": "What is a common beginner mistake when working with Root Cause Analysis?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Root Cause Analysis.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Root Cause Analysis",
+    "question": "State two key advantages of using Root Cause Analysis in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Root Cause Analysis",
+    "question": "How do you initialize or instantiate Root Cause Analysis in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Root Cause Analysis",
+    "question": "What role does Root Cause Analysis play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Root Cause Analysis",
+    "question": "Explain the simple step-by-step workflow of executing Root Cause Analysis.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Root Cause Analysis",
+    "question": "What is the recommended naming convention when defining Root Cause Analysis?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Root Cause Analysis",
+    "question": "List the basic prerequisites needed before implementing Root Cause Analysis.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Malware Reverse Engineering",
+    "question": "What is Malware Reverse Engineering in Incident Response Engineer, and why is it important?",
+    "answer": "Malware Reverse Engineering is a foundational concept in Incident Response Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Malware Reverse Engineering",
+    "question": "Define the basic syntax or primary usage of Malware Reverse Engineering.",
+    "answer": "The primary syntax for Malware Reverse Engineering involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Malware Reverse Engineering",
+    "question": "What is the main difference between basic primitives and Malware Reverse Engineering?",
+    "answer": "Basic primitives store single value types, whereas Malware Reverse Engineering organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Malware Reverse Engineering",
+    "question": "What is a common beginner mistake when working with Malware Reverse Engineering?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Malware Reverse Engineering.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Malware Reverse Engineering",
+    "question": "State two key advantages of using Malware Reverse Engineering in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Malware Reverse Engineering",
+    "question": "How do you initialize or instantiate Malware Reverse Engineering in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Malware Reverse Engineering",
+    "question": "What role does Malware Reverse Engineering play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Malware Reverse Engineering",
+    "question": "Explain the simple step-by-step workflow of executing Malware Reverse Engineering.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Malware Reverse Engineering",
+    "question": "What is the recommended naming convention when defining Malware Reverse Engineering?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Malware Reverse Engineering",
+    "question": "List the basic prerequisites needed before implementing Malware Reverse Engineering.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

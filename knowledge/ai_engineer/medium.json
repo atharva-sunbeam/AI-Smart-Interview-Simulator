@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Python & AI Algorithms",
+    "question": "How do you implement practical error handling when working with Python & AI Algorithms in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & AI Algorithms",
+    "question": "Describe a real-world debugging scenario involving Python & AI Algorithms and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & AI Algorithms",
+    "question": "How does Python & AI Algorithms perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & AI Algorithms",
+    "question": "What are the best practices for structuring code related to Python & AI Algorithms?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & AI Algorithms",
+    "question": "In a practical project, how do you integrate Python & AI Algorithms with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & AI Algorithms",
+    "question": "Compare and contrast two alternative approaches for executing Python & AI Algorithms.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & AI Algorithms",
+    "question": "How do you write a unit test for a function that relies on Python & AI Algorithms?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & AI Algorithms",
+    "question": "What performance bottlenecks can arise if Python & AI Algorithms is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & AI Algorithms",
+    "question": "How do you refactor legacy code using modern standards for Python & AI Algorithms?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & AI Algorithms",
+    "question": "Explain how data validation is applied to Python & AI Algorithms payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Machine Learning Core",
+    "question": "How do you implement practical error handling when working with Machine Learning Core in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Machine Learning Core",
+    "question": "Describe a real-world debugging scenario involving Machine Learning Core and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Machine Learning Core",
+    "question": "How does Machine Learning Core perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Machine Learning Core",
+    "question": "What are the best practices for structuring code related to Machine Learning Core?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Machine Learning Core",
+    "question": "In a practical project, how do you integrate Machine Learning Core with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Machine Learning Core",
+    "question": "Compare and contrast two alternative approaches for executing Machine Learning Core.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Machine Learning Core",
+    "question": "How do you write a unit test for a function that relies on Machine Learning Core?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Machine Learning Core",
+    "question": "What performance bottlenecks can arise if Machine Learning Core is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Machine Learning Core",
+    "question": "How do you refactor legacy code using modern standards for Machine Learning Core?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Machine Learning Core",
+    "question": "Explain how data validation is applied to Machine Learning Core payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deep Learning & Neural Networks",
+    "question": "How do you implement practical error handling when working with Deep Learning & Neural Networks in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deep Learning & Neural Networks",
+    "question": "Describe a real-world debugging scenario involving Deep Learning & Neural Networks and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deep Learning & Neural Networks",
+    "question": "How does Deep Learning & Neural Networks perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deep Learning & Neural Networks",
+    "question": "What are the best practices for structuring code related to Deep Learning & Neural Networks?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deep Learning & Neural Networks",
+    "question": "In a practical project, how do you integrate Deep Learning & Neural Networks with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deep Learning & Neural Networks",
+    "question": "Compare and contrast two alternative approaches for executing Deep Learning & Neural Networks.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deep Learning & Neural Networks",
+    "question": "How do you write a unit test for a function that relies on Deep Learning & Neural Networks?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deep Learning & Neural Networks",
+    "question": "What performance bottlenecks can arise if Deep Learning & Neural Networks is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deep Learning & Neural Networks",
+    "question": "How do you refactor legacy code using modern standards for Deep Learning & Neural Networks?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deep Learning & Neural Networks",
+    "question": "Explain how data validation is applied to Deep Learning & Neural Networks payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "NLP & Computer Vision",
+    "question": "How do you implement practical error handling when working with NLP & Computer Vision in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "NLP & Computer Vision",
+    "question": "Describe a real-world debugging scenario involving NLP & Computer Vision and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "NLP & Computer Vision",
+    "question": "How does NLP & Computer Vision perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "NLP & Computer Vision",
+    "question": "What are the best practices for structuring code related to NLP & Computer Vision?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "NLP & Computer Vision",
+    "question": "In a practical project, how do you integrate NLP & Computer Vision with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "NLP & Computer Vision",
+    "question": "Compare and contrast two alternative approaches for executing NLP & Computer Vision.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "NLP & Computer Vision",
+    "question": "How do you write a unit test for a function that relies on NLP & Computer Vision?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "NLP & Computer Vision",
+    "question": "What performance bottlenecks can arise if NLP & Computer Vision is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "NLP & Computer Vision",
+    "question": "How do you refactor legacy code using modern standards for NLP & Computer Vision?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "NLP & Computer Vision",
+    "question": "Explain how data validation is applied to NLP & Computer Vision payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LLMs & RAG",
+    "question": "How do you implement practical error handling when working with LLMs & RAG in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LLMs & RAG",
+    "question": "Describe a real-world debugging scenario involving LLMs & RAG and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LLMs & RAG",
+    "question": "How does LLMs & RAG perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LLMs & RAG",
+    "question": "What are the best practices for structuring code related to LLMs & RAG?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LLMs & RAG",
+    "question": "In a practical project, how do you integrate LLMs & RAG with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LLMs & RAG",
+    "question": "Compare and contrast two alternative approaches for executing LLMs & RAG.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LLMs & RAG",
+    "question": "How do you write a unit test for a function that relies on LLMs & RAG?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LLMs & RAG",
+    "question": "What performance bottlenecks can arise if LLMs & RAG is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LLMs & RAG",
+    "question": "How do you refactor legacy code using modern standards for LLMs & RAG?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LLMs & RAG",
+    "question": "Explain how data validation is applied to LLMs & RAG payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment",
+    "question": "How do you implement practical error handling when working with Deployment in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment",
+    "question": "Describe a real-world debugging scenario involving Deployment and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment",
+    "question": "How does Deployment perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment",
+    "question": "What are the best practices for structuring code related to Deployment?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment",
+    "question": "In a practical project, how do you integrate Deployment with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment",
+    "question": "Compare and contrast two alternative approaches for executing Deployment.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment",
+    "question": "How do you write a unit test for a function that relies on Deployment?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment",
+    "question": "What performance bottlenecks can arise if Deployment is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment",
+    "question": "How do you refactor legacy code using modern standards for Deployment?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment",
+    "question": "Explain how data validation is applied to Deployment payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

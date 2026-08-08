@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Ethical Hacking & Reconnaissance",
+    "question": "How do you implement practical error handling when working with Ethical Hacking & Reconnaissance in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Ethical Hacking & Reconnaissance",
+    "question": "Describe a real-world debugging scenario involving Ethical Hacking & Reconnaissance and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Ethical Hacking & Reconnaissance",
+    "question": "How does Ethical Hacking & Reconnaissance perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Ethical Hacking & Reconnaissance",
+    "question": "What are the best practices for structuring code related to Ethical Hacking & Reconnaissance?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Ethical Hacking & Reconnaissance",
+    "question": "In a practical project, how do you integrate Ethical Hacking & Reconnaissance with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Ethical Hacking & Reconnaissance",
+    "question": "Compare and contrast two alternative approaches for executing Ethical Hacking & Reconnaissance.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Ethical Hacking & Reconnaissance",
+    "question": "How do you write a unit test for a function that relies on Ethical Hacking & Reconnaissance?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Ethical Hacking & Reconnaissance",
+    "question": "What performance bottlenecks can arise if Ethical Hacking & Reconnaissance is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Ethical Hacking & Reconnaissance",
+    "question": "How do you refactor legacy code using modern standards for Ethical Hacking & Reconnaissance?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Ethical Hacking & Reconnaissance",
+    "question": "Explain how data validation is applied to Ethical Hacking & Reconnaissance payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Web Vulnerabilities (OWASP Top 10)",
+    "question": "How do you implement practical error handling when working with Web Vulnerabilities (OWASP Top 10) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Web Vulnerabilities (OWASP Top 10)",
+    "question": "Describe a real-world debugging scenario involving Web Vulnerabilities (OWASP Top 10) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Web Vulnerabilities (OWASP Top 10)",
+    "question": "How does Web Vulnerabilities (OWASP Top 10) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Web Vulnerabilities (OWASP Top 10)",
+    "question": "What are the best practices for structuring code related to Web Vulnerabilities (OWASP Top 10)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Web Vulnerabilities (OWASP Top 10)",
+    "question": "In a practical project, how do you integrate Web Vulnerabilities (OWASP Top 10) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Web Vulnerabilities (OWASP Top 10)",
+    "question": "Compare and contrast two alternative approaches for executing Web Vulnerabilities (OWASP Top 10).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Web Vulnerabilities (OWASP Top 10)",
+    "question": "How do you write a unit test for a function that relies on Web Vulnerabilities (OWASP Top 10)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Web Vulnerabilities (OWASP Top 10)",
+    "question": "What performance bottlenecks can arise if Web Vulnerabilities (OWASP Top 10) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Web Vulnerabilities (OWASP Top 10)",
+    "question": "How do you refactor legacy code using modern standards for Web Vulnerabilities (OWASP Top 10)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Web Vulnerabilities (OWASP Top 10)",
+    "question": "Explain how data validation is applied to Web Vulnerabilities (OWASP Top 10) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Penetration Testing",
+    "question": "How do you implement practical error handling when working with Network Penetration Testing in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Penetration Testing",
+    "question": "Describe a real-world debugging scenario involving Network Penetration Testing and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Penetration Testing",
+    "question": "How does Network Penetration Testing perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Penetration Testing",
+    "question": "What are the best practices for structuring code related to Network Penetration Testing?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Penetration Testing",
+    "question": "In a practical project, how do you integrate Network Penetration Testing with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Penetration Testing",
+    "question": "Compare and contrast two alternative approaches for executing Network Penetration Testing.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Penetration Testing",
+    "question": "How do you write a unit test for a function that relies on Network Penetration Testing?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Penetration Testing",
+    "question": "What performance bottlenecks can arise if Network Penetration Testing is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Penetration Testing",
+    "question": "How do you refactor legacy code using modern standards for Network Penetration Testing?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Penetration Testing",
+    "question": "Explain how data validation is applied to Network Penetration Testing payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Metasploit & Burp Suite",
+    "question": "How do you implement practical error handling when working with Metasploit & Burp Suite in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Metasploit & Burp Suite",
+    "question": "Describe a real-world debugging scenario involving Metasploit & Burp Suite and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Metasploit & Burp Suite",
+    "question": "How does Metasploit & Burp Suite perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Metasploit & Burp Suite",
+    "question": "What are the best practices for structuring code related to Metasploit & Burp Suite?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Metasploit & Burp Suite",
+    "question": "In a practical project, how do you integrate Metasploit & Burp Suite with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Metasploit & Burp Suite",
+    "question": "Compare and contrast two alternative approaches for executing Metasploit & Burp Suite.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Metasploit & Burp Suite",
+    "question": "How do you write a unit test for a function that relies on Metasploit & Burp Suite?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Metasploit & Burp Suite",
+    "question": "What performance bottlenecks can arise if Metasploit & Burp Suite is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Metasploit & Burp Suite",
+    "question": "How do you refactor legacy code using modern standards for Metasploit & Burp Suite?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Metasploit & Burp Suite",
+    "question": "Explain how data validation is applied to Metasploit & Burp Suite payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Privilege Escalation & Exploitation",
+    "question": "How do you implement practical error handling when working with Privilege Escalation & Exploitation in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Privilege Escalation & Exploitation",
+    "question": "Describe a real-world debugging scenario involving Privilege Escalation & Exploitation and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Privilege Escalation & Exploitation",
+    "question": "How does Privilege Escalation & Exploitation perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Privilege Escalation & Exploitation",
+    "question": "What are the best practices for structuring code related to Privilege Escalation & Exploitation?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Privilege Escalation & Exploitation",
+    "question": "In a practical project, how do you integrate Privilege Escalation & Exploitation with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Privilege Escalation & Exploitation",
+    "question": "Compare and contrast two alternative approaches for executing Privilege Escalation & Exploitation.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Privilege Escalation & Exploitation",
+    "question": "How do you write a unit test for a function that relies on Privilege Escalation & Exploitation?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Privilege Escalation & Exploitation",
+    "question": "What performance bottlenecks can arise if Privilege Escalation & Exploitation is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Privilege Escalation & Exploitation",
+    "question": "How do you refactor legacy code using modern standards for Privilege Escalation & Exploitation?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Privilege Escalation & Exploitation",
+    "question": "Explain how data validation is applied to Privilege Escalation & Exploitation payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

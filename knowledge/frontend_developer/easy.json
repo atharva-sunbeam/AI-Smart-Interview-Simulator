@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "HTML5 & Semantic Web",
+    "question": "What is HTML5 & Semantic Web in Frontend Developer, and why is it important?",
+    "answer": "HTML5 & Semantic Web is a foundational concept in Frontend Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "HTML5 & Semantic Web",
+    "question": "Define the basic syntax or primary usage of HTML5 & Semantic Web.",
+    "answer": "The primary syntax for HTML5 & Semantic Web involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "HTML5 & Semantic Web",
+    "question": "What is the main difference between basic primitives and HTML5 & Semantic Web?",
+    "answer": "Basic primitives store single value types, whereas HTML5 & Semantic Web organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "HTML5 & Semantic Web",
+    "question": "What is a common beginner mistake when working with HTML5 & Semantic Web?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in HTML5 & Semantic Web.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "HTML5 & Semantic Web",
+    "question": "State two key advantages of using HTML5 & Semantic Web in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "HTML5 & Semantic Web",
+    "question": "How do you initialize or instantiate HTML5 & Semantic Web in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "HTML5 & Semantic Web",
+    "question": "What role does HTML5 & Semantic Web play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "HTML5 & Semantic Web",
+    "question": "Explain the simple step-by-step workflow of executing HTML5 & Semantic Web.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "HTML5 & Semantic Web",
+    "question": "What is the recommended naming convention when defining HTML5 & Semantic Web?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "HTML5 & Semantic Web",
+    "question": "List the basic prerequisites needed before implementing HTML5 & Semantic Web.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CSS3, Flexbox & Grid",
+    "question": "What is CSS3, Flexbox & Grid in Frontend Developer, and why is it important?",
+    "answer": "CSS3, Flexbox & Grid is a foundational concept in Frontend Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CSS3, Flexbox & Grid",
+    "question": "Define the basic syntax or primary usage of CSS3, Flexbox & Grid.",
+    "answer": "The primary syntax for CSS3, Flexbox & Grid involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CSS3, Flexbox & Grid",
+    "question": "What is the main difference between basic primitives and CSS3, Flexbox & Grid?",
+    "answer": "Basic primitives store single value types, whereas CSS3, Flexbox & Grid organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CSS3, Flexbox & Grid",
+    "question": "What is a common beginner mistake when working with CSS3, Flexbox & Grid?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in CSS3, Flexbox & Grid.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CSS3, Flexbox & Grid",
+    "question": "State two key advantages of using CSS3, Flexbox & Grid in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CSS3, Flexbox & Grid",
+    "question": "How do you initialize or instantiate CSS3, Flexbox & Grid in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CSS3, Flexbox & Grid",
+    "question": "What role does CSS3, Flexbox & Grid play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CSS3, Flexbox & Grid",
+    "question": "Explain the simple step-by-step workflow of executing CSS3, Flexbox & Grid.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CSS3, Flexbox & Grid",
+    "question": "What is the recommended naming convention when defining CSS3, Flexbox & Grid?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CSS3, Flexbox & Grid",
+    "question": "List the basic prerequisites needed before implementing CSS3, Flexbox & Grid.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "JavaScript (ES6+)",
+    "question": "What is JavaScript (ES6+) in Frontend Developer, and why is it important?",
+    "answer": "JavaScript (ES6+) is a foundational concept in Frontend Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "JavaScript (ES6+)",
+    "question": "Define the basic syntax or primary usage of JavaScript (ES6+).",
+    "answer": "The primary syntax for JavaScript (ES6+) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "JavaScript (ES6+)",
+    "question": "What is the main difference between basic primitives and JavaScript (ES6+)?",
+    "answer": "Basic primitives store single value types, whereas JavaScript (ES6+) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "JavaScript (ES6+)",
+    "question": "What is a common beginner mistake when working with JavaScript (ES6+)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in JavaScript (ES6+).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "JavaScript (ES6+)",
+    "question": "State two key advantages of using JavaScript (ES6+) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "JavaScript (ES6+)",
+    "question": "How do you initialize or instantiate JavaScript (ES6+) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "JavaScript (ES6+)",
+    "question": "What role does JavaScript (ES6+) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "JavaScript (ES6+)",
+    "question": "Explain the simple step-by-step workflow of executing JavaScript (ES6+).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "JavaScript (ES6+)",
+    "question": "What is the recommended naming convention when defining JavaScript (ES6+)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "JavaScript (ES6+)",
+    "question": "List the basic prerequisites needed before implementing JavaScript (ES6+).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React.js & State Management",
+    "question": "What is React.js & State Management in Frontend Developer, and why is it important?",
+    "answer": "React.js & State Management is a foundational concept in Frontend Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React.js & State Management",
+    "question": "Define the basic syntax or primary usage of React.js & State Management.",
+    "answer": "The primary syntax for React.js & State Management involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React.js & State Management",
+    "question": "What is the main difference between basic primitives and React.js & State Management?",
+    "answer": "Basic primitives store single value types, whereas React.js & State Management organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React.js & State Management",
+    "question": "What is a common beginner mistake when working with React.js & State Management?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in React.js & State Management.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React.js & State Management",
+    "question": "State two key advantages of using React.js & State Management in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React.js & State Management",
+    "question": "How do you initialize or instantiate React.js & State Management in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React.js & State Management",
+    "question": "What role does React.js & State Management play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React.js & State Management",
+    "question": "Explain the simple step-by-step workflow of executing React.js & State Management.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React.js & State Management",
+    "question": "What is the recommended naming convention when defining React.js & State Management?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React.js & State Management",
+    "question": "List the basic prerequisites needed before implementing React.js & State Management.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Web Performance & Optimization",
+    "question": "What is Web Performance & Optimization in Frontend Developer, and why is it important?",
+    "answer": "Web Performance & Optimization is a foundational concept in Frontend Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Web Performance & Optimization",
+    "question": "Define the basic syntax or primary usage of Web Performance & Optimization.",
+    "answer": "The primary syntax for Web Performance & Optimization involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Web Performance & Optimization",
+    "question": "What is the main difference between basic primitives and Web Performance & Optimization?",
+    "answer": "Basic primitives store single value types, whereas Web Performance & Optimization organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Web Performance & Optimization",
+    "question": "What is a common beginner mistake when working with Web Performance & Optimization?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Web Performance & Optimization.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Web Performance & Optimization",
+    "question": "State two key advantages of using Web Performance & Optimization in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Web Performance & Optimization",
+    "question": "How do you initialize or instantiate Web Performance & Optimization in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Web Performance & Optimization",
+    "question": "What role does Web Performance & Optimization play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Web Performance & Optimization",
+    "question": "Explain the simple step-by-step workflow of executing Web Performance & Optimization.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Web Performance & Optimization",
+    "question": "What is the recommended naming convention when defining Web Performance & Optimization?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Web Performance & Optimization",
+    "question": "List the basic prerequisites needed before implementing Web Performance & Optimization.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "UI/UX Best Practices",
+    "question": "What is UI/UX Best Practices in Frontend Developer, and why is it important?",
+    "answer": "UI/UX Best Practices is a foundational concept in Frontend Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "UI/UX Best Practices",
+    "question": "Define the basic syntax or primary usage of UI/UX Best Practices.",
+    "answer": "The primary syntax for UI/UX Best Practices involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "UI/UX Best Practices",
+    "question": "What is the main difference between basic primitives and UI/UX Best Practices?",
+    "answer": "Basic primitives store single value types, whereas UI/UX Best Practices organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "UI/UX Best Practices",
+    "question": "What is a common beginner mistake when working with UI/UX Best Practices?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in UI/UX Best Practices.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "UI/UX Best Practices",
+    "question": "State two key advantages of using UI/UX Best Practices in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "UI/UX Best Practices",
+    "question": "How do you initialize or instantiate UI/UX Best Practices in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "UI/UX Best Practices",
+    "question": "What role does UI/UX Best Practices play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "UI/UX Best Practices",
+    "question": "Explain the simple step-by-step workflow of executing UI/UX Best Practices.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "UI/UX Best Practices",
+    "question": "What is the recommended naming convention when defining UI/UX Best Practices?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "UI/UX Best Practices",
+    "question": "List the basic prerequisites needed before implementing UI/UX Best Practices.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

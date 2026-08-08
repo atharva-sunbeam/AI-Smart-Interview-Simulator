@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "Design a scalable distributed architecture utilizing JavaScript / TypeScript for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling JavaScript / TypeScript across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying JavaScript / TypeScript.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "How would you optimize latency and throughput for JavaScript / TypeScript under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in JavaScript / TypeScript.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on JavaScript / TypeScript?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard JavaScript / TypeScript.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "How do you perform deep performance profiling and memory leak detection on JavaScript / TypeScript in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with JavaScript / TypeScript and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for JavaScript / TypeScript.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "Design a scalable distributed architecture utilizing React Native Components for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling React Native Components across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying React Native Components.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "How would you optimize latency and throughput for React Native Components under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in React Native Components.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on React Native Components?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard React Native Components.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "How do you perform deep performance profiling and memory leak detection on React Native Components in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with React Native Components and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for React Native Components.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "Design a scalable distributed architecture utilizing State Management (Redux/Zustand) for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling State Management (Redux/Zustand) across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying State Management (Redux/Zustand).",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "How would you optimize latency and throughput for State Management (Redux/Zustand) under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in State Management (Redux/Zustand).",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on State Management (Redux/Zustand)?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard State Management (Redux/Zustand).",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "How do you perform deep performance profiling and memory leak detection on State Management (Redux/Zustand) in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with State Management (Redux/Zustand) and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for State Management (Redux/Zustand).",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "Design a scalable distributed architecture utilizing Native Modules & Bridges for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Native Modules & Bridges across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Native Modules & Bridges.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "How would you optimize latency and throughput for Native Modules & Bridges under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Native Modules & Bridges.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Native Modules & Bridges?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Native Modules & Bridges.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "How do you perform deep performance profiling and memory leak detection on Native Modules & Bridges in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Native Modules & Bridges and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Native Modules & Bridges.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "Design a scalable distributed architecture utilizing REST APIs & Storage for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling REST APIs & Storage across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying REST APIs & Storage.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "How would you optimize latency and throughput for REST APIs & Storage under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in REST APIs & Storage.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on REST APIs & Storage?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard REST APIs & Storage.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "How do you perform deep performance profiling and memory leak detection on REST APIs & Storage in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with REST APIs & Storage and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for REST APIs & Storage.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  }
+]

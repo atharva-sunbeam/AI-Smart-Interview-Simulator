@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Python Core",
+    "question": "What is Python Core in AI / LLM Engineer, and why is it important?",
+    "answer": "Python Core is a foundational concept in AI / LLM Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python Core",
+    "question": "Define the basic syntax or primary usage of Python Core.",
+    "answer": "The primary syntax for Python Core involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python Core",
+    "question": "What is the main difference between basic primitives and Python Core?",
+    "answer": "Basic primitives store single value types, whereas Python Core organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python Core",
+    "question": "What is a common beginner mistake when working with Python Core?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Python Core.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python Core",
+    "question": "State two key advantages of using Python Core in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python Core",
+    "question": "How do you initialize or instantiate Python Core in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python Core",
+    "question": "What role does Python Core play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python Core",
+    "question": "Explain the simple step-by-step workflow of executing Python Core.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python Core",
+    "question": "What is the recommended naming convention when defining Python Core?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python Core",
+    "question": "List the basic prerequisites needed before implementing Python Core.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "What is LangChain & CrewAI in AI / LLM Engineer, and why is it important?",
+    "answer": "LangChain & CrewAI is a foundational concept in AI / LLM Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "Define the basic syntax or primary usage of LangChain & CrewAI.",
+    "answer": "The primary syntax for LangChain & CrewAI involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "What is the main difference between basic primitives and LangChain & CrewAI?",
+    "answer": "Basic primitives store single value types, whereas LangChain & CrewAI organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "What is a common beginner mistake when working with LangChain & CrewAI?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in LangChain & CrewAI.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "State two key advantages of using LangChain & CrewAI in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "How do you initialize or instantiate LangChain & CrewAI in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "What role does LangChain & CrewAI play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "Explain the simple step-by-step workflow of executing LangChain & CrewAI.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "What is the recommended naming convention when defining LangChain & CrewAI?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "List the basic prerequisites needed before implementing LangChain & CrewAI.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "What is Vector DBs & Embeddings in AI / LLM Engineer, and why is it important?",
+    "answer": "Vector DBs & Embeddings is a foundational concept in AI / LLM Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "Define the basic syntax or primary usage of Vector DBs & Embeddings.",
+    "answer": "The primary syntax for Vector DBs & Embeddings involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "What is the main difference between basic primitives and Vector DBs & Embeddings?",
+    "answer": "Basic primitives store single value types, whereas Vector DBs & Embeddings organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "What is a common beginner mistake when working with Vector DBs & Embeddings?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Vector DBs & Embeddings.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "State two key advantages of using Vector DBs & Embeddings in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "How do you initialize or instantiate Vector DBs & Embeddings in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "What role does Vector DBs & Embeddings play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "Explain the simple step-by-step workflow of executing Vector DBs & Embeddings.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "What is the recommended naming convention when defining Vector DBs & Embeddings?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "List the basic prerequisites needed before implementing Vector DBs & Embeddings.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "What is RAG Systems in AI / LLM Engineer, and why is it important?",
+    "answer": "RAG Systems is a foundational concept in AI / LLM Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "Define the basic syntax or primary usage of RAG Systems.",
+    "answer": "The primary syntax for RAG Systems involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "What is the main difference between basic primitives and RAG Systems?",
+    "answer": "Basic primitives store single value types, whereas RAG Systems organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "What is a common beginner mistake when working with RAG Systems?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in RAG Systems.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "State two key advantages of using RAG Systems in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "How do you initialize or instantiate RAG Systems in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "What role does RAG Systems play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "Explain the simple step-by-step workflow of executing RAG Systems.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "What is the recommended naming convention when defining RAG Systems?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "List the basic prerequisites needed before implementing RAG Systems.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "What is Prompt Engineering & Guardrails in AI / LLM Engineer, and why is it important?",
+    "answer": "Prompt Engineering & Guardrails is a foundational concept in AI / LLM Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "Define the basic syntax or primary usage of Prompt Engineering & Guardrails.",
+    "answer": "The primary syntax for Prompt Engineering & Guardrails involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "What is the main difference between basic primitives and Prompt Engineering & Guardrails?",
+    "answer": "Basic primitives store single value types, whereas Prompt Engineering & Guardrails organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "What is a common beginner mistake when working with Prompt Engineering & Guardrails?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Prompt Engineering & Guardrails.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "State two key advantages of using Prompt Engineering & Guardrails in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "How do you initialize or instantiate Prompt Engineering & Guardrails in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "What role does Prompt Engineering & Guardrails play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "Explain the simple step-by-step workflow of executing Prompt Engineering & Guardrails.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "What is the recommended naming convention when defining Prompt Engineering & Guardrails?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "List the basic prerequisites needed before implementing Prompt Engineering & Guardrails.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "What is Fine-Tuning & Quantization in AI / LLM Engineer, and why is it important?",
+    "answer": "Fine-Tuning & Quantization is a foundational concept in AI / LLM Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "Define the basic syntax or primary usage of Fine-Tuning & Quantization.",
+    "answer": "The primary syntax for Fine-Tuning & Quantization involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "What is the main difference between basic primitives and Fine-Tuning & Quantization?",
+    "answer": "Basic primitives store single value types, whereas Fine-Tuning & Quantization organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "What is a common beginner mistake when working with Fine-Tuning & Quantization?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Fine-Tuning & Quantization.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "State two key advantages of using Fine-Tuning & Quantization in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "How do you initialize or instantiate Fine-Tuning & Quantization in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "What role does Fine-Tuning & Quantization play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "Explain the simple step-by-step workflow of executing Fine-Tuning & Quantization.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "What is the recommended naming convention when defining Fine-Tuning & Quantization?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "List the basic prerequisites needed before implementing Fine-Tuning & Quantization.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

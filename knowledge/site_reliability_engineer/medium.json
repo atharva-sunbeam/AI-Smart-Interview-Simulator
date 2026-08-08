@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Reliability & SLA/SLO/SLI",
+    "question": "How do you implement practical error handling when working with Reliability & SLA/SLO/SLI in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Reliability & SLA/SLO/SLI",
+    "question": "Describe a real-world debugging scenario involving Reliability & SLA/SLO/SLI and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Reliability & SLA/SLO/SLI",
+    "question": "How does Reliability & SLA/SLO/SLI perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Reliability & SLA/SLO/SLI",
+    "question": "What are the best practices for structuring code related to Reliability & SLA/SLO/SLI?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Reliability & SLA/SLO/SLI",
+    "question": "In a practical project, how do you integrate Reliability & SLA/SLO/SLI with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Reliability & SLA/SLO/SLI",
+    "question": "Compare and contrast two alternative approaches for executing Reliability & SLA/SLO/SLI.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Reliability & SLA/SLO/SLI",
+    "question": "How do you write a unit test for a function that relies on Reliability & SLA/SLO/SLI?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Reliability & SLA/SLO/SLI",
+    "question": "What performance bottlenecks can arise if Reliability & SLA/SLO/SLI is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Reliability & SLA/SLO/SLI",
+    "question": "How do you refactor legacy code using modern standards for Reliability & SLA/SLO/SLI?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Reliability & SLA/SLO/SLI",
+    "question": "Explain how data validation is applied to Reliability & SLA/SLO/SLI payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Response & Postmortems",
+    "question": "How do you implement practical error handling when working with Incident Response & Postmortems in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Response & Postmortems",
+    "question": "Describe a real-world debugging scenario involving Incident Response & Postmortems and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Response & Postmortems",
+    "question": "How does Incident Response & Postmortems perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Response & Postmortems",
+    "question": "What are the best practices for structuring code related to Incident Response & Postmortems?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Response & Postmortems",
+    "question": "In a practical project, how do you integrate Incident Response & Postmortems with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Response & Postmortems",
+    "question": "Compare and contrast two alternative approaches for executing Incident Response & Postmortems.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Response & Postmortems",
+    "question": "How do you write a unit test for a function that relies on Incident Response & Postmortems?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Response & Postmortems",
+    "question": "What performance bottlenecks can arise if Incident Response & Postmortems is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Response & Postmortems",
+    "question": "How do you refactor legacy code using modern standards for Incident Response & Postmortems?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Response & Postmortems",
+    "question": "Explain how data validation is applied to Incident Response & Postmortems payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Automation & Python/Go Scripting",
+    "question": "How do you implement practical error handling when working with Automation & Python/Go Scripting in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Automation & Python/Go Scripting",
+    "question": "Describe a real-world debugging scenario involving Automation & Python/Go Scripting and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Automation & Python/Go Scripting",
+    "question": "How does Automation & Python/Go Scripting perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Automation & Python/Go Scripting",
+    "question": "What are the best practices for structuring code related to Automation & Python/Go Scripting?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Automation & Python/Go Scripting",
+    "question": "In a practical project, how do you integrate Automation & Python/Go Scripting with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Automation & Python/Go Scripting",
+    "question": "Compare and contrast two alternative approaches for executing Automation & Python/Go Scripting.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Automation & Python/Go Scripting",
+    "question": "How do you write a unit test for a function that relies on Automation & Python/Go Scripting?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Automation & Python/Go Scripting",
+    "question": "What performance bottlenecks can arise if Automation & Python/Go Scripting is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Automation & Python/Go Scripting",
+    "question": "How do you refactor legacy code using modern standards for Automation & Python/Go Scripting?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Automation & Python/Go Scripting",
+    "question": "Explain how data validation is applied to Automation & Python/Go Scripting payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Distributed Systems Monitoring",
+    "question": "How do you implement practical error handling when working with Distributed Systems Monitoring in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Distributed Systems Monitoring",
+    "question": "Describe a real-world debugging scenario involving Distributed Systems Monitoring and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Distributed Systems Monitoring",
+    "question": "How does Distributed Systems Monitoring perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Distributed Systems Monitoring",
+    "question": "What are the best practices for structuring code related to Distributed Systems Monitoring?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Distributed Systems Monitoring",
+    "question": "In a practical project, how do you integrate Distributed Systems Monitoring with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Distributed Systems Monitoring",
+    "question": "Compare and contrast two alternative approaches for executing Distributed Systems Monitoring.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Distributed Systems Monitoring",
+    "question": "How do you write a unit test for a function that relies on Distributed Systems Monitoring?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Distributed Systems Monitoring",
+    "question": "What performance bottlenecks can arise if Distributed Systems Monitoring is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Distributed Systems Monitoring",
+    "question": "How do you refactor legacy code using modern standards for Distributed Systems Monitoring?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Distributed Systems Monitoring",
+    "question": "Explain how data validation is applied to Distributed Systems Monitoring payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Capacity Planning & Chaos Engineering",
+    "question": "How do you implement practical error handling when working with Capacity Planning & Chaos Engineering in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Capacity Planning & Chaos Engineering",
+    "question": "Describe a real-world debugging scenario involving Capacity Planning & Chaos Engineering and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Capacity Planning & Chaos Engineering",
+    "question": "How does Capacity Planning & Chaos Engineering perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Capacity Planning & Chaos Engineering",
+    "question": "What are the best practices for structuring code related to Capacity Planning & Chaos Engineering?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Capacity Planning & Chaos Engineering",
+    "question": "In a practical project, how do you integrate Capacity Planning & Chaos Engineering with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Capacity Planning & Chaos Engineering",
+    "question": "Compare and contrast two alternative approaches for executing Capacity Planning & Chaos Engineering.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Capacity Planning & Chaos Engineering",
+    "question": "How do you write a unit test for a function that relies on Capacity Planning & Chaos Engineering?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Capacity Planning & Chaos Engineering",
+    "question": "What performance bottlenecks can arise if Capacity Planning & Chaos Engineering is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Capacity Planning & Chaos Engineering",
+    "question": "How do you refactor legacy code using modern standards for Capacity Planning & Chaos Engineering?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Capacity Planning & Chaos Engineering",
+    "question": "Explain how data validation is applied to Capacity Planning & Chaos Engineering payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

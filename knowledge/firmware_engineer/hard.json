@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "Design a scalable distributed architecture utilizing C Programming & Register Manipulation for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling C Programming & Register Manipulation across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying C Programming & Register Manipulation.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "How would you optimize latency and throughput for C Programming & Register Manipulation under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in C Programming & Register Manipulation.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on C Programming & Register Manipulation?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard C Programming & Register Manipulation.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "How do you perform deep performance profiling and memory leak detection on C Programming & Register Manipulation in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with C Programming & Register Manipulation and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for C Programming & Register Manipulation.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "Design a scalable distributed architecture utilizing Microcontroller Architecture for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Microcontroller Architecture across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Microcontroller Architecture.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "How would you optimize latency and throughput for Microcontroller Architecture under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Microcontroller Architecture.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Microcontroller Architecture?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Microcontroller Architecture.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "How do you perform deep performance profiling and memory leak detection on Microcontroller Architecture in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Microcontroller Architecture and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Microcontroller Architecture.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "Design a scalable distributed architecture utilizing Hardware Abstraction Layer (HAL) for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Hardware Abstraction Layer (HAL) across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Hardware Abstraction Layer (HAL).",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "How would you optimize latency and throughput for Hardware Abstraction Layer (HAL) under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Hardware Abstraction Layer (HAL).",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Hardware Abstraction Layer (HAL)?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Hardware Abstraction Layer (HAL).",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "How do you perform deep performance profiling and memory leak detection on Hardware Abstraction Layer (HAL) in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Hardware Abstraction Layer (HAL) and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Hardware Abstraction Layer (HAL).",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "Design a scalable distributed architecture utilizing Interrupts & Timers for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Interrupts & Timers across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Interrupts & Timers.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "How would you optimize latency and throughput for Interrupts & Timers under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Interrupts & Timers.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Interrupts & Timers?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Interrupts & Timers.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "How do you perform deep performance profiling and memory leak detection on Interrupts & Timers in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Interrupts & Timers and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Interrupts & Timers.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "Design a scalable distributed architecture utilizing Low Power Optimization for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Low Power Optimization across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Low Power Optimization.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "How would you optimize latency and throughput for Low Power Optimization under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Low Power Optimization.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Low Power Optimization?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Low Power Optimization.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "How do you perform deep performance profiling and memory leak detection on Low Power Optimization in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Low Power Optimization and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Low Power Optimization.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  }
+]

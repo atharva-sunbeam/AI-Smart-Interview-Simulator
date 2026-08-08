@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Azure Virtual Machines & VNet",
+    "question": "How do you implement practical error handling when working with Azure Virtual Machines & VNet in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure Virtual Machines & VNet",
+    "question": "Describe a real-world debugging scenario involving Azure Virtual Machines & VNet and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure Virtual Machines & VNet",
+    "question": "How does Azure Virtual Machines & VNet perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure Virtual Machines & VNet",
+    "question": "What are the best practices for structuring code related to Azure Virtual Machines & VNet?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure Virtual Machines & VNet",
+    "question": "In a practical project, how do you integrate Azure Virtual Machines & VNet with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure Virtual Machines & VNet",
+    "question": "Compare and contrast two alternative approaches for executing Azure Virtual Machines & VNet.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure Virtual Machines & VNet",
+    "question": "How do you write a unit test for a function that relies on Azure Virtual Machines & VNet?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure Virtual Machines & VNet",
+    "question": "What performance bottlenecks can arise if Azure Virtual Machines & VNet is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure Virtual Machines & VNet",
+    "question": "How do you refactor legacy code using modern standards for Azure Virtual Machines & VNet?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure Virtual Machines & VNet",
+    "question": "Explain how data validation is applied to Azure Virtual Machines & VNet payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure Active Directory (Entra ID)",
+    "question": "How do you implement practical error handling when working with Azure Active Directory (Entra ID) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure Active Directory (Entra ID)",
+    "question": "Describe a real-world debugging scenario involving Azure Active Directory (Entra ID) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure Active Directory (Entra ID)",
+    "question": "How does Azure Active Directory (Entra ID) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure Active Directory (Entra ID)",
+    "question": "What are the best practices for structuring code related to Azure Active Directory (Entra ID)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure Active Directory (Entra ID)",
+    "question": "In a practical project, how do you integrate Azure Active Directory (Entra ID) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure Active Directory (Entra ID)",
+    "question": "Compare and contrast two alternative approaches for executing Azure Active Directory (Entra ID).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure Active Directory (Entra ID)",
+    "question": "How do you write a unit test for a function that relies on Azure Active Directory (Entra ID)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure Active Directory (Entra ID)",
+    "question": "What performance bottlenecks can arise if Azure Active Directory (Entra ID) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure Active Directory (Entra ID)",
+    "question": "How do you refactor legacy code using modern standards for Azure Active Directory (Entra ID)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure Active Directory (Entra ID)",
+    "question": "Explain how data validation is applied to Azure Active Directory (Entra ID) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure App Services & Functions",
+    "question": "How do you implement practical error handling when working with Azure App Services & Functions in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure App Services & Functions",
+    "question": "Describe a real-world debugging scenario involving Azure App Services & Functions and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure App Services & Functions",
+    "question": "How does Azure App Services & Functions perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure App Services & Functions",
+    "question": "What are the best practices for structuring code related to Azure App Services & Functions?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure App Services & Functions",
+    "question": "In a practical project, how do you integrate Azure App Services & Functions with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure App Services & Functions",
+    "question": "Compare and contrast two alternative approaches for executing Azure App Services & Functions.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure App Services & Functions",
+    "question": "How do you write a unit test for a function that relies on Azure App Services & Functions?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure App Services & Functions",
+    "question": "What performance bottlenecks can arise if Azure App Services & Functions is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure App Services & Functions",
+    "question": "How do you refactor legacy code using modern standards for Azure App Services & Functions?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure App Services & Functions",
+    "question": "Explain how data validation is applied to Azure App Services & Functions payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure DevOps Pipelines",
+    "question": "How do you implement practical error handling when working with Azure DevOps Pipelines in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure DevOps Pipelines",
+    "question": "Describe a real-world debugging scenario involving Azure DevOps Pipelines and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure DevOps Pipelines",
+    "question": "How does Azure DevOps Pipelines perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure DevOps Pipelines",
+    "question": "What are the best practices for structuring code related to Azure DevOps Pipelines?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure DevOps Pipelines",
+    "question": "In a practical project, how do you integrate Azure DevOps Pipelines with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure DevOps Pipelines",
+    "question": "Compare and contrast two alternative approaches for executing Azure DevOps Pipelines.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure DevOps Pipelines",
+    "question": "How do you write a unit test for a function that relies on Azure DevOps Pipelines?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure DevOps Pipelines",
+    "question": "What performance bottlenecks can arise if Azure DevOps Pipelines is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure DevOps Pipelines",
+    "question": "How do you refactor legacy code using modern standards for Azure DevOps Pipelines?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Azure DevOps Pipelines",
+    "question": "Explain how data validation is applied to Azure DevOps Pipelines payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ARM Templates / Bicep",
+    "question": "How do you implement practical error handling when working with ARM Templates / Bicep in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ARM Templates / Bicep",
+    "question": "Describe a real-world debugging scenario involving ARM Templates / Bicep and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ARM Templates / Bicep",
+    "question": "How does ARM Templates / Bicep perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ARM Templates / Bicep",
+    "question": "What are the best practices for structuring code related to ARM Templates / Bicep?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ARM Templates / Bicep",
+    "question": "In a practical project, how do you integrate ARM Templates / Bicep with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ARM Templates / Bicep",
+    "question": "Compare and contrast two alternative approaches for executing ARM Templates / Bicep.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ARM Templates / Bicep",
+    "question": "How do you write a unit test for a function that relies on ARM Templates / Bicep?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ARM Templates / Bicep",
+    "question": "What performance bottlenecks can arise if ARM Templates / Bicep is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ARM Templates / Bicep",
+    "question": "How do you refactor legacy code using modern standards for ARM Templates / Bicep?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ARM Templates / Bicep",
+    "question": "Explain how data validation is applied to ARM Templates / Bicep payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Linux Command Line & Shell Scripting",
+    "question": "What is Linux Command Line & Shell Scripting in Linux System Administrator, and why is it important?",
+    "answer": "Linux Command Line & Shell Scripting is a foundational concept in Linux System Administrator. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Command Line & Shell Scripting",
+    "question": "Define the basic syntax or primary usage of Linux Command Line & Shell Scripting.",
+    "answer": "The primary syntax for Linux Command Line & Shell Scripting involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Command Line & Shell Scripting",
+    "question": "What is the main difference between basic primitives and Linux Command Line & Shell Scripting?",
+    "answer": "Basic primitives store single value types, whereas Linux Command Line & Shell Scripting organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Command Line & Shell Scripting",
+    "question": "What is a common beginner mistake when working with Linux Command Line & Shell Scripting?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Linux Command Line & Shell Scripting.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Command Line & Shell Scripting",
+    "question": "State two key advantages of using Linux Command Line & Shell Scripting in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Command Line & Shell Scripting",
+    "question": "How do you initialize or instantiate Linux Command Line & Shell Scripting in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Command Line & Shell Scripting",
+    "question": "What role does Linux Command Line & Shell Scripting play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Command Line & Shell Scripting",
+    "question": "Explain the simple step-by-step workflow of executing Linux Command Line & Shell Scripting.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Command Line & Shell Scripting",
+    "question": "What is the recommended naming convention when defining Linux Command Line & Shell Scripting?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Command Line & Shell Scripting",
+    "question": "List the basic prerequisites needed before implementing Linux Command Line & Shell Scripting.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "User & Permission Management",
+    "question": "What is User & Permission Management in Linux System Administrator, and why is it important?",
+    "answer": "User & Permission Management is a foundational concept in Linux System Administrator. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "User & Permission Management",
+    "question": "Define the basic syntax or primary usage of User & Permission Management.",
+    "answer": "The primary syntax for User & Permission Management involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "User & Permission Management",
+    "question": "What is the main difference between basic primitives and User & Permission Management?",
+    "answer": "Basic primitives store single value types, whereas User & Permission Management organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "User & Permission Management",
+    "question": "What is a common beginner mistake when working with User & Permission Management?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in User & Permission Management.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "User & Permission Management",
+    "question": "State two key advantages of using User & Permission Management in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "User & Permission Management",
+    "question": "How do you initialize or instantiate User & Permission Management in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "User & Permission Management",
+    "question": "What role does User & Permission Management play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "User & Permission Management",
+    "question": "Explain the simple step-by-step workflow of executing User & Permission Management.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "User & Permission Management",
+    "question": "What is the recommended naming convention when defining User & Permission Management?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "User & Permission Management",
+    "question": "List the basic prerequisites needed before implementing User & Permission Management.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Process Management & Systemd",
+    "question": "What is Process Management & Systemd in Linux System Administrator, and why is it important?",
+    "answer": "Process Management & Systemd is a foundational concept in Linux System Administrator. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Process Management & Systemd",
+    "question": "Define the basic syntax or primary usage of Process Management & Systemd.",
+    "answer": "The primary syntax for Process Management & Systemd involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Process Management & Systemd",
+    "question": "What is the main difference between basic primitives and Process Management & Systemd?",
+    "answer": "Basic primitives store single value types, whereas Process Management & Systemd organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Process Management & Systemd",
+    "question": "What is a common beginner mistake when working with Process Management & Systemd?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Process Management & Systemd.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Process Management & Systemd",
+    "question": "State two key advantages of using Process Management & Systemd in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Process Management & Systemd",
+    "question": "How do you initialize or instantiate Process Management & Systemd in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Process Management & Systemd",
+    "question": "What role does Process Management & Systemd play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Process Management & Systemd",
+    "question": "Explain the simple step-by-step workflow of executing Process Management & Systemd.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Process Management & Systemd",
+    "question": "What is the recommended naming convention when defining Process Management & Systemd?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Process Management & Systemd",
+    "question": "List the basic prerequisites needed before implementing Process Management & Systemd.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Package Management (yum/apt)",
+    "question": "What is Package Management (yum/apt) in Linux System Administrator, and why is it important?",
+    "answer": "Package Management (yum/apt) is a foundational concept in Linux System Administrator. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Package Management (yum/apt)",
+    "question": "Define the basic syntax or primary usage of Package Management (yum/apt).",
+    "answer": "The primary syntax for Package Management (yum/apt) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Package Management (yum/apt)",
+    "question": "What is the main difference between basic primitives and Package Management (yum/apt)?",
+    "answer": "Basic primitives store single value types, whereas Package Management (yum/apt) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Package Management (yum/apt)",
+    "question": "What is a common beginner mistake when working with Package Management (yum/apt)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Package Management (yum/apt).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Package Management (yum/apt)",
+    "question": "State two key advantages of using Package Management (yum/apt) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Package Management (yum/apt)",
+    "question": "How do you initialize or instantiate Package Management (yum/apt) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Package Management (yum/apt)",
+    "question": "What role does Package Management (yum/apt) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Package Management (yum/apt)",
+    "question": "Explain the simple step-by-step workflow of executing Package Management (yum/apt).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Package Management (yum/apt)",
+    "question": "What is the recommended naming convention when defining Package Management (yum/apt)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Package Management (yum/apt)",
+    "question": "List the basic prerequisites needed before implementing Package Management (yum/apt).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Networking & Firewall (iptables/ufw)",
+    "question": "What is Networking & Firewall (iptables/ufw) in Linux System Administrator, and why is it important?",
+    "answer": "Networking & Firewall (iptables/ufw) is a foundational concept in Linux System Administrator. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Networking & Firewall (iptables/ufw)",
+    "question": "Define the basic syntax or primary usage of Networking & Firewall (iptables/ufw).",
+    "answer": "The primary syntax for Networking & Firewall (iptables/ufw) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Networking & Firewall (iptables/ufw)",
+    "question": "What is the main difference between basic primitives and Networking & Firewall (iptables/ufw)?",
+    "answer": "Basic primitives store single value types, whereas Networking & Firewall (iptables/ufw) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Networking & Firewall (iptables/ufw)",
+    "question": "What is a common beginner mistake when working with Networking & Firewall (iptables/ufw)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Networking & Firewall (iptables/ufw).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Networking & Firewall (iptables/ufw)",
+    "question": "State two key advantages of using Networking & Firewall (iptables/ufw) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Networking & Firewall (iptables/ufw)",
+    "question": "How do you initialize or instantiate Networking & Firewall (iptables/ufw) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Networking & Firewall (iptables/ufw)",
+    "question": "What role does Networking & Firewall (iptables/ufw) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Networking & Firewall (iptables/ufw)",
+    "question": "Explain the simple step-by-step workflow of executing Networking & Firewall (iptables/ufw).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Networking & Firewall (iptables/ufw)",
+    "question": "What is the recommended naming convention when defining Networking & Firewall (iptables/ufw)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Networking & Firewall (iptables/ufw)",
+    "question": "List the basic prerequisites needed before implementing Networking & Firewall (iptables/ufw).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Storage & LVM",
+    "question": "What is Storage & LVM in Linux System Administrator, and why is it important?",
+    "answer": "Storage & LVM is a foundational concept in Linux System Administrator. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Storage & LVM",
+    "question": "Define the basic syntax or primary usage of Storage & LVM.",
+    "answer": "The primary syntax for Storage & LVM involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Storage & LVM",
+    "question": "What is the main difference between basic primitives and Storage & LVM?",
+    "answer": "Basic primitives store single value types, whereas Storage & LVM organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Storage & LVM",
+    "question": "What is a common beginner mistake when working with Storage & LVM?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Storage & LVM.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Storage & LVM",
+    "question": "State two key advantages of using Storage & LVM in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Storage & LVM",
+    "question": "How do you initialize or instantiate Storage & LVM in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Storage & LVM",
+    "question": "What role does Storage & LVM play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Storage & LVM",
+    "question": "Explain the simple step-by-step workflow of executing Storage & LVM.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Storage & LVM",
+    "question": "What is the recommended naming convention when defining Storage & LVM?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Storage & LVM",
+    "question": "List the basic prerequisites needed before implementing Storage & LVM.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

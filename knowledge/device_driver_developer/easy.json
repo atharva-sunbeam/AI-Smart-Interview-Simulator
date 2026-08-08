@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "What is Linux Device Driver Model in Device Driver Developer, and why is it important?",
+    "answer": "Linux Device Driver Model is a foundational concept in Device Driver Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "Define the basic syntax or primary usage of Linux Device Driver Model.",
+    "answer": "The primary syntax for Linux Device Driver Model involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "What is the main difference between basic primitives and Linux Device Driver Model?",
+    "answer": "Basic primitives store single value types, whereas Linux Device Driver Model organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "What is a common beginner mistake when working with Linux Device Driver Model?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Linux Device Driver Model.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "State two key advantages of using Linux Device Driver Model in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "How do you initialize or instantiate Linux Device Driver Model in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "What role does Linux Device Driver Model play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "Explain the simple step-by-step workflow of executing Linux Device Driver Model.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "What is the recommended naming convention when defining Linux Device Driver Model?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Device Driver Model",
+    "question": "List the basic prerequisites needed before implementing Linux Device Driver Model.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "What is Character & Block Drivers in Device Driver Developer, and why is it important?",
+    "answer": "Character & Block Drivers is a foundational concept in Device Driver Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "Define the basic syntax or primary usage of Character & Block Drivers.",
+    "answer": "The primary syntax for Character & Block Drivers involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "What is the main difference between basic primitives and Character & Block Drivers?",
+    "answer": "Basic primitives store single value types, whereas Character & Block Drivers organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "What is a common beginner mistake when working with Character & Block Drivers?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Character & Block Drivers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "State two key advantages of using Character & Block Drivers in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "How do you initialize or instantiate Character & Block Drivers in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "What role does Character & Block Drivers play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "Explain the simple step-by-step workflow of executing Character & Block Drivers.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "What is the recommended naming convention when defining Character & Block Drivers?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Character & Block Drivers",
+    "question": "List the basic prerequisites needed before implementing Character & Block Drivers.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "What is Interrupt Handling & DMA in Device Driver Developer, and why is it important?",
+    "answer": "Interrupt Handling & DMA is a foundational concept in Device Driver Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "Define the basic syntax or primary usage of Interrupt Handling & DMA.",
+    "answer": "The primary syntax for Interrupt Handling & DMA involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "What is the main difference between basic primitives and Interrupt Handling & DMA?",
+    "answer": "Basic primitives store single value types, whereas Interrupt Handling & DMA organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "What is a common beginner mistake when working with Interrupt Handling & DMA?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Interrupt Handling & DMA.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "State two key advantages of using Interrupt Handling & DMA in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "How do you initialize or instantiate Interrupt Handling & DMA in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "What role does Interrupt Handling & DMA play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "Explain the simple step-by-step workflow of executing Interrupt Handling & DMA.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "What is the recommended naming convention when defining Interrupt Handling & DMA?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Interrupt Handling & DMA",
+    "question": "List the basic prerequisites needed before implementing Interrupt Handling & DMA.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "What is Kernel Modules & Compilation in Device Driver Developer, and why is it important?",
+    "answer": "Kernel Modules & Compilation is a foundational concept in Device Driver Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "Define the basic syntax or primary usage of Kernel Modules & Compilation.",
+    "answer": "The primary syntax for Kernel Modules & Compilation involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "What is the main difference between basic primitives and Kernel Modules & Compilation?",
+    "answer": "Basic primitives store single value types, whereas Kernel Modules & Compilation organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "What is a common beginner mistake when working with Kernel Modules & Compilation?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Kernel Modules & Compilation.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "State two key advantages of using Kernel Modules & Compilation in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "How do you initialize or instantiate Kernel Modules & Compilation in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "What role does Kernel Modules & Compilation play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "Explain the simple step-by-step workflow of executing Kernel Modules & Compilation.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "What is the recommended naming convention when defining Kernel Modules & Compilation?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kernel Modules & Compilation",
+    "question": "List the basic prerequisites needed before implementing Kernel Modules & Compilation.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "What is Memory Allocation (kmalloc) in Device Driver Developer, and why is it important?",
+    "answer": "Memory Allocation (kmalloc) is a foundational concept in Device Driver Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "Define the basic syntax or primary usage of Memory Allocation (kmalloc).",
+    "answer": "The primary syntax for Memory Allocation (kmalloc) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "What is the main difference between basic primitives and Memory Allocation (kmalloc)?",
+    "answer": "Basic primitives store single value types, whereas Memory Allocation (kmalloc) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "What is a common beginner mistake when working with Memory Allocation (kmalloc)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Memory Allocation (kmalloc).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "State two key advantages of using Memory Allocation (kmalloc) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "How do you initialize or instantiate Memory Allocation (kmalloc) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "What role does Memory Allocation (kmalloc) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "Explain the simple step-by-step workflow of executing Memory Allocation (kmalloc).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "What is the recommended naming convention when defining Memory Allocation (kmalloc)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Memory Allocation (kmalloc)",
+    "question": "List the basic prerequisites needed before implementing Memory Allocation (kmalloc).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "Design a scalable distributed architecture utilizing AWS Core Services (EC2, S3, VPC) for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling AWS Core Services (EC2, S3, VPC) across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying AWS Core Services (EC2, S3, VPC).",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "How would you optimize latency and throughput for AWS Core Services (EC2, S3, VPC) under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in AWS Core Services (EC2, S3, VPC).",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on AWS Core Services (EC2, S3, VPC)?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard AWS Core Services (EC2, S3, VPC).",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "How do you perform deep performance profiling and memory leak detection on AWS Core Services (EC2, S3, VPC) in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with AWS Core Services (EC2, S3, VPC) and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for AWS Core Services (EC2, S3, VPC).",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "Design a scalable distributed architecture utilizing IAM & AWS Security for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling IAM & AWS Security across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying IAM & AWS Security.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "How would you optimize latency and throughput for IAM & AWS Security under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in IAM & AWS Security.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on IAM & AWS Security?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard IAM & AWS Security.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "How do you perform deep performance profiling and memory leak detection on IAM & AWS Security in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with IAM & AWS Security and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for IAM & AWS Security.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "Design a scalable distributed architecture utilizing Database Services (RDS, DynamoDB) for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Database Services (RDS, DynamoDB) across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Database Services (RDS, DynamoDB).",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "How would you optimize latency and throughput for Database Services (RDS, DynamoDB) under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Database Services (RDS, DynamoDB).",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Database Services (RDS, DynamoDB)?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Database Services (RDS, DynamoDB).",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "How do you perform deep performance profiling and memory leak detection on Database Services (RDS, DynamoDB) in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Database Services (RDS, DynamoDB) and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Database Services (RDS, DynamoDB).",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "Design a scalable distributed architecture utilizing Serverless (Lambda) for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Serverless (Lambda) across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Serverless (Lambda).",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "How would you optimize latency and throughput for Serverless (Lambda) under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Serverless (Lambda).",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Serverless (Lambda)?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Serverless (Lambda).",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "How do you perform deep performance profiling and memory leak detection on Serverless (Lambda) in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Serverless (Lambda) and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Serverless (Lambda).",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "Design a scalable distributed architecture utilizing CloudFormation / Terraform for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling CloudFormation / Terraform across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying CloudFormation / Terraform.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "How would you optimize latency and throughput for CloudFormation / Terraform under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in CloudFormation / Terraform.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on CloudFormation / Terraform?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard CloudFormation / Terraform.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "How do you perform deep performance profiling and memory leak detection on CloudFormation / Terraform in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with CloudFormation / Terraform and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for CloudFormation / Terraform.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "Design a scalable distributed architecture utilizing AWS Cost & Performance for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling AWS Cost & Performance across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying AWS Cost & Performance.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "How would you optimize latency and throughput for AWS Cost & Performance under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in AWS Cost & Performance.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on AWS Cost & Performance?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard AWS Cost & Performance.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "How do you perform deep performance profiling and memory leak detection on AWS Cost & Performance in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with AWS Cost & Performance and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for AWS Cost & Performance.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  }
+]

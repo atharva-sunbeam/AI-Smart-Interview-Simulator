@@ -1,0 +1,422 @@
+[
+  {
+    "topic": "Java Core & Syntax",
+    "question": "What is Java Core & Syntax in Java Developer, and why is it important?",
+    "answer": "Java Core & Syntax is a foundational concept in Java Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Java Core & Syntax",
+    "question": "Define the basic syntax or primary usage of Java Core & Syntax.",
+    "answer": "The primary syntax for Java Core & Syntax involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Java Core & Syntax",
+    "question": "What is the main difference between basic primitives and Java Core & Syntax?",
+    "answer": "Basic primitives store single value types, whereas Java Core & Syntax organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Java Core & Syntax",
+    "question": "What is a common beginner mistake when working with Java Core & Syntax?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Java Core & Syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Java Core & Syntax",
+    "question": "State two key advantages of using Java Core & Syntax in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Java Core & Syntax",
+    "question": "How do you initialize or instantiate Java Core & Syntax in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Java Core & Syntax",
+    "question": "What role does Java Core & Syntax play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Java Core & Syntax",
+    "question": "Explain the simple step-by-step workflow of executing Java Core & Syntax.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Java Core & Syntax",
+    "question": "What is the recommended naming convention when defining Java Core & Syntax?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Java Core & Syntax",
+    "question": "List the basic prerequisites needed before implementing Java Core & Syntax.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Interfaces",
+    "question": "What is OOP & Interfaces in Java Developer, and why is it important?",
+    "answer": "OOP & Interfaces is a foundational concept in Java Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Interfaces",
+    "question": "Define the basic syntax or primary usage of OOP & Interfaces.",
+    "answer": "The primary syntax for OOP & Interfaces involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Interfaces",
+    "question": "What is the main difference between basic primitives and OOP & Interfaces?",
+    "answer": "Basic primitives store single value types, whereas OOP & Interfaces organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Interfaces",
+    "question": "What is a common beginner mistake when working with OOP & Interfaces?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in OOP & Interfaces.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Interfaces",
+    "question": "State two key advantages of using OOP & Interfaces in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Interfaces",
+    "question": "How do you initialize or instantiate OOP & Interfaces in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Interfaces",
+    "question": "What role does OOP & Interfaces play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Interfaces",
+    "question": "Explain the simple step-by-step workflow of executing OOP & Interfaces.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Interfaces",
+    "question": "What is the recommended naming convention when defining OOP & Interfaces?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP & Interfaces",
+    "question": "List the basic prerequisites needed before implementing OOP & Interfaces.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Collections & Streams",
+    "question": "What is Collections & Streams in Java Developer, and why is it important?",
+    "answer": "Collections & Streams is a foundational concept in Java Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Collections & Streams",
+    "question": "Define the basic syntax or primary usage of Collections & Streams.",
+    "answer": "The primary syntax for Collections & Streams involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Collections & Streams",
+    "question": "What is the main difference between basic primitives and Collections & Streams?",
+    "answer": "Basic primitives store single value types, whereas Collections & Streams organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Collections & Streams",
+    "question": "What is a common beginner mistake when working with Collections & Streams?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Collections & Streams.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Collections & Streams",
+    "question": "State two key advantages of using Collections & Streams in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Collections & Streams",
+    "question": "How do you initialize or instantiate Collections & Streams in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Collections & Streams",
+    "question": "What role does Collections & Streams play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Collections & Streams",
+    "question": "Explain the simple step-by-step workflow of executing Collections & Streams.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Collections & Streams",
+    "question": "What is the recommended naming convention when defining Collections & Streams?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Collections & Streams",
+    "question": "List the basic prerequisites needed before implementing Collections & Streams.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Multithreading & Concurrency",
+    "question": "What is Multithreading & Concurrency in Java Developer, and why is it important?",
+    "answer": "Multithreading & Concurrency is a foundational concept in Java Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Multithreading & Concurrency",
+    "question": "Define the basic syntax or primary usage of Multithreading & Concurrency.",
+    "answer": "The primary syntax for Multithreading & Concurrency involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Multithreading & Concurrency",
+    "question": "What is the main difference between basic primitives and Multithreading & Concurrency?",
+    "answer": "Basic primitives store single value types, whereas Multithreading & Concurrency organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Multithreading & Concurrency",
+    "question": "What is a common beginner mistake when working with Multithreading & Concurrency?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Multithreading & Concurrency.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Multithreading & Concurrency",
+    "question": "State two key advantages of using Multithreading & Concurrency in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Multithreading & Concurrency",
+    "question": "How do you initialize or instantiate Multithreading & Concurrency in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Multithreading & Concurrency",
+    "question": "What role does Multithreading & Concurrency play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Multithreading & Concurrency",
+    "question": "Explain the simple step-by-step workflow of executing Multithreading & Concurrency.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Multithreading & Concurrency",
+    "question": "What is the recommended naming convention when defining Multithreading & Concurrency?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Multithreading & Concurrency",
+    "question": "List the basic prerequisites needed before implementing Multithreading & Concurrency.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Spring Boot & REST APIs",
+    "question": "What is Spring Boot & REST APIs in Java Developer, and why is it important?",
+    "answer": "Spring Boot & REST APIs is a foundational concept in Java Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Spring Boot & REST APIs",
+    "question": "Define the basic syntax or primary usage of Spring Boot & REST APIs.",
+    "answer": "The primary syntax for Spring Boot & REST APIs involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Spring Boot & REST APIs",
+    "question": "What is the main difference between basic primitives and Spring Boot & REST APIs?",
+    "answer": "Basic primitives store single value types, whereas Spring Boot & REST APIs organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Spring Boot & REST APIs",
+    "question": "What is a common beginner mistake when working with Spring Boot & REST APIs?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Spring Boot & REST APIs.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Spring Boot & REST APIs",
+    "question": "State two key advantages of using Spring Boot & REST APIs in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Spring Boot & REST APIs",
+    "question": "How do you initialize or instantiate Spring Boot & REST APIs in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Spring Boot & REST APIs",
+    "question": "What role does Spring Boot & REST APIs play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Spring Boot & REST APIs",
+    "question": "Explain the simple step-by-step workflow of executing Spring Boot & REST APIs.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Spring Boot & REST APIs",
+    "question": "What is the recommended naming convention when defining Spring Boot & REST APIs?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Spring Boot & REST APIs",
+    "question": "List the basic prerequisites needed before implementing Spring Boot & REST APIs.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hibernate & JPA",
+    "question": "What is Hibernate & JPA in Java Developer, and why is it important?",
+    "answer": "Hibernate & JPA is a foundational concept in Java Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hibernate & JPA",
+    "question": "Define the basic syntax or primary usage of Hibernate & JPA.",
+    "answer": "The primary syntax for Hibernate & JPA involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hibernate & JPA",
+    "question": "What is the main difference between basic primitives and Hibernate & JPA?",
+    "answer": "Basic primitives store single value types, whereas Hibernate & JPA organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hibernate & JPA",
+    "question": "What is a common beginner mistake when working with Hibernate & JPA?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Hibernate & JPA.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hibernate & JPA",
+    "question": "State two key advantages of using Hibernate & JPA in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hibernate & JPA",
+    "question": "How do you initialize or instantiate Hibernate & JPA in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hibernate & JPA",
+    "question": "What role does Hibernate & JPA play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hibernate & JPA",
+    "question": "Explain the simple step-by-step workflow of executing Hibernate & JPA.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hibernate & JPA",
+    "question": "What is the recommended naming convention when defining Hibernate & JPA?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hibernate & JPA",
+    "question": "List the basic prerequisites needed before implementing Hibernate & JPA.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & Microservices",
+    "question": "What is SQL & Microservices in Java Developer, and why is it important?",
+    "answer": "SQL & Microservices is a foundational concept in Java Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & Microservices",
+    "question": "Define the basic syntax or primary usage of SQL & Microservices.",
+    "answer": "The primary syntax for SQL & Microservices involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & Microservices",
+    "question": "What is the main difference between basic primitives and SQL & Microservices?",
+    "answer": "Basic primitives store single value types, whereas SQL & Microservices organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & Microservices",
+    "question": "What is a common beginner mistake when working with SQL & Microservices?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in SQL & Microservices.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & Microservices",
+    "question": "State two key advantages of using SQL & Microservices in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & Microservices",
+    "question": "How do you initialize or instantiate SQL & Microservices in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & Microservices",
+    "question": "What role does SQL & Microservices play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & Microservices",
+    "question": "Explain the simple step-by-step workflow of executing SQL & Microservices.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & Microservices",
+    "question": "What is the recommended naming convention when defining SQL & Microservices?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & Microservices",
+    "question": "List the basic prerequisites needed before implementing SQL & Microservices.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

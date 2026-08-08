@@ -1,0 +1,422 @@
+[
+  {
+    "topic": "Java Core & Syntax",
+    "question": "How do you implement practical error handling when working with Java Core & Syntax in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Java Core & Syntax",
+    "question": "Describe a real-world debugging scenario involving Java Core & Syntax and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Java Core & Syntax",
+    "question": "How does Java Core & Syntax perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Java Core & Syntax",
+    "question": "What are the best practices for structuring code related to Java Core & Syntax?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Java Core & Syntax",
+    "question": "In a practical project, how do you integrate Java Core & Syntax with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Java Core & Syntax",
+    "question": "Compare and contrast two alternative approaches for executing Java Core & Syntax.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Java Core & Syntax",
+    "question": "How do you write a unit test for a function that relies on Java Core & Syntax?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Java Core & Syntax",
+    "question": "What performance bottlenecks can arise if Java Core & Syntax is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Java Core & Syntax",
+    "question": "How do you refactor legacy code using modern standards for Java Core & Syntax?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Java Core & Syntax",
+    "question": "Explain how data validation is applied to Java Core & Syntax payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP & Interfaces",
+    "question": "How do you implement practical error handling when working with OOP & Interfaces in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP & Interfaces",
+    "question": "Describe a real-world debugging scenario involving OOP & Interfaces and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP & Interfaces",
+    "question": "How does OOP & Interfaces perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP & Interfaces",
+    "question": "What are the best practices for structuring code related to OOP & Interfaces?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP & Interfaces",
+    "question": "In a practical project, how do you integrate OOP & Interfaces with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP & Interfaces",
+    "question": "Compare and contrast two alternative approaches for executing OOP & Interfaces.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP & Interfaces",
+    "question": "How do you write a unit test for a function that relies on OOP & Interfaces?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP & Interfaces",
+    "question": "What performance bottlenecks can arise if OOP & Interfaces is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP & Interfaces",
+    "question": "How do you refactor legacy code using modern standards for OOP & Interfaces?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP & Interfaces",
+    "question": "Explain how data validation is applied to OOP & Interfaces payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Collections & Streams",
+    "question": "How do you implement practical error handling when working with Collections & Streams in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Collections & Streams",
+    "question": "Describe a real-world debugging scenario involving Collections & Streams and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Collections & Streams",
+    "question": "How does Collections & Streams perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Collections & Streams",
+    "question": "What are the best practices for structuring code related to Collections & Streams?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Collections & Streams",
+    "question": "In a practical project, how do you integrate Collections & Streams with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Collections & Streams",
+    "question": "Compare and contrast two alternative approaches for executing Collections & Streams.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Collections & Streams",
+    "question": "How do you write a unit test for a function that relies on Collections & Streams?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Collections & Streams",
+    "question": "What performance bottlenecks can arise if Collections & Streams is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Collections & Streams",
+    "question": "How do you refactor legacy code using modern standards for Collections & Streams?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Collections & Streams",
+    "question": "Explain how data validation is applied to Collections & Streams payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Multithreading & Concurrency",
+    "question": "How do you implement practical error handling when working with Multithreading & Concurrency in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Multithreading & Concurrency",
+    "question": "Describe a real-world debugging scenario involving Multithreading & Concurrency and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Multithreading & Concurrency",
+    "question": "How does Multithreading & Concurrency perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Multithreading & Concurrency",
+    "question": "What are the best practices for structuring code related to Multithreading & Concurrency?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Multithreading & Concurrency",
+    "question": "In a practical project, how do you integrate Multithreading & Concurrency with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Multithreading & Concurrency",
+    "question": "Compare and contrast two alternative approaches for executing Multithreading & Concurrency.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Multithreading & Concurrency",
+    "question": "How do you write a unit test for a function that relies on Multithreading & Concurrency?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Multithreading & Concurrency",
+    "question": "What performance bottlenecks can arise if Multithreading & Concurrency is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Multithreading & Concurrency",
+    "question": "How do you refactor legacy code using modern standards for Multithreading & Concurrency?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Multithreading & Concurrency",
+    "question": "Explain how data validation is applied to Multithreading & Concurrency payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Spring Boot & REST APIs",
+    "question": "How do you implement practical error handling when working with Spring Boot & REST APIs in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Spring Boot & REST APIs",
+    "question": "Describe a real-world debugging scenario involving Spring Boot & REST APIs and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Spring Boot & REST APIs",
+    "question": "How does Spring Boot & REST APIs perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Spring Boot & REST APIs",
+    "question": "What are the best practices for structuring code related to Spring Boot & REST APIs?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Spring Boot & REST APIs",
+    "question": "In a practical project, how do you integrate Spring Boot & REST APIs with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Spring Boot & REST APIs",
+    "question": "Compare and contrast two alternative approaches for executing Spring Boot & REST APIs.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Spring Boot & REST APIs",
+    "question": "How do you write a unit test for a function that relies on Spring Boot & REST APIs?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Spring Boot & REST APIs",
+    "question": "What performance bottlenecks can arise if Spring Boot & REST APIs is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Spring Boot & REST APIs",
+    "question": "How do you refactor legacy code using modern standards for Spring Boot & REST APIs?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Spring Boot & REST APIs",
+    "question": "Explain how data validation is applied to Spring Boot & REST APIs payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hibernate & JPA",
+    "question": "How do you implement practical error handling when working with Hibernate & JPA in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hibernate & JPA",
+    "question": "Describe a real-world debugging scenario involving Hibernate & JPA and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hibernate & JPA",
+    "question": "How does Hibernate & JPA perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hibernate & JPA",
+    "question": "What are the best practices for structuring code related to Hibernate & JPA?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hibernate & JPA",
+    "question": "In a practical project, how do you integrate Hibernate & JPA with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hibernate & JPA",
+    "question": "Compare and contrast two alternative approaches for executing Hibernate & JPA.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hibernate & JPA",
+    "question": "How do you write a unit test for a function that relies on Hibernate & JPA?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hibernate & JPA",
+    "question": "What performance bottlenecks can arise if Hibernate & JPA is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hibernate & JPA",
+    "question": "How do you refactor legacy code using modern standards for Hibernate & JPA?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hibernate & JPA",
+    "question": "Explain how data validation is applied to Hibernate & JPA payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & Microservices",
+    "question": "How do you implement practical error handling when working with SQL & Microservices in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & Microservices",
+    "question": "Describe a real-world debugging scenario involving SQL & Microservices and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & Microservices",
+    "question": "How does SQL & Microservices perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & Microservices",
+    "question": "What are the best practices for structuring code related to SQL & Microservices?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & Microservices",
+    "question": "In a practical project, how do you integrate SQL & Microservices with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & Microservices",
+    "question": "Compare and contrast two alternative approaches for executing SQL & Microservices.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & Microservices",
+    "question": "How do you write a unit test for a function that relies on SQL & Microservices?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & Microservices",
+    "question": "What performance bottlenecks can arise if SQL & Microservices is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & Microservices",
+    "question": "How do you refactor legacy code using modern standards for SQL & Microservices?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & Microservices",
+    "question": "Explain how data validation is applied to SQL & Microservices payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

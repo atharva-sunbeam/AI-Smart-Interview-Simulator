@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Digital Forensics & Memory Analysis",
+    "question": "How do you implement practical error handling when working with Digital Forensics & Memory Analysis in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Digital Forensics & Memory Analysis",
+    "question": "Describe a real-world debugging scenario involving Digital Forensics & Memory Analysis and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Digital Forensics & Memory Analysis",
+    "question": "How does Digital Forensics & Memory Analysis perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Digital Forensics & Memory Analysis",
+    "question": "What are the best practices for structuring code related to Digital Forensics & Memory Analysis?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Digital Forensics & Memory Analysis",
+    "question": "In a practical project, how do you integrate Digital Forensics & Memory Analysis with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Digital Forensics & Memory Analysis",
+    "question": "Compare and contrast two alternative approaches for executing Digital Forensics & Memory Analysis.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Digital Forensics & Memory Analysis",
+    "question": "How do you write a unit test for a function that relies on Digital Forensics & Memory Analysis?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Digital Forensics & Memory Analysis",
+    "question": "What performance bottlenecks can arise if Digital Forensics & Memory Analysis is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Digital Forensics & Memory Analysis",
+    "question": "How do you refactor legacy code using modern standards for Digital Forensics & Memory Analysis?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Digital Forensics & Memory Analysis",
+    "question": "Explain how data validation is applied to Digital Forensics & Memory Analysis payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Response Lifecycle (NIST)",
+    "question": "How do you implement practical error handling when working with Incident Response Lifecycle (NIST) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Response Lifecycle (NIST)",
+    "question": "Describe a real-world debugging scenario involving Incident Response Lifecycle (NIST) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Response Lifecycle (NIST)",
+    "question": "How does Incident Response Lifecycle (NIST) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Response Lifecycle (NIST)",
+    "question": "What are the best practices for structuring code related to Incident Response Lifecycle (NIST)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Response Lifecycle (NIST)",
+    "question": "In a practical project, how do you integrate Incident Response Lifecycle (NIST) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Response Lifecycle (NIST)",
+    "question": "Compare and contrast two alternative approaches for executing Incident Response Lifecycle (NIST).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Response Lifecycle (NIST)",
+    "question": "How do you write a unit test for a function that relies on Incident Response Lifecycle (NIST)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Response Lifecycle (NIST)",
+    "question": "What performance bottlenecks can arise if Incident Response Lifecycle (NIST) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Response Lifecycle (NIST)",
+    "question": "How do you refactor legacy code using modern standards for Incident Response Lifecycle (NIST)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Response Lifecycle (NIST)",
+    "question": "Explain how data validation is applied to Incident Response Lifecycle (NIST) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Threat Hunting",
+    "question": "How do you implement practical error handling when working with Threat Hunting in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Threat Hunting",
+    "question": "Describe a real-world debugging scenario involving Threat Hunting and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Threat Hunting",
+    "question": "How does Threat Hunting perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Threat Hunting",
+    "question": "What are the best practices for structuring code related to Threat Hunting?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Threat Hunting",
+    "question": "In a practical project, how do you integrate Threat Hunting with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Threat Hunting",
+    "question": "Compare and contrast two alternative approaches for executing Threat Hunting.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Threat Hunting",
+    "question": "How do you write a unit test for a function that relies on Threat Hunting?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Threat Hunting",
+    "question": "What performance bottlenecks can arise if Threat Hunting is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Threat Hunting",
+    "question": "How do you refactor legacy code using modern standards for Threat Hunting?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Threat Hunting",
+    "question": "Explain how data validation is applied to Threat Hunting payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Root Cause Analysis",
+    "question": "How do you implement practical error handling when working with Root Cause Analysis in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Root Cause Analysis",
+    "question": "Describe a real-world debugging scenario involving Root Cause Analysis and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Root Cause Analysis",
+    "question": "How does Root Cause Analysis perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Root Cause Analysis",
+    "question": "What are the best practices for structuring code related to Root Cause Analysis?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Root Cause Analysis",
+    "question": "In a practical project, how do you integrate Root Cause Analysis with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Root Cause Analysis",
+    "question": "Compare and contrast two alternative approaches for executing Root Cause Analysis.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Root Cause Analysis",
+    "question": "How do you write a unit test for a function that relies on Root Cause Analysis?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Root Cause Analysis",
+    "question": "What performance bottlenecks can arise if Root Cause Analysis is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Root Cause Analysis",
+    "question": "How do you refactor legacy code using modern standards for Root Cause Analysis?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Root Cause Analysis",
+    "question": "Explain how data validation is applied to Root Cause Analysis payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Malware Reverse Engineering",
+    "question": "How do you implement practical error handling when working with Malware Reverse Engineering in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Malware Reverse Engineering",
+    "question": "Describe a real-world debugging scenario involving Malware Reverse Engineering and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Malware Reverse Engineering",
+    "question": "How does Malware Reverse Engineering perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Malware Reverse Engineering",
+    "question": "What are the best practices for structuring code related to Malware Reverse Engineering?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Malware Reverse Engineering",
+    "question": "In a practical project, how do you integrate Malware Reverse Engineering with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Malware Reverse Engineering",
+    "question": "Compare and contrast two alternative approaches for executing Malware Reverse Engineering.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Malware Reverse Engineering",
+    "question": "How do you write a unit test for a function that relies on Malware Reverse Engineering?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Malware Reverse Engineering",
+    "question": "What performance bottlenecks can arise if Malware Reverse Engineering is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Malware Reverse Engineering",
+    "question": "How do you refactor legacy code using modern standards for Malware Reverse Engineering?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Malware Reverse Engineering",
+    "question": "Explain how data validation is applied to Malware Reverse Engineering payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

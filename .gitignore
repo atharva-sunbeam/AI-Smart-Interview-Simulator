@@ -1,23 +1,28 @@
-# Python
+# Python cache
 __pycache__/
 *.py[cod]
-*$py.class
+
+# Virtual environments
+env/
 venv/
 .venv/
+
+# Environment/secrets
 .env
+.env.*
 
-# Streamlit
-.streamlit/
+# Generated vector databases
+vector_db/
+chroma_db/
 
-# Databases & Vector DB
-vector_db/chroma/
-*.db
-*.sqlite
+# Generated audio
+*.mp3
+*.wav
 
-# IDEs
+# IDE
 .vscode/
 .idea/
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db

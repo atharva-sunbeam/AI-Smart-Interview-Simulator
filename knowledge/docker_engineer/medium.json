@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Containerization Principles",
+    "question": "How do you implement practical error handling when working with Containerization Principles in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "Describe a real-world debugging scenario involving Containerization Principles and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "How does Containerization Principles perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "What are the best practices for structuring code related to Containerization Principles?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "In a practical project, how do you integrate Containerization Principles with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "Compare and contrast two alternative approaches for executing Containerization Principles.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "How do you write a unit test for a function that relies on Containerization Principles?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "What performance bottlenecks can arise if Containerization Principles is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "How do you refactor legacy code using modern standards for Containerization Principles?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "Explain how data validation is applied to Containerization Principles payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "How do you implement practical error handling when working with Dockerfile Writing & Optimization in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "Describe a real-world debugging scenario involving Dockerfile Writing & Optimization and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "How does Dockerfile Writing & Optimization perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "What are the best practices for structuring code related to Dockerfile Writing & Optimization?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "In a practical project, how do you integrate Dockerfile Writing & Optimization with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "Compare and contrast two alternative approaches for executing Dockerfile Writing & Optimization.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "How do you write a unit test for a function that relies on Dockerfile Writing & Optimization?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "What performance bottlenecks can arise if Dockerfile Writing & Optimization is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "How do you refactor legacy code using modern standards for Dockerfile Writing & Optimization?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "Explain how data validation is applied to Dockerfile Writing & Optimization payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "How do you implement practical error handling when working with Docker Networking & Volumes in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "Describe a real-world debugging scenario involving Docker Networking & Volumes and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "How does Docker Networking & Volumes perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "What are the best practices for structuring code related to Docker Networking & Volumes?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "In a practical project, how do you integrate Docker Networking & Volumes with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "Compare and contrast two alternative approaches for executing Docker Networking & Volumes.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "How do you write a unit test for a function that relies on Docker Networking & Volumes?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "What performance bottlenecks can arise if Docker Networking & Volumes is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "How do you refactor legacy code using modern standards for Docker Networking & Volumes?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "Explain how data validation is applied to Docker Networking & Volumes payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "How do you implement practical error handling when working with Docker Compose in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "Describe a real-world debugging scenario involving Docker Compose and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "How does Docker Compose perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "What are the best practices for structuring code related to Docker Compose?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "In a practical project, how do you integrate Docker Compose with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "Compare and contrast two alternative approaches for executing Docker Compose.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "How do you write a unit test for a function that relies on Docker Compose?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "What performance bottlenecks can arise if Docker Compose is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "How do you refactor legacy code using modern standards for Docker Compose?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "Explain how data validation is applied to Docker Compose payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "How do you implement practical error handling when working with Container Security & Scanning in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "Describe a real-world debugging scenario involving Container Security & Scanning and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "How does Container Security & Scanning perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "What are the best practices for structuring code related to Container Security & Scanning?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "In a practical project, how do you integrate Container Security & Scanning with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "Compare and contrast two alternative approaches for executing Container Security & Scanning.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "How do you write a unit test for a function that relies on Container Security & Scanning?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "What performance bottlenecks can arise if Container Security & Scanning is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "How do you refactor legacy code using modern standards for Container Security & Scanning?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "Explain how data validation is applied to Container Security & Scanning payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

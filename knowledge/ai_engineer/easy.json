@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Python & AI Algorithms",
+    "question": "What is Python & AI Algorithms in AI Engineer, and why is it important?",
+    "answer": "Python & AI Algorithms is a foundational concept in AI Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & AI Algorithms",
+    "question": "Define the basic syntax or primary usage of Python & AI Algorithms.",
+    "answer": "The primary syntax for Python & AI Algorithms involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & AI Algorithms",
+    "question": "What is the main difference between basic primitives and Python & AI Algorithms?",
+    "answer": "Basic primitives store single value types, whereas Python & AI Algorithms organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & AI Algorithms",
+    "question": "What is a common beginner mistake when working with Python & AI Algorithms?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Python & AI Algorithms.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & AI Algorithms",
+    "question": "State two key advantages of using Python & AI Algorithms in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & AI Algorithms",
+    "question": "How do you initialize or instantiate Python & AI Algorithms in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & AI Algorithms",
+    "question": "What role does Python & AI Algorithms play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & AI Algorithms",
+    "question": "Explain the simple step-by-step workflow of executing Python & AI Algorithms.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & AI Algorithms",
+    "question": "What is the recommended naming convention when defining Python & AI Algorithms?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & AI Algorithms",
+    "question": "List the basic prerequisites needed before implementing Python & AI Algorithms.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Machine Learning Core",
+    "question": "What is Machine Learning Core in AI Engineer, and why is it important?",
+    "answer": "Machine Learning Core is a foundational concept in AI Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Machine Learning Core",
+    "question": "Define the basic syntax or primary usage of Machine Learning Core.",
+    "answer": "The primary syntax for Machine Learning Core involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Machine Learning Core",
+    "question": "What is the main difference between basic primitives and Machine Learning Core?",
+    "answer": "Basic primitives store single value types, whereas Machine Learning Core organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Machine Learning Core",
+    "question": "What is a common beginner mistake when working with Machine Learning Core?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Machine Learning Core.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Machine Learning Core",
+    "question": "State two key advantages of using Machine Learning Core in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Machine Learning Core",
+    "question": "How do you initialize or instantiate Machine Learning Core in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Machine Learning Core",
+    "question": "What role does Machine Learning Core play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Machine Learning Core",
+    "question": "Explain the simple step-by-step workflow of executing Machine Learning Core.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Machine Learning Core",
+    "question": "What is the recommended naming convention when defining Machine Learning Core?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Machine Learning Core",
+    "question": "List the basic prerequisites needed before implementing Machine Learning Core.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deep Learning & Neural Networks",
+    "question": "What is Deep Learning & Neural Networks in AI Engineer, and why is it important?",
+    "answer": "Deep Learning & Neural Networks is a foundational concept in AI Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deep Learning & Neural Networks",
+    "question": "Define the basic syntax or primary usage of Deep Learning & Neural Networks.",
+    "answer": "The primary syntax for Deep Learning & Neural Networks involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deep Learning & Neural Networks",
+    "question": "What is the main difference between basic primitives and Deep Learning & Neural Networks?",
+    "answer": "Basic primitives store single value types, whereas Deep Learning & Neural Networks organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deep Learning & Neural Networks",
+    "question": "What is a common beginner mistake when working with Deep Learning & Neural Networks?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Deep Learning & Neural Networks.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deep Learning & Neural Networks",
+    "question": "State two key advantages of using Deep Learning & Neural Networks in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deep Learning & Neural Networks",
+    "question": "How do you initialize or instantiate Deep Learning & Neural Networks in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deep Learning & Neural Networks",
+    "question": "What role does Deep Learning & Neural Networks play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deep Learning & Neural Networks",
+    "question": "Explain the simple step-by-step workflow of executing Deep Learning & Neural Networks.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deep Learning & Neural Networks",
+    "question": "What is the recommended naming convention when defining Deep Learning & Neural Networks?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deep Learning & Neural Networks",
+    "question": "List the basic prerequisites needed before implementing Deep Learning & Neural Networks.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "NLP & Computer Vision",
+    "question": "What is NLP & Computer Vision in AI Engineer, and why is it important?",
+    "answer": "NLP & Computer Vision is a foundational concept in AI Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "NLP & Computer Vision",
+    "question": "Define the basic syntax or primary usage of NLP & Computer Vision.",
+    "answer": "The primary syntax for NLP & Computer Vision involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "NLP & Computer Vision",
+    "question": "What is the main difference between basic primitives and NLP & Computer Vision?",
+    "answer": "Basic primitives store single value types, whereas NLP & Computer Vision organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "NLP & Computer Vision",
+    "question": "What is a common beginner mistake when working with NLP & Computer Vision?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in NLP & Computer Vision.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "NLP & Computer Vision",
+    "question": "State two key advantages of using NLP & Computer Vision in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "NLP & Computer Vision",
+    "question": "How do you initialize or instantiate NLP & Computer Vision in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "NLP & Computer Vision",
+    "question": "What role does NLP & Computer Vision play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "NLP & Computer Vision",
+    "question": "Explain the simple step-by-step workflow of executing NLP & Computer Vision.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "NLP & Computer Vision",
+    "question": "What is the recommended naming convention when defining NLP & Computer Vision?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "NLP & Computer Vision",
+    "question": "List the basic prerequisites needed before implementing NLP & Computer Vision.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LLMs & RAG",
+    "question": "What is LLMs & RAG in AI Engineer, and why is it important?",
+    "answer": "LLMs & RAG is a foundational concept in AI Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LLMs & RAG",
+    "question": "Define the basic syntax or primary usage of LLMs & RAG.",
+    "answer": "The primary syntax for LLMs & RAG involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LLMs & RAG",
+    "question": "What is the main difference between basic primitives and LLMs & RAG?",
+    "answer": "Basic primitives store single value types, whereas LLMs & RAG organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LLMs & RAG",
+    "question": "What is a common beginner mistake when working with LLMs & RAG?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in LLMs & RAG.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LLMs & RAG",
+    "question": "State two key advantages of using LLMs & RAG in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LLMs & RAG",
+    "question": "How do you initialize or instantiate LLMs & RAG in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LLMs & RAG",
+    "question": "What role does LLMs & RAG play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LLMs & RAG",
+    "question": "Explain the simple step-by-step workflow of executing LLMs & RAG.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LLMs & RAG",
+    "question": "What is the recommended naming convention when defining LLMs & RAG?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "LLMs & RAG",
+    "question": "List the basic prerequisites needed before implementing LLMs & RAG.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment",
+    "question": "What is Deployment in AI Engineer, and why is it important?",
+    "answer": "Deployment is a foundational concept in AI Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment",
+    "question": "Define the basic syntax or primary usage of Deployment.",
+    "answer": "The primary syntax for Deployment involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment",
+    "question": "What is the main difference between basic primitives and Deployment?",
+    "answer": "Basic primitives store single value types, whereas Deployment organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment",
+    "question": "What is a common beginner mistake when working with Deployment?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Deployment.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment",
+    "question": "State two key advantages of using Deployment in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment",
+    "question": "How do you initialize or instantiate Deployment in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment",
+    "question": "What role does Deployment play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment",
+    "question": "Explain the simple step-by-step workflow of executing Deployment.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment",
+    "question": "What is the recommended naming convention when defining Deployment?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment",
+    "question": "List the basic prerequisites needed before implementing Deployment.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

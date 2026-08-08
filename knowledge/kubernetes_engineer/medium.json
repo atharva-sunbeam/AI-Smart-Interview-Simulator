@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Containerization (Docker)",
+    "question": "How do you implement practical error handling when working with Containerization (Docker) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Containerization (Docker)",
+    "question": "Describe a real-world debugging scenario involving Containerization (Docker) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Containerization (Docker)",
+    "question": "How does Containerization (Docker) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Containerization (Docker)",
+    "question": "What are the best practices for structuring code related to Containerization (Docker)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Containerization (Docker)",
+    "question": "In a practical project, how do you integrate Containerization (Docker) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Containerization (Docker)",
+    "question": "Compare and contrast two alternative approaches for executing Containerization (Docker).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Containerization (Docker)",
+    "question": "How do you write a unit test for a function that relies on Containerization (Docker)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Containerization (Docker)",
+    "question": "What performance bottlenecks can arise if Containerization (Docker) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Containerization (Docker)",
+    "question": "How do you refactor legacy code using modern standards for Containerization (Docker)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Containerization (Docker)",
+    "question": "Explain how data validation is applied to Containerization (Docker) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes Architecture (Control Plane & Worker)",
+    "question": "How do you implement practical error handling when working with Kubernetes Architecture (Control Plane & Worker) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes Architecture (Control Plane & Worker)",
+    "question": "Describe a real-world debugging scenario involving Kubernetes Architecture (Control Plane & Worker) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes Architecture (Control Plane & Worker)",
+    "question": "How does Kubernetes Architecture (Control Plane & Worker) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes Architecture (Control Plane & Worker)",
+    "question": "What are the best practices for structuring code related to Kubernetes Architecture (Control Plane & Worker)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes Architecture (Control Plane & Worker)",
+    "question": "In a practical project, how do you integrate Kubernetes Architecture (Control Plane & Worker) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes Architecture (Control Plane & Worker)",
+    "question": "Compare and contrast two alternative approaches for executing Kubernetes Architecture (Control Plane & Worker).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes Architecture (Control Plane & Worker)",
+    "question": "How do you write a unit test for a function that relies on Kubernetes Architecture (Control Plane & Worker)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes Architecture (Control Plane & Worker)",
+    "question": "What performance bottlenecks can arise if Kubernetes Architecture (Control Plane & Worker) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes Architecture (Control Plane & Worker)",
+    "question": "How do you refactor legacy code using modern standards for Kubernetes Architecture (Control Plane & Worker)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes Architecture (Control Plane & Worker)",
+    "question": "Explain how data validation is applied to Kubernetes Architecture (Control Plane & Worker) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Pods, Deployments & Services",
+    "question": "How do you implement practical error handling when working with Pods, Deployments & Services in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Pods, Deployments & Services",
+    "question": "Describe a real-world debugging scenario involving Pods, Deployments & Services and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Pods, Deployments & Services",
+    "question": "How does Pods, Deployments & Services perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Pods, Deployments & Services",
+    "question": "What are the best practices for structuring code related to Pods, Deployments & Services?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Pods, Deployments & Services",
+    "question": "In a practical project, how do you integrate Pods, Deployments & Services with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Pods, Deployments & Services",
+    "question": "Compare and contrast two alternative approaches for executing Pods, Deployments & Services.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Pods, Deployments & Services",
+    "question": "How do you write a unit test for a function that relies on Pods, Deployments & Services?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Pods, Deployments & Services",
+    "question": "What performance bottlenecks can arise if Pods, Deployments & Services is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Pods, Deployments & Services",
+    "question": "How do you refactor legacy code using modern standards for Pods, Deployments & Services?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Pods, Deployments & Services",
+    "question": "Explain how data validation is applied to Pods, Deployments & Services payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Ingress, ConfigMaps & Secrets",
+    "question": "How do you implement practical error handling when working with Ingress, ConfigMaps & Secrets in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Ingress, ConfigMaps & Secrets",
+    "question": "Describe a real-world debugging scenario involving Ingress, ConfigMaps & Secrets and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Ingress, ConfigMaps & Secrets",
+    "question": "How does Ingress, ConfigMaps & Secrets perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Ingress, ConfigMaps & Secrets",
+    "question": "What are the best practices for structuring code related to Ingress, ConfigMaps & Secrets?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Ingress, ConfigMaps & Secrets",
+    "question": "In a practical project, how do you integrate Ingress, ConfigMaps & Secrets with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Ingress, ConfigMaps & Secrets",
+    "question": "Compare and contrast two alternative approaches for executing Ingress, ConfigMaps & Secrets.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Ingress, ConfigMaps & Secrets",
+    "question": "How do you write a unit test for a function that relies on Ingress, ConfigMaps & Secrets?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Ingress, ConfigMaps & Secrets",
+    "question": "What performance bottlenecks can arise if Ingress, ConfigMaps & Secrets is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Ingress, ConfigMaps & Secrets",
+    "question": "How do you refactor legacy code using modern standards for Ingress, ConfigMaps & Secrets?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Ingress, ConfigMaps & Secrets",
+    "question": "Explain how data validation is applied to Ingress, ConfigMaps & Secrets payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Helm Charts & Storage (PV/PVC)",
+    "question": "How do you implement practical error handling when working with Helm Charts & Storage (PV/PVC) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Helm Charts & Storage (PV/PVC)",
+    "question": "Describe a real-world debugging scenario involving Helm Charts & Storage (PV/PVC) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Helm Charts & Storage (PV/PVC)",
+    "question": "How does Helm Charts & Storage (PV/PVC) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Helm Charts & Storage (PV/PVC)",
+    "question": "What are the best practices for structuring code related to Helm Charts & Storage (PV/PVC)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Helm Charts & Storage (PV/PVC)",
+    "question": "In a practical project, how do you integrate Helm Charts & Storage (PV/PVC) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Helm Charts & Storage (PV/PVC)",
+    "question": "Compare and contrast two alternative approaches for executing Helm Charts & Storage (PV/PVC).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Helm Charts & Storage (PV/PVC)",
+    "question": "How do you write a unit test for a function that relies on Helm Charts & Storage (PV/PVC)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Helm Charts & Storage (PV/PVC)",
+    "question": "What performance bottlenecks can arise if Helm Charts & Storage (PV/PVC) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Helm Charts & Storage (PV/PVC)",
+    "question": "How do you refactor legacy code using modern standards for Helm Charts & Storage (PV/PVC)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Helm Charts & Storage (PV/PVC)",
+    "question": "Explain how data validation is applied to Helm Charts & Storage (PV/PVC) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "K8s Cluster Administration",
+    "question": "How do you implement practical error handling when working with K8s Cluster Administration in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "K8s Cluster Administration",
+    "question": "Describe a real-world debugging scenario involving K8s Cluster Administration and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "K8s Cluster Administration",
+    "question": "How does K8s Cluster Administration perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "K8s Cluster Administration",
+    "question": "What are the best practices for structuring code related to K8s Cluster Administration?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "K8s Cluster Administration",
+    "question": "In a practical project, how do you integrate K8s Cluster Administration with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "K8s Cluster Administration",
+    "question": "Compare and contrast two alternative approaches for executing K8s Cluster Administration.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "K8s Cluster Administration",
+    "question": "How do you write a unit test for a function that relies on K8s Cluster Administration?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "K8s Cluster Administration",
+    "question": "What performance bottlenecks can arise if K8s Cluster Administration is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "K8s Cluster Administration",
+    "question": "How do you refactor legacy code using modern standards for K8s Cluster Administration?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "K8s Cluster Administration",
+    "question": "Explain how data validation is applied to K8s Cluster Administration payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

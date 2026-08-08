@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Containerization Principles",
+    "question": "What is Containerization Principles in Docker Engineer, and why is it important?",
+    "answer": "Containerization Principles is a foundational concept in Docker Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "Define the basic syntax or primary usage of Containerization Principles.",
+    "answer": "The primary syntax for Containerization Principles involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "What is the main difference between basic primitives and Containerization Principles?",
+    "answer": "Basic primitives store single value types, whereas Containerization Principles organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "What is a common beginner mistake when working with Containerization Principles?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Containerization Principles.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "State two key advantages of using Containerization Principles in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "How do you initialize or instantiate Containerization Principles in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "What role does Containerization Principles play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "Explain the simple step-by-step workflow of executing Containerization Principles.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "What is the recommended naming convention when defining Containerization Principles?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "List the basic prerequisites needed before implementing Containerization Principles.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "What is Dockerfile Writing & Optimization in Docker Engineer, and why is it important?",
+    "answer": "Dockerfile Writing & Optimization is a foundational concept in Docker Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "Define the basic syntax or primary usage of Dockerfile Writing & Optimization.",
+    "answer": "The primary syntax for Dockerfile Writing & Optimization involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "What is the main difference between basic primitives and Dockerfile Writing & Optimization?",
+    "answer": "Basic primitives store single value types, whereas Dockerfile Writing & Optimization organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "What is a common beginner mistake when working with Dockerfile Writing & Optimization?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Dockerfile Writing & Optimization.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "State two key advantages of using Dockerfile Writing & Optimization in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "How do you initialize or instantiate Dockerfile Writing & Optimization in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "What role does Dockerfile Writing & Optimization play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "Explain the simple step-by-step workflow of executing Dockerfile Writing & Optimization.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "What is the recommended naming convention when defining Dockerfile Writing & Optimization?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "List the basic prerequisites needed before implementing Dockerfile Writing & Optimization.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "What is Docker Networking & Volumes in Docker Engineer, and why is it important?",
+    "answer": "Docker Networking & Volumes is a foundational concept in Docker Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "Define the basic syntax or primary usage of Docker Networking & Volumes.",
+    "answer": "The primary syntax for Docker Networking & Volumes involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "What is the main difference between basic primitives and Docker Networking & Volumes?",
+    "answer": "Basic primitives store single value types, whereas Docker Networking & Volumes organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "What is a common beginner mistake when working with Docker Networking & Volumes?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Docker Networking & Volumes.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "State two key advantages of using Docker Networking & Volumes in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "How do you initialize or instantiate Docker Networking & Volumes in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "What role does Docker Networking & Volumes play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "Explain the simple step-by-step workflow of executing Docker Networking & Volumes.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "What is the recommended naming convention when defining Docker Networking & Volumes?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "List the basic prerequisites needed before implementing Docker Networking & Volumes.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "What is Docker Compose in Docker Engineer, and why is it important?",
+    "answer": "Docker Compose is a foundational concept in Docker Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "Define the basic syntax or primary usage of Docker Compose.",
+    "answer": "The primary syntax for Docker Compose involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "What is the main difference between basic primitives and Docker Compose?",
+    "answer": "Basic primitives store single value types, whereas Docker Compose organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "What is a common beginner mistake when working with Docker Compose?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Docker Compose.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "State two key advantages of using Docker Compose in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "How do you initialize or instantiate Docker Compose in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "What role does Docker Compose play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "Explain the simple step-by-step workflow of executing Docker Compose.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "What is the recommended naming convention when defining Docker Compose?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "List the basic prerequisites needed before implementing Docker Compose.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "What is Container Security & Scanning in Docker Engineer, and why is it important?",
+    "answer": "Container Security & Scanning is a foundational concept in Docker Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "Define the basic syntax or primary usage of Container Security & Scanning.",
+    "answer": "The primary syntax for Container Security & Scanning involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "What is the main difference between basic primitives and Container Security & Scanning?",
+    "answer": "Basic primitives store single value types, whereas Container Security & Scanning organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "What is a common beginner mistake when working with Container Security & Scanning?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Container Security & Scanning.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "State two key advantages of using Container Security & Scanning in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "How do you initialize or instantiate Container Security & Scanning in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "What role does Container Security & Scanning play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "Explain the simple step-by-step workflow of executing Container Security & Scanning.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "What is the recommended naming convention when defining Container Security & Scanning?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "List the basic prerequisites needed before implementing Container Security & Scanning.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

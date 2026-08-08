@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Firewall Configuration & Policies",
+    "question": "What is Firewall Configuration & Policies in Network Security Engineer, and why is it important?",
+    "answer": "Firewall Configuration & Policies is a foundational concept in Network Security Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Firewall Configuration & Policies",
+    "question": "Define the basic syntax or primary usage of Firewall Configuration & Policies.",
+    "answer": "The primary syntax for Firewall Configuration & Policies involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Firewall Configuration & Policies",
+    "question": "What is the main difference between basic primitives and Firewall Configuration & Policies?",
+    "answer": "Basic primitives store single value types, whereas Firewall Configuration & Policies organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Firewall Configuration & Policies",
+    "question": "What is a common beginner mistake when working with Firewall Configuration & Policies?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Firewall Configuration & Policies.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Firewall Configuration & Policies",
+    "question": "State two key advantages of using Firewall Configuration & Policies in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Firewall Configuration & Policies",
+    "question": "How do you initialize or instantiate Firewall Configuration & Policies in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Firewall Configuration & Policies",
+    "question": "What role does Firewall Configuration & Policies play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Firewall Configuration & Policies",
+    "question": "Explain the simple step-by-step workflow of executing Firewall Configuration & Policies.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Firewall Configuration & Policies",
+    "question": "What is the recommended naming convention when defining Firewall Configuration & Policies?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Firewall Configuration & Policies",
+    "question": "List the basic prerequisites needed before implementing Firewall Configuration & Policies.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "VPN Protocols (IPsec/SSL)",
+    "question": "What is VPN Protocols (IPsec/SSL) in Network Security Engineer, and why is it important?",
+    "answer": "VPN Protocols (IPsec/SSL) is a foundational concept in Network Security Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "VPN Protocols (IPsec/SSL)",
+    "question": "Define the basic syntax or primary usage of VPN Protocols (IPsec/SSL).",
+    "answer": "The primary syntax for VPN Protocols (IPsec/SSL) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "VPN Protocols (IPsec/SSL)",
+    "question": "What is the main difference between basic primitives and VPN Protocols (IPsec/SSL)?",
+    "answer": "Basic primitives store single value types, whereas VPN Protocols (IPsec/SSL) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "VPN Protocols (IPsec/SSL)",
+    "question": "What is a common beginner mistake when working with VPN Protocols (IPsec/SSL)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in VPN Protocols (IPsec/SSL).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "VPN Protocols (IPsec/SSL)",
+    "question": "State two key advantages of using VPN Protocols (IPsec/SSL) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "VPN Protocols (IPsec/SSL)",
+    "question": "How do you initialize or instantiate VPN Protocols (IPsec/SSL) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "VPN Protocols (IPsec/SSL)",
+    "question": "What role does VPN Protocols (IPsec/SSL) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "VPN Protocols (IPsec/SSL)",
+    "question": "Explain the simple step-by-step workflow of executing VPN Protocols (IPsec/SSL).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "VPN Protocols (IPsec/SSL)",
+    "question": "What is the recommended naming convention when defining VPN Protocols (IPsec/SSL)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "VPN Protocols (IPsec/SSL)",
+    "question": "List the basic prerequisites needed before implementing VPN Protocols (IPsec/SSL).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Intrusion Detection/Prevention (Snort)",
+    "question": "What is Intrusion Detection/Prevention (Snort) in Network Security Engineer, and why is it important?",
+    "answer": "Intrusion Detection/Prevention (Snort) is a foundational concept in Network Security Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Intrusion Detection/Prevention (Snort)",
+    "question": "Define the basic syntax or primary usage of Intrusion Detection/Prevention (Snort).",
+    "answer": "The primary syntax for Intrusion Detection/Prevention (Snort) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Intrusion Detection/Prevention (Snort)",
+    "question": "What is the main difference between basic primitives and Intrusion Detection/Prevention (Snort)?",
+    "answer": "Basic primitives store single value types, whereas Intrusion Detection/Prevention (Snort) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Intrusion Detection/Prevention (Snort)",
+    "question": "What is a common beginner mistake when working with Intrusion Detection/Prevention (Snort)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Intrusion Detection/Prevention (Snort).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Intrusion Detection/Prevention (Snort)",
+    "question": "State two key advantages of using Intrusion Detection/Prevention (Snort) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Intrusion Detection/Prevention (Snort)",
+    "question": "How do you initialize or instantiate Intrusion Detection/Prevention (Snort) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Intrusion Detection/Prevention (Snort)",
+    "question": "What role does Intrusion Detection/Prevention (Snort) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Intrusion Detection/Prevention (Snort)",
+    "question": "Explain the simple step-by-step workflow of executing Intrusion Detection/Prevention (Snort).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Intrusion Detection/Prevention (Snort)",
+    "question": "What is the recommended naming convention when defining Intrusion Detection/Prevention (Snort)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Intrusion Detection/Prevention (Snort)",
+    "question": "List the basic prerequisites needed before implementing Intrusion Detection/Prevention (Snort).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network Access Control (NAC)",
+    "question": "What is Network Access Control (NAC) in Network Security Engineer, and why is it important?",
+    "answer": "Network Access Control (NAC) is a foundational concept in Network Security Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network Access Control (NAC)",
+    "question": "Define the basic syntax or primary usage of Network Access Control (NAC).",
+    "answer": "The primary syntax for Network Access Control (NAC) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network Access Control (NAC)",
+    "question": "What is the main difference between basic primitives and Network Access Control (NAC)?",
+    "answer": "Basic primitives store single value types, whereas Network Access Control (NAC) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network Access Control (NAC)",
+    "question": "What is a common beginner mistake when working with Network Access Control (NAC)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Network Access Control (NAC).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network Access Control (NAC)",
+    "question": "State two key advantages of using Network Access Control (NAC) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network Access Control (NAC)",
+    "question": "How do you initialize or instantiate Network Access Control (NAC) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network Access Control (NAC)",
+    "question": "What role does Network Access Control (NAC) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network Access Control (NAC)",
+    "question": "Explain the simple step-by-step workflow of executing Network Access Control (NAC).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network Access Control (NAC)",
+    "question": "What is the recommended naming convention when defining Network Access Control (NAC)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network Access Control (NAC)",
+    "question": "List the basic prerequisites needed before implementing Network Access Control (NAC).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Zero Trust Architecture",
+    "question": "What is Zero Trust Architecture in Network Security Engineer, and why is it important?",
+    "answer": "Zero Trust Architecture is a foundational concept in Network Security Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Zero Trust Architecture",
+    "question": "Define the basic syntax or primary usage of Zero Trust Architecture.",
+    "answer": "The primary syntax for Zero Trust Architecture involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Zero Trust Architecture",
+    "question": "What is the main difference between basic primitives and Zero Trust Architecture?",
+    "answer": "Basic primitives store single value types, whereas Zero Trust Architecture organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Zero Trust Architecture",
+    "question": "What is a common beginner mistake when working with Zero Trust Architecture?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Zero Trust Architecture.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Zero Trust Architecture",
+    "question": "State two key advantages of using Zero Trust Architecture in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Zero Trust Architecture",
+    "question": "How do you initialize or instantiate Zero Trust Architecture in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Zero Trust Architecture",
+    "question": "What role does Zero Trust Architecture play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Zero Trust Architecture",
+    "question": "Explain the simple step-by-step workflow of executing Zero Trust Architecture.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Zero Trust Architecture",
+    "question": "What is the recommended naming convention when defining Zero Trust Architecture?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Zero Trust Architecture",
+    "question": "List the basic prerequisites needed before implementing Zero Trust Architecture.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

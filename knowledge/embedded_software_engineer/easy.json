@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "C / C++ Programming",
+    "question": "What is C / C++ Programming in Embedded Software Engineer, and why is it important?",
+    "answer": "C / C++ Programming is a foundational concept in Embedded Software Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C / C++ Programming",
+    "question": "Define the basic syntax or primary usage of C / C++ Programming.",
+    "answer": "The primary syntax for C / C++ Programming involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C / C++ Programming",
+    "question": "What is the main difference between basic primitives and C / C++ Programming?",
+    "answer": "Basic primitives store single value types, whereas C / C++ Programming organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C / C++ Programming",
+    "question": "What is a common beginner mistake when working with C / C++ Programming?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in C / C++ Programming.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C / C++ Programming",
+    "question": "State two key advantages of using C / C++ Programming in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C / C++ Programming",
+    "question": "How do you initialize or instantiate C / C++ Programming in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C / C++ Programming",
+    "question": "What role does C / C++ Programming play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C / C++ Programming",
+    "question": "Explain the simple step-by-step workflow of executing C / C++ Programming.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C / C++ Programming",
+    "question": "What is the recommended naming convention when defining C / C++ Programming?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C / C++ Programming",
+    "question": "List the basic prerequisites needed before implementing C / C++ Programming.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microcontrollers (ARM/AVR)",
+    "question": "What is Microcontrollers (ARM/AVR) in Embedded Software Engineer, and why is it important?",
+    "answer": "Microcontrollers (ARM/AVR) is a foundational concept in Embedded Software Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microcontrollers (ARM/AVR)",
+    "question": "Define the basic syntax or primary usage of Microcontrollers (ARM/AVR).",
+    "answer": "The primary syntax for Microcontrollers (ARM/AVR) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microcontrollers (ARM/AVR)",
+    "question": "What is the main difference between basic primitives and Microcontrollers (ARM/AVR)?",
+    "answer": "Basic primitives store single value types, whereas Microcontrollers (ARM/AVR) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microcontrollers (ARM/AVR)",
+    "question": "What is a common beginner mistake when working with Microcontrollers (ARM/AVR)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Microcontrollers (ARM/AVR).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microcontrollers (ARM/AVR)",
+    "question": "State two key advantages of using Microcontrollers (ARM/AVR) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microcontrollers (ARM/AVR)",
+    "question": "How do you initialize or instantiate Microcontrollers (ARM/AVR) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microcontrollers (ARM/AVR)",
+    "question": "What role does Microcontrollers (ARM/AVR) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microcontrollers (ARM/AVR)",
+    "question": "Explain the simple step-by-step workflow of executing Microcontrollers (ARM/AVR).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microcontrollers (ARM/AVR)",
+    "question": "What is the recommended naming convention when defining Microcontrollers (ARM/AVR)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microcontrollers (ARM/AVR)",
+    "question": "List the basic prerequisites needed before implementing Microcontrollers (ARM/AVR).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Peripherals (UART, SPI, I2C)",
+    "question": "What is Peripherals (UART, SPI, I2C) in Embedded Software Engineer, and why is it important?",
+    "answer": "Peripherals (UART, SPI, I2C) is a foundational concept in Embedded Software Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Peripherals (UART, SPI, I2C)",
+    "question": "Define the basic syntax or primary usage of Peripherals (UART, SPI, I2C).",
+    "answer": "The primary syntax for Peripherals (UART, SPI, I2C) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Peripherals (UART, SPI, I2C)",
+    "question": "What is the main difference between basic primitives and Peripherals (UART, SPI, I2C)?",
+    "answer": "Basic primitives store single value types, whereas Peripherals (UART, SPI, I2C) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Peripherals (UART, SPI, I2C)",
+    "question": "What is a common beginner mistake when working with Peripherals (UART, SPI, I2C)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Peripherals (UART, SPI, I2C).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Peripherals (UART, SPI, I2C)",
+    "question": "State two key advantages of using Peripherals (UART, SPI, I2C) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Peripherals (UART, SPI, I2C)",
+    "question": "How do you initialize or instantiate Peripherals (UART, SPI, I2C) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Peripherals (UART, SPI, I2C)",
+    "question": "What role does Peripherals (UART, SPI, I2C) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Peripherals (UART, SPI, I2C)",
+    "question": "Explain the simple step-by-step workflow of executing Peripherals (UART, SPI, I2C).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Peripherals (UART, SPI, I2C)",
+    "question": "What is the recommended naming convention when defining Peripherals (UART, SPI, I2C)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Peripherals (UART, SPI, I2C)",
+    "question": "List the basic prerequisites needed before implementing Peripherals (UART, SPI, I2C).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RTOS & Task Scheduling",
+    "question": "What is RTOS & Task Scheduling in Embedded Software Engineer, and why is it important?",
+    "answer": "RTOS & Task Scheduling is a foundational concept in Embedded Software Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RTOS & Task Scheduling",
+    "question": "Define the basic syntax or primary usage of RTOS & Task Scheduling.",
+    "answer": "The primary syntax for RTOS & Task Scheduling involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RTOS & Task Scheduling",
+    "question": "What is the main difference between basic primitives and RTOS & Task Scheduling?",
+    "answer": "Basic primitives store single value types, whereas RTOS & Task Scheduling organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RTOS & Task Scheduling",
+    "question": "What is a common beginner mistake when working with RTOS & Task Scheduling?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in RTOS & Task Scheduling.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RTOS & Task Scheduling",
+    "question": "State two key advantages of using RTOS & Task Scheduling in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RTOS & Task Scheduling",
+    "question": "How do you initialize or instantiate RTOS & Task Scheduling in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RTOS & Task Scheduling",
+    "question": "What role does RTOS & Task Scheduling play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RTOS & Task Scheduling",
+    "question": "Explain the simple step-by-step workflow of executing RTOS & Task Scheduling.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RTOS & Task Scheduling",
+    "question": "What is the recommended naming convention when defining RTOS & Task Scheduling?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RTOS & Task Scheduling",
+    "question": "List the basic prerequisites needed before implementing RTOS & Task Scheduling.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hardware Debugging & Memory Limits",
+    "question": "What is Hardware Debugging & Memory Limits in Embedded Software Engineer, and why is it important?",
+    "answer": "Hardware Debugging & Memory Limits is a foundational concept in Embedded Software Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hardware Debugging & Memory Limits",
+    "question": "Define the basic syntax or primary usage of Hardware Debugging & Memory Limits.",
+    "answer": "The primary syntax for Hardware Debugging & Memory Limits involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hardware Debugging & Memory Limits",
+    "question": "What is the main difference between basic primitives and Hardware Debugging & Memory Limits?",
+    "answer": "Basic primitives store single value types, whereas Hardware Debugging & Memory Limits organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hardware Debugging & Memory Limits",
+    "question": "What is a common beginner mistake when working with Hardware Debugging & Memory Limits?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Hardware Debugging & Memory Limits.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hardware Debugging & Memory Limits",
+    "question": "State two key advantages of using Hardware Debugging & Memory Limits in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hardware Debugging & Memory Limits",
+    "question": "How do you initialize or instantiate Hardware Debugging & Memory Limits in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hardware Debugging & Memory Limits",
+    "question": "What role does Hardware Debugging & Memory Limits play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hardware Debugging & Memory Limits",
+    "question": "Explain the simple step-by-step workflow of executing Hardware Debugging & Memory Limits.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hardware Debugging & Memory Limits",
+    "question": "What is the recommended naming convention when defining Hardware Debugging & Memory Limits?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hardware Debugging & Memory Limits",
+    "question": "List the basic prerequisites needed before implementing Hardware Debugging & Memory Limits.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

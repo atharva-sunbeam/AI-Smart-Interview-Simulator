@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Linux Kernel Architecture",
+    "question": "How do you implement practical error handling when working with Linux Kernel Architecture in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Kernel Architecture",
+    "question": "Describe a real-world debugging scenario involving Linux Kernel Architecture and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Kernel Architecture",
+    "question": "How does Linux Kernel Architecture perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Kernel Architecture",
+    "question": "What are the best practices for structuring code related to Linux Kernel Architecture?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Kernel Architecture",
+    "question": "In a practical project, how do you integrate Linux Kernel Architecture with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Kernel Architecture",
+    "question": "Compare and contrast two alternative approaches for executing Linux Kernel Architecture.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Kernel Architecture",
+    "question": "How do you write a unit test for a function that relies on Linux Kernel Architecture?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Kernel Architecture",
+    "question": "What performance bottlenecks can arise if Linux Kernel Architecture is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Kernel Architecture",
+    "question": "How do you refactor legacy code using modern standards for Linux Kernel Architecture?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux Kernel Architecture",
+    "question": "Explain how data validation is applied to Linux Kernel Architecture payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Buildroot / Yocto Project",
+    "question": "How do you implement practical error handling when working with Buildroot / Yocto Project in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Buildroot / Yocto Project",
+    "question": "Describe a real-world debugging scenario involving Buildroot / Yocto Project and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Buildroot / Yocto Project",
+    "question": "How does Buildroot / Yocto Project perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Buildroot / Yocto Project",
+    "question": "What are the best practices for structuring code related to Buildroot / Yocto Project?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Buildroot / Yocto Project",
+    "question": "In a practical project, how do you integrate Buildroot / Yocto Project with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Buildroot / Yocto Project",
+    "question": "Compare and contrast two alternative approaches for executing Buildroot / Yocto Project.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Buildroot / Yocto Project",
+    "question": "How do you write a unit test for a function that relies on Buildroot / Yocto Project?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Buildroot / Yocto Project",
+    "question": "What performance bottlenecks can arise if Buildroot / Yocto Project is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Buildroot / Yocto Project",
+    "question": "How do you refactor legacy code using modern standards for Buildroot / Yocto Project?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Buildroot / Yocto Project",
+    "question": "Explain how data validation is applied to Buildroot / Yocto Project payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Device Drivers & Device Trees",
+    "question": "How do you implement practical error handling when working with Device Drivers & Device Trees in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Device Drivers & Device Trees",
+    "question": "Describe a real-world debugging scenario involving Device Drivers & Device Trees and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Device Drivers & Device Trees",
+    "question": "How does Device Drivers & Device Trees perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Device Drivers & Device Trees",
+    "question": "What are the best practices for structuring code related to Device Drivers & Device Trees?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Device Drivers & Device Trees",
+    "question": "In a practical project, how do you integrate Device Drivers & Device Trees with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Device Drivers & Device Trees",
+    "question": "Compare and contrast two alternative approaches for executing Device Drivers & Device Trees.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Device Drivers & Device Trees",
+    "question": "How do you write a unit test for a function that relies on Device Drivers & Device Trees?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Device Drivers & Device Trees",
+    "question": "What performance bottlenecks can arise if Device Drivers & Device Trees is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Device Drivers & Device Trees",
+    "question": "How do you refactor legacy code using modern standards for Device Drivers & Device Trees?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Device Drivers & Device Trees",
+    "question": "Explain how data validation is applied to Device Drivers & Device Trees payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "U-Boot & Bootloaders",
+    "question": "How do you implement practical error handling when working with U-Boot & Bootloaders in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "U-Boot & Bootloaders",
+    "question": "Describe a real-world debugging scenario involving U-Boot & Bootloaders and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "U-Boot & Bootloaders",
+    "question": "How does U-Boot & Bootloaders perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "U-Boot & Bootloaders",
+    "question": "What are the best practices for structuring code related to U-Boot & Bootloaders?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "U-Boot & Bootloaders",
+    "question": "In a practical project, how do you integrate U-Boot & Bootloaders with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "U-Boot & Bootloaders",
+    "question": "Compare and contrast two alternative approaches for executing U-Boot & Bootloaders.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "U-Boot & Bootloaders",
+    "question": "How do you write a unit test for a function that relies on U-Boot & Bootloaders?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "U-Boot & Bootloaders",
+    "question": "What performance bottlenecks can arise if U-Boot & Bootloaders is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "U-Boot & Bootloaders",
+    "question": "How do you refactor legacy code using modern standards for U-Boot & Bootloaders?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "U-Boot & Bootloaders",
+    "question": "Explain how data validation is applied to U-Boot & Bootloaders payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "POSIX Threads & System Calls",
+    "question": "How do you implement practical error handling when working with POSIX Threads & System Calls in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "POSIX Threads & System Calls",
+    "question": "Describe a real-world debugging scenario involving POSIX Threads & System Calls and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "POSIX Threads & System Calls",
+    "question": "How does POSIX Threads & System Calls perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "POSIX Threads & System Calls",
+    "question": "What are the best practices for structuring code related to POSIX Threads & System Calls?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "POSIX Threads & System Calls",
+    "question": "In a practical project, how do you integrate POSIX Threads & System Calls with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "POSIX Threads & System Calls",
+    "question": "Compare and contrast two alternative approaches for executing POSIX Threads & System Calls.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "POSIX Threads & System Calls",
+    "question": "How do you write a unit test for a function that relies on POSIX Threads & System Calls?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "POSIX Threads & System Calls",
+    "question": "What performance bottlenecks can arise if POSIX Threads & System Calls is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "POSIX Threads & System Calls",
+    "question": "How do you refactor legacy code using modern standards for POSIX Threads & System Calls?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "POSIX Threads & System Calls",
+    "question": "Explain how data validation is applied to POSIX Threads & System Calls payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

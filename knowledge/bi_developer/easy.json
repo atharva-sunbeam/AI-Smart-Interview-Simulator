@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Data Warehousing",
+    "question": "What is Data Warehousing in BI Developer, and why is it important?",
+    "answer": "Data Warehousing is a foundational concept in BI Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "Define the basic syntax or primary usage of Data Warehousing.",
+    "answer": "The primary syntax for Data Warehousing involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "What is the main difference between basic primitives and Data Warehousing?",
+    "answer": "Basic primitives store single value types, whereas Data Warehousing organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "What is a common beginner mistake when working with Data Warehousing?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Data Warehousing.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "State two key advantages of using Data Warehousing in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "How do you initialize or instantiate Data Warehousing in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "What role does Data Warehousing play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "Explain the simple step-by-step workflow of executing Data Warehousing.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "What is the recommended naming convention when defining Data Warehousing?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "List the basic prerequisites needed before implementing Data Warehousing.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dimensional Modeling",
+    "question": "What is Dimensional Modeling in BI Developer, and why is it important?",
+    "answer": "Dimensional Modeling is a foundational concept in BI Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dimensional Modeling",
+    "question": "Define the basic syntax or primary usage of Dimensional Modeling.",
+    "answer": "The primary syntax for Dimensional Modeling involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dimensional Modeling",
+    "question": "What is the main difference between basic primitives and Dimensional Modeling?",
+    "answer": "Basic primitives store single value types, whereas Dimensional Modeling organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dimensional Modeling",
+    "question": "What is a common beginner mistake when working with Dimensional Modeling?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Dimensional Modeling.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dimensional Modeling",
+    "question": "State two key advantages of using Dimensional Modeling in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dimensional Modeling",
+    "question": "How do you initialize or instantiate Dimensional Modeling in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dimensional Modeling",
+    "question": "What role does Dimensional Modeling play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dimensional Modeling",
+    "question": "Explain the simple step-by-step workflow of executing Dimensional Modeling.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dimensional Modeling",
+    "question": "What is the recommended naming convention when defining Dimensional Modeling?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dimensional Modeling",
+    "question": "List the basic prerequisites needed before implementing Dimensional Modeling.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & ETL",
+    "question": "What is SQL & ETL in BI Developer, and why is it important?",
+    "answer": "SQL & ETL is a foundational concept in BI Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & ETL",
+    "question": "Define the basic syntax or primary usage of SQL & ETL.",
+    "answer": "The primary syntax for SQL & ETL involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & ETL",
+    "question": "What is the main difference between basic primitives and SQL & ETL?",
+    "answer": "Basic primitives store single value types, whereas SQL & ETL organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & ETL",
+    "question": "What is a common beginner mistake when working with SQL & ETL?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in SQL & ETL.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & ETL",
+    "question": "State two key advantages of using SQL & ETL in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & ETL",
+    "question": "How do you initialize or instantiate SQL & ETL in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & ETL",
+    "question": "What role does SQL & ETL play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & ETL",
+    "question": "Explain the simple step-by-step workflow of executing SQL & ETL.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & ETL",
+    "question": "What is the recommended naming convention when defining SQL & ETL?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & ETL",
+    "question": "List the basic prerequisites needed before implementing SQL & ETL.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PowerBI & Tableau",
+    "question": "What is PowerBI & Tableau in BI Developer, and why is it important?",
+    "answer": "PowerBI & Tableau is a foundational concept in BI Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PowerBI & Tableau",
+    "question": "Define the basic syntax or primary usage of PowerBI & Tableau.",
+    "answer": "The primary syntax for PowerBI & Tableau involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PowerBI & Tableau",
+    "question": "What is the main difference between basic primitives and PowerBI & Tableau?",
+    "answer": "Basic primitives store single value types, whereas PowerBI & Tableau organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PowerBI & Tableau",
+    "question": "What is a common beginner mistake when working with PowerBI & Tableau?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in PowerBI & Tableau.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PowerBI & Tableau",
+    "question": "State two key advantages of using PowerBI & Tableau in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PowerBI & Tableau",
+    "question": "How do you initialize or instantiate PowerBI & Tableau in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PowerBI & Tableau",
+    "question": "What role does PowerBI & Tableau play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PowerBI & Tableau",
+    "question": "Explain the simple step-by-step workflow of executing PowerBI & Tableau.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PowerBI & Tableau",
+    "question": "What is the recommended naming convention when defining PowerBI & Tableau?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PowerBI & Tableau",
+    "question": "List the basic prerequisites needed before implementing PowerBI & Tableau.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "DAX & Analytics",
+    "question": "What is DAX & Analytics in BI Developer, and why is it important?",
+    "answer": "DAX & Analytics is a foundational concept in BI Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "DAX & Analytics",
+    "question": "Define the basic syntax or primary usage of DAX & Analytics.",
+    "answer": "The primary syntax for DAX & Analytics involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "DAX & Analytics",
+    "question": "What is the main difference between basic primitives and DAX & Analytics?",
+    "answer": "Basic primitives store single value types, whereas DAX & Analytics organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "DAX & Analytics",
+    "question": "What is a common beginner mistake when working with DAX & Analytics?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in DAX & Analytics.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "DAX & Analytics",
+    "question": "State two key advantages of using DAX & Analytics in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "DAX & Analytics",
+    "question": "How do you initialize or instantiate DAX & Analytics in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "DAX & Analytics",
+    "question": "What role does DAX & Analytics play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "DAX & Analytics",
+    "question": "Explain the simple step-by-step workflow of executing DAX & Analytics.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "DAX & Analytics",
+    "question": "What is the recommended naming convention when defining DAX & Analytics?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "DAX & Analytics",
+    "question": "List the basic prerequisites needed before implementing DAX & Analytics.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

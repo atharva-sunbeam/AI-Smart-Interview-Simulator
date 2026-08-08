@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "How do you implement practical error handling when working with Monolith vs Microservices in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "Describe a real-world debugging scenario involving Monolith vs Microservices and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "How does Monolith vs Microservices perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "What are the best practices for structuring code related to Monolith vs Microservices?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "In a practical project, how do you integrate Monolith vs Microservices with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "Compare and contrast two alternative approaches for executing Monolith vs Microservices.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "How do you write a unit test for a function that relies on Monolith vs Microservices?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "What performance bottlenecks can arise if Monolith vs Microservices is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "How do you refactor legacy code using modern standards for Monolith vs Microservices?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "Explain how data validation is applied to Monolith vs Microservices payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "How do you implement practical error handling when working with Service Communication (REST/gRPC) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "Describe a real-world debugging scenario involving Service Communication (REST/gRPC) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "How does Service Communication (REST/gRPC) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "What are the best practices for structuring code related to Service Communication (REST/gRPC)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "In a practical project, how do you integrate Service Communication (REST/gRPC) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "Compare and contrast two alternative approaches for executing Service Communication (REST/gRPC).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "How do you write a unit test for a function that relies on Service Communication (REST/gRPC)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "What performance bottlenecks can arise if Service Communication (REST/gRPC) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "How do you refactor legacy code using modern standards for Service Communication (REST/gRPC)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "Explain how data validation is applied to Service Communication (REST/gRPC) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "How do you implement practical error handling when working with API Gateway & Service Discovery in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "Describe a real-world debugging scenario involving API Gateway & Service Discovery and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "How does API Gateway & Service Discovery perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "What are the best practices for structuring code related to API Gateway & Service Discovery?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "In a practical project, how do you integrate API Gateway & Service Discovery with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "Compare and contrast two alternative approaches for executing API Gateway & Service Discovery.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "How do you write a unit test for a function that relies on API Gateway & Service Discovery?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "What performance bottlenecks can arise if API Gateway & Service Discovery is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "How do you refactor legacy code using modern standards for API Gateway & Service Discovery?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "Explain how data validation is applied to API Gateway & Service Discovery payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "How do you implement practical error handling when working with Event-Driven Architecture (Kafka) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "Describe a real-world debugging scenario involving Event-Driven Architecture (Kafka) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "How does Event-Driven Architecture (Kafka) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "What are the best practices for structuring code related to Event-Driven Architecture (Kafka)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "In a practical project, how do you integrate Event-Driven Architecture (Kafka) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "Compare and contrast two alternative approaches for executing Event-Driven Architecture (Kafka).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "How do you write a unit test for a function that relies on Event-Driven Architecture (Kafka)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "What performance bottlenecks can arise if Event-Driven Architecture (Kafka) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "How do you refactor legacy code using modern standards for Event-Driven Architecture (Kafka)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "Explain how data validation is applied to Event-Driven Architecture (Kafka) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "How do you implement practical error handling when working with Docker & Kubernetes in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "Describe a real-world debugging scenario involving Docker & Kubernetes and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "How does Docker & Kubernetes perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "What are the best practices for structuring code related to Docker & Kubernetes?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "In a practical project, how do you integrate Docker & Kubernetes with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "Compare and contrast two alternative approaches for executing Docker & Kubernetes.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "How do you write a unit test for a function that relies on Docker & Kubernetes?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "What performance bottlenecks can arise if Docker & Kubernetes is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "How do you refactor legacy code using modern standards for Docker & Kubernetes?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "Explain how data validation is applied to Docker & Kubernetes payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "How do you implement practical error handling when working with Distributed Tracing in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "Describe a real-world debugging scenario involving Distributed Tracing and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "How does Distributed Tracing perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "What are the best practices for structuring code related to Distributed Tracing?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "In a practical project, how do you integrate Distributed Tracing with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "Compare and contrast two alternative approaches for executing Distributed Tracing.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "How do you write a unit test for a function that relies on Distributed Tracing?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "What performance bottlenecks can arise if Distributed Tracing is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "How do you refactor legacy code using modern standards for Distributed Tracing?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "Explain how data validation is applied to Distributed Tracing payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Python & Math Foundations",
+    "question": "What is Python & Math Foundations in Machine Learning Engineer, and why is it important?",
+    "answer": "Python & Math Foundations is a foundational concept in Machine Learning Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "Define the basic syntax or primary usage of Python & Math Foundations.",
+    "answer": "The primary syntax for Python & Math Foundations involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "What is the main difference between basic primitives and Python & Math Foundations?",
+    "answer": "Basic primitives store single value types, whereas Python & Math Foundations organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "What is a common beginner mistake when working with Python & Math Foundations?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Python & Math Foundations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "State two key advantages of using Python & Math Foundations in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "How do you initialize or instantiate Python & Math Foundations in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "What role does Python & Math Foundations play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "Explain the simple step-by-step workflow of executing Python & Math Foundations.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "What is the recommended naming convention when defining Python & Math Foundations?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "List the basic prerequisites needed before implementing Python & Math Foundations.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "What is Supervised & Unsupervised ML in Machine Learning Engineer, and why is it important?",
+    "answer": "Supervised & Unsupervised ML is a foundational concept in Machine Learning Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "Define the basic syntax or primary usage of Supervised & Unsupervised ML.",
+    "answer": "The primary syntax for Supervised & Unsupervised ML involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "What is the main difference between basic primitives and Supervised & Unsupervised ML?",
+    "answer": "Basic primitives store single value types, whereas Supervised & Unsupervised ML organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "What is a common beginner mistake when working with Supervised & Unsupervised ML?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Supervised & Unsupervised ML.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "State two key advantages of using Supervised & Unsupervised ML in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "How do you initialize or instantiate Supervised & Unsupervised ML in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "What role does Supervised & Unsupervised ML play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "Explain the simple step-by-step workflow of executing Supervised & Unsupervised ML.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "What is the recommended naming convention when defining Supervised & Unsupervised ML?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "List the basic prerequisites needed before implementing Supervised & Unsupervised ML.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "What is Feature Engineering in Machine Learning Engineer, and why is it important?",
+    "answer": "Feature Engineering is a foundational concept in Machine Learning Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "Define the basic syntax or primary usage of Feature Engineering.",
+    "answer": "The primary syntax for Feature Engineering involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "What is the main difference between basic primitives and Feature Engineering?",
+    "answer": "Basic primitives store single value types, whereas Feature Engineering organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "What is a common beginner mistake when working with Feature Engineering?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Feature Engineering.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "State two key advantages of using Feature Engineering in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "How do you initialize or instantiate Feature Engineering in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "What role does Feature Engineering play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "Explain the simple step-by-step workflow of executing Feature Engineering.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "What is the recommended naming convention when defining Feature Engineering?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "List the basic prerequisites needed before implementing Feature Engineering.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "What is Scikit-Learn & Modeling in Machine Learning Engineer, and why is it important?",
+    "answer": "Scikit-Learn & Modeling is a foundational concept in Machine Learning Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "Define the basic syntax or primary usage of Scikit-Learn & Modeling.",
+    "answer": "The primary syntax for Scikit-Learn & Modeling involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "What is the main difference between basic primitives and Scikit-Learn & Modeling?",
+    "answer": "Basic primitives store single value types, whereas Scikit-Learn & Modeling organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "What is a common beginner mistake when working with Scikit-Learn & Modeling?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Scikit-Learn & Modeling.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "State two key advantages of using Scikit-Learn & Modeling in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "How do you initialize or instantiate Scikit-Learn & Modeling in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "What role does Scikit-Learn & Modeling play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "Explain the simple step-by-step workflow of executing Scikit-Learn & Modeling.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "What is the recommended naming convention when defining Scikit-Learn & Modeling?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "List the basic prerequisites needed before implementing Scikit-Learn & Modeling.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "What is Model Evaluation & Tuning in Machine Learning Engineer, and why is it important?",
+    "answer": "Model Evaluation & Tuning is a foundational concept in Machine Learning Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "Define the basic syntax or primary usage of Model Evaluation & Tuning.",
+    "answer": "The primary syntax for Model Evaluation & Tuning involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "What is the main difference between basic primitives and Model Evaluation & Tuning?",
+    "answer": "Basic primitives store single value types, whereas Model Evaluation & Tuning organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "What is a common beginner mistake when working with Model Evaluation & Tuning?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Model Evaluation & Tuning.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "State two key advantages of using Model Evaluation & Tuning in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "How do you initialize or instantiate Model Evaluation & Tuning in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "What role does Model Evaluation & Tuning play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "Explain the simple step-by-step workflow of executing Model Evaluation & Tuning.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "What is the recommended naming convention when defining Model Evaluation & Tuning?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "List the basic prerequisites needed before implementing Model Evaluation & Tuning.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "What is MLOps & Deployment in Machine Learning Engineer, and why is it important?",
+    "answer": "MLOps & Deployment is a foundational concept in Machine Learning Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "Define the basic syntax or primary usage of MLOps & Deployment.",
+    "answer": "The primary syntax for MLOps & Deployment involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "What is the main difference between basic primitives and MLOps & Deployment?",
+    "answer": "Basic primitives store single value types, whereas MLOps & Deployment organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "What is a common beginner mistake when working with MLOps & Deployment?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in MLOps & Deployment.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "State two key advantages of using MLOps & Deployment in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "How do you initialize or instantiate MLOps & Deployment in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "What role does MLOps & Deployment play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "Explain the simple step-by-step workflow of executing MLOps & Deployment.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "What is the recommended naming convention when defining MLOps & Deployment?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "List the basic prerequisites needed before implementing MLOps & Deployment.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Dart Programming Language",
+    "question": "What is Dart Programming Language in Flutter Developer, and why is it important?",
+    "answer": "Dart Programming Language is a foundational concept in Flutter Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "Define the basic syntax or primary usage of Dart Programming Language.",
+    "answer": "The primary syntax for Dart Programming Language involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "What is the main difference between basic primitives and Dart Programming Language?",
+    "answer": "Basic primitives store single value types, whereas Dart Programming Language organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "What is a common beginner mistake when working with Dart Programming Language?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Dart Programming Language.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "State two key advantages of using Dart Programming Language in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "How do you initialize or instantiate Dart Programming Language in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "What role does Dart Programming Language play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "Explain the simple step-by-step workflow of executing Dart Programming Language.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "What is the recommended naming convention when defining Dart Programming Language?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "List the basic prerequisites needed before implementing Dart Programming Language.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "What is Flutter Widgets & UI Layouts in Flutter Developer, and why is it important?",
+    "answer": "Flutter Widgets & UI Layouts is a foundational concept in Flutter Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "Define the basic syntax or primary usage of Flutter Widgets & UI Layouts.",
+    "answer": "The primary syntax for Flutter Widgets & UI Layouts involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "What is the main difference between basic primitives and Flutter Widgets & UI Layouts?",
+    "answer": "Basic primitives store single value types, whereas Flutter Widgets & UI Layouts organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "What is a common beginner mistake when working with Flutter Widgets & UI Layouts?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Flutter Widgets & UI Layouts.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "State two key advantages of using Flutter Widgets & UI Layouts in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "How do you initialize or instantiate Flutter Widgets & UI Layouts in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "What role does Flutter Widgets & UI Layouts play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "Explain the simple step-by-step workflow of executing Flutter Widgets & UI Layouts.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "What is the recommended naming convention when defining Flutter Widgets & UI Layouts?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "List the basic prerequisites needed before implementing Flutter Widgets & UI Layouts.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "What is State Management (Bloc/Provider) in Flutter Developer, and why is it important?",
+    "answer": "State Management (Bloc/Provider) is a foundational concept in Flutter Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "Define the basic syntax or primary usage of State Management (Bloc/Provider).",
+    "answer": "The primary syntax for State Management (Bloc/Provider) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "What is the main difference between basic primitives and State Management (Bloc/Provider)?",
+    "answer": "Basic primitives store single value types, whereas State Management (Bloc/Provider) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "What is a common beginner mistake when working with State Management (Bloc/Provider)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in State Management (Bloc/Provider).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "State two key advantages of using State Management (Bloc/Provider) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "How do you initialize or instantiate State Management (Bloc/Provider) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "What role does State Management (Bloc/Provider) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "Explain the simple step-by-step workflow of executing State Management (Bloc/Provider).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "What is the recommended naming convention when defining State Management (Bloc/Provider)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "List the basic prerequisites needed before implementing State Management (Bloc/Provider).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "What is REST APIs & Firebase Integration in Flutter Developer, and why is it important?",
+    "answer": "REST APIs & Firebase Integration is a foundational concept in Flutter Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "Define the basic syntax or primary usage of REST APIs & Firebase Integration.",
+    "answer": "The primary syntax for REST APIs & Firebase Integration involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "What is the main difference between basic primitives and REST APIs & Firebase Integration?",
+    "answer": "Basic primitives store single value types, whereas REST APIs & Firebase Integration organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "What is a common beginner mistake when working with REST APIs & Firebase Integration?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in REST APIs & Firebase Integration.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "State two key advantages of using REST APIs & Firebase Integration in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "How do you initialize or instantiate REST APIs & Firebase Integration in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "What role does REST APIs & Firebase Integration play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "Explain the simple step-by-step workflow of executing REST APIs & Firebase Integration.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "What is the recommended naming convention when defining REST APIs & Firebase Integration?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "List the basic prerequisites needed before implementing REST APIs & Firebase Integration.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "What is App Performance & Release in Flutter Developer, and why is it important?",
+    "answer": "App Performance & Release is a foundational concept in Flutter Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "Define the basic syntax or primary usage of App Performance & Release.",
+    "answer": "The primary syntax for App Performance & Release involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "What is the main difference between basic primitives and App Performance & Release?",
+    "answer": "Basic primitives store single value types, whereas App Performance & Release organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "What is a common beginner mistake when working with App Performance & Release?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in App Performance & Release.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "State two key advantages of using App Performance & Release in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "How do you initialize or instantiate App Performance & Release in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "What role does App Performance & Release play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "Explain the simple step-by-step workflow of executing App Performance & Release.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "What is the recommended naming convention when defining App Performance & Release?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "List the basic prerequisites needed before implementing App Performance & Release.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

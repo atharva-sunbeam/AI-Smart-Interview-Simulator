@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "What is AWS Core Services (EC2, S3, VPC) in AWS Cloud Engineer, and why is it important?",
+    "answer": "AWS Core Services (EC2, S3, VPC) is a foundational concept in AWS Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "Define the basic syntax or primary usage of AWS Core Services (EC2, S3, VPC).",
+    "answer": "The primary syntax for AWS Core Services (EC2, S3, VPC) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "What is the main difference between basic primitives and AWS Core Services (EC2, S3, VPC)?",
+    "answer": "Basic primitives store single value types, whereas AWS Core Services (EC2, S3, VPC) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "What is a common beginner mistake when working with AWS Core Services (EC2, S3, VPC)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in AWS Core Services (EC2, S3, VPC).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "State two key advantages of using AWS Core Services (EC2, S3, VPC) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "How do you initialize or instantiate AWS Core Services (EC2, S3, VPC) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "What role does AWS Core Services (EC2, S3, VPC) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "Explain the simple step-by-step workflow of executing AWS Core Services (EC2, S3, VPC).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "What is the recommended naming convention when defining AWS Core Services (EC2, S3, VPC)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "AWS Core Services (EC2, S3, VPC)",
+    "question": "List the basic prerequisites needed before implementing AWS Core Services (EC2, S3, VPC).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "What is IAM & AWS Security in AWS Cloud Engineer, and why is it important?",
+    "answer": "IAM & AWS Security is a foundational concept in AWS Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "Define the basic syntax or primary usage of IAM & AWS Security.",
+    "answer": "The primary syntax for IAM & AWS Security involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "What is the main difference between basic primitives and IAM & AWS Security?",
+    "answer": "Basic primitives store single value types, whereas IAM & AWS Security organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "What is a common beginner mistake when working with IAM & AWS Security?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in IAM & AWS Security.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "State two key advantages of using IAM & AWS Security in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "How do you initialize or instantiate IAM & AWS Security in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "What role does IAM & AWS Security play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "Explain the simple step-by-step workflow of executing IAM & AWS Security.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "What is the recommended naming convention when defining IAM & AWS Security?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IAM & AWS Security",
+    "question": "List the basic prerequisites needed before implementing IAM & AWS Security.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "What is Database Services (RDS, DynamoDB) in AWS Cloud Engineer, and why is it important?",
+    "answer": "Database Services (RDS, DynamoDB) is a foundational concept in AWS Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "Define the basic syntax or primary usage of Database Services (RDS, DynamoDB).",
+    "answer": "The primary syntax for Database Services (RDS, DynamoDB) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "What is the main difference between basic primitives and Database Services (RDS, DynamoDB)?",
+    "answer": "Basic primitives store single value types, whereas Database Services (RDS, DynamoDB) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "What is a common beginner mistake when working with Database Services (RDS, DynamoDB)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Database Services (RDS, DynamoDB).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "State two key advantages of using Database Services (RDS, DynamoDB) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "How do you initialize or instantiate Database Services (RDS, DynamoDB) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "What role does Database Services (RDS, DynamoDB) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "Explain the simple step-by-step workflow of executing Database Services (RDS, DynamoDB).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "What is the recommended naming convention when defining Database Services (RDS, DynamoDB)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database Services (RDS, DynamoDB)",
+    "question": "List the basic prerequisites needed before implementing Database Services (RDS, DynamoDB).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "What is Serverless (Lambda) in AWS Cloud Engineer, and why is it important?",
+    "answer": "Serverless (Lambda) is a foundational concept in AWS Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "Define the basic syntax or primary usage of Serverless (Lambda).",
+    "answer": "The primary syntax for Serverless (Lambda) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "What is the main difference between basic primitives and Serverless (Lambda)?",
+    "answer": "Basic primitives store single value types, whereas Serverless (Lambda) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "What is a common beginner mistake when working with Serverless (Lambda)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Serverless (Lambda).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "State two key advantages of using Serverless (Lambda) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "How do you initialize or instantiate Serverless (Lambda) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "What role does Serverless (Lambda) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "Explain the simple step-by-step workflow of executing Serverless (Lambda).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "What is the recommended naming convention when defining Serverless (Lambda)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Serverless (Lambda)",
+    "question": "List the basic prerequisites needed before implementing Serverless (Lambda).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "What is CloudFormation / Terraform in AWS Cloud Engineer, and why is it important?",
+    "answer": "CloudFormation / Terraform is a foundational concept in AWS Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "Define the basic syntax or primary usage of CloudFormation / Terraform.",
+    "answer": "The primary syntax for CloudFormation / Terraform involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "What is the main difference between basic primitives and CloudFormation / Terraform?",
+    "answer": "Basic primitives store single value types, whereas CloudFormation / Terraform organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "What is a common beginner mistake when working with CloudFormation / Terraform?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in CloudFormation / Terraform.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "State two key advantages of using CloudFormation / Terraform in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "How do you initialize or instantiate CloudFormation / Terraform in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "What role does CloudFormation / Terraform play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "Explain the simple step-by-step workflow of executing CloudFormation / Terraform.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "What is the recommended naming convention when defining CloudFormation / Terraform?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CloudFormation / Terraform",
+    "question": "List the basic prerequisites needed before implementing CloudFormation / Terraform.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "What is AWS Cost & Performance in AWS Cloud Engineer, and why is it important?",
+    "answer": "AWS Cost & Performance is a foundational concept in AWS Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "Define the basic syntax or primary usage of AWS Cost & Performance.",
+    "answer": "The primary syntax for AWS Cost & Performance involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "What is the main difference between basic primitives and AWS Cost & Performance?",
+    "answer": "Basic primitives store single value types, whereas AWS Cost & Performance organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "What is a common beginner mistake when working with AWS Cost & Performance?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in AWS Cost & Performance.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "State two key advantages of using AWS Cost & Performance in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "How do you initialize or instantiate AWS Cost & Performance in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "What role does AWS Cost & Performance play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "Explain the simple step-by-step workflow of executing AWS Cost & Performance.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "What is the recommended naming convention when defining AWS Cost & Performance?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "AWS Cost & Performance",
+    "question": "List the basic prerequisites needed before implementing AWS Cost & Performance.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

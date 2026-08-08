@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Relational Database Management",
+    "question": "Design a scalable distributed architecture utilizing Relational Database Management for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Relational Database Management",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Relational Database Management across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Relational Database Management",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Relational Database Management.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Relational Database Management",
+    "question": "How would you optimize latency and throughput for Relational Database Management under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Relational Database Management",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Relational Database Management.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Relational Database Management",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Relational Database Management?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Relational Database Management",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Relational Database Management.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Relational Database Management",
+    "question": "How do you perform deep performance profiling and memory leak detection on Relational Database Management in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Relational Database Management",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Relational Database Management and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Relational Database Management",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Relational Database Management.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL Tuning & Indexing",
+    "question": "Design a scalable distributed architecture utilizing SQL Tuning & Indexing for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL Tuning & Indexing",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling SQL Tuning & Indexing across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL Tuning & Indexing",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying SQL Tuning & Indexing.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL Tuning & Indexing",
+    "question": "How would you optimize latency and throughput for SQL Tuning & Indexing under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL Tuning & Indexing",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in SQL Tuning & Indexing.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL Tuning & Indexing",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on SQL Tuning & Indexing?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL Tuning & Indexing",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard SQL Tuning & Indexing.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL Tuning & Indexing",
+    "question": "How do you perform deep performance profiling and memory leak detection on SQL Tuning & Indexing in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL Tuning & Indexing",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with SQL Tuning & Indexing and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL Tuning & Indexing",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for SQL Tuning & Indexing.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Backup & Recovery",
+    "question": "Design a scalable distributed architecture utilizing Backup & Recovery for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Backup & Recovery",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Backup & Recovery across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Backup & Recovery",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Backup & Recovery.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Backup & Recovery",
+    "question": "How would you optimize latency and throughput for Backup & Recovery under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Backup & Recovery",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Backup & Recovery.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Backup & Recovery",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Backup & Recovery?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Backup & Recovery",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Backup & Recovery.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Backup & Recovery",
+    "question": "How do you perform deep performance profiling and memory leak detection on Backup & Recovery in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Backup & Recovery",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Backup & Recovery and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Backup & Recovery",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Backup & Recovery.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "User Privileges & Security",
+    "question": "Design a scalable distributed architecture utilizing User Privileges & Security for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "User Privileges & Security",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling User Privileges & Security across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "User Privileges & Security",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying User Privileges & Security.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "User Privileges & Security",
+    "question": "How would you optimize latency and throughput for User Privileges & Security under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "User Privileges & Security",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in User Privileges & Security.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "User Privileges & Security",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on User Privileges & Security?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "User Privileges & Security",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard User Privileges & Security.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "User Privileges & Security",
+    "question": "How do you perform deep performance profiling and memory leak detection on User Privileges & Security in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "User Privileges & Security",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with User Privileges & Security and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "User Privileges & Security",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for User Privileges & Security.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Replication & High Availability",
+    "question": "Design a scalable distributed architecture utilizing Replication & High Availability for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Replication & High Availability",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Replication & High Availability across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Replication & High Availability",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Replication & High Availability.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Replication & High Availability",
+    "question": "How would you optimize latency and throughput for Replication & High Availability under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Replication & High Availability",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Replication & High Availability.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Replication & High Availability",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Replication & High Availability?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Replication & High Availability",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Replication & High Availability.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Replication & High Availability",
+    "question": "How do you perform deep performance profiling and memory leak detection on Replication & High Availability in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Replication & High Availability",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Replication & High Availability and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Replication & High Availability",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Replication & High Availability.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database Clustering",
+    "question": "Design a scalable distributed architecture utilizing Database Clustering for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database Clustering",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Database Clustering across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database Clustering",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Database Clustering.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database Clustering",
+    "question": "How would you optimize latency and throughput for Database Clustering under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database Clustering",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Database Clustering.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database Clustering",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Database Clustering?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database Clustering",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Database Clustering.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database Clustering",
+    "question": "How do you perform deep performance profiling and memory leak detection on Database Clustering in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database Clustering",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Database Clustering and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database Clustering",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Database Clustering.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  }
+]

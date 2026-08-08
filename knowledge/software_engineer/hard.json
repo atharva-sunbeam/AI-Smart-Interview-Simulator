@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Data Structures & Algorithms",
+    "question": "Design a scalable distributed architecture utilizing Data Structures & Algorithms for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Structures & Algorithms",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Data Structures & Algorithms across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Structures & Algorithms",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Data Structures & Algorithms.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Structures & Algorithms",
+    "question": "How would you optimize latency and throughput for Data Structures & Algorithms under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Structures & Algorithms",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Data Structures & Algorithms.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Structures & Algorithms",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Data Structures & Algorithms?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Structures & Algorithms",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Data Structures & Algorithms.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Structures & Algorithms",
+    "question": "How do you perform deep performance profiling and memory leak detection on Data Structures & Algorithms in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Structures & Algorithms",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Data Structures & Algorithms and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Data Structures & Algorithms",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Data Structures & Algorithms.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "OOP & Design Principles",
+    "question": "Design a scalable distributed architecture utilizing OOP & Design Principles for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "OOP & Design Principles",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling OOP & Design Principles across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "OOP & Design Principles",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying OOP & Design Principles.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "OOP & Design Principles",
+    "question": "How would you optimize latency and throughput for OOP & Design Principles under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "OOP & Design Principles",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in OOP & Design Principles.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "OOP & Design Principles",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on OOP & Design Principles?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "OOP & Design Principles",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard OOP & Design Principles.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "OOP & Design Principles",
+    "question": "How do you perform deep performance profiling and memory leak detection on OOP & Design Principles in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "OOP & Design Principles",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with OOP & Design Principles and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "OOP & Design Principles",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for OOP & Design Principles.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "System Design",
+    "question": "Design a scalable distributed architecture utilizing System Design for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "System Design",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling System Design across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "System Design",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying System Design.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "System Design",
+    "question": "How would you optimize latency and throughput for System Design under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "System Design",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in System Design.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "System Design",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on System Design?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "System Design",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard System Design.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "System Design",
+    "question": "How do you perform deep performance profiling and memory leak detection on System Design in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "System Design",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with System Design and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "System Design",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for System Design.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database & SQL",
+    "question": "Design a scalable distributed architecture utilizing Database & SQL for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database & SQL",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Database & SQL across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database & SQL",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Database & SQL.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database & SQL",
+    "question": "How would you optimize latency and throughput for Database & SQL under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database & SQL",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Database & SQL.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database & SQL",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Database & SQL?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database & SQL",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Database & SQL.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database & SQL",
+    "question": "How do you perform deep performance profiling and memory leak detection on Database & SQL in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database & SQL",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Database & SQL and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Database & SQL",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Database & SQL.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Testing & CI/CD",
+    "question": "Design a scalable distributed architecture utilizing Testing & CI/CD for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Testing & CI/CD",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Testing & CI/CD across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Testing & CI/CD",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Testing & CI/CD.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Testing & CI/CD",
+    "question": "How would you optimize latency and throughput for Testing & CI/CD under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Testing & CI/CD",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Testing & CI/CD.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Testing & CI/CD",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Testing & CI/CD?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Testing & CI/CD",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Testing & CI/CD.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Testing & CI/CD",
+    "question": "How do you perform deep performance profiling and memory leak detection on Testing & CI/CD in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Testing & CI/CD",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Testing & CI/CD and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Testing & CI/CD",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Testing & CI/CD.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  }
+]

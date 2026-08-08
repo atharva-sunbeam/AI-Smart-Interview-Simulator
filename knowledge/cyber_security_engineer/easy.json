@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Security Architecture & Design",
+    "question": "What is Security Architecture & Design in Cyber Security Engineer, and why is it important?",
+    "answer": "Security Architecture & Design is a foundational concept in Cyber Security Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "Define the basic syntax or primary usage of Security Architecture & Design.",
+    "answer": "The primary syntax for Security Architecture & Design involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "What is the main difference between basic primitives and Security Architecture & Design?",
+    "answer": "Basic primitives store single value types, whereas Security Architecture & Design organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "What is a common beginner mistake when working with Security Architecture & Design?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Security Architecture & Design.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "State two key advantages of using Security Architecture & Design in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "How do you initialize or instantiate Security Architecture & Design in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "What role does Security Architecture & Design play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "Explain the simple step-by-step workflow of executing Security Architecture & Design.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "What is the recommended naming convention when defining Security Architecture & Design?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "List the basic prerequisites needed before implementing Security Architecture & Design.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "What is Firewalls, IDS/IPS & WAF in Cyber Security Engineer, and why is it important?",
+    "answer": "Firewalls, IDS/IPS & WAF is a foundational concept in Cyber Security Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "Define the basic syntax or primary usage of Firewalls, IDS/IPS & WAF.",
+    "answer": "The primary syntax for Firewalls, IDS/IPS & WAF involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "What is the main difference between basic primitives and Firewalls, IDS/IPS & WAF?",
+    "answer": "Basic primitives store single value types, whereas Firewalls, IDS/IPS & WAF organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "What is a common beginner mistake when working with Firewalls, IDS/IPS & WAF?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Firewalls, IDS/IPS & WAF.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "State two key advantages of using Firewalls, IDS/IPS & WAF in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "How do you initialize or instantiate Firewalls, IDS/IPS & WAF in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "What role does Firewalls, IDS/IPS & WAF play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "Explain the simple step-by-step workflow of executing Firewalls, IDS/IPS & WAF.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "What is the recommended naming convention when defining Firewalls, IDS/IPS & WAF?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "List the basic prerequisites needed before implementing Firewalls, IDS/IPS & WAF.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "What is Cryptography & PKI in Cyber Security Engineer, and why is it important?",
+    "answer": "Cryptography & PKI is a foundational concept in Cyber Security Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "Define the basic syntax or primary usage of Cryptography & PKI.",
+    "answer": "The primary syntax for Cryptography & PKI involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "What is the main difference between basic primitives and Cryptography & PKI?",
+    "answer": "Basic primitives store single value types, whereas Cryptography & PKI organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "What is a common beginner mistake when working with Cryptography & PKI?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Cryptography & PKI.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "State two key advantages of using Cryptography & PKI in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "How do you initialize or instantiate Cryptography & PKI in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "What role does Cryptography & PKI play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "Explain the simple step-by-step workflow of executing Cryptography & PKI.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "What is the recommended naming convention when defining Cryptography & PKI?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "List the basic prerequisites needed before implementing Cryptography & PKI.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "What is Identity & Access Management (IAM) in Cyber Security Engineer, and why is it important?",
+    "answer": "Identity & Access Management (IAM) is a foundational concept in Cyber Security Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "Define the basic syntax or primary usage of Identity & Access Management (IAM).",
+    "answer": "The primary syntax for Identity & Access Management (IAM) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "What is the main difference between basic primitives and Identity & Access Management (IAM)?",
+    "answer": "Basic primitives store single value types, whereas Identity & Access Management (IAM) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "What is a common beginner mistake when working with Identity & Access Management (IAM)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Identity & Access Management (IAM).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "State two key advantages of using Identity & Access Management (IAM) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "How do you initialize or instantiate Identity & Access Management (IAM) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "What role does Identity & Access Management (IAM) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "Explain the simple step-by-step workflow of executing Identity & Access Management (IAM).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "What is the recommended naming convention when defining Identity & Access Management (IAM)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "List the basic prerequisites needed before implementing Identity & Access Management (IAM).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "What is Secure Code Review in Cyber Security Engineer, and why is it important?",
+    "answer": "Secure Code Review is a foundational concept in Cyber Security Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "Define the basic syntax or primary usage of Secure Code Review.",
+    "answer": "The primary syntax for Secure Code Review involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "What is the main difference between basic primitives and Secure Code Review?",
+    "answer": "Basic primitives store single value types, whereas Secure Code Review organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "What is a common beginner mistake when working with Secure Code Review?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Secure Code Review.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "State two key advantages of using Secure Code Review in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "How do you initialize or instantiate Secure Code Review in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "What role does Secure Code Review play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "Explain the simple step-by-step workflow of executing Secure Code Review.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "What is the recommended naming convention when defining Secure Code Review?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "List the basic prerequisites needed before implementing Secure Code Review.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

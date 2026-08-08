@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Server Architecture & APIs",
+    "question": "Design a scalable distributed architecture utilizing Server Architecture & APIs for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Server Architecture & APIs",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Server Architecture & APIs across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Server Architecture & APIs",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Server Architecture & APIs.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Server Architecture & APIs",
+    "question": "How would you optimize latency and throughput for Server Architecture & APIs under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Server Architecture & APIs",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Server Architecture & APIs.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Server Architecture & APIs",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Server Architecture & APIs?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Server Architecture & APIs",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Server Architecture & APIs.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Server Architecture & APIs",
+    "question": "How do you perform deep performance profiling and memory leak detection on Server Architecture & APIs in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Server Architecture & APIs",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Server Architecture & APIs and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Server Architecture & APIs",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Server Architecture & APIs.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Databases & Indexing",
+    "question": "Design a scalable distributed architecture utilizing Databases & Indexing for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Databases & Indexing",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Databases & Indexing across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Databases & Indexing",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Databases & Indexing.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Databases & Indexing",
+    "question": "How would you optimize latency and throughput for Databases & Indexing under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Databases & Indexing",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Databases & Indexing.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Databases & Indexing",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Databases & Indexing?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Databases & Indexing",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Databases & Indexing.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Databases & Indexing",
+    "question": "How do you perform deep performance profiling and memory leak detection on Databases & Indexing in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Databases & Indexing",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Databases & Indexing and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Databases & Indexing",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Databases & Indexing.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Caching (Redis)",
+    "question": "Design a scalable distributed architecture utilizing Caching (Redis) for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Caching (Redis)",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Caching (Redis) across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Caching (Redis)",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Caching (Redis).",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Caching (Redis)",
+    "question": "How would you optimize latency and throughput for Caching (Redis) under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Caching (Redis)",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Caching (Redis).",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Caching (Redis)",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Caching (Redis)?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Caching (Redis)",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Caching (Redis).",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Caching (Redis)",
+    "question": "How do you perform deep performance profiling and memory leak detection on Caching (Redis) in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Caching (Redis)",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Caching (Redis) and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Caching (Redis)",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Caching (Redis).",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Async & Message Queues",
+    "question": "Design a scalable distributed architecture utilizing Async & Message Queues for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Async & Message Queues",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Async & Message Queues across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Async & Message Queues",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Async & Message Queues.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Async & Message Queues",
+    "question": "How would you optimize latency and throughput for Async & Message Queues under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Async & Message Queues",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Async & Message Queues.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Async & Message Queues",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Async & Message Queues?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Async & Message Queues",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Async & Message Queues.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Async & Message Queues",
+    "question": "How do you perform deep performance profiling and memory leak detection on Async & Message Queues in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Async & Message Queues",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Async & Message Queues and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Async & Message Queues",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Async & Message Queues.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Microservices & Security",
+    "question": "Design a scalable distributed architecture utilizing Microservices & Security for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Microservices & Security",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Microservices & Security across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Microservices & Security",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Microservices & Security.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Microservices & Security",
+    "question": "How would you optimize latency and throughput for Microservices & Security under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Microservices & Security",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Microservices & Security.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Microservices & Security",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Microservices & Security?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Microservices & Security",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Microservices & Security.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Microservices & Security",
+    "question": "How do you perform deep performance profiling and memory leak detection on Microservices & Security in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Microservices & Security",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Microservices & Security and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Microservices & Security",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Microservices & Security.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Performance Tuning",
+    "question": "Design a scalable distributed architecture utilizing Performance Tuning for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Performance Tuning",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Performance Tuning across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Performance Tuning",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Performance Tuning.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Performance Tuning",
+    "question": "How would you optimize latency and throughput for Performance Tuning under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Performance Tuning",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Performance Tuning.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Performance Tuning",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Performance Tuning?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Performance Tuning",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Performance Tuning.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Performance Tuning",
+    "question": "How do you perform deep performance profiling and memory leak detection on Performance Tuning in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Performance Tuning",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Performance Tuning and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Performance Tuning",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Performance Tuning.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  }
+]

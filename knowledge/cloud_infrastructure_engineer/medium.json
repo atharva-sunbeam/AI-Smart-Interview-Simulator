@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Cloud Architecture (AWS/Azure/GCP)",
+    "question": "How do you implement practical error handling when working with Cloud Architecture (AWS/Azure/GCP) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cloud Architecture (AWS/Azure/GCP)",
+    "question": "Describe a real-world debugging scenario involving Cloud Architecture (AWS/Azure/GCP) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cloud Architecture (AWS/Azure/GCP)",
+    "question": "How does Cloud Architecture (AWS/Azure/GCP) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cloud Architecture (AWS/Azure/GCP)",
+    "question": "What are the best practices for structuring code related to Cloud Architecture (AWS/Azure/GCP)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cloud Architecture (AWS/Azure/GCP)",
+    "question": "In a practical project, how do you integrate Cloud Architecture (AWS/Azure/GCP) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cloud Architecture (AWS/Azure/GCP)",
+    "question": "Compare and contrast two alternative approaches for executing Cloud Architecture (AWS/Azure/GCP).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cloud Architecture (AWS/Azure/GCP)",
+    "question": "How do you write a unit test for a function that relies on Cloud Architecture (AWS/Azure/GCP)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cloud Architecture (AWS/Azure/GCP)",
+    "question": "What performance bottlenecks can arise if Cloud Architecture (AWS/Azure/GCP) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cloud Architecture (AWS/Azure/GCP)",
+    "question": "How do you refactor legacy code using modern standards for Cloud Architecture (AWS/Azure/GCP)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cloud Architecture (AWS/Azure/GCP)",
+    "question": "Explain how data validation is applied to Cloud Architecture (AWS/Azure/GCP) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Virtualization & Networking (VPC)",
+    "question": "How do you implement practical error handling when working with Virtualization & Networking (VPC) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Virtualization & Networking (VPC)",
+    "question": "Describe a real-world debugging scenario involving Virtualization & Networking (VPC) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Virtualization & Networking (VPC)",
+    "question": "How does Virtualization & Networking (VPC) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Virtualization & Networking (VPC)",
+    "question": "What are the best practices for structuring code related to Virtualization & Networking (VPC)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Virtualization & Networking (VPC)",
+    "question": "In a practical project, how do you integrate Virtualization & Networking (VPC) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Virtualization & Networking (VPC)",
+    "question": "Compare and contrast two alternative approaches for executing Virtualization & Networking (VPC).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Virtualization & Networking (VPC)",
+    "question": "How do you write a unit test for a function that relies on Virtualization & Networking (VPC)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Virtualization & Networking (VPC)",
+    "question": "What performance bottlenecks can arise if Virtualization & Networking (VPC) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Virtualization & Networking (VPC)",
+    "question": "How do you refactor legacy code using modern standards for Virtualization & Networking (VPC)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Virtualization & Networking (VPC)",
+    "question": "Explain how data validation is applied to Virtualization & Networking (VPC) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Infrastructure as Code (Terraform)",
+    "question": "How do you implement practical error handling when working with Infrastructure as Code (Terraform) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Infrastructure as Code (Terraform)",
+    "question": "Describe a real-world debugging scenario involving Infrastructure as Code (Terraform) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Infrastructure as Code (Terraform)",
+    "question": "How does Infrastructure as Code (Terraform) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Infrastructure as Code (Terraform)",
+    "question": "What are the best practices for structuring code related to Infrastructure as Code (Terraform)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Infrastructure as Code (Terraform)",
+    "question": "In a practical project, how do you integrate Infrastructure as Code (Terraform) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Infrastructure as Code (Terraform)",
+    "question": "Compare and contrast two alternative approaches for executing Infrastructure as Code (Terraform).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Infrastructure as Code (Terraform)",
+    "question": "How do you write a unit test for a function that relies on Infrastructure as Code (Terraform)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Infrastructure as Code (Terraform)",
+    "question": "What performance bottlenecks can arise if Infrastructure as Code (Terraform) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Infrastructure as Code (Terraform)",
+    "question": "How do you refactor legacy code using modern standards for Infrastructure as Code (Terraform)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Infrastructure as Code (Terraform)",
+    "question": "Explain how data validation is applied to Infrastructure as Code (Terraform) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security & IAM Roles",
+    "question": "How do you implement practical error handling when working with Security & IAM Roles in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security & IAM Roles",
+    "question": "Describe a real-world debugging scenario involving Security & IAM Roles and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security & IAM Roles",
+    "question": "How does Security & IAM Roles perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security & IAM Roles",
+    "question": "What are the best practices for structuring code related to Security & IAM Roles?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security & IAM Roles",
+    "question": "In a practical project, how do you integrate Security & IAM Roles with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security & IAM Roles",
+    "question": "Compare and contrast two alternative approaches for executing Security & IAM Roles.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security & IAM Roles",
+    "question": "How do you write a unit test for a function that relies on Security & IAM Roles?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security & IAM Roles",
+    "question": "What performance bottlenecks can arise if Security & IAM Roles is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security & IAM Roles",
+    "question": "How do you refactor legacy code using modern standards for Security & IAM Roles?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security & IAM Roles",
+    "question": "Explain how data validation is applied to Security & IAM Roles payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monitoring & Cost Optimization",
+    "question": "How do you implement practical error handling when working with Monitoring & Cost Optimization in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monitoring & Cost Optimization",
+    "question": "Describe a real-world debugging scenario involving Monitoring & Cost Optimization and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monitoring & Cost Optimization",
+    "question": "How does Monitoring & Cost Optimization perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monitoring & Cost Optimization",
+    "question": "What are the best practices for structuring code related to Monitoring & Cost Optimization?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monitoring & Cost Optimization",
+    "question": "In a practical project, how do you integrate Monitoring & Cost Optimization with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monitoring & Cost Optimization",
+    "question": "Compare and contrast two alternative approaches for executing Monitoring & Cost Optimization.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monitoring & Cost Optimization",
+    "question": "How do you write a unit test for a function that relies on Monitoring & Cost Optimization?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monitoring & Cost Optimization",
+    "question": "What performance bottlenecks can arise if Monitoring & Cost Optimization is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monitoring & Cost Optimization",
+    "question": "How do you refactor legacy code using modern standards for Monitoring & Cost Optimization?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monitoring & Cost Optimization",
+    "question": "Explain how data validation is applied to Monitoring & Cost Optimization payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

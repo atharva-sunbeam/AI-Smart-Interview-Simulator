@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Data Center & Virtualization (VMware)",
+    "question": "How do you implement practical error handling when working with Data Center & Virtualization (VMware) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Center & Virtualization (VMware)",
+    "question": "Describe a real-world debugging scenario involving Data Center & Virtualization (VMware) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Center & Virtualization (VMware)",
+    "question": "How does Data Center & Virtualization (VMware) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Center & Virtualization (VMware)",
+    "question": "What are the best practices for structuring code related to Data Center & Virtualization (VMware)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Center & Virtualization (VMware)",
+    "question": "In a practical project, how do you integrate Data Center & Virtualization (VMware) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Center & Virtualization (VMware)",
+    "question": "Compare and contrast two alternative approaches for executing Data Center & Virtualization (VMware).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Center & Virtualization (VMware)",
+    "question": "How do you write a unit test for a function that relies on Data Center & Virtualization (VMware)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Center & Virtualization (VMware)",
+    "question": "What performance bottlenecks can arise if Data Center & Virtualization (VMware) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Center & Virtualization (VMware)",
+    "question": "How do you refactor legacy code using modern standards for Data Center & Virtualization (VMware)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Center & Virtualization (VMware)",
+    "question": "Explain how data validation is applied to Data Center & Virtualization (VMware) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Storage Solutions (SAN/NAS)",
+    "question": "How do you implement practical error handling when working with Storage Solutions (SAN/NAS) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Storage Solutions (SAN/NAS)",
+    "question": "Describe a real-world debugging scenario involving Storage Solutions (SAN/NAS) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Storage Solutions (SAN/NAS)",
+    "question": "How does Storage Solutions (SAN/NAS) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Storage Solutions (SAN/NAS)",
+    "question": "What are the best practices for structuring code related to Storage Solutions (SAN/NAS)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Storage Solutions (SAN/NAS)",
+    "question": "In a practical project, how do you integrate Storage Solutions (SAN/NAS) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Storage Solutions (SAN/NAS)",
+    "question": "Compare and contrast two alternative approaches for executing Storage Solutions (SAN/NAS).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Storage Solutions (SAN/NAS)",
+    "question": "How do you write a unit test for a function that relies on Storage Solutions (SAN/NAS)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Storage Solutions (SAN/NAS)",
+    "question": "What performance bottlenecks can arise if Storage Solutions (SAN/NAS) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Storage Solutions (SAN/NAS)",
+    "question": "How do you refactor legacy code using modern standards for Storage Solutions (SAN/NAS)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Storage Solutions (SAN/NAS)",
+    "question": "Explain how data validation is applied to Storage Solutions (SAN/NAS) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Networking & Load Balancing",
+    "question": "How do you implement practical error handling when working with Networking & Load Balancing in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Networking & Load Balancing",
+    "question": "Describe a real-world debugging scenario involving Networking & Load Balancing and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Networking & Load Balancing",
+    "question": "How does Networking & Load Balancing perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Networking & Load Balancing",
+    "question": "What are the best practices for structuring code related to Networking & Load Balancing?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Networking & Load Balancing",
+    "question": "In a practical project, how do you integrate Networking & Load Balancing with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Networking & Load Balancing",
+    "question": "Compare and contrast two alternative approaches for executing Networking & Load Balancing.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Networking & Load Balancing",
+    "question": "How do you write a unit test for a function that relies on Networking & Load Balancing?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Networking & Load Balancing",
+    "question": "What performance bottlenecks can arise if Networking & Load Balancing is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Networking & Load Balancing",
+    "question": "How do you refactor legacy code using modern standards for Networking & Load Balancing?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Networking & Load Balancing",
+    "question": "Explain how data validation is applied to Networking & Load Balancing payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux/Windows Server Administration",
+    "question": "How do you implement practical error handling when working with Linux/Windows Server Administration in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux/Windows Server Administration",
+    "question": "Describe a real-world debugging scenario involving Linux/Windows Server Administration and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux/Windows Server Administration",
+    "question": "How does Linux/Windows Server Administration perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux/Windows Server Administration",
+    "question": "What are the best practices for structuring code related to Linux/Windows Server Administration?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux/Windows Server Administration",
+    "question": "In a practical project, how do you integrate Linux/Windows Server Administration with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux/Windows Server Administration",
+    "question": "Compare and contrast two alternative approaches for executing Linux/Windows Server Administration.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux/Windows Server Administration",
+    "question": "How do you write a unit test for a function that relies on Linux/Windows Server Administration?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux/Windows Server Administration",
+    "question": "What performance bottlenecks can arise if Linux/Windows Server Administration is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux/Windows Server Administration",
+    "question": "How do you refactor legacy code using modern standards for Linux/Windows Server Administration?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Linux/Windows Server Administration",
+    "question": "Explain how data validation is applied to Linux/Windows Server Administration payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Backup & Disaster Recovery",
+    "question": "How do you implement practical error handling when working with Backup & Disaster Recovery in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Backup & Disaster Recovery",
+    "question": "Describe a real-world debugging scenario involving Backup & Disaster Recovery and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Backup & Disaster Recovery",
+    "question": "How does Backup & Disaster Recovery perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Backup & Disaster Recovery",
+    "question": "What are the best practices for structuring code related to Backup & Disaster Recovery?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Backup & Disaster Recovery",
+    "question": "In a practical project, how do you integrate Backup & Disaster Recovery with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Backup & Disaster Recovery",
+    "question": "Compare and contrast two alternative approaches for executing Backup & Disaster Recovery.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Backup & Disaster Recovery",
+    "question": "How do you write a unit test for a function that relies on Backup & Disaster Recovery?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Backup & Disaster Recovery",
+    "question": "What performance bottlenecks can arise if Backup & Disaster Recovery is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Backup & Disaster Recovery",
+    "question": "How do you refactor legacy code using modern standards for Backup & Disaster Recovery?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Backup & Disaster Recovery",
+    "question": "Explain how data validation is applied to Backup & Disaster Recovery payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

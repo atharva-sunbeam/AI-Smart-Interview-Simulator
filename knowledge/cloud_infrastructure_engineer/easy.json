@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Cloud Architecture (AWS/Azure/GCP)",
+    "question": "What is Cloud Architecture (AWS/Azure/GCP) in Cloud Infrastructure Engineer, and why is it important?",
+    "answer": "Cloud Architecture (AWS/Azure/GCP) is a foundational concept in Cloud Infrastructure Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Architecture (AWS/Azure/GCP)",
+    "question": "Define the basic syntax or primary usage of Cloud Architecture (AWS/Azure/GCP).",
+    "answer": "The primary syntax for Cloud Architecture (AWS/Azure/GCP) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Architecture (AWS/Azure/GCP)",
+    "question": "What is the main difference between basic primitives and Cloud Architecture (AWS/Azure/GCP)?",
+    "answer": "Basic primitives store single value types, whereas Cloud Architecture (AWS/Azure/GCP) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Architecture (AWS/Azure/GCP)",
+    "question": "What is a common beginner mistake when working with Cloud Architecture (AWS/Azure/GCP)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Cloud Architecture (AWS/Azure/GCP).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Architecture (AWS/Azure/GCP)",
+    "question": "State two key advantages of using Cloud Architecture (AWS/Azure/GCP) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Architecture (AWS/Azure/GCP)",
+    "question": "How do you initialize or instantiate Cloud Architecture (AWS/Azure/GCP) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Architecture (AWS/Azure/GCP)",
+    "question": "What role does Cloud Architecture (AWS/Azure/GCP) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Architecture (AWS/Azure/GCP)",
+    "question": "Explain the simple step-by-step workflow of executing Cloud Architecture (AWS/Azure/GCP).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Architecture (AWS/Azure/GCP)",
+    "question": "What is the recommended naming convention when defining Cloud Architecture (AWS/Azure/GCP)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Architecture (AWS/Azure/GCP)",
+    "question": "List the basic prerequisites needed before implementing Cloud Architecture (AWS/Azure/GCP).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Virtualization & Networking (VPC)",
+    "question": "What is Virtualization & Networking (VPC) in Cloud Infrastructure Engineer, and why is it important?",
+    "answer": "Virtualization & Networking (VPC) is a foundational concept in Cloud Infrastructure Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Virtualization & Networking (VPC)",
+    "question": "Define the basic syntax or primary usage of Virtualization & Networking (VPC).",
+    "answer": "The primary syntax for Virtualization & Networking (VPC) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Virtualization & Networking (VPC)",
+    "question": "What is the main difference between basic primitives and Virtualization & Networking (VPC)?",
+    "answer": "Basic primitives store single value types, whereas Virtualization & Networking (VPC) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Virtualization & Networking (VPC)",
+    "question": "What is a common beginner mistake when working with Virtualization & Networking (VPC)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Virtualization & Networking (VPC).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Virtualization & Networking (VPC)",
+    "question": "State two key advantages of using Virtualization & Networking (VPC) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Virtualization & Networking (VPC)",
+    "question": "How do you initialize or instantiate Virtualization & Networking (VPC) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Virtualization & Networking (VPC)",
+    "question": "What role does Virtualization & Networking (VPC) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Virtualization & Networking (VPC)",
+    "question": "Explain the simple step-by-step workflow of executing Virtualization & Networking (VPC).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Virtualization & Networking (VPC)",
+    "question": "What is the recommended naming convention when defining Virtualization & Networking (VPC)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Virtualization & Networking (VPC)",
+    "question": "List the basic prerequisites needed before implementing Virtualization & Networking (VPC).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Infrastructure as Code (Terraform)",
+    "question": "What is Infrastructure as Code (Terraform) in Cloud Infrastructure Engineer, and why is it important?",
+    "answer": "Infrastructure as Code (Terraform) is a foundational concept in Cloud Infrastructure Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Infrastructure as Code (Terraform)",
+    "question": "Define the basic syntax or primary usage of Infrastructure as Code (Terraform).",
+    "answer": "The primary syntax for Infrastructure as Code (Terraform) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Infrastructure as Code (Terraform)",
+    "question": "What is the main difference between basic primitives and Infrastructure as Code (Terraform)?",
+    "answer": "Basic primitives store single value types, whereas Infrastructure as Code (Terraform) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Infrastructure as Code (Terraform)",
+    "question": "What is a common beginner mistake when working with Infrastructure as Code (Terraform)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Infrastructure as Code (Terraform).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Infrastructure as Code (Terraform)",
+    "question": "State two key advantages of using Infrastructure as Code (Terraform) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Infrastructure as Code (Terraform)",
+    "question": "How do you initialize or instantiate Infrastructure as Code (Terraform) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Infrastructure as Code (Terraform)",
+    "question": "What role does Infrastructure as Code (Terraform) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Infrastructure as Code (Terraform)",
+    "question": "Explain the simple step-by-step workflow of executing Infrastructure as Code (Terraform).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Infrastructure as Code (Terraform)",
+    "question": "What is the recommended naming convention when defining Infrastructure as Code (Terraform)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Infrastructure as Code (Terraform)",
+    "question": "List the basic prerequisites needed before implementing Infrastructure as Code (Terraform).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security & IAM Roles",
+    "question": "What is Security & IAM Roles in Cloud Infrastructure Engineer, and why is it important?",
+    "answer": "Security & IAM Roles is a foundational concept in Cloud Infrastructure Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security & IAM Roles",
+    "question": "Define the basic syntax or primary usage of Security & IAM Roles.",
+    "answer": "The primary syntax for Security & IAM Roles involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security & IAM Roles",
+    "question": "What is the main difference between basic primitives and Security & IAM Roles?",
+    "answer": "Basic primitives store single value types, whereas Security & IAM Roles organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security & IAM Roles",
+    "question": "What is a common beginner mistake when working with Security & IAM Roles?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Security & IAM Roles.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security & IAM Roles",
+    "question": "State two key advantages of using Security & IAM Roles in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security & IAM Roles",
+    "question": "How do you initialize or instantiate Security & IAM Roles in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security & IAM Roles",
+    "question": "What role does Security & IAM Roles play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security & IAM Roles",
+    "question": "Explain the simple step-by-step workflow of executing Security & IAM Roles.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security & IAM Roles",
+    "question": "What is the recommended naming convention when defining Security & IAM Roles?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security & IAM Roles",
+    "question": "List the basic prerequisites needed before implementing Security & IAM Roles.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monitoring & Cost Optimization",
+    "question": "What is Monitoring & Cost Optimization in Cloud Infrastructure Engineer, and why is it important?",
+    "answer": "Monitoring & Cost Optimization is a foundational concept in Cloud Infrastructure Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monitoring & Cost Optimization",
+    "question": "Define the basic syntax or primary usage of Monitoring & Cost Optimization.",
+    "answer": "The primary syntax for Monitoring & Cost Optimization involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monitoring & Cost Optimization",
+    "question": "What is the main difference between basic primitives and Monitoring & Cost Optimization?",
+    "answer": "Basic primitives store single value types, whereas Monitoring & Cost Optimization organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monitoring & Cost Optimization",
+    "question": "What is a common beginner mistake when working with Monitoring & Cost Optimization?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Monitoring & Cost Optimization.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monitoring & Cost Optimization",
+    "question": "State two key advantages of using Monitoring & Cost Optimization in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monitoring & Cost Optimization",
+    "question": "How do you initialize or instantiate Monitoring & Cost Optimization in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monitoring & Cost Optimization",
+    "question": "What role does Monitoring & Cost Optimization play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monitoring & Cost Optimization",
+    "question": "Explain the simple step-by-step workflow of executing Monitoring & Cost Optimization.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monitoring & Cost Optimization",
+    "question": "What is the recommended naming convention when defining Monitoring & Cost Optimization?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monitoring & Cost Optimization",
+    "question": "List the basic prerequisites needed before implementing Monitoring & Cost Optimization.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

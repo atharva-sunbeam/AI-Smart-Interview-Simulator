@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "How do you implement practical error handling when working with JavaScript / TypeScript in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "Describe a real-world debugging scenario involving JavaScript / TypeScript and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "How does JavaScript / TypeScript perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "What are the best practices for structuring code related to JavaScript / TypeScript?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "In a practical project, how do you integrate JavaScript / TypeScript with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "Compare and contrast two alternative approaches for executing JavaScript / TypeScript.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "How do you write a unit test for a function that relies on JavaScript / TypeScript?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "What performance bottlenecks can arise if JavaScript / TypeScript is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "How do you refactor legacy code using modern standards for JavaScript / TypeScript?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "JavaScript / TypeScript",
+    "question": "Explain how data validation is applied to JavaScript / TypeScript payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "How do you implement practical error handling when working with React Native Components in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "Describe a real-world debugging scenario involving React Native Components and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "How does React Native Components perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "What are the best practices for structuring code related to React Native Components?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "In a practical project, how do you integrate React Native Components with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "Compare and contrast two alternative approaches for executing React Native Components.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "How do you write a unit test for a function that relies on React Native Components?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "What performance bottlenecks can arise if React Native Components is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "How do you refactor legacy code using modern standards for React Native Components?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React Native Components",
+    "question": "Explain how data validation is applied to React Native Components payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "How do you implement practical error handling when working with State Management (Redux/Zustand) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "Describe a real-world debugging scenario involving State Management (Redux/Zustand) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "How does State Management (Redux/Zustand) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "What are the best practices for structuring code related to State Management (Redux/Zustand)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "In a practical project, how do you integrate State Management (Redux/Zustand) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "Compare and contrast two alternative approaches for executing State Management (Redux/Zustand).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "How do you write a unit test for a function that relies on State Management (Redux/Zustand)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "What performance bottlenecks can arise if State Management (Redux/Zustand) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "How do you refactor legacy code using modern standards for State Management (Redux/Zustand)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "State Management (Redux/Zustand)",
+    "question": "Explain how data validation is applied to State Management (Redux/Zustand) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "How do you implement practical error handling when working with Native Modules & Bridges in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "Describe a real-world debugging scenario involving Native Modules & Bridges and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "How does Native Modules & Bridges perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "What are the best practices for structuring code related to Native Modules & Bridges?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "In a practical project, how do you integrate Native Modules & Bridges with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "Compare and contrast two alternative approaches for executing Native Modules & Bridges.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "How do you write a unit test for a function that relies on Native Modules & Bridges?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "What performance bottlenecks can arise if Native Modules & Bridges is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "How do you refactor legacy code using modern standards for Native Modules & Bridges?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Native Modules & Bridges",
+    "question": "Explain how data validation is applied to Native Modules & Bridges payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "How do you implement practical error handling when working with REST APIs & Storage in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "Describe a real-world debugging scenario involving REST APIs & Storage and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "How does REST APIs & Storage perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "What are the best practices for structuring code related to REST APIs & Storage?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "In a practical project, how do you integrate REST APIs & Storage with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "Compare and contrast two alternative approaches for executing REST APIs & Storage.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "How do you write a unit test for a function that relies on REST APIs & Storage?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "What performance bottlenecks can arise if REST APIs & Storage is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "How do you refactor legacy code using modern standards for REST APIs & Storage?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Storage",
+    "question": "Explain how data validation is applied to REST APIs & Storage payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

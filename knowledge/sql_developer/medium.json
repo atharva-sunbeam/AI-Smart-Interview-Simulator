@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "ANSI SQL Syntax",
+    "question": "How do you implement practical error handling when working with ANSI SQL Syntax in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ANSI SQL Syntax",
+    "question": "Describe a real-world debugging scenario involving ANSI SQL Syntax and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ANSI SQL Syntax",
+    "question": "How does ANSI SQL Syntax perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ANSI SQL Syntax",
+    "question": "What are the best practices for structuring code related to ANSI SQL Syntax?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ANSI SQL Syntax",
+    "question": "In a practical project, how do you integrate ANSI SQL Syntax with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ANSI SQL Syntax",
+    "question": "Compare and contrast two alternative approaches for executing ANSI SQL Syntax.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ANSI SQL Syntax",
+    "question": "How do you write a unit test for a function that relies on ANSI SQL Syntax?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ANSI SQL Syntax",
+    "question": "What performance bottlenecks can arise if ANSI SQL Syntax is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ANSI SQL Syntax",
+    "question": "How do you refactor legacy code using modern standards for ANSI SQL Syntax?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ANSI SQL Syntax",
+    "question": "Explain how data validation is applied to ANSI SQL Syntax payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Complex Joins & Subqueries",
+    "question": "How do you implement practical error handling when working with Complex Joins & Subqueries in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Complex Joins & Subqueries",
+    "question": "Describe a real-world debugging scenario involving Complex Joins & Subqueries and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Complex Joins & Subqueries",
+    "question": "How does Complex Joins & Subqueries perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Complex Joins & Subqueries",
+    "question": "What are the best practices for structuring code related to Complex Joins & Subqueries?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Complex Joins & Subqueries",
+    "question": "In a practical project, how do you integrate Complex Joins & Subqueries with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Complex Joins & Subqueries",
+    "question": "Compare and contrast two alternative approaches for executing Complex Joins & Subqueries.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Complex Joins & Subqueries",
+    "question": "How do you write a unit test for a function that relies on Complex Joins & Subqueries?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Complex Joins & Subqueries",
+    "question": "What performance bottlenecks can arise if Complex Joins & Subqueries is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Complex Joins & Subqueries",
+    "question": "How do you refactor legacy code using modern standards for Complex Joins & Subqueries?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Complex Joins & Subqueries",
+    "question": "Explain how data validation is applied to Complex Joins & Subqueries payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Window Functions",
+    "question": "How do you implement practical error handling when working with Window Functions in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Window Functions",
+    "question": "Describe a real-world debugging scenario involving Window Functions and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Window Functions",
+    "question": "How does Window Functions perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Window Functions",
+    "question": "What are the best practices for structuring code related to Window Functions?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Window Functions",
+    "question": "In a practical project, how do you integrate Window Functions with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Window Functions",
+    "question": "Compare and contrast two alternative approaches for executing Window Functions.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Window Functions",
+    "question": "How do you write a unit test for a function that relies on Window Functions?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Window Functions",
+    "question": "What performance bottlenecks can arise if Window Functions is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Window Functions",
+    "question": "How do you refactor legacy code using modern standards for Window Functions?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Window Functions",
+    "question": "Explain how data validation is applied to Window Functions payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Stored Procedures & Triggers",
+    "question": "How do you implement practical error handling when working with Stored Procedures & Triggers in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Stored Procedures & Triggers",
+    "question": "Describe a real-world debugging scenario involving Stored Procedures & Triggers and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Stored Procedures & Triggers",
+    "question": "How does Stored Procedures & Triggers perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Stored Procedures & Triggers",
+    "question": "What are the best practices for structuring code related to Stored Procedures & Triggers?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Stored Procedures & Triggers",
+    "question": "In a practical project, how do you integrate Stored Procedures & Triggers with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Stored Procedures & Triggers",
+    "question": "Compare and contrast two alternative approaches for executing Stored Procedures & Triggers.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Stored Procedures & Triggers",
+    "question": "How do you write a unit test for a function that relies on Stored Procedures & Triggers?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Stored Procedures & Triggers",
+    "question": "What performance bottlenecks can arise if Stored Procedures & Triggers is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Stored Procedures & Triggers",
+    "question": "How do you refactor legacy code using modern standards for Stored Procedures & Triggers?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Stored Procedures & Triggers",
+    "question": "Explain how data validation is applied to Stored Procedures & Triggers payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Query Optimization & Indexing",
+    "question": "How do you implement practical error handling when working with Query Optimization & Indexing in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Query Optimization & Indexing",
+    "question": "Describe a real-world debugging scenario involving Query Optimization & Indexing and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Query Optimization & Indexing",
+    "question": "How does Query Optimization & Indexing perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Query Optimization & Indexing",
+    "question": "What are the best practices for structuring code related to Query Optimization & Indexing?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Query Optimization & Indexing",
+    "question": "In a practical project, how do you integrate Query Optimization & Indexing with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Query Optimization & Indexing",
+    "question": "Compare and contrast two alternative approaches for executing Query Optimization & Indexing.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Query Optimization & Indexing",
+    "question": "How do you write a unit test for a function that relies on Query Optimization & Indexing?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Query Optimization & Indexing",
+    "question": "What performance bottlenecks can arise if Query Optimization & Indexing is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Query Optimization & Indexing",
+    "question": "How do you refactor legacy code using modern standards for Query Optimization & Indexing?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Query Optimization & Indexing",
+    "question": "Explain how data validation is applied to Query Optimization & Indexing payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

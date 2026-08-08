@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "OSI Model & TCP/IP Stack",
+    "question": "How do you implement practical error handling when working with OSI Model & TCP/IP Stack in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OSI Model & TCP/IP Stack",
+    "question": "Describe a real-world debugging scenario involving OSI Model & TCP/IP Stack and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OSI Model & TCP/IP Stack",
+    "question": "How does OSI Model & TCP/IP Stack perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OSI Model & TCP/IP Stack",
+    "question": "What are the best practices for structuring code related to OSI Model & TCP/IP Stack?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OSI Model & TCP/IP Stack",
+    "question": "In a practical project, how do you integrate OSI Model & TCP/IP Stack with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OSI Model & TCP/IP Stack",
+    "question": "Compare and contrast two alternative approaches for executing OSI Model & TCP/IP Stack.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OSI Model & TCP/IP Stack",
+    "question": "How do you write a unit test for a function that relies on OSI Model & TCP/IP Stack?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OSI Model & TCP/IP Stack",
+    "question": "What performance bottlenecks can arise if OSI Model & TCP/IP Stack is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OSI Model & TCP/IP Stack",
+    "question": "How do you refactor legacy code using modern standards for OSI Model & TCP/IP Stack?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OSI Model & TCP/IP Stack",
+    "question": "Explain how data validation is applied to OSI Model & TCP/IP Stack payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Subnetting & IP Addressing",
+    "question": "How do you implement practical error handling when working with Subnetting & IP Addressing in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Subnetting & IP Addressing",
+    "question": "Describe a real-world debugging scenario involving Subnetting & IP Addressing and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Subnetting & IP Addressing",
+    "question": "How does Subnetting & IP Addressing perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Subnetting & IP Addressing",
+    "question": "What are the best practices for structuring code related to Subnetting & IP Addressing?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Subnetting & IP Addressing",
+    "question": "In a practical project, how do you integrate Subnetting & IP Addressing with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Subnetting & IP Addressing",
+    "question": "Compare and contrast two alternative approaches for executing Subnetting & IP Addressing.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Subnetting & IP Addressing",
+    "question": "How do you write a unit test for a function that relies on Subnetting & IP Addressing?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Subnetting & IP Addressing",
+    "question": "What performance bottlenecks can arise if Subnetting & IP Addressing is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Subnetting & IP Addressing",
+    "question": "How do you refactor legacy code using modern standards for Subnetting & IP Addressing?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Subnetting & IP Addressing",
+    "question": "Explain how data validation is applied to Subnetting & IP Addressing payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Routing & Switching (BGP, OSPF)",
+    "question": "How do you implement practical error handling when working with Routing & Switching (BGP, OSPF) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Routing & Switching (BGP, OSPF)",
+    "question": "Describe a real-world debugging scenario involving Routing & Switching (BGP, OSPF) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Routing & Switching (BGP, OSPF)",
+    "question": "How does Routing & Switching (BGP, OSPF) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Routing & Switching (BGP, OSPF)",
+    "question": "What are the best practices for structuring code related to Routing & Switching (BGP, OSPF)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Routing & Switching (BGP, OSPF)",
+    "question": "In a practical project, how do you integrate Routing & Switching (BGP, OSPF) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Routing & Switching (BGP, OSPF)",
+    "question": "Compare and contrast two alternative approaches for executing Routing & Switching (BGP, OSPF).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Routing & Switching (BGP, OSPF)",
+    "question": "How do you write a unit test for a function that relies on Routing & Switching (BGP, OSPF)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Routing & Switching (BGP, OSPF)",
+    "question": "What performance bottlenecks can arise if Routing & Switching (BGP, OSPF) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Routing & Switching (BGP, OSPF)",
+    "question": "How do you refactor legacy code using modern standards for Routing & Switching (BGP, OSPF)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Routing & Switching (BGP, OSPF)",
+    "question": "Explain how data validation is applied to Routing & Switching (BGP, OSPF) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Security & Firewalls",
+    "question": "How do you implement practical error handling when working with Network Security & Firewalls in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Security & Firewalls",
+    "question": "Describe a real-world debugging scenario involving Network Security & Firewalls and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Security & Firewalls",
+    "question": "How does Network Security & Firewalls perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Security & Firewalls",
+    "question": "What are the best practices for structuring code related to Network Security & Firewalls?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Security & Firewalls",
+    "question": "In a practical project, how do you integrate Network Security & Firewalls with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Security & Firewalls",
+    "question": "Compare and contrast two alternative approaches for executing Network Security & Firewalls.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Security & Firewalls",
+    "question": "How do you write a unit test for a function that relies on Network Security & Firewalls?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Security & Firewalls",
+    "question": "What performance bottlenecks can arise if Network Security & Firewalls is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Security & Firewalls",
+    "question": "How do you refactor legacy code using modern standards for Network Security & Firewalls?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network Security & Firewalls",
+    "question": "Explain how data validation is applied to Network Security & Firewalls payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "VPNs & DNS/DHCP",
+    "question": "How do you implement practical error handling when working with VPNs & DNS/DHCP in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "VPNs & DNS/DHCP",
+    "question": "Describe a real-world debugging scenario involving VPNs & DNS/DHCP and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "VPNs & DNS/DHCP",
+    "question": "How does VPNs & DNS/DHCP perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "VPNs & DNS/DHCP",
+    "question": "What are the best practices for structuring code related to VPNs & DNS/DHCP?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "VPNs & DNS/DHCP",
+    "question": "In a practical project, how do you integrate VPNs & DNS/DHCP with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "VPNs & DNS/DHCP",
+    "question": "Compare and contrast two alternative approaches for executing VPNs & DNS/DHCP.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "VPNs & DNS/DHCP",
+    "question": "How do you write a unit test for a function that relies on VPNs & DNS/DHCP?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "VPNs & DNS/DHCP",
+    "question": "What performance bottlenecks can arise if VPNs & DNS/DHCP is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "VPNs & DNS/DHCP",
+    "question": "How do you refactor legacy code using modern standards for VPNs & DNS/DHCP?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "VPNs & DNS/DHCP",
+    "question": "Explain how data validation is applied to VPNs & DNS/DHCP payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Wireshark & Packet Analysis",
+    "question": "How do you implement practical error handling when working with Wireshark & Packet Analysis in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Wireshark & Packet Analysis",
+    "question": "Describe a real-world debugging scenario involving Wireshark & Packet Analysis and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Wireshark & Packet Analysis",
+    "question": "How does Wireshark & Packet Analysis perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Wireshark & Packet Analysis",
+    "question": "What are the best practices for structuring code related to Wireshark & Packet Analysis?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Wireshark & Packet Analysis",
+    "question": "In a practical project, how do you integrate Wireshark & Packet Analysis with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Wireshark & Packet Analysis",
+    "question": "Compare and contrast two alternative approaches for executing Wireshark & Packet Analysis.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Wireshark & Packet Analysis",
+    "question": "How do you write a unit test for a function that relies on Wireshark & Packet Analysis?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Wireshark & Packet Analysis",
+    "question": "What performance bottlenecks can arise if Wireshark & Packet Analysis is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Wireshark & Packet Analysis",
+    "question": "How do you refactor legacy code using modern standards for Wireshark & Packet Analysis?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Wireshark & Packet Analysis",
+    "question": "Explain how data validation is applied to Wireshark & Packet Analysis payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

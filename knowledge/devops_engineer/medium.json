@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Git & Version Control",
+    "question": "How do you implement practical error handling when working with Git & Version Control in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "Describe a real-world debugging scenario involving Git & Version Control and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "How does Git & Version Control perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "What are the best practices for structuring code related to Git & Version Control?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "In a practical project, how do you integrate Git & Version Control with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "Compare and contrast two alternative approaches for executing Git & Version Control.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "How do you write a unit test for a function that relies on Git & Version Control?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "What performance bottlenecks can arise if Git & Version Control is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "How do you refactor legacy code using modern standards for Git & Version Control?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "Explain how data validation is applied to Git & Version Control payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "How do you implement practical error handling when working with CI/CD Pipelines (Jenkins/GitHub Actions) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "Describe a real-world debugging scenario involving CI/CD Pipelines (Jenkins/GitHub Actions) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "How does CI/CD Pipelines (Jenkins/GitHub Actions) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "What are the best practices for structuring code related to CI/CD Pipelines (Jenkins/GitHub Actions)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "In a practical project, how do you integrate CI/CD Pipelines (Jenkins/GitHub Actions) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "Compare and contrast two alternative approaches for executing CI/CD Pipelines (Jenkins/GitHub Actions).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "How do you write a unit test for a function that relies on CI/CD Pipelines (Jenkins/GitHub Actions)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "What performance bottlenecks can arise if CI/CD Pipelines (Jenkins/GitHub Actions) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "How do you refactor legacy code using modern standards for CI/CD Pipelines (Jenkins/GitHub Actions)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "Explain how data validation is applied to CI/CD Pipelines (Jenkins/GitHub Actions) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "How do you implement practical error handling when working with Docker & Containerization in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "Describe a real-world debugging scenario involving Docker & Containerization and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "How does Docker & Containerization perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "What are the best practices for structuring code related to Docker & Containerization?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "In a practical project, how do you integrate Docker & Containerization with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "Compare and contrast two alternative approaches for executing Docker & Containerization.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "How do you write a unit test for a function that relies on Docker & Containerization?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "What performance bottlenecks can arise if Docker & Containerization is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "How do you refactor legacy code using modern standards for Docker & Containerization?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "Explain how data validation is applied to Docker & Containerization payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "How do you implement practical error handling when working with Kubernetes & Orchestration in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "Describe a real-world debugging scenario involving Kubernetes & Orchestration and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "How does Kubernetes & Orchestration perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "What are the best practices for structuring code related to Kubernetes & Orchestration?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "In a practical project, how do you integrate Kubernetes & Orchestration with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "Compare and contrast two alternative approaches for executing Kubernetes & Orchestration.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "How do you write a unit test for a function that relies on Kubernetes & Orchestration?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "What performance bottlenecks can arise if Kubernetes & Orchestration is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "How do you refactor legacy code using modern standards for Kubernetes & Orchestration?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "Explain how data validation is applied to Kubernetes & Orchestration payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "How do you implement practical error handling when working with Terraform & IaC in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "Describe a real-world debugging scenario involving Terraform & IaC and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "How does Terraform & IaC perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "What are the best practices for structuring code related to Terraform & IaC?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "In a practical project, how do you integrate Terraform & IaC with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "Compare and contrast two alternative approaches for executing Terraform & IaC.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "How do you write a unit test for a function that relies on Terraform & IaC?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "What performance bottlenecks can arise if Terraform & IaC is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "How do you refactor legacy code using modern standards for Terraform & IaC?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "Explain how data validation is applied to Terraform & IaC payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "How do you implement practical error handling when working with Monitoring (Prometheus/Grafana) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "Describe a real-world debugging scenario involving Monitoring (Prometheus/Grafana) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "How does Monitoring (Prometheus/Grafana) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "What are the best practices for structuring code related to Monitoring (Prometheus/Grafana)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "In a practical project, how do you integrate Monitoring (Prometheus/Grafana) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "Compare and contrast two alternative approaches for executing Monitoring (Prometheus/Grafana).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "How do you write a unit test for a function that relies on Monitoring (Prometheus/Grafana)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "What performance bottlenecks can arise if Monitoring (Prometheus/Grafana) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "How do you refactor legacy code using modern standards for Monitoring (Prometheus/Grafana)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "Explain how data validation is applied to Monitoring (Prometheus/Grafana) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

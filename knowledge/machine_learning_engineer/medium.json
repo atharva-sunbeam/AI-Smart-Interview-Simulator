@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Python & Math Foundations",
+    "question": "How do you implement practical error handling when working with Python & Math Foundations in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "Describe a real-world debugging scenario involving Python & Math Foundations and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "How does Python & Math Foundations perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "What are the best practices for structuring code related to Python & Math Foundations?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "In a practical project, how do you integrate Python & Math Foundations with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "Compare and contrast two alternative approaches for executing Python & Math Foundations.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "How do you write a unit test for a function that relies on Python & Math Foundations?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "What performance bottlenecks can arise if Python & Math Foundations is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "How do you refactor legacy code using modern standards for Python & Math Foundations?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "Explain how data validation is applied to Python & Math Foundations payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "How do you implement practical error handling when working with Supervised & Unsupervised ML in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "Describe a real-world debugging scenario involving Supervised & Unsupervised ML and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "How does Supervised & Unsupervised ML perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "What are the best practices for structuring code related to Supervised & Unsupervised ML?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "In a practical project, how do you integrate Supervised & Unsupervised ML with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "Compare and contrast two alternative approaches for executing Supervised & Unsupervised ML.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "How do you write a unit test for a function that relies on Supervised & Unsupervised ML?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "What performance bottlenecks can arise if Supervised & Unsupervised ML is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "How do you refactor legacy code using modern standards for Supervised & Unsupervised ML?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "Explain how data validation is applied to Supervised & Unsupervised ML payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "How do you implement practical error handling when working with Feature Engineering in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "Describe a real-world debugging scenario involving Feature Engineering and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "How does Feature Engineering perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "What are the best practices for structuring code related to Feature Engineering?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "In a practical project, how do you integrate Feature Engineering with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "Compare and contrast two alternative approaches for executing Feature Engineering.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "How do you write a unit test for a function that relies on Feature Engineering?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "What performance bottlenecks can arise if Feature Engineering is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "How do you refactor legacy code using modern standards for Feature Engineering?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "Explain how data validation is applied to Feature Engineering payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "How do you implement practical error handling when working with Scikit-Learn & Modeling in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "Describe a real-world debugging scenario involving Scikit-Learn & Modeling and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "How does Scikit-Learn & Modeling perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "What are the best practices for structuring code related to Scikit-Learn & Modeling?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "In a practical project, how do you integrate Scikit-Learn & Modeling with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "Compare and contrast two alternative approaches for executing Scikit-Learn & Modeling.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "How do you write a unit test for a function that relies on Scikit-Learn & Modeling?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "What performance bottlenecks can arise if Scikit-Learn & Modeling is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "How do you refactor legacy code using modern standards for Scikit-Learn & Modeling?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "Explain how data validation is applied to Scikit-Learn & Modeling payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "How do you implement practical error handling when working with Model Evaluation & Tuning in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "Describe a real-world debugging scenario involving Model Evaluation & Tuning and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "How does Model Evaluation & Tuning perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "What are the best practices for structuring code related to Model Evaluation & Tuning?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "In a practical project, how do you integrate Model Evaluation & Tuning with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "Compare and contrast two alternative approaches for executing Model Evaluation & Tuning.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "How do you write a unit test for a function that relies on Model Evaluation & Tuning?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "What performance bottlenecks can arise if Model Evaluation & Tuning is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "How do you refactor legacy code using modern standards for Model Evaluation & Tuning?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "Explain how data validation is applied to Model Evaluation & Tuning payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "How do you implement practical error handling when working with MLOps & Deployment in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "Describe a real-world debugging scenario involving MLOps & Deployment and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "How does MLOps & Deployment perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "What are the best practices for structuring code related to MLOps & Deployment?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "In a practical project, how do you integrate MLOps & Deployment with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "Compare and contrast two alternative approaches for executing MLOps & Deployment.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "How do you write a unit test for a function that relies on MLOps & Deployment?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "What performance bottlenecks can arise if MLOps & Deployment is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "How do you refactor legacy code using modern standards for MLOps & Deployment?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "Explain how data validation is applied to MLOps & Deployment payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

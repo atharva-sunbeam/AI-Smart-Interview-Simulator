@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "HTML5 & Semantic Web",
+    "question": "How do you implement practical error handling when working with HTML5 & Semantic Web in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTML5 & Semantic Web",
+    "question": "Describe a real-world debugging scenario involving HTML5 & Semantic Web and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTML5 & Semantic Web",
+    "question": "How does HTML5 & Semantic Web perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTML5 & Semantic Web",
+    "question": "What are the best practices for structuring code related to HTML5 & Semantic Web?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTML5 & Semantic Web",
+    "question": "In a practical project, how do you integrate HTML5 & Semantic Web with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTML5 & Semantic Web",
+    "question": "Compare and contrast two alternative approaches for executing HTML5 & Semantic Web.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTML5 & Semantic Web",
+    "question": "How do you write a unit test for a function that relies on HTML5 & Semantic Web?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTML5 & Semantic Web",
+    "question": "What performance bottlenecks can arise if HTML5 & Semantic Web is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTML5 & Semantic Web",
+    "question": "How do you refactor legacy code using modern standards for HTML5 & Semantic Web?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTML5 & Semantic Web",
+    "question": "Explain how data validation is applied to HTML5 & Semantic Web payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CSS3, Flexbox & Grid",
+    "question": "How do you implement practical error handling when working with CSS3, Flexbox & Grid in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CSS3, Flexbox & Grid",
+    "question": "Describe a real-world debugging scenario involving CSS3, Flexbox & Grid and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CSS3, Flexbox & Grid",
+    "question": "How does CSS3, Flexbox & Grid perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CSS3, Flexbox & Grid",
+    "question": "What are the best practices for structuring code related to CSS3, Flexbox & Grid?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CSS3, Flexbox & Grid",
+    "question": "In a practical project, how do you integrate CSS3, Flexbox & Grid with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CSS3, Flexbox & Grid",
+    "question": "Compare and contrast two alternative approaches for executing CSS3, Flexbox & Grid.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CSS3, Flexbox & Grid",
+    "question": "How do you write a unit test for a function that relies on CSS3, Flexbox & Grid?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CSS3, Flexbox & Grid",
+    "question": "What performance bottlenecks can arise if CSS3, Flexbox & Grid is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CSS3, Flexbox & Grid",
+    "question": "How do you refactor legacy code using modern standards for CSS3, Flexbox & Grid?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CSS3, Flexbox & Grid",
+    "question": "Explain how data validation is applied to CSS3, Flexbox & Grid payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "JavaScript (ES6+)",
+    "question": "How do you implement practical error handling when working with JavaScript (ES6+) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "JavaScript (ES6+)",
+    "question": "Describe a real-world debugging scenario involving JavaScript (ES6+) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "JavaScript (ES6+)",
+    "question": "How does JavaScript (ES6+) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "JavaScript (ES6+)",
+    "question": "What are the best practices for structuring code related to JavaScript (ES6+)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "JavaScript (ES6+)",
+    "question": "In a practical project, how do you integrate JavaScript (ES6+) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "JavaScript (ES6+)",
+    "question": "Compare and contrast two alternative approaches for executing JavaScript (ES6+).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "JavaScript (ES6+)",
+    "question": "How do you write a unit test for a function that relies on JavaScript (ES6+)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "JavaScript (ES6+)",
+    "question": "What performance bottlenecks can arise if JavaScript (ES6+) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "JavaScript (ES6+)",
+    "question": "How do you refactor legacy code using modern standards for JavaScript (ES6+)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "JavaScript (ES6+)",
+    "question": "Explain how data validation is applied to JavaScript (ES6+) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React.js & State Management",
+    "question": "How do you implement practical error handling when working with React.js & State Management in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React.js & State Management",
+    "question": "Describe a real-world debugging scenario involving React.js & State Management and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React.js & State Management",
+    "question": "How does React.js & State Management perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React.js & State Management",
+    "question": "What are the best practices for structuring code related to React.js & State Management?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React.js & State Management",
+    "question": "In a practical project, how do you integrate React.js & State Management with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React.js & State Management",
+    "question": "Compare and contrast two alternative approaches for executing React.js & State Management.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React.js & State Management",
+    "question": "How do you write a unit test for a function that relies on React.js & State Management?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React.js & State Management",
+    "question": "What performance bottlenecks can arise if React.js & State Management is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React.js & State Management",
+    "question": "How do you refactor legacy code using modern standards for React.js & State Management?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React.js & State Management",
+    "question": "Explain how data validation is applied to React.js & State Management payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Web Performance & Optimization",
+    "question": "How do you implement practical error handling when working with Web Performance & Optimization in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Web Performance & Optimization",
+    "question": "Describe a real-world debugging scenario involving Web Performance & Optimization and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Web Performance & Optimization",
+    "question": "How does Web Performance & Optimization perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Web Performance & Optimization",
+    "question": "What are the best practices for structuring code related to Web Performance & Optimization?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Web Performance & Optimization",
+    "question": "In a practical project, how do you integrate Web Performance & Optimization with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Web Performance & Optimization",
+    "question": "Compare and contrast two alternative approaches for executing Web Performance & Optimization.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Web Performance & Optimization",
+    "question": "How do you write a unit test for a function that relies on Web Performance & Optimization?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Web Performance & Optimization",
+    "question": "What performance bottlenecks can arise if Web Performance & Optimization is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Web Performance & Optimization",
+    "question": "How do you refactor legacy code using modern standards for Web Performance & Optimization?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Web Performance & Optimization",
+    "question": "Explain how data validation is applied to Web Performance & Optimization payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "UI/UX Best Practices",
+    "question": "How do you implement practical error handling when working with UI/UX Best Practices in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "UI/UX Best Practices",
+    "question": "Describe a real-world debugging scenario involving UI/UX Best Practices and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "UI/UX Best Practices",
+    "question": "How does UI/UX Best Practices perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "UI/UX Best Practices",
+    "question": "What are the best practices for structuring code related to UI/UX Best Practices?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "UI/UX Best Practices",
+    "question": "In a practical project, how do you integrate UI/UX Best Practices with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "UI/UX Best Practices",
+    "question": "Compare and contrast two alternative approaches for executing UI/UX Best Practices.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "UI/UX Best Practices",
+    "question": "How do you write a unit test for a function that relies on UI/UX Best Practices?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "UI/UX Best Practices",
+    "question": "What performance bottlenecks can arise if UI/UX Best Practices is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "UI/UX Best Practices",
+    "question": "How do you refactor legacy code using modern standards for UI/UX Best Practices?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "UI/UX Best Practices",
+    "question": "Explain how data validation is applied to UI/UX Best Practices payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]
