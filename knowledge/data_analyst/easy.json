@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Excel & Statistics",
+    "question": "What is Excel & Statistics in Data Analyst, and why is it important?",
+    "answer": "Excel & Statistics is a foundational concept in Data Analyst. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "Define the basic syntax or primary usage of Excel & Statistics.",
+    "answer": "The primary syntax for Excel & Statistics involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "What is the main difference between basic primitives and Excel & Statistics?",
+    "answer": "Basic primitives store single value types, whereas Excel & Statistics organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "What is a common beginner mistake when working with Excel & Statistics?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Excel & Statistics.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "State two key advantages of using Excel & Statistics in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "How do you initialize or instantiate Excel & Statistics in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "What role does Excel & Statistics play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "Explain the simple step-by-step workflow of executing Excel & Statistics.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "What is the recommended naming convention when defining Excel & Statistics?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Excel & Statistics",
+    "question": "List the basic prerequisites needed before implementing Excel & Statistics.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "What is SQL Queries & Joins in Data Analyst, and why is it important?",
+    "answer": "SQL Queries & Joins is a foundational concept in Data Analyst. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "Define the basic syntax or primary usage of SQL Queries & Joins.",
+    "answer": "The primary syntax for SQL Queries & Joins involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "What is the main difference between basic primitives and SQL Queries & Joins?",
+    "answer": "Basic primitives store single value types, whereas SQL Queries & Joins organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "What is a common beginner mistake when working with SQL Queries & Joins?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in SQL Queries & Joins.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "State two key advantages of using SQL Queries & Joins in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "How do you initialize or instantiate SQL Queries & Joins in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "What role does SQL Queries & Joins play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "Explain the simple step-by-step workflow of executing SQL Queries & Joins.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "What is the recommended naming convention when defining SQL Queries & Joins?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Queries & Joins",
+    "question": "List the basic prerequisites needed before implementing SQL Queries & Joins.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "What is Data Cleaning & Pandas in Data Analyst, and why is it important?",
+    "answer": "Data Cleaning & Pandas is a foundational concept in Data Analyst. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "Define the basic syntax or primary usage of Data Cleaning & Pandas.",
+    "answer": "The primary syntax for Data Cleaning & Pandas involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "What is the main difference between basic primitives and Data Cleaning & Pandas?",
+    "answer": "Basic primitives store single value types, whereas Data Cleaning & Pandas organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "What is a common beginner mistake when working with Data Cleaning & Pandas?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Data Cleaning & Pandas.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "State two key advantages of using Data Cleaning & Pandas in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "How do you initialize or instantiate Data Cleaning & Pandas in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "What role does Data Cleaning & Pandas play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "Explain the simple step-by-step workflow of executing Data Cleaning & Pandas.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "What is the recommended naming convention when defining Data Cleaning & Pandas?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Cleaning & Pandas",
+    "question": "List the basic prerequisites needed before implementing Data Cleaning & Pandas.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "What is Data Visualization (Tableau/PowerBI) in Data Analyst, and why is it important?",
+    "answer": "Data Visualization (Tableau/PowerBI) is a foundational concept in Data Analyst. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "Define the basic syntax or primary usage of Data Visualization (Tableau/PowerBI).",
+    "answer": "The primary syntax for Data Visualization (Tableau/PowerBI) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "What is the main difference between basic primitives and Data Visualization (Tableau/PowerBI)?",
+    "answer": "Basic primitives store single value types, whereas Data Visualization (Tableau/PowerBI) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "What is a common beginner mistake when working with Data Visualization (Tableau/PowerBI)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Data Visualization (Tableau/PowerBI).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "State two key advantages of using Data Visualization (Tableau/PowerBI) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "How do you initialize or instantiate Data Visualization (Tableau/PowerBI) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "What role does Data Visualization (Tableau/PowerBI) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "Explain the simple step-by-step workflow of executing Data Visualization (Tableau/PowerBI).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "What is the recommended naming convention when defining Data Visualization (Tableau/PowerBI)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Visualization (Tableau/PowerBI)",
+    "question": "List the basic prerequisites needed before implementing Data Visualization (Tableau/PowerBI).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "What is EDA & Reporting in Data Analyst, and why is it important?",
+    "answer": "EDA & Reporting is a foundational concept in Data Analyst. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "Define the basic syntax or primary usage of EDA & Reporting.",
+    "answer": "The primary syntax for EDA & Reporting involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "What is the main difference between basic primitives and EDA & Reporting?",
+    "answer": "Basic primitives store single value types, whereas EDA & Reporting organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "What is a common beginner mistake when working with EDA & Reporting?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in EDA & Reporting.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "State two key advantages of using EDA & Reporting in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "How do you initialize or instantiate EDA & Reporting in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "What role does EDA & Reporting play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "Explain the simple step-by-step workflow of executing EDA & Reporting.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "What is the recommended naming convention when defining EDA & Reporting?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "EDA & Reporting",
+    "question": "List the basic prerequisites needed before implementing EDA & Reporting.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

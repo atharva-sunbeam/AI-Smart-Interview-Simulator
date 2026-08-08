@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "Design a scalable distributed architecture utilizing Google Compute Engine & VPC for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Google Compute Engine & VPC across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Google Compute Engine & VPC.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "How would you optimize latency and throughput for Google Compute Engine & VPC under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Google Compute Engine & VPC.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Google Compute Engine & VPC?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Google Compute Engine & VPC.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "How do you perform deep performance profiling and memory leak detection on Google Compute Engine & VPC in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Google Compute Engine & VPC and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Google Compute Engine & VPC.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "Design a scalable distributed architecture utilizing Google Cloud Storage & BigQuery for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Google Cloud Storage & BigQuery across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Google Cloud Storage & BigQuery.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "How would you optimize latency and throughput for Google Cloud Storage & BigQuery under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Google Cloud Storage & BigQuery.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Google Cloud Storage & BigQuery?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Google Cloud Storage & BigQuery.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "How do you perform deep performance profiling and memory leak detection on Google Cloud Storage & BigQuery in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Google Cloud Storage & BigQuery and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Google Cloud Storage & BigQuery.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "Design a scalable distributed architecture utilizing IAM & GCP Security for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling IAM & GCP Security across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying IAM & GCP Security.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "How would you optimize latency and throughput for IAM & GCP Security under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in IAM & GCP Security.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on IAM & GCP Security?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard IAM & GCP Security.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "How do you perform deep performance profiling and memory leak detection on IAM & GCP Security in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with IAM & GCP Security and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for IAM & GCP Security.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "Design a scalable distributed architecture utilizing Google Kubernetes Engine (GKE) for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Google Kubernetes Engine (GKE) across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Google Kubernetes Engine (GKE).",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "How would you optimize latency and throughput for Google Kubernetes Engine (GKE) under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Google Kubernetes Engine (GKE).",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Google Kubernetes Engine (GKE)?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Google Kubernetes Engine (GKE).",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "How do you perform deep performance profiling and memory leak detection on Google Kubernetes Engine (GKE) in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Google Kubernetes Engine (GKE) and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Google Kubernetes Engine (GKE).",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "Design a scalable distributed architecture utilizing Deployment Manager / Terraform for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Deployment Manager / Terraform across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Deployment Manager / Terraform.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "How would you optimize latency and throughput for Deployment Manager / Terraform under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Deployment Manager / Terraform.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Deployment Manager / Terraform?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Deployment Manager / Terraform.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "How do you perform deep performance profiling and memory leak detection on Deployment Manager / Terraform in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Deployment Manager / Terraform and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Deployment Manager / Terraform.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  }
+]

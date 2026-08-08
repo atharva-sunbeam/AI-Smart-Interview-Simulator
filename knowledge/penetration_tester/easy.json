@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Ethical Hacking & Reconnaissance",
+    "question": "What is Ethical Hacking & Reconnaissance in Penetration Tester, and why is it important?",
+    "answer": "Ethical Hacking & Reconnaissance is a foundational concept in Penetration Tester. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Ethical Hacking & Reconnaissance",
+    "question": "Define the basic syntax or primary usage of Ethical Hacking & Reconnaissance.",
+    "answer": "The primary syntax for Ethical Hacking & Reconnaissance involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Ethical Hacking & Reconnaissance",
+    "question": "What is the main difference between basic primitives and Ethical Hacking & Reconnaissance?",
+    "answer": "Basic primitives store single value types, whereas Ethical Hacking & Reconnaissance organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Ethical Hacking & Reconnaissance",
+    "question": "What is a common beginner mistake when working with Ethical Hacking & Reconnaissance?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Ethical Hacking & Reconnaissance.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Ethical Hacking & Reconnaissance",
+    "question": "State two key advantages of using Ethical Hacking & Reconnaissance in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Ethical Hacking & Reconnaissance",
+    "question": "How do you initialize or instantiate Ethical Hacking & Reconnaissance in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Ethical Hacking & Reconnaissance",
+    "question": "What role does Ethical Hacking & Reconnaissance play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Ethical Hacking & Reconnaissance",
+    "question": "Explain the simple step-by-step workflow of executing Ethical Hacking & Reconnaissance.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Ethical Hacking & Reconnaissance",
+    "question": "What is the recommended naming convention when defining Ethical Hacking & Reconnaissance?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Ethical Hacking & Reconnaissance",
+    "question": "List the basic prerequisites needed before implementing Ethical Hacking & Reconnaissance.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Web Vulnerabilities (OWASP Top 10)",
+    "question": "What is Web Vulnerabilities (OWASP Top 10) in Penetration Tester, and why is it important?",
+    "answer": "Web Vulnerabilities (OWASP Top 10) is a foundational concept in Penetration Tester. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Web Vulnerabilities (OWASP Top 10)",
+    "question": "Define the basic syntax or primary usage of Web Vulnerabilities (OWASP Top 10).",
+    "answer": "The primary syntax for Web Vulnerabilities (OWASP Top 10) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Web Vulnerabilities (OWASP Top 10)",
+    "question": "What is the main difference between basic primitives and Web Vulnerabilities (OWASP Top 10)?",
+    "answer": "Basic primitives store single value types, whereas Web Vulnerabilities (OWASP Top 10) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Web Vulnerabilities (OWASP Top 10)",
+    "question": "What is a common beginner mistake when working with Web Vulnerabilities (OWASP Top 10)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Web Vulnerabilities (OWASP Top 10).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Web Vulnerabilities (OWASP Top 10)",
+    "question": "State two key advantages of using Web Vulnerabilities (OWASP Top 10) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Web Vulnerabilities (OWASP Top 10)",
+    "question": "How do you initialize or instantiate Web Vulnerabilities (OWASP Top 10) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Web Vulnerabilities (OWASP Top 10)",
+    "question": "What role does Web Vulnerabilities (OWASP Top 10) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Web Vulnerabilities (OWASP Top 10)",
+    "question": "Explain the simple step-by-step workflow of executing Web Vulnerabilities (OWASP Top 10).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Web Vulnerabilities (OWASP Top 10)",
+    "question": "What is the recommended naming convention when defining Web Vulnerabilities (OWASP Top 10)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Web Vulnerabilities (OWASP Top 10)",
+    "question": "List the basic prerequisites needed before implementing Web Vulnerabilities (OWASP Top 10).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network Penetration Testing",
+    "question": "What is Network Penetration Testing in Penetration Tester, and why is it important?",
+    "answer": "Network Penetration Testing is a foundational concept in Penetration Tester. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network Penetration Testing",
+    "question": "Define the basic syntax or primary usage of Network Penetration Testing.",
+    "answer": "The primary syntax for Network Penetration Testing involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network Penetration Testing",
+    "question": "What is the main difference between basic primitives and Network Penetration Testing?",
+    "answer": "Basic primitives store single value types, whereas Network Penetration Testing organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network Penetration Testing",
+    "question": "What is a common beginner mistake when working with Network Penetration Testing?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Network Penetration Testing.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network Penetration Testing",
+    "question": "State two key advantages of using Network Penetration Testing in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network Penetration Testing",
+    "question": "How do you initialize or instantiate Network Penetration Testing in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network Penetration Testing",
+    "question": "What role does Network Penetration Testing play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network Penetration Testing",
+    "question": "Explain the simple step-by-step workflow of executing Network Penetration Testing.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network Penetration Testing",
+    "question": "What is the recommended naming convention when defining Network Penetration Testing?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Network Penetration Testing",
+    "question": "List the basic prerequisites needed before implementing Network Penetration Testing.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Metasploit & Burp Suite",
+    "question": "What is Metasploit & Burp Suite in Penetration Tester, and why is it important?",
+    "answer": "Metasploit & Burp Suite is a foundational concept in Penetration Tester. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Metasploit & Burp Suite",
+    "question": "Define the basic syntax or primary usage of Metasploit & Burp Suite.",
+    "answer": "The primary syntax for Metasploit & Burp Suite involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Metasploit & Burp Suite",
+    "question": "What is the main difference between basic primitives and Metasploit & Burp Suite?",
+    "answer": "Basic primitives store single value types, whereas Metasploit & Burp Suite organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Metasploit & Burp Suite",
+    "question": "What is a common beginner mistake when working with Metasploit & Burp Suite?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Metasploit & Burp Suite.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Metasploit & Burp Suite",
+    "question": "State two key advantages of using Metasploit & Burp Suite in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Metasploit & Burp Suite",
+    "question": "How do you initialize or instantiate Metasploit & Burp Suite in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Metasploit & Burp Suite",
+    "question": "What role does Metasploit & Burp Suite play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Metasploit & Burp Suite",
+    "question": "Explain the simple step-by-step workflow of executing Metasploit & Burp Suite.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Metasploit & Burp Suite",
+    "question": "What is the recommended naming convention when defining Metasploit & Burp Suite?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Metasploit & Burp Suite",
+    "question": "List the basic prerequisites needed before implementing Metasploit & Burp Suite.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Privilege Escalation & Exploitation",
+    "question": "What is Privilege Escalation & Exploitation in Penetration Tester, and why is it important?",
+    "answer": "Privilege Escalation & Exploitation is a foundational concept in Penetration Tester. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Privilege Escalation & Exploitation",
+    "question": "Define the basic syntax or primary usage of Privilege Escalation & Exploitation.",
+    "answer": "The primary syntax for Privilege Escalation & Exploitation involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Privilege Escalation & Exploitation",
+    "question": "What is the main difference between basic primitives and Privilege Escalation & Exploitation?",
+    "answer": "Basic primitives store single value types, whereas Privilege Escalation & Exploitation organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Privilege Escalation & Exploitation",
+    "question": "What is a common beginner mistake when working with Privilege Escalation & Exploitation?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Privilege Escalation & Exploitation.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Privilege Escalation & Exploitation",
+    "question": "State two key advantages of using Privilege Escalation & Exploitation in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Privilege Escalation & Exploitation",
+    "question": "How do you initialize or instantiate Privilege Escalation & Exploitation in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Privilege Escalation & Exploitation",
+    "question": "What role does Privilege Escalation & Exploitation play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Privilege Escalation & Exploitation",
+    "question": "Explain the simple step-by-step workflow of executing Privilege Escalation & Exploitation.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Privilege Escalation & Exploitation",
+    "question": "What is the recommended naming convention when defining Privilege Escalation & Exploitation?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Privilege Escalation & Exploitation",
+    "question": "List the basic prerequisites needed before implementing Privilege Escalation & Exploitation.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

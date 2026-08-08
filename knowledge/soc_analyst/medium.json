@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Security Operations & SIEM (Splunk)",
+    "question": "How do you implement practical error handling when working with Security Operations & SIEM (Splunk) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Operations & SIEM (Splunk)",
+    "question": "Describe a real-world debugging scenario involving Security Operations & SIEM (Splunk) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Operations & SIEM (Splunk)",
+    "question": "How does Security Operations & SIEM (Splunk) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Operations & SIEM (Splunk)",
+    "question": "What are the best practices for structuring code related to Security Operations & SIEM (Splunk)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Operations & SIEM (Splunk)",
+    "question": "In a practical project, how do you integrate Security Operations & SIEM (Splunk) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Operations & SIEM (Splunk)",
+    "question": "Compare and contrast two alternative approaches for executing Security Operations & SIEM (Splunk).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Operations & SIEM (Splunk)",
+    "question": "How do you write a unit test for a function that relies on Security Operations & SIEM (Splunk)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Operations & SIEM (Splunk)",
+    "question": "What performance bottlenecks can arise if Security Operations & SIEM (Splunk) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Operations & SIEM (Splunk)",
+    "question": "How do you refactor legacy code using modern standards for Security Operations & SIEM (Splunk)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Operations & SIEM (Splunk)",
+    "question": "Explain how data validation is applied to Security Operations & SIEM (Splunk) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Log Analysis & Event Correlation",
+    "question": "How do you implement practical error handling when working with Log Analysis & Event Correlation in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Log Analysis & Event Correlation",
+    "question": "Describe a real-world debugging scenario involving Log Analysis & Event Correlation and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Log Analysis & Event Correlation",
+    "question": "How does Log Analysis & Event Correlation perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Log Analysis & Event Correlation",
+    "question": "What are the best practices for structuring code related to Log Analysis & Event Correlation?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Log Analysis & Event Correlation",
+    "question": "In a practical project, how do you integrate Log Analysis & Event Correlation with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Log Analysis & Event Correlation",
+    "question": "Compare and contrast two alternative approaches for executing Log Analysis & Event Correlation.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Log Analysis & Event Correlation",
+    "question": "How do you write a unit test for a function that relies on Log Analysis & Event Correlation?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Log Analysis & Event Correlation",
+    "question": "What performance bottlenecks can arise if Log Analysis & Event Correlation is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Log Analysis & Event Correlation",
+    "question": "How do you refactor legacy code using modern standards for Log Analysis & Event Correlation?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Log Analysis & Event Correlation",
+    "question": "Explain how data validation is applied to Log Analysis & Event Correlation payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Threat Detection & Alert Triage",
+    "question": "How do you implement practical error handling when working with Threat Detection & Alert Triage in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Threat Detection & Alert Triage",
+    "question": "Describe a real-world debugging scenario involving Threat Detection & Alert Triage and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Threat Detection & Alert Triage",
+    "question": "How does Threat Detection & Alert Triage perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Threat Detection & Alert Triage",
+    "question": "What are the best practices for structuring code related to Threat Detection & Alert Triage?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Threat Detection & Alert Triage",
+    "question": "In a practical project, how do you integrate Threat Detection & Alert Triage with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Threat Detection & Alert Triage",
+    "question": "Compare and contrast two alternative approaches for executing Threat Detection & Alert Triage.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Threat Detection & Alert Triage",
+    "question": "How do you write a unit test for a function that relies on Threat Detection & Alert Triage?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Threat Detection & Alert Triage",
+    "question": "What performance bottlenecks can arise if Threat Detection & Alert Triage is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Threat Detection & Alert Triage",
+    "question": "How do you refactor legacy code using modern standards for Threat Detection & Alert Triage?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Threat Detection & Alert Triage",
+    "question": "Explain how data validation is applied to Threat Detection & Alert Triage payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Escalation",
+    "question": "How do you implement practical error handling when working with Incident Escalation in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Escalation",
+    "question": "Describe a real-world debugging scenario involving Incident Escalation and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Escalation",
+    "question": "How does Incident Escalation perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Escalation",
+    "question": "What are the best practices for structuring code related to Incident Escalation?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Escalation",
+    "question": "In a practical project, how do you integrate Incident Escalation with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Escalation",
+    "question": "Compare and contrast two alternative approaches for executing Incident Escalation.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Escalation",
+    "question": "How do you write a unit test for a function that relies on Incident Escalation?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Escalation",
+    "question": "What performance bottlenecks can arise if Incident Escalation is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Escalation",
+    "question": "How do you refactor legacy code using modern standards for Incident Escalation?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Incident Escalation",
+    "question": "Explain how data validation is applied to Incident Escalation payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Malware Analysis Basics",
+    "question": "How do you implement practical error handling when working with Malware Analysis Basics in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Malware Analysis Basics",
+    "question": "Describe a real-world debugging scenario involving Malware Analysis Basics and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Malware Analysis Basics",
+    "question": "How does Malware Analysis Basics perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Malware Analysis Basics",
+    "question": "What are the best practices for structuring code related to Malware Analysis Basics?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Malware Analysis Basics",
+    "question": "In a practical project, how do you integrate Malware Analysis Basics with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Malware Analysis Basics",
+    "question": "Compare and contrast two alternative approaches for executing Malware Analysis Basics.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Malware Analysis Basics",
+    "question": "How do you write a unit test for a function that relies on Malware Analysis Basics?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Malware Analysis Basics",
+    "question": "What performance bottlenecks can arise if Malware Analysis Basics is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Malware Analysis Basics",
+    "question": "How do you refactor legacy code using modern standards for Malware Analysis Basics?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Malware Analysis Basics",
+    "question": "Explain how data validation is applied to Malware Analysis Basics payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Data Warehousing",
+    "question": "How do you implement practical error handling when working with Data Warehousing in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "Describe a real-world debugging scenario involving Data Warehousing and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "How does Data Warehousing perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "What are the best practices for structuring code related to Data Warehousing?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "In a practical project, how do you integrate Data Warehousing with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "Compare and contrast two alternative approaches for executing Data Warehousing.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "How do you write a unit test for a function that relies on Data Warehousing?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "What performance bottlenecks can arise if Data Warehousing is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "How do you refactor legacy code using modern standards for Data Warehousing?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "Explain how data validation is applied to Data Warehousing payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dimensional Modeling",
+    "question": "How do you implement practical error handling when working with Dimensional Modeling in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dimensional Modeling",
+    "question": "Describe a real-world debugging scenario involving Dimensional Modeling and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dimensional Modeling",
+    "question": "How does Dimensional Modeling perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dimensional Modeling",
+    "question": "What are the best practices for structuring code related to Dimensional Modeling?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dimensional Modeling",
+    "question": "In a practical project, how do you integrate Dimensional Modeling with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dimensional Modeling",
+    "question": "Compare and contrast two alternative approaches for executing Dimensional Modeling.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dimensional Modeling",
+    "question": "How do you write a unit test for a function that relies on Dimensional Modeling?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dimensional Modeling",
+    "question": "What performance bottlenecks can arise if Dimensional Modeling is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dimensional Modeling",
+    "question": "How do you refactor legacy code using modern standards for Dimensional Modeling?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dimensional Modeling",
+    "question": "Explain how data validation is applied to Dimensional Modeling payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & ETL",
+    "question": "How do you implement practical error handling when working with SQL & ETL in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & ETL",
+    "question": "Describe a real-world debugging scenario involving SQL & ETL and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & ETL",
+    "question": "How does SQL & ETL perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & ETL",
+    "question": "What are the best practices for structuring code related to SQL & ETL?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & ETL",
+    "question": "In a practical project, how do you integrate SQL & ETL with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & ETL",
+    "question": "Compare and contrast two alternative approaches for executing SQL & ETL.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & ETL",
+    "question": "How do you write a unit test for a function that relies on SQL & ETL?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & ETL",
+    "question": "What performance bottlenecks can arise if SQL & ETL is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & ETL",
+    "question": "How do you refactor legacy code using modern standards for SQL & ETL?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & ETL",
+    "question": "Explain how data validation is applied to SQL & ETL payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PowerBI & Tableau",
+    "question": "How do you implement practical error handling when working with PowerBI & Tableau in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PowerBI & Tableau",
+    "question": "Describe a real-world debugging scenario involving PowerBI & Tableau and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PowerBI & Tableau",
+    "question": "How does PowerBI & Tableau perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PowerBI & Tableau",
+    "question": "What are the best practices for structuring code related to PowerBI & Tableau?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PowerBI & Tableau",
+    "question": "In a practical project, how do you integrate PowerBI & Tableau with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PowerBI & Tableau",
+    "question": "Compare and contrast two alternative approaches for executing PowerBI & Tableau.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PowerBI & Tableau",
+    "question": "How do you write a unit test for a function that relies on PowerBI & Tableau?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PowerBI & Tableau",
+    "question": "What performance bottlenecks can arise if PowerBI & Tableau is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PowerBI & Tableau",
+    "question": "How do you refactor legacy code using modern standards for PowerBI & Tableau?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PowerBI & Tableau",
+    "question": "Explain how data validation is applied to PowerBI & Tableau payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "DAX & Analytics",
+    "question": "How do you implement practical error handling when working with DAX & Analytics in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "DAX & Analytics",
+    "question": "Describe a real-world debugging scenario involving DAX & Analytics and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "DAX & Analytics",
+    "question": "How does DAX & Analytics perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "DAX & Analytics",
+    "question": "What are the best practices for structuring code related to DAX & Analytics?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "DAX & Analytics",
+    "question": "In a practical project, how do you integrate DAX & Analytics with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "DAX & Analytics",
+    "question": "Compare and contrast two alternative approaches for executing DAX & Analytics.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "DAX & Analytics",
+    "question": "How do you write a unit test for a function that relies on DAX & Analytics?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "DAX & Analytics",
+    "question": "What performance bottlenecks can arise if DAX & Analytics is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "DAX & Analytics",
+    "question": "How do you refactor legacy code using modern standards for DAX & Analytics?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "DAX & Analytics",
+    "question": "Explain how data validation is applied to DAX & Analytics payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Security Operations & SIEM (Splunk)",
+    "question": "What is Security Operations & SIEM (Splunk) in SOC Analyst, and why is it important?",
+    "answer": "Security Operations & SIEM (Splunk) is a foundational concept in SOC Analyst. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Operations & SIEM (Splunk)",
+    "question": "Define the basic syntax or primary usage of Security Operations & SIEM (Splunk).",
+    "answer": "The primary syntax for Security Operations & SIEM (Splunk) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Operations & SIEM (Splunk)",
+    "question": "What is the main difference between basic primitives and Security Operations & SIEM (Splunk)?",
+    "answer": "Basic primitives store single value types, whereas Security Operations & SIEM (Splunk) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Operations & SIEM (Splunk)",
+    "question": "What is a common beginner mistake when working with Security Operations & SIEM (Splunk)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Security Operations & SIEM (Splunk).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Operations & SIEM (Splunk)",
+    "question": "State two key advantages of using Security Operations & SIEM (Splunk) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Operations & SIEM (Splunk)",
+    "question": "How do you initialize or instantiate Security Operations & SIEM (Splunk) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Operations & SIEM (Splunk)",
+    "question": "What role does Security Operations & SIEM (Splunk) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Operations & SIEM (Splunk)",
+    "question": "Explain the simple step-by-step workflow of executing Security Operations & SIEM (Splunk).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Operations & SIEM (Splunk)",
+    "question": "What is the recommended naming convention when defining Security Operations & SIEM (Splunk)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Security Operations & SIEM (Splunk)",
+    "question": "List the basic prerequisites needed before implementing Security Operations & SIEM (Splunk).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Log Analysis & Event Correlation",
+    "question": "What is Log Analysis & Event Correlation in SOC Analyst, and why is it important?",
+    "answer": "Log Analysis & Event Correlation is a foundational concept in SOC Analyst. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Log Analysis & Event Correlation",
+    "question": "Define the basic syntax or primary usage of Log Analysis & Event Correlation.",
+    "answer": "The primary syntax for Log Analysis & Event Correlation involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Log Analysis & Event Correlation",
+    "question": "What is the main difference between basic primitives and Log Analysis & Event Correlation?",
+    "answer": "Basic primitives store single value types, whereas Log Analysis & Event Correlation organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Log Analysis & Event Correlation",
+    "question": "What is a common beginner mistake when working with Log Analysis & Event Correlation?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Log Analysis & Event Correlation.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Log Analysis & Event Correlation",
+    "question": "State two key advantages of using Log Analysis & Event Correlation in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Log Analysis & Event Correlation",
+    "question": "How do you initialize or instantiate Log Analysis & Event Correlation in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Log Analysis & Event Correlation",
+    "question": "What role does Log Analysis & Event Correlation play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Log Analysis & Event Correlation",
+    "question": "Explain the simple step-by-step workflow of executing Log Analysis & Event Correlation.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Log Analysis & Event Correlation",
+    "question": "What is the recommended naming convention when defining Log Analysis & Event Correlation?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Log Analysis & Event Correlation",
+    "question": "List the basic prerequisites needed before implementing Log Analysis & Event Correlation.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Threat Detection & Alert Triage",
+    "question": "What is Threat Detection & Alert Triage in SOC Analyst, and why is it important?",
+    "answer": "Threat Detection & Alert Triage is a foundational concept in SOC Analyst. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Threat Detection & Alert Triage",
+    "question": "Define the basic syntax or primary usage of Threat Detection & Alert Triage.",
+    "answer": "The primary syntax for Threat Detection & Alert Triage involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Threat Detection & Alert Triage",
+    "question": "What is the main difference between basic primitives and Threat Detection & Alert Triage?",
+    "answer": "Basic primitives store single value types, whereas Threat Detection & Alert Triage organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Threat Detection & Alert Triage",
+    "question": "What is a common beginner mistake when working with Threat Detection & Alert Triage?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Threat Detection & Alert Triage.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Threat Detection & Alert Triage",
+    "question": "State two key advantages of using Threat Detection & Alert Triage in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Threat Detection & Alert Triage",
+    "question": "How do you initialize or instantiate Threat Detection & Alert Triage in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Threat Detection & Alert Triage",
+    "question": "What role does Threat Detection & Alert Triage play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Threat Detection & Alert Triage",
+    "question": "Explain the simple step-by-step workflow of executing Threat Detection & Alert Triage.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Threat Detection & Alert Triage",
+    "question": "What is the recommended naming convention when defining Threat Detection & Alert Triage?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Threat Detection & Alert Triage",
+    "question": "List the basic prerequisites needed before implementing Threat Detection & Alert Triage.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Escalation",
+    "question": "What is Incident Escalation in SOC Analyst, and why is it important?",
+    "answer": "Incident Escalation is a foundational concept in SOC Analyst. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Escalation",
+    "question": "Define the basic syntax or primary usage of Incident Escalation.",
+    "answer": "The primary syntax for Incident Escalation involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Escalation",
+    "question": "What is the main difference between basic primitives and Incident Escalation?",
+    "answer": "Basic primitives store single value types, whereas Incident Escalation organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Escalation",
+    "question": "What is a common beginner mistake when working with Incident Escalation?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Incident Escalation.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Escalation",
+    "question": "State two key advantages of using Incident Escalation in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Escalation",
+    "question": "How do you initialize or instantiate Incident Escalation in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Escalation",
+    "question": "What role does Incident Escalation play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Escalation",
+    "question": "Explain the simple step-by-step workflow of executing Incident Escalation.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Escalation",
+    "question": "What is the recommended naming convention when defining Incident Escalation?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Escalation",
+    "question": "List the basic prerequisites needed before implementing Incident Escalation.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Malware Analysis Basics",
+    "question": "What is Malware Analysis Basics in SOC Analyst, and why is it important?",
+    "answer": "Malware Analysis Basics is a foundational concept in SOC Analyst. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Malware Analysis Basics",
+    "question": "Define the basic syntax or primary usage of Malware Analysis Basics.",
+    "answer": "The primary syntax for Malware Analysis Basics involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Malware Analysis Basics",
+    "question": "What is the main difference between basic primitives and Malware Analysis Basics?",
+    "answer": "Basic primitives store single value types, whereas Malware Analysis Basics organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Malware Analysis Basics",
+    "question": "What is a common beginner mistake when working with Malware Analysis Basics?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Malware Analysis Basics.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Malware Analysis Basics",
+    "question": "State two key advantages of using Malware Analysis Basics in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Malware Analysis Basics",
+    "question": "How do you initialize or instantiate Malware Analysis Basics in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Malware Analysis Basics",
+    "question": "What role does Malware Analysis Basics play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Malware Analysis Basics",
+    "question": "Explain the simple step-by-step workflow of executing Malware Analysis Basics.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Malware Analysis Basics",
+    "question": "What is the recommended naming convention when defining Malware Analysis Basics?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Malware Analysis Basics",
+    "question": "List the basic prerequisites needed before implementing Malware Analysis Basics.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

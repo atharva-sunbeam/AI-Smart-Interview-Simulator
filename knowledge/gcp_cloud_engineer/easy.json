@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "What is Google Compute Engine & VPC in GCP Cloud Engineer, and why is it important?",
+    "answer": "Google Compute Engine & VPC is a foundational concept in GCP Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "Define the basic syntax or primary usage of Google Compute Engine & VPC.",
+    "answer": "The primary syntax for Google Compute Engine & VPC involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "What is the main difference between basic primitives and Google Compute Engine & VPC?",
+    "answer": "Basic primitives store single value types, whereas Google Compute Engine & VPC organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "What is a common beginner mistake when working with Google Compute Engine & VPC?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Google Compute Engine & VPC.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "State two key advantages of using Google Compute Engine & VPC in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "How do you initialize or instantiate Google Compute Engine & VPC in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "What role does Google Compute Engine & VPC play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "Explain the simple step-by-step workflow of executing Google Compute Engine & VPC.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "What is the recommended naming convention when defining Google Compute Engine & VPC?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "List the basic prerequisites needed before implementing Google Compute Engine & VPC.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "What is Google Cloud Storage & BigQuery in GCP Cloud Engineer, and why is it important?",
+    "answer": "Google Cloud Storage & BigQuery is a foundational concept in GCP Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "Define the basic syntax or primary usage of Google Cloud Storage & BigQuery.",
+    "answer": "The primary syntax for Google Cloud Storage & BigQuery involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "What is the main difference between basic primitives and Google Cloud Storage & BigQuery?",
+    "answer": "Basic primitives store single value types, whereas Google Cloud Storage & BigQuery organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "What is a common beginner mistake when working with Google Cloud Storage & BigQuery?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Google Cloud Storage & BigQuery.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "State two key advantages of using Google Cloud Storage & BigQuery in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "How do you initialize or instantiate Google Cloud Storage & BigQuery in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "What role does Google Cloud Storage & BigQuery play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "Explain the simple step-by-step workflow of executing Google Cloud Storage & BigQuery.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "What is the recommended naming convention when defining Google Cloud Storage & BigQuery?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "List the basic prerequisites needed before implementing Google Cloud Storage & BigQuery.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "What is IAM & GCP Security in GCP Cloud Engineer, and why is it important?",
+    "answer": "IAM & GCP Security is a foundational concept in GCP Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "Define the basic syntax or primary usage of IAM & GCP Security.",
+    "answer": "The primary syntax for IAM & GCP Security involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "What is the main difference between basic primitives and IAM & GCP Security?",
+    "answer": "Basic primitives store single value types, whereas IAM & GCP Security organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "What is a common beginner mistake when working with IAM & GCP Security?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in IAM & GCP Security.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "State two key advantages of using IAM & GCP Security in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "How do you initialize or instantiate IAM & GCP Security in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "What role does IAM & GCP Security play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "Explain the simple step-by-step workflow of executing IAM & GCP Security.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "What is the recommended naming convention when defining IAM & GCP Security?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "List the basic prerequisites needed before implementing IAM & GCP Security.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "What is Google Kubernetes Engine (GKE) in GCP Cloud Engineer, and why is it important?",
+    "answer": "Google Kubernetes Engine (GKE) is a foundational concept in GCP Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "Define the basic syntax or primary usage of Google Kubernetes Engine (GKE).",
+    "answer": "The primary syntax for Google Kubernetes Engine (GKE) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "What is the main difference between basic primitives and Google Kubernetes Engine (GKE)?",
+    "answer": "Basic primitives store single value types, whereas Google Kubernetes Engine (GKE) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "What is a common beginner mistake when working with Google Kubernetes Engine (GKE)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Google Kubernetes Engine (GKE).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "State two key advantages of using Google Kubernetes Engine (GKE) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "How do you initialize or instantiate Google Kubernetes Engine (GKE) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "What role does Google Kubernetes Engine (GKE) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "Explain the simple step-by-step workflow of executing Google Kubernetes Engine (GKE).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "What is the recommended naming convention when defining Google Kubernetes Engine (GKE)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "List the basic prerequisites needed before implementing Google Kubernetes Engine (GKE).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "What is Deployment Manager / Terraform in GCP Cloud Engineer, and why is it important?",
+    "answer": "Deployment Manager / Terraform is a foundational concept in GCP Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "Define the basic syntax or primary usage of Deployment Manager / Terraform.",
+    "answer": "The primary syntax for Deployment Manager / Terraform involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "What is the main difference between basic primitives and Deployment Manager / Terraform?",
+    "answer": "Basic primitives store single value types, whereas Deployment Manager / Terraform organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "What is a common beginner mistake when working with Deployment Manager / Terraform?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Deployment Manager / Terraform.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "State two key advantages of using Deployment Manager / Terraform in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "How do you initialize or instantiate Deployment Manager / Terraform in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "What role does Deployment Manager / Terraform play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "Explain the simple step-by-step workflow of executing Deployment Manager / Terraform.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "What is the recommended naming convention when defining Deployment Manager / Terraform?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "List the basic prerequisites needed before implementing Deployment Manager / Terraform.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

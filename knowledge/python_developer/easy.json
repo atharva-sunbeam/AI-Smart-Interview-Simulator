@@ -1,0 +1,422 @@
+[
+  {
+    "topic": "Python Fundamentals",
+    "question": "What is Python Fundamentals in Python Developer, and why is it important?",
+    "answer": "Python Fundamentals is a foundational concept in Python Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python Fundamentals",
+    "question": "Define the basic syntax or primary usage of Python Fundamentals.",
+    "answer": "The primary syntax for Python Fundamentals involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python Fundamentals",
+    "question": "What is the main difference between basic primitives and Python Fundamentals?",
+    "answer": "Basic primitives store single value types, whereas Python Fundamentals organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python Fundamentals",
+    "question": "What is a common beginner mistake when working with Python Fundamentals?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Python Fundamentals.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python Fundamentals",
+    "question": "State two key advantages of using Python Fundamentals in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python Fundamentals",
+    "question": "How do you initialize or instantiate Python Fundamentals in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python Fundamentals",
+    "question": "What role does Python Fundamentals play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python Fundamentals",
+    "question": "Explain the simple step-by-step workflow of executing Python Fundamentals.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python Fundamentals",
+    "question": "What is the recommended naming convention when defining Python Fundamentals?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python Fundamentals",
+    "question": "List the basic prerequisites needed before implementing Python Fundamentals.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP",
+    "question": "What is OOP in Python Developer, and why is it important?",
+    "answer": "OOP is a foundational concept in Python Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP",
+    "question": "Define the basic syntax or primary usage of OOP.",
+    "answer": "The primary syntax for OOP involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP",
+    "question": "What is the main difference between basic primitives and OOP?",
+    "answer": "Basic primitives store single value types, whereas OOP organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP",
+    "question": "What is a common beginner mistake when working with OOP?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in OOP.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP",
+    "question": "State two key advantages of using OOP in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP",
+    "question": "How do you initialize or instantiate OOP in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP",
+    "question": "What role does OOP play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP",
+    "question": "Explain the simple step-by-step workflow of executing OOP.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP",
+    "question": "What is the recommended naming convention when defining OOP?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "OOP",
+    "question": "List the basic prerequisites needed before implementing OOP.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "File & Exception Handling",
+    "question": "What is File & Exception Handling in Python Developer, and why is it important?",
+    "answer": "File & Exception Handling is a foundational concept in Python Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "File & Exception Handling",
+    "question": "Define the basic syntax or primary usage of File & Exception Handling.",
+    "answer": "The primary syntax for File & Exception Handling involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "File & Exception Handling",
+    "question": "What is the main difference between basic primitives and File & Exception Handling?",
+    "answer": "Basic primitives store single value types, whereas File & Exception Handling organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "File & Exception Handling",
+    "question": "What is a common beginner mistake when working with File & Exception Handling?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in File & Exception Handling.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "File & Exception Handling",
+    "question": "State two key advantages of using File & Exception Handling in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "File & Exception Handling",
+    "question": "How do you initialize or instantiate File & Exception Handling in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "File & Exception Handling",
+    "question": "What role does File & Exception Handling play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "File & Exception Handling",
+    "question": "Explain the simple step-by-step workflow of executing File & Exception Handling.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "File & Exception Handling",
+    "question": "What is the recommended naming convention when defining File & Exception Handling?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "File & Exception Handling",
+    "question": "List the basic prerequisites needed before implementing File & Exception Handling.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Multithreading & Async",
+    "question": "What is Multithreading & Async in Python Developer, and why is it important?",
+    "answer": "Multithreading & Async is a foundational concept in Python Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Multithreading & Async",
+    "question": "Define the basic syntax or primary usage of Multithreading & Async.",
+    "answer": "The primary syntax for Multithreading & Async involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Multithreading & Async",
+    "question": "What is the main difference between basic primitives and Multithreading & Async?",
+    "answer": "Basic primitives store single value types, whereas Multithreading & Async organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Multithreading & Async",
+    "question": "What is a common beginner mistake when working with Multithreading & Async?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Multithreading & Async.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Multithreading & Async",
+    "question": "State two key advantages of using Multithreading & Async in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Multithreading & Async",
+    "question": "How do you initialize or instantiate Multithreading & Async in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Multithreading & Async",
+    "question": "What role does Multithreading & Async play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Multithreading & Async",
+    "question": "Explain the simple step-by-step workflow of executing Multithreading & Async.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Multithreading & Async",
+    "question": "What is the recommended naming convention when defining Multithreading & Async?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Multithreading & Async",
+    "question": "List the basic prerequisites needed before implementing Multithreading & Async.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "FastAPI & REST APIs",
+    "question": "What is FastAPI & REST APIs in Python Developer, and why is it important?",
+    "answer": "FastAPI & REST APIs is a foundational concept in Python Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "FastAPI & REST APIs",
+    "question": "Define the basic syntax or primary usage of FastAPI & REST APIs.",
+    "answer": "The primary syntax for FastAPI & REST APIs involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "FastAPI & REST APIs",
+    "question": "What is the main difference between basic primitives and FastAPI & REST APIs?",
+    "answer": "Basic primitives store single value types, whereas FastAPI & REST APIs organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "FastAPI & REST APIs",
+    "question": "What is a common beginner mistake when working with FastAPI & REST APIs?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in FastAPI & REST APIs.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "FastAPI & REST APIs",
+    "question": "State two key advantages of using FastAPI & REST APIs in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "FastAPI & REST APIs",
+    "question": "How do you initialize or instantiate FastAPI & REST APIs in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "FastAPI & REST APIs",
+    "question": "What role does FastAPI & REST APIs play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "FastAPI & REST APIs",
+    "question": "Explain the simple step-by-step workflow of executing FastAPI & REST APIs.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "FastAPI & REST APIs",
+    "question": "What is the recommended naming convention when defining FastAPI & REST APIs?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "FastAPI & REST APIs",
+    "question": "List the basic prerequisites needed before implementing FastAPI & REST APIs.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & ORM",
+    "question": "What is SQL & ORM in Python Developer, and why is it important?",
+    "answer": "SQL & ORM is a foundational concept in Python Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & ORM",
+    "question": "Define the basic syntax or primary usage of SQL & ORM.",
+    "answer": "The primary syntax for SQL & ORM involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & ORM",
+    "question": "What is the main difference between basic primitives and SQL & ORM?",
+    "answer": "Basic primitives store single value types, whereas SQL & ORM organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & ORM",
+    "question": "What is a common beginner mistake when working with SQL & ORM?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in SQL & ORM.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & ORM",
+    "question": "State two key advantages of using SQL & ORM in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & ORM",
+    "question": "How do you initialize or instantiate SQL & ORM in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & ORM",
+    "question": "What role does SQL & ORM play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & ORM",
+    "question": "Explain the simple step-by-step workflow of executing SQL & ORM.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & ORM",
+    "question": "What is the recommended naming convention when defining SQL & ORM?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & ORM",
+    "question": "List the basic prerequisites needed before implementing SQL & ORM.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Design Patterns",
+    "question": "What is Design Patterns in Python Developer, and why is it important?",
+    "answer": "Design Patterns is a foundational concept in Python Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Design Patterns",
+    "question": "Define the basic syntax or primary usage of Design Patterns.",
+    "answer": "The primary syntax for Design Patterns involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Design Patterns",
+    "question": "What is the main difference between basic primitives and Design Patterns?",
+    "answer": "Basic primitives store single value types, whereas Design Patterns organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Design Patterns",
+    "question": "What is a common beginner mistake when working with Design Patterns?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Design Patterns.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Design Patterns",
+    "question": "State two key advantages of using Design Patterns in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Design Patterns",
+    "question": "How do you initialize or instantiate Design Patterns in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Design Patterns",
+    "question": "What role does Design Patterns play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Design Patterns",
+    "question": "Explain the simple step-by-step workflow of executing Design Patterns.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Design Patterns",
+    "question": "What is the recommended naming convention when defining Design Patterns?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Design Patterns",
+    "question": "List the basic prerequisites needed before implementing Design Patterns.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

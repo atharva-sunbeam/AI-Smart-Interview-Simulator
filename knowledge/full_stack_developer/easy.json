@@ -1,0 +1,422 @@
+[
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "What is HTML, CSS & JavaScript in Full Stack Developer, and why is it important?",
+    "answer": "HTML, CSS & JavaScript is a foundational concept in Full Stack Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "Define the basic syntax or primary usage of HTML, CSS & JavaScript.",
+    "answer": "The primary syntax for HTML, CSS & JavaScript involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "What is the main difference between basic primitives and HTML, CSS & JavaScript?",
+    "answer": "Basic primitives store single value types, whereas HTML, CSS & JavaScript organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "What is a common beginner mistake when working with HTML, CSS & JavaScript?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in HTML, CSS & JavaScript.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "State two key advantages of using HTML, CSS & JavaScript in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "How do you initialize or instantiate HTML, CSS & JavaScript in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "What role does HTML, CSS & JavaScript play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "Explain the simple step-by-step workflow of executing HTML, CSS & JavaScript.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "What is the recommended naming convention when defining HTML, CSS & JavaScript?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "List the basic prerequisites needed before implementing HTML, CSS & JavaScript.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "What is React / Frontend Frameworks in Full Stack Developer, and why is it important?",
+    "answer": "React / Frontend Frameworks is a foundational concept in Full Stack Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "Define the basic syntax or primary usage of React / Frontend Frameworks.",
+    "answer": "The primary syntax for React / Frontend Frameworks involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "What is the main difference between basic primitives and React / Frontend Frameworks?",
+    "answer": "Basic primitives store single value types, whereas React / Frontend Frameworks organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "What is a common beginner mistake when working with React / Frontend Frameworks?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in React / Frontend Frameworks.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "State two key advantages of using React / Frontend Frameworks in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "How do you initialize or instantiate React / Frontend Frameworks in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "What role does React / Frontend Frameworks play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "Explain the simple step-by-step workflow of executing React / Frontend Frameworks.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "What is the recommended naming convention when defining React / Frontend Frameworks?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "List the basic prerequisites needed before implementing React / Frontend Frameworks.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "What is Node.js / Express / Backend in Full Stack Developer, and why is it important?",
+    "answer": "Node.js / Express / Backend is a foundational concept in Full Stack Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "Define the basic syntax or primary usage of Node.js / Express / Backend.",
+    "answer": "The primary syntax for Node.js / Express / Backend involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "What is the main difference between basic primitives and Node.js / Express / Backend?",
+    "answer": "Basic primitives store single value types, whereas Node.js / Express / Backend organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "What is a common beginner mistake when working with Node.js / Express / Backend?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Node.js / Express / Backend.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "State two key advantages of using Node.js / Express / Backend in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "How do you initialize or instantiate Node.js / Express / Backend in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "What role does Node.js / Express / Backend play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "Explain the simple step-by-step workflow of executing Node.js / Express / Backend.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "What is the recommended naming convention when defining Node.js / Express / Backend?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "List the basic prerequisites needed before implementing Node.js / Express / Backend.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "What is RESTful APIs in Full Stack Developer, and why is it important?",
+    "answer": "RESTful APIs is a foundational concept in Full Stack Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "Define the basic syntax or primary usage of RESTful APIs.",
+    "answer": "The primary syntax for RESTful APIs involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "What is the main difference between basic primitives and RESTful APIs?",
+    "answer": "Basic primitives store single value types, whereas RESTful APIs organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "What is a common beginner mistake when working with RESTful APIs?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in RESTful APIs.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "State two key advantages of using RESTful APIs in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "How do you initialize or instantiate RESTful APIs in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "What role does RESTful APIs play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "Explain the simple step-by-step workflow of executing RESTful APIs.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "What is the recommended naming convention when defining RESTful APIs?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "List the basic prerequisites needed before implementing RESTful APIs.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "What is SQL & NoSQL Databases in Full Stack Developer, and why is it important?",
+    "answer": "SQL & NoSQL Databases is a foundational concept in Full Stack Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "Define the basic syntax or primary usage of SQL & NoSQL Databases.",
+    "answer": "The primary syntax for SQL & NoSQL Databases involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "What is the main difference between basic primitives and SQL & NoSQL Databases?",
+    "answer": "Basic primitives store single value types, whereas SQL & NoSQL Databases organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "What is a common beginner mistake when working with SQL & NoSQL Databases?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in SQL & NoSQL Databases.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "State two key advantages of using SQL & NoSQL Databases in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "How do you initialize or instantiate SQL & NoSQL Databases in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "What role does SQL & NoSQL Databases play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "Explain the simple step-by-step workflow of executing SQL & NoSQL Databases.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "What is the recommended naming convention when defining SQL & NoSQL Databases?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "List the basic prerequisites needed before implementing SQL & NoSQL Databases.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "What is Authentication & Security in Full Stack Developer, and why is it important?",
+    "answer": "Authentication & Security is a foundational concept in Full Stack Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "Define the basic syntax or primary usage of Authentication & Security.",
+    "answer": "The primary syntax for Authentication & Security involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "What is the main difference between basic primitives and Authentication & Security?",
+    "answer": "Basic primitives store single value types, whereas Authentication & Security organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "What is a common beginner mistake when working with Authentication & Security?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Authentication & Security.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "State two key advantages of using Authentication & Security in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "How do you initialize or instantiate Authentication & Security in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "What role does Authentication & Security play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "Explain the simple step-by-step workflow of executing Authentication & Security.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "What is the recommended naming convention when defining Authentication & Security?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "List the basic prerequisites needed before implementing Authentication & Security.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "What is Deployment & Docker in Full Stack Developer, and why is it important?",
+    "answer": "Deployment & Docker is a foundational concept in Full Stack Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "Define the basic syntax or primary usage of Deployment & Docker.",
+    "answer": "The primary syntax for Deployment & Docker involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "What is the main difference between basic primitives and Deployment & Docker?",
+    "answer": "Basic primitives store single value types, whereas Deployment & Docker organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "What is a common beginner mistake when working with Deployment & Docker?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Deployment & Docker.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "State two key advantages of using Deployment & Docker in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "How do you initialize or instantiate Deployment & Docker in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "What role does Deployment & Docker play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "Explain the simple step-by-step workflow of executing Deployment & Docker.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "What is the recommended naming convention when defining Deployment & Docker?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "List the basic prerequisites needed before implementing Deployment & Docker.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

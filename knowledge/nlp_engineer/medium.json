@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Python & Text Processing",
+    "question": "How do you implement practical error handling when working with Python & Text Processing in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & Text Processing",
+    "question": "Describe a real-world debugging scenario involving Python & Text Processing and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & Text Processing",
+    "question": "How does Python & Text Processing perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & Text Processing",
+    "question": "What are the best practices for structuring code related to Python & Text Processing?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & Text Processing",
+    "question": "In a practical project, how do you integrate Python & Text Processing with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & Text Processing",
+    "question": "Compare and contrast two alternative approaches for executing Python & Text Processing.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & Text Processing",
+    "question": "How do you write a unit test for a function that relies on Python & Text Processing?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & Text Processing",
+    "question": "What performance bottlenecks can arise if Python & Text Processing is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & Text Processing",
+    "question": "How do you refactor legacy code using modern standards for Python & Text Processing?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & Text Processing",
+    "question": "Explain how data validation is applied to Python & Text Processing payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "NLP Fundamentals & NLTK",
+    "question": "How do you implement practical error handling when working with NLP Fundamentals & NLTK in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "NLP Fundamentals & NLTK",
+    "question": "Describe a real-world debugging scenario involving NLP Fundamentals & NLTK and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "NLP Fundamentals & NLTK",
+    "question": "How does NLP Fundamentals & NLTK perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "NLP Fundamentals & NLTK",
+    "question": "What are the best practices for structuring code related to NLP Fundamentals & NLTK?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "NLP Fundamentals & NLTK",
+    "question": "In a practical project, how do you integrate NLP Fundamentals & NLTK with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "NLP Fundamentals & NLTK",
+    "question": "Compare and contrast two alternative approaches for executing NLP Fundamentals & NLTK.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "NLP Fundamentals & NLTK",
+    "question": "How do you write a unit test for a function that relies on NLP Fundamentals & NLTK?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "NLP Fundamentals & NLTK",
+    "question": "What performance bottlenecks can arise if NLP Fundamentals & NLTK is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "NLP Fundamentals & NLTK",
+    "question": "How do you refactor legacy code using modern standards for NLP Fundamentals & NLTK?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "NLP Fundamentals & NLTK",
+    "question": "Explain how data validation is applied to NLP Fundamentals & NLTK payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Text Embeddings & Word2Vec",
+    "question": "How do you implement practical error handling when working with Text Embeddings & Word2Vec in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Text Embeddings & Word2Vec",
+    "question": "Describe a real-world debugging scenario involving Text Embeddings & Word2Vec and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Text Embeddings & Word2Vec",
+    "question": "How does Text Embeddings & Word2Vec perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Text Embeddings & Word2Vec",
+    "question": "What are the best practices for structuring code related to Text Embeddings & Word2Vec?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Text Embeddings & Word2Vec",
+    "question": "In a practical project, how do you integrate Text Embeddings & Word2Vec with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Text Embeddings & Word2Vec",
+    "question": "Compare and contrast two alternative approaches for executing Text Embeddings & Word2Vec.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Text Embeddings & Word2Vec",
+    "question": "How do you write a unit test for a function that relies on Text Embeddings & Word2Vec?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Text Embeddings & Word2Vec",
+    "question": "What performance bottlenecks can arise if Text Embeddings & Word2Vec is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Text Embeddings & Word2Vec",
+    "question": "How do you refactor legacy code using modern standards for Text Embeddings & Word2Vec?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Text Embeddings & Word2Vec",
+    "question": "Explain how data validation is applied to Text Embeddings & Word2Vec payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Transformers & BERT",
+    "question": "How do you implement practical error handling when working with Transformers & BERT in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Transformers & BERT",
+    "question": "Describe a real-world debugging scenario involving Transformers & BERT and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Transformers & BERT",
+    "question": "How does Transformers & BERT perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Transformers & BERT",
+    "question": "What are the best practices for structuring code related to Transformers & BERT?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Transformers & BERT",
+    "question": "In a practical project, how do you integrate Transformers & BERT with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Transformers & BERT",
+    "question": "Compare and contrast two alternative approaches for executing Transformers & BERT.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Transformers & BERT",
+    "question": "How do you write a unit test for a function that relies on Transformers & BERT?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Transformers & BERT",
+    "question": "What performance bottlenecks can arise if Transformers & BERT is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Transformers & BERT",
+    "question": "How do you refactor legacy code using modern standards for Transformers & BERT?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Transformers & BERT",
+    "question": "Explain how data validation is applied to Transformers & BERT payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LLM & Fine-Tuning",
+    "question": "How do you implement practical error handling when working with LLM & Fine-Tuning in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LLM & Fine-Tuning",
+    "question": "Describe a real-world debugging scenario involving LLM & Fine-Tuning and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LLM & Fine-Tuning",
+    "question": "How does LLM & Fine-Tuning perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LLM & Fine-Tuning",
+    "question": "What are the best practices for structuring code related to LLM & Fine-Tuning?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LLM & Fine-Tuning",
+    "question": "In a practical project, how do you integrate LLM & Fine-Tuning with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LLM & Fine-Tuning",
+    "question": "Compare and contrast two alternative approaches for executing LLM & Fine-Tuning.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LLM & Fine-Tuning",
+    "question": "How do you write a unit test for a function that relies on LLM & Fine-Tuning?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LLM & Fine-Tuning",
+    "question": "What performance bottlenecks can arise if LLM & Fine-Tuning is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LLM & Fine-Tuning",
+    "question": "How do you refactor legacy code using modern standards for LLM & Fine-Tuning?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "LLM & Fine-Tuning",
+    "question": "Explain how data validation is applied to LLM & Fine-Tuning payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

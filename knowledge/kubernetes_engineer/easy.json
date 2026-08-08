@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Containerization (Docker)",
+    "question": "What is Containerization (Docker) in Kubernetes Engineer, and why is it important?",
+    "answer": "Containerization (Docker) is a foundational concept in Kubernetes Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Containerization (Docker)",
+    "question": "Define the basic syntax or primary usage of Containerization (Docker).",
+    "answer": "The primary syntax for Containerization (Docker) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Containerization (Docker)",
+    "question": "What is the main difference between basic primitives and Containerization (Docker)?",
+    "answer": "Basic primitives store single value types, whereas Containerization (Docker) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Containerization (Docker)",
+    "question": "What is a common beginner mistake when working with Containerization (Docker)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Containerization (Docker).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Containerization (Docker)",
+    "question": "State two key advantages of using Containerization (Docker) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Containerization (Docker)",
+    "question": "How do you initialize or instantiate Containerization (Docker) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Containerization (Docker)",
+    "question": "What role does Containerization (Docker) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Containerization (Docker)",
+    "question": "Explain the simple step-by-step workflow of executing Containerization (Docker).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Containerization (Docker)",
+    "question": "What is the recommended naming convention when defining Containerization (Docker)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Containerization (Docker)",
+    "question": "List the basic prerequisites needed before implementing Containerization (Docker).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes Architecture (Control Plane & Worker)",
+    "question": "What is Kubernetes Architecture (Control Plane & Worker) in Kubernetes Engineer, and why is it important?",
+    "answer": "Kubernetes Architecture (Control Plane & Worker) is a foundational concept in Kubernetes Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes Architecture (Control Plane & Worker)",
+    "question": "Define the basic syntax or primary usage of Kubernetes Architecture (Control Plane & Worker).",
+    "answer": "The primary syntax for Kubernetes Architecture (Control Plane & Worker) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes Architecture (Control Plane & Worker)",
+    "question": "What is the main difference between basic primitives and Kubernetes Architecture (Control Plane & Worker)?",
+    "answer": "Basic primitives store single value types, whereas Kubernetes Architecture (Control Plane & Worker) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes Architecture (Control Plane & Worker)",
+    "question": "What is a common beginner mistake when working with Kubernetes Architecture (Control Plane & Worker)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Kubernetes Architecture (Control Plane & Worker).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes Architecture (Control Plane & Worker)",
+    "question": "State two key advantages of using Kubernetes Architecture (Control Plane & Worker) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes Architecture (Control Plane & Worker)",
+    "question": "How do you initialize or instantiate Kubernetes Architecture (Control Plane & Worker) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes Architecture (Control Plane & Worker)",
+    "question": "What role does Kubernetes Architecture (Control Plane & Worker) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes Architecture (Control Plane & Worker)",
+    "question": "Explain the simple step-by-step workflow of executing Kubernetes Architecture (Control Plane & Worker).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes Architecture (Control Plane & Worker)",
+    "question": "What is the recommended naming convention when defining Kubernetes Architecture (Control Plane & Worker)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes Architecture (Control Plane & Worker)",
+    "question": "List the basic prerequisites needed before implementing Kubernetes Architecture (Control Plane & Worker).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Pods, Deployments & Services",
+    "question": "What is Pods, Deployments & Services in Kubernetes Engineer, and why is it important?",
+    "answer": "Pods, Deployments & Services is a foundational concept in Kubernetes Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Pods, Deployments & Services",
+    "question": "Define the basic syntax or primary usage of Pods, Deployments & Services.",
+    "answer": "The primary syntax for Pods, Deployments & Services involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Pods, Deployments & Services",
+    "question": "What is the main difference between basic primitives and Pods, Deployments & Services?",
+    "answer": "Basic primitives store single value types, whereas Pods, Deployments & Services organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Pods, Deployments & Services",
+    "question": "What is a common beginner mistake when working with Pods, Deployments & Services?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Pods, Deployments & Services.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Pods, Deployments & Services",
+    "question": "State two key advantages of using Pods, Deployments & Services in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Pods, Deployments & Services",
+    "question": "How do you initialize or instantiate Pods, Deployments & Services in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Pods, Deployments & Services",
+    "question": "What role does Pods, Deployments & Services play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Pods, Deployments & Services",
+    "question": "Explain the simple step-by-step workflow of executing Pods, Deployments & Services.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Pods, Deployments & Services",
+    "question": "What is the recommended naming convention when defining Pods, Deployments & Services?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Pods, Deployments & Services",
+    "question": "List the basic prerequisites needed before implementing Pods, Deployments & Services.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Ingress, ConfigMaps & Secrets",
+    "question": "What is Ingress, ConfigMaps & Secrets in Kubernetes Engineer, and why is it important?",
+    "answer": "Ingress, ConfigMaps & Secrets is a foundational concept in Kubernetes Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Ingress, ConfigMaps & Secrets",
+    "question": "Define the basic syntax or primary usage of Ingress, ConfigMaps & Secrets.",
+    "answer": "The primary syntax for Ingress, ConfigMaps & Secrets involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Ingress, ConfigMaps & Secrets",
+    "question": "What is the main difference between basic primitives and Ingress, ConfigMaps & Secrets?",
+    "answer": "Basic primitives store single value types, whereas Ingress, ConfigMaps & Secrets organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Ingress, ConfigMaps & Secrets",
+    "question": "What is a common beginner mistake when working with Ingress, ConfigMaps & Secrets?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Ingress, ConfigMaps & Secrets.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Ingress, ConfigMaps & Secrets",
+    "question": "State two key advantages of using Ingress, ConfigMaps & Secrets in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Ingress, ConfigMaps & Secrets",
+    "question": "How do you initialize or instantiate Ingress, ConfigMaps & Secrets in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Ingress, ConfigMaps & Secrets",
+    "question": "What role does Ingress, ConfigMaps & Secrets play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Ingress, ConfigMaps & Secrets",
+    "question": "Explain the simple step-by-step workflow of executing Ingress, ConfigMaps & Secrets.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Ingress, ConfigMaps & Secrets",
+    "question": "What is the recommended naming convention when defining Ingress, ConfigMaps & Secrets?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Ingress, ConfigMaps & Secrets",
+    "question": "List the basic prerequisites needed before implementing Ingress, ConfigMaps & Secrets.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Helm Charts & Storage (PV/PVC)",
+    "question": "What is Helm Charts & Storage (PV/PVC) in Kubernetes Engineer, and why is it important?",
+    "answer": "Helm Charts & Storage (PV/PVC) is a foundational concept in Kubernetes Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Helm Charts & Storage (PV/PVC)",
+    "question": "Define the basic syntax or primary usage of Helm Charts & Storage (PV/PVC).",
+    "answer": "The primary syntax for Helm Charts & Storage (PV/PVC) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Helm Charts & Storage (PV/PVC)",
+    "question": "What is the main difference between basic primitives and Helm Charts & Storage (PV/PVC)?",
+    "answer": "Basic primitives store single value types, whereas Helm Charts & Storage (PV/PVC) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Helm Charts & Storage (PV/PVC)",
+    "question": "What is a common beginner mistake when working with Helm Charts & Storage (PV/PVC)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Helm Charts & Storage (PV/PVC).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Helm Charts & Storage (PV/PVC)",
+    "question": "State two key advantages of using Helm Charts & Storage (PV/PVC) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Helm Charts & Storage (PV/PVC)",
+    "question": "How do you initialize or instantiate Helm Charts & Storage (PV/PVC) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Helm Charts & Storage (PV/PVC)",
+    "question": "What role does Helm Charts & Storage (PV/PVC) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Helm Charts & Storage (PV/PVC)",
+    "question": "Explain the simple step-by-step workflow of executing Helm Charts & Storage (PV/PVC).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Helm Charts & Storage (PV/PVC)",
+    "question": "What is the recommended naming convention when defining Helm Charts & Storage (PV/PVC)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Helm Charts & Storage (PV/PVC)",
+    "question": "List the basic prerequisites needed before implementing Helm Charts & Storage (PV/PVC).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "K8s Cluster Administration",
+    "question": "What is K8s Cluster Administration in Kubernetes Engineer, and why is it important?",
+    "answer": "K8s Cluster Administration is a foundational concept in Kubernetes Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "K8s Cluster Administration",
+    "question": "Define the basic syntax or primary usage of K8s Cluster Administration.",
+    "answer": "The primary syntax for K8s Cluster Administration involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "K8s Cluster Administration",
+    "question": "What is the main difference between basic primitives and K8s Cluster Administration?",
+    "answer": "Basic primitives store single value types, whereas K8s Cluster Administration organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "K8s Cluster Administration",
+    "question": "What is a common beginner mistake when working with K8s Cluster Administration?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in K8s Cluster Administration.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "K8s Cluster Administration",
+    "question": "State two key advantages of using K8s Cluster Administration in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "K8s Cluster Administration",
+    "question": "How do you initialize or instantiate K8s Cluster Administration in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "K8s Cluster Administration",
+    "question": "What role does K8s Cluster Administration play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "K8s Cluster Administration",
+    "question": "Explain the simple step-by-step workflow of executing K8s Cluster Administration.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "K8s Cluster Administration",
+    "question": "What is the recommended naming convention when defining K8s Cluster Administration?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "K8s Cluster Administration",
+    "question": "List the basic prerequisites needed before implementing K8s Cluster Administration.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

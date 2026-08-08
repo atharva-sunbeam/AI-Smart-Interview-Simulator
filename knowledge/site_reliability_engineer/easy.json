@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Reliability & SLA/SLO/SLI",
+    "question": "What is Reliability & SLA/SLO/SLI in Site Reliability Engineer, and why is it important?",
+    "answer": "Reliability & SLA/SLO/SLI is a foundational concept in Site Reliability Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Reliability & SLA/SLO/SLI",
+    "question": "Define the basic syntax or primary usage of Reliability & SLA/SLO/SLI.",
+    "answer": "The primary syntax for Reliability & SLA/SLO/SLI involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Reliability & SLA/SLO/SLI",
+    "question": "What is the main difference between basic primitives and Reliability & SLA/SLO/SLI?",
+    "answer": "Basic primitives store single value types, whereas Reliability & SLA/SLO/SLI organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Reliability & SLA/SLO/SLI",
+    "question": "What is a common beginner mistake when working with Reliability & SLA/SLO/SLI?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Reliability & SLA/SLO/SLI.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Reliability & SLA/SLO/SLI",
+    "question": "State two key advantages of using Reliability & SLA/SLO/SLI in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Reliability & SLA/SLO/SLI",
+    "question": "How do you initialize or instantiate Reliability & SLA/SLO/SLI in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Reliability & SLA/SLO/SLI",
+    "question": "What role does Reliability & SLA/SLO/SLI play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Reliability & SLA/SLO/SLI",
+    "question": "Explain the simple step-by-step workflow of executing Reliability & SLA/SLO/SLI.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Reliability & SLA/SLO/SLI",
+    "question": "What is the recommended naming convention when defining Reliability & SLA/SLO/SLI?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Reliability & SLA/SLO/SLI",
+    "question": "List the basic prerequisites needed before implementing Reliability & SLA/SLO/SLI.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Response & Postmortems",
+    "question": "What is Incident Response & Postmortems in Site Reliability Engineer, and why is it important?",
+    "answer": "Incident Response & Postmortems is a foundational concept in Site Reliability Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Response & Postmortems",
+    "question": "Define the basic syntax or primary usage of Incident Response & Postmortems.",
+    "answer": "The primary syntax for Incident Response & Postmortems involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Response & Postmortems",
+    "question": "What is the main difference between basic primitives and Incident Response & Postmortems?",
+    "answer": "Basic primitives store single value types, whereas Incident Response & Postmortems organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Response & Postmortems",
+    "question": "What is a common beginner mistake when working with Incident Response & Postmortems?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Incident Response & Postmortems.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Response & Postmortems",
+    "question": "State two key advantages of using Incident Response & Postmortems in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Response & Postmortems",
+    "question": "How do you initialize or instantiate Incident Response & Postmortems in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Response & Postmortems",
+    "question": "What role does Incident Response & Postmortems play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Response & Postmortems",
+    "question": "Explain the simple step-by-step workflow of executing Incident Response & Postmortems.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Response & Postmortems",
+    "question": "What is the recommended naming convention when defining Incident Response & Postmortems?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Incident Response & Postmortems",
+    "question": "List the basic prerequisites needed before implementing Incident Response & Postmortems.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Automation & Python/Go Scripting",
+    "question": "What is Automation & Python/Go Scripting in Site Reliability Engineer, and why is it important?",
+    "answer": "Automation & Python/Go Scripting is a foundational concept in Site Reliability Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Automation & Python/Go Scripting",
+    "question": "Define the basic syntax or primary usage of Automation & Python/Go Scripting.",
+    "answer": "The primary syntax for Automation & Python/Go Scripting involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Automation & Python/Go Scripting",
+    "question": "What is the main difference between basic primitives and Automation & Python/Go Scripting?",
+    "answer": "Basic primitives store single value types, whereas Automation & Python/Go Scripting organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Automation & Python/Go Scripting",
+    "question": "What is a common beginner mistake when working with Automation & Python/Go Scripting?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Automation & Python/Go Scripting.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Automation & Python/Go Scripting",
+    "question": "State two key advantages of using Automation & Python/Go Scripting in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Automation & Python/Go Scripting",
+    "question": "How do you initialize or instantiate Automation & Python/Go Scripting in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Automation & Python/Go Scripting",
+    "question": "What role does Automation & Python/Go Scripting play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Automation & Python/Go Scripting",
+    "question": "Explain the simple step-by-step workflow of executing Automation & Python/Go Scripting.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Automation & Python/Go Scripting",
+    "question": "What is the recommended naming convention when defining Automation & Python/Go Scripting?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Automation & Python/Go Scripting",
+    "question": "List the basic prerequisites needed before implementing Automation & Python/Go Scripting.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Distributed Systems Monitoring",
+    "question": "What is Distributed Systems Monitoring in Site Reliability Engineer, and why is it important?",
+    "answer": "Distributed Systems Monitoring is a foundational concept in Site Reliability Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Distributed Systems Monitoring",
+    "question": "Define the basic syntax or primary usage of Distributed Systems Monitoring.",
+    "answer": "The primary syntax for Distributed Systems Monitoring involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Distributed Systems Monitoring",
+    "question": "What is the main difference between basic primitives and Distributed Systems Monitoring?",
+    "answer": "Basic primitives store single value types, whereas Distributed Systems Monitoring organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Distributed Systems Monitoring",
+    "question": "What is a common beginner mistake when working with Distributed Systems Monitoring?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Distributed Systems Monitoring.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Distributed Systems Monitoring",
+    "question": "State two key advantages of using Distributed Systems Monitoring in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Distributed Systems Monitoring",
+    "question": "How do you initialize or instantiate Distributed Systems Monitoring in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Distributed Systems Monitoring",
+    "question": "What role does Distributed Systems Monitoring play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Distributed Systems Monitoring",
+    "question": "Explain the simple step-by-step workflow of executing Distributed Systems Monitoring.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Distributed Systems Monitoring",
+    "question": "What is the recommended naming convention when defining Distributed Systems Monitoring?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Distributed Systems Monitoring",
+    "question": "List the basic prerequisites needed before implementing Distributed Systems Monitoring.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Capacity Planning & Chaos Engineering",
+    "question": "What is Capacity Planning & Chaos Engineering in Site Reliability Engineer, and why is it important?",
+    "answer": "Capacity Planning & Chaos Engineering is a foundational concept in Site Reliability Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Capacity Planning & Chaos Engineering",
+    "question": "Define the basic syntax or primary usage of Capacity Planning & Chaos Engineering.",
+    "answer": "The primary syntax for Capacity Planning & Chaos Engineering involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Capacity Planning & Chaos Engineering",
+    "question": "What is the main difference between basic primitives and Capacity Planning & Chaos Engineering?",
+    "answer": "Basic primitives store single value types, whereas Capacity Planning & Chaos Engineering organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Capacity Planning & Chaos Engineering",
+    "question": "What is a common beginner mistake when working with Capacity Planning & Chaos Engineering?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Capacity Planning & Chaos Engineering.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Capacity Planning & Chaos Engineering",
+    "question": "State two key advantages of using Capacity Planning & Chaos Engineering in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Capacity Planning & Chaos Engineering",
+    "question": "How do you initialize or instantiate Capacity Planning & Chaos Engineering in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Capacity Planning & Chaos Engineering",
+    "question": "What role does Capacity Planning & Chaos Engineering play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Capacity Planning & Chaos Engineering",
+    "question": "Explain the simple step-by-step workflow of executing Capacity Planning & Chaos Engineering.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Capacity Planning & Chaos Engineering",
+    "question": "What is the recommended naming convention when defining Capacity Planning & Chaos Engineering?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Capacity Planning & Chaos Engineering",
+    "question": "List the basic prerequisites needed before implementing Capacity Planning & Chaos Engineering.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

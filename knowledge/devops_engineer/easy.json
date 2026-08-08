@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Git & Version Control",
+    "question": "What is Git & Version Control in DevOps Engineer, and why is it important?",
+    "answer": "Git & Version Control is a foundational concept in DevOps Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "Define the basic syntax or primary usage of Git & Version Control.",
+    "answer": "The primary syntax for Git & Version Control involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "What is the main difference between basic primitives and Git & Version Control?",
+    "answer": "Basic primitives store single value types, whereas Git & Version Control organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "What is a common beginner mistake when working with Git & Version Control?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Git & Version Control.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "State two key advantages of using Git & Version Control in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "How do you initialize or instantiate Git & Version Control in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "What role does Git & Version Control play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "Explain the simple step-by-step workflow of executing Git & Version Control.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "What is the recommended naming convention when defining Git & Version Control?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "List the basic prerequisites needed before implementing Git & Version Control.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "What is CI/CD Pipelines (Jenkins/GitHub Actions) in DevOps Engineer, and why is it important?",
+    "answer": "CI/CD Pipelines (Jenkins/GitHub Actions) is a foundational concept in DevOps Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "Define the basic syntax or primary usage of CI/CD Pipelines (Jenkins/GitHub Actions).",
+    "answer": "The primary syntax for CI/CD Pipelines (Jenkins/GitHub Actions) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "What is the main difference between basic primitives and CI/CD Pipelines (Jenkins/GitHub Actions)?",
+    "answer": "Basic primitives store single value types, whereas CI/CD Pipelines (Jenkins/GitHub Actions) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "What is a common beginner mistake when working with CI/CD Pipelines (Jenkins/GitHub Actions)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in CI/CD Pipelines (Jenkins/GitHub Actions).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "State two key advantages of using CI/CD Pipelines (Jenkins/GitHub Actions) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "How do you initialize or instantiate CI/CD Pipelines (Jenkins/GitHub Actions) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "What role does CI/CD Pipelines (Jenkins/GitHub Actions) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "Explain the simple step-by-step workflow of executing CI/CD Pipelines (Jenkins/GitHub Actions).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "What is the recommended naming convention when defining CI/CD Pipelines (Jenkins/GitHub Actions)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "List the basic prerequisites needed before implementing CI/CD Pipelines (Jenkins/GitHub Actions).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "What is Docker & Containerization in DevOps Engineer, and why is it important?",
+    "answer": "Docker & Containerization is a foundational concept in DevOps Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "Define the basic syntax or primary usage of Docker & Containerization.",
+    "answer": "The primary syntax for Docker & Containerization involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "What is the main difference between basic primitives and Docker & Containerization?",
+    "answer": "Basic primitives store single value types, whereas Docker & Containerization organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "What is a common beginner mistake when working with Docker & Containerization?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Docker & Containerization.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "State two key advantages of using Docker & Containerization in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "How do you initialize or instantiate Docker & Containerization in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "What role does Docker & Containerization play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "Explain the simple step-by-step workflow of executing Docker & Containerization.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "What is the recommended naming convention when defining Docker & Containerization?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "List the basic prerequisites needed before implementing Docker & Containerization.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "What is Kubernetes & Orchestration in DevOps Engineer, and why is it important?",
+    "answer": "Kubernetes & Orchestration is a foundational concept in DevOps Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "Define the basic syntax or primary usage of Kubernetes & Orchestration.",
+    "answer": "The primary syntax for Kubernetes & Orchestration involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "What is the main difference between basic primitives and Kubernetes & Orchestration?",
+    "answer": "Basic primitives store single value types, whereas Kubernetes & Orchestration organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "What is a common beginner mistake when working with Kubernetes & Orchestration?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Kubernetes & Orchestration.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "State two key advantages of using Kubernetes & Orchestration in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "How do you initialize or instantiate Kubernetes & Orchestration in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "What role does Kubernetes & Orchestration play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "Explain the simple step-by-step workflow of executing Kubernetes & Orchestration.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "What is the recommended naming convention when defining Kubernetes & Orchestration?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "List the basic prerequisites needed before implementing Kubernetes & Orchestration.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "What is Terraform & IaC in DevOps Engineer, and why is it important?",
+    "answer": "Terraform & IaC is a foundational concept in DevOps Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "Define the basic syntax or primary usage of Terraform & IaC.",
+    "answer": "The primary syntax for Terraform & IaC involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "What is the main difference between basic primitives and Terraform & IaC?",
+    "answer": "Basic primitives store single value types, whereas Terraform & IaC organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "What is a common beginner mistake when working with Terraform & IaC?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Terraform & IaC.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "State two key advantages of using Terraform & IaC in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "How do you initialize or instantiate Terraform & IaC in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "What role does Terraform & IaC play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "Explain the simple step-by-step workflow of executing Terraform & IaC.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "What is the recommended naming convention when defining Terraform & IaC?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "List the basic prerequisites needed before implementing Terraform & IaC.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "What is Monitoring (Prometheus/Grafana) in DevOps Engineer, and why is it important?",
+    "answer": "Monitoring (Prometheus/Grafana) is a foundational concept in DevOps Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "Define the basic syntax or primary usage of Monitoring (Prometheus/Grafana).",
+    "answer": "The primary syntax for Monitoring (Prometheus/Grafana) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "What is the main difference between basic primitives and Monitoring (Prometheus/Grafana)?",
+    "answer": "Basic primitives store single value types, whereas Monitoring (Prometheus/Grafana) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "What is a common beginner mistake when working with Monitoring (Prometheus/Grafana)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Monitoring (Prometheus/Grafana).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "State two key advantages of using Monitoring (Prometheus/Grafana) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "How do you initialize or instantiate Monitoring (Prometheus/Grafana) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "What role does Monitoring (Prometheus/Grafana) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "Explain the simple step-by-step workflow of executing Monitoring (Prometheus/Grafana).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "What is the recommended naming convention when defining Monitoring (Prometheus/Grafana)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "List the basic prerequisites needed before implementing Monitoring (Prometheus/Grafana).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

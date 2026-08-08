@@ -1,0 +1,422 @@
+[
+  {
+    "topic": "Python Fundamentals",
+    "question": "How do you implement practical error handling when working with Python Fundamentals in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python Fundamentals",
+    "question": "Describe a real-world debugging scenario involving Python Fundamentals and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python Fundamentals",
+    "question": "How does Python Fundamentals perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python Fundamentals",
+    "question": "What are the best practices for structuring code related to Python Fundamentals?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python Fundamentals",
+    "question": "In a practical project, how do you integrate Python Fundamentals with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python Fundamentals",
+    "question": "Compare and contrast two alternative approaches for executing Python Fundamentals.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python Fundamentals",
+    "question": "How do you write a unit test for a function that relies on Python Fundamentals?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python Fundamentals",
+    "question": "What performance bottlenecks can arise if Python Fundamentals is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python Fundamentals",
+    "question": "How do you refactor legacy code using modern standards for Python Fundamentals?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python Fundamentals",
+    "question": "Explain how data validation is applied to Python Fundamentals payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP",
+    "question": "How do you implement practical error handling when working with OOP in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP",
+    "question": "Describe a real-world debugging scenario involving OOP and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP",
+    "question": "How does OOP perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP",
+    "question": "What are the best practices for structuring code related to OOP?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP",
+    "question": "In a practical project, how do you integrate OOP with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP",
+    "question": "Compare and contrast two alternative approaches for executing OOP.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP",
+    "question": "How do you write a unit test for a function that relies on OOP?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP",
+    "question": "What performance bottlenecks can arise if OOP is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP",
+    "question": "How do you refactor legacy code using modern standards for OOP?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "OOP",
+    "question": "Explain how data validation is applied to OOP payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "File & Exception Handling",
+    "question": "How do you implement practical error handling when working with File & Exception Handling in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "File & Exception Handling",
+    "question": "Describe a real-world debugging scenario involving File & Exception Handling and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "File & Exception Handling",
+    "question": "How does File & Exception Handling perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "File & Exception Handling",
+    "question": "What are the best practices for structuring code related to File & Exception Handling?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "File & Exception Handling",
+    "question": "In a practical project, how do you integrate File & Exception Handling with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "File & Exception Handling",
+    "question": "Compare and contrast two alternative approaches for executing File & Exception Handling.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "File & Exception Handling",
+    "question": "How do you write a unit test for a function that relies on File & Exception Handling?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "File & Exception Handling",
+    "question": "What performance bottlenecks can arise if File & Exception Handling is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "File & Exception Handling",
+    "question": "How do you refactor legacy code using modern standards for File & Exception Handling?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "File & Exception Handling",
+    "question": "Explain how data validation is applied to File & Exception Handling payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Multithreading & Async",
+    "question": "How do you implement practical error handling when working with Multithreading & Async in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Multithreading & Async",
+    "question": "Describe a real-world debugging scenario involving Multithreading & Async and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Multithreading & Async",
+    "question": "How does Multithreading & Async perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Multithreading & Async",
+    "question": "What are the best practices for structuring code related to Multithreading & Async?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Multithreading & Async",
+    "question": "In a practical project, how do you integrate Multithreading & Async with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Multithreading & Async",
+    "question": "Compare and contrast two alternative approaches for executing Multithreading & Async.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Multithreading & Async",
+    "question": "How do you write a unit test for a function that relies on Multithreading & Async?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Multithreading & Async",
+    "question": "What performance bottlenecks can arise if Multithreading & Async is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Multithreading & Async",
+    "question": "How do you refactor legacy code using modern standards for Multithreading & Async?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Multithreading & Async",
+    "question": "Explain how data validation is applied to Multithreading & Async payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "FastAPI & REST APIs",
+    "question": "How do you implement practical error handling when working with FastAPI & REST APIs in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "FastAPI & REST APIs",
+    "question": "Describe a real-world debugging scenario involving FastAPI & REST APIs and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "FastAPI & REST APIs",
+    "question": "How does FastAPI & REST APIs perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "FastAPI & REST APIs",
+    "question": "What are the best practices for structuring code related to FastAPI & REST APIs?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "FastAPI & REST APIs",
+    "question": "In a practical project, how do you integrate FastAPI & REST APIs with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "FastAPI & REST APIs",
+    "question": "Compare and contrast two alternative approaches for executing FastAPI & REST APIs.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "FastAPI & REST APIs",
+    "question": "How do you write a unit test for a function that relies on FastAPI & REST APIs?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "FastAPI & REST APIs",
+    "question": "What performance bottlenecks can arise if FastAPI & REST APIs is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "FastAPI & REST APIs",
+    "question": "How do you refactor legacy code using modern standards for FastAPI & REST APIs?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "FastAPI & REST APIs",
+    "question": "Explain how data validation is applied to FastAPI & REST APIs payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & ORM",
+    "question": "How do you implement practical error handling when working with SQL & ORM in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & ORM",
+    "question": "Describe a real-world debugging scenario involving SQL & ORM and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & ORM",
+    "question": "How does SQL & ORM perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & ORM",
+    "question": "What are the best practices for structuring code related to SQL & ORM?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & ORM",
+    "question": "In a practical project, how do you integrate SQL & ORM with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & ORM",
+    "question": "Compare and contrast two alternative approaches for executing SQL & ORM.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & ORM",
+    "question": "How do you write a unit test for a function that relies on SQL & ORM?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & ORM",
+    "question": "What performance bottlenecks can arise if SQL & ORM is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & ORM",
+    "question": "How do you refactor legacy code using modern standards for SQL & ORM?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & ORM",
+    "question": "Explain how data validation is applied to SQL & ORM payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Design Patterns",
+    "question": "How do you implement practical error handling when working with Design Patterns in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Design Patterns",
+    "question": "Describe a real-world debugging scenario involving Design Patterns and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Design Patterns",
+    "question": "How does Design Patterns perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Design Patterns",
+    "question": "What are the best practices for structuring code related to Design Patterns?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Design Patterns",
+    "question": "In a practical project, how do you integrate Design Patterns with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Design Patterns",
+    "question": "Compare and contrast two alternative approaches for executing Design Patterns.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Design Patterns",
+    "question": "How do you write a unit test for a function that relies on Design Patterns?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Design Patterns",
+    "question": "What performance bottlenecks can arise if Design Patterns is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Design Patterns",
+    "question": "How do you refactor legacy code using modern standards for Design Patterns?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Design Patterns",
+    "question": "Explain how data validation is applied to Design Patterns payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Embedded C / MicroPython",
+    "question": "How do you implement practical error handling when working with Embedded C / MicroPython in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Embedded C / MicroPython",
+    "question": "Describe a real-world debugging scenario involving Embedded C / MicroPython and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Embedded C / MicroPython",
+    "question": "How does Embedded C / MicroPython perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Embedded C / MicroPython",
+    "question": "What are the best practices for structuring code related to Embedded C / MicroPython?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Embedded C / MicroPython",
+    "question": "In a practical project, how do you integrate Embedded C / MicroPython with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Embedded C / MicroPython",
+    "question": "Compare and contrast two alternative approaches for executing Embedded C / MicroPython.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Embedded C / MicroPython",
+    "question": "How do you write a unit test for a function that relies on Embedded C / MicroPython?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Embedded C / MicroPython",
+    "question": "What performance bottlenecks can arise if Embedded C / MicroPython is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Embedded C / MicroPython",
+    "question": "How do you refactor legacy code using modern standards for Embedded C / MicroPython?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Embedded C / MicroPython",
+    "question": "Explain how data validation is applied to Embedded C / MicroPython payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IoT Protocols (MQTT, CoAP)",
+    "question": "How do you implement practical error handling when working with IoT Protocols (MQTT, CoAP) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IoT Protocols (MQTT, CoAP)",
+    "question": "Describe a real-world debugging scenario involving IoT Protocols (MQTT, CoAP) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IoT Protocols (MQTT, CoAP)",
+    "question": "How does IoT Protocols (MQTT, CoAP) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IoT Protocols (MQTT, CoAP)",
+    "question": "What are the best practices for structuring code related to IoT Protocols (MQTT, CoAP)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IoT Protocols (MQTT, CoAP)",
+    "question": "In a practical project, how do you integrate IoT Protocols (MQTT, CoAP) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IoT Protocols (MQTT, CoAP)",
+    "question": "Compare and contrast two alternative approaches for executing IoT Protocols (MQTT, CoAP).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IoT Protocols (MQTT, CoAP)",
+    "question": "How do you write a unit test for a function that relies on IoT Protocols (MQTT, CoAP)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IoT Protocols (MQTT, CoAP)",
+    "question": "What performance bottlenecks can arise if IoT Protocols (MQTT, CoAP) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IoT Protocols (MQTT, CoAP)",
+    "question": "How do you refactor legacy code using modern standards for IoT Protocols (MQTT, CoAP)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IoT Protocols (MQTT, CoAP)",
+    "question": "Explain how data validation is applied to IoT Protocols (MQTT, CoAP) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Sensors & Actuators Interfacing",
+    "question": "How do you implement practical error handling when working with Sensors & Actuators Interfacing in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Sensors & Actuators Interfacing",
+    "question": "Describe a real-world debugging scenario involving Sensors & Actuators Interfacing and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Sensors & Actuators Interfacing",
+    "question": "How does Sensors & Actuators Interfacing perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Sensors & Actuators Interfacing",
+    "question": "What are the best practices for structuring code related to Sensors & Actuators Interfacing?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Sensors & Actuators Interfacing",
+    "question": "In a practical project, how do you integrate Sensors & Actuators Interfacing with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Sensors & Actuators Interfacing",
+    "question": "Compare and contrast two alternative approaches for executing Sensors & Actuators Interfacing.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Sensors & Actuators Interfacing",
+    "question": "How do you write a unit test for a function that relies on Sensors & Actuators Interfacing?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Sensors & Actuators Interfacing",
+    "question": "What performance bottlenecks can arise if Sensors & Actuators Interfacing is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Sensors & Actuators Interfacing",
+    "question": "How do you refactor legacy code using modern standards for Sensors & Actuators Interfacing?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Sensors & Actuators Interfacing",
+    "question": "Explain how data validation is applied to Sensors & Actuators Interfacing payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Edge Computing & Gateway",
+    "question": "How do you implement practical error handling when working with Edge Computing & Gateway in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Edge Computing & Gateway",
+    "question": "Describe a real-world debugging scenario involving Edge Computing & Gateway and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Edge Computing & Gateway",
+    "question": "How does Edge Computing & Gateway perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Edge Computing & Gateway",
+    "question": "What are the best practices for structuring code related to Edge Computing & Gateway?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Edge Computing & Gateway",
+    "question": "In a practical project, how do you integrate Edge Computing & Gateway with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Edge Computing & Gateway",
+    "question": "Compare and contrast two alternative approaches for executing Edge Computing & Gateway.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Edge Computing & Gateway",
+    "question": "How do you write a unit test for a function that relies on Edge Computing & Gateway?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Edge Computing & Gateway",
+    "question": "What performance bottlenecks can arise if Edge Computing & Gateway is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Edge Computing & Gateway",
+    "question": "How do you refactor legacy code using modern standards for Edge Computing & Gateway?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Edge Computing & Gateway",
+    "question": "Explain how data validation is applied to Edge Computing & Gateway payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IoT Cloud Platforms & Security",
+    "question": "How do you implement practical error handling when working with IoT Cloud Platforms & Security in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IoT Cloud Platforms & Security",
+    "question": "Describe a real-world debugging scenario involving IoT Cloud Platforms & Security and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IoT Cloud Platforms & Security",
+    "question": "How does IoT Cloud Platforms & Security perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IoT Cloud Platforms & Security",
+    "question": "What are the best practices for structuring code related to IoT Cloud Platforms & Security?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IoT Cloud Platforms & Security",
+    "question": "In a practical project, how do you integrate IoT Cloud Platforms & Security with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IoT Cloud Platforms & Security",
+    "question": "Compare and contrast two alternative approaches for executing IoT Cloud Platforms & Security.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IoT Cloud Platforms & Security",
+    "question": "How do you write a unit test for a function that relies on IoT Cloud Platforms & Security?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IoT Cloud Platforms & Security",
+    "question": "What performance bottlenecks can arise if IoT Cloud Platforms & Security is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IoT Cloud Platforms & Security",
+    "question": "How do you refactor legacy code using modern standards for IoT Cloud Platforms & Security?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IoT Cloud Platforms & Security",
+    "question": "Explain how data validation is applied to IoT Cloud Platforms & Security payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

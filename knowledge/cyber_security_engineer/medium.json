@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Security Architecture & Design",
+    "question": "How do you implement practical error handling when working with Security Architecture & Design in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "Describe a real-world debugging scenario involving Security Architecture & Design and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "How does Security Architecture & Design perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "What are the best practices for structuring code related to Security Architecture & Design?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "In a practical project, how do you integrate Security Architecture & Design with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "Compare and contrast two alternative approaches for executing Security Architecture & Design.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "How do you write a unit test for a function that relies on Security Architecture & Design?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "What performance bottlenecks can arise if Security Architecture & Design is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "How do you refactor legacy code using modern standards for Security Architecture & Design?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Architecture & Design",
+    "question": "Explain how data validation is applied to Security Architecture & Design payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "How do you implement practical error handling when working with Firewalls, IDS/IPS & WAF in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "Describe a real-world debugging scenario involving Firewalls, IDS/IPS & WAF and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "How does Firewalls, IDS/IPS & WAF perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "What are the best practices for structuring code related to Firewalls, IDS/IPS & WAF?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "In a practical project, how do you integrate Firewalls, IDS/IPS & WAF with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "Compare and contrast two alternative approaches for executing Firewalls, IDS/IPS & WAF.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "How do you write a unit test for a function that relies on Firewalls, IDS/IPS & WAF?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "What performance bottlenecks can arise if Firewalls, IDS/IPS & WAF is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "How do you refactor legacy code using modern standards for Firewalls, IDS/IPS & WAF?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Firewalls, IDS/IPS & WAF",
+    "question": "Explain how data validation is applied to Firewalls, IDS/IPS & WAF payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "How do you implement practical error handling when working with Cryptography & PKI in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "Describe a real-world debugging scenario involving Cryptography & PKI and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "How does Cryptography & PKI perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "What are the best practices for structuring code related to Cryptography & PKI?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "In a practical project, how do you integrate Cryptography & PKI with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "Compare and contrast two alternative approaches for executing Cryptography & PKI.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "How do you write a unit test for a function that relies on Cryptography & PKI?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "What performance bottlenecks can arise if Cryptography & PKI is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "How do you refactor legacy code using modern standards for Cryptography & PKI?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cryptography & PKI",
+    "question": "Explain how data validation is applied to Cryptography & PKI payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "How do you implement practical error handling when working with Identity & Access Management (IAM) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "Describe a real-world debugging scenario involving Identity & Access Management (IAM) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "How does Identity & Access Management (IAM) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "What are the best practices for structuring code related to Identity & Access Management (IAM)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "In a practical project, how do you integrate Identity & Access Management (IAM) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "Compare and contrast two alternative approaches for executing Identity & Access Management (IAM).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "How do you write a unit test for a function that relies on Identity & Access Management (IAM)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "What performance bottlenecks can arise if Identity & Access Management (IAM) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "How do you refactor legacy code using modern standards for Identity & Access Management (IAM)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Identity & Access Management (IAM)",
+    "question": "Explain how data validation is applied to Identity & Access Management (IAM) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "How do you implement practical error handling when working with Secure Code Review in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "Describe a real-world debugging scenario involving Secure Code Review and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "How does Secure Code Review perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "What are the best practices for structuring code related to Secure Code Review?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "In a practical project, how do you integrate Secure Code Review with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "Compare and contrast two alternative approaches for executing Secure Code Review.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "How do you write a unit test for a function that relies on Secure Code Review?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "What performance bottlenecks can arise if Secure Code Review is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "How do you refactor legacy code using modern standards for Secure Code Review?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Secure Code Review",
+    "question": "Explain how data validation is applied to Secure Code Review payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

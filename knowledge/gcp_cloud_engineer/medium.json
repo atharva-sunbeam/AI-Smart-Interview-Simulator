@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "How do you implement practical error handling when working with Google Compute Engine & VPC in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "Describe a real-world debugging scenario involving Google Compute Engine & VPC and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "How does Google Compute Engine & VPC perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "What are the best practices for structuring code related to Google Compute Engine & VPC?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "In a practical project, how do you integrate Google Compute Engine & VPC with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "Compare and contrast two alternative approaches for executing Google Compute Engine & VPC.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "How do you write a unit test for a function that relies on Google Compute Engine & VPC?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "What performance bottlenecks can arise if Google Compute Engine & VPC is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "How do you refactor legacy code using modern standards for Google Compute Engine & VPC?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Compute Engine & VPC",
+    "question": "Explain how data validation is applied to Google Compute Engine & VPC payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "How do you implement practical error handling when working with Google Cloud Storage & BigQuery in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "Describe a real-world debugging scenario involving Google Cloud Storage & BigQuery and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "How does Google Cloud Storage & BigQuery perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "What are the best practices for structuring code related to Google Cloud Storage & BigQuery?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "In a practical project, how do you integrate Google Cloud Storage & BigQuery with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "Compare and contrast two alternative approaches for executing Google Cloud Storage & BigQuery.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "How do you write a unit test for a function that relies on Google Cloud Storage & BigQuery?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "What performance bottlenecks can arise if Google Cloud Storage & BigQuery is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "How do you refactor legacy code using modern standards for Google Cloud Storage & BigQuery?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Cloud Storage & BigQuery",
+    "question": "Explain how data validation is applied to Google Cloud Storage & BigQuery payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "How do you implement practical error handling when working with IAM & GCP Security in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "Describe a real-world debugging scenario involving IAM & GCP Security and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "How does IAM & GCP Security perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "What are the best practices for structuring code related to IAM & GCP Security?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "In a practical project, how do you integrate IAM & GCP Security with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "Compare and contrast two alternative approaches for executing IAM & GCP Security.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "How do you write a unit test for a function that relies on IAM & GCP Security?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "What performance bottlenecks can arise if IAM & GCP Security is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "How do you refactor legacy code using modern standards for IAM & GCP Security?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "IAM & GCP Security",
+    "question": "Explain how data validation is applied to IAM & GCP Security payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "How do you implement practical error handling when working with Google Kubernetes Engine (GKE) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "Describe a real-world debugging scenario involving Google Kubernetes Engine (GKE) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "How does Google Kubernetes Engine (GKE) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "What are the best practices for structuring code related to Google Kubernetes Engine (GKE)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "In a practical project, how do you integrate Google Kubernetes Engine (GKE) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "Compare and contrast two alternative approaches for executing Google Kubernetes Engine (GKE).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "How do you write a unit test for a function that relies on Google Kubernetes Engine (GKE)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "What performance bottlenecks can arise if Google Kubernetes Engine (GKE) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "How do you refactor legacy code using modern standards for Google Kubernetes Engine (GKE)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Google Kubernetes Engine (GKE)",
+    "question": "Explain how data validation is applied to Google Kubernetes Engine (GKE) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "How do you implement practical error handling when working with Deployment Manager / Terraform in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "Describe a real-world debugging scenario involving Deployment Manager / Terraform and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "How does Deployment Manager / Terraform perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "What are the best practices for structuring code related to Deployment Manager / Terraform?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "In a practical project, how do you integrate Deployment Manager / Terraform with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "Compare and contrast two alternative approaches for executing Deployment Manager / Terraform.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "How do you write a unit test for a function that relies on Deployment Manager / Terraform?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "What performance bottlenecks can arise if Deployment Manager / Terraform is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "How do you refactor legacy code using modern standards for Deployment Manager / Terraform?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment Manager / Terraform",
+    "question": "Explain how data validation is applied to Deployment Manager / Terraform payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

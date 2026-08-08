@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "Design a scalable distributed architecture utilizing Mobile OS Fundamentals for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Mobile OS Fundamentals across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Mobile OS Fundamentals.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "How would you optimize latency and throughput for Mobile OS Fundamentals under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Mobile OS Fundamentals.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Mobile OS Fundamentals?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Mobile OS Fundamentals.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "How do you perform deep performance profiling and memory leak detection on Mobile OS Fundamentals in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Mobile OS Fundamentals and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Mobile OS Fundamentals",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Mobile OS Fundamentals.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "Design a scalable distributed architecture utilizing Cross-Platform Frameworks for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Cross-Platform Frameworks across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Cross-Platform Frameworks.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "How would you optimize latency and throughput for Cross-Platform Frameworks under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Cross-Platform Frameworks.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Cross-Platform Frameworks?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Cross-Platform Frameworks.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "How do you perform deep performance profiling and memory leak detection on Cross-Platform Frameworks in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Cross-Platform Frameworks and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Cross-Platform Frameworks",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Cross-Platform Frameworks.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "Design a scalable distributed architecture utilizing Mobile Security & Storage for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Mobile Security & Storage across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Mobile Security & Storage.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "How would you optimize latency and throughput for Mobile Security & Storage under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Mobile Security & Storage.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Mobile Security & Storage?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Mobile Security & Storage.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "How do you perform deep performance profiling and memory leak detection on Mobile Security & Storage in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Mobile Security & Storage and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Mobile Security & Storage",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Mobile Security & Storage.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "Design a scalable distributed architecture utilizing REST APIs & Push Notifications for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling REST APIs & Push Notifications across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying REST APIs & Push Notifications.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "How would you optimize latency and throughput for REST APIs & Push Notifications under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in REST APIs & Push Notifications.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on REST APIs & Push Notifications?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard REST APIs & Push Notifications.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "How do you perform deep performance profiling and memory leak detection on REST APIs & Push Notifications in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with REST APIs & Push Notifications and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Push Notifications",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for REST APIs & Push Notifications.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "Design a scalable distributed architecture utilizing Publishing & Testing for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Publishing & Testing across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Publishing & Testing.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "How would you optimize latency and throughput for Publishing & Testing under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Publishing & Testing.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Publishing & Testing?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Publishing & Testing.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "How do you perform deep performance profiling and memory leak detection on Publishing & Testing in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Publishing & Testing and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Publishing & Testing",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Publishing & Testing.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  }
+]

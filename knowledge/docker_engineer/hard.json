@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Containerization Principles",
+    "question": "Design a scalable distributed architecture utilizing Containerization Principles for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Containerization Principles across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Containerization Principles.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "How would you optimize latency and throughput for Containerization Principles under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Containerization Principles.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Containerization Principles?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Containerization Principles.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "How do you perform deep performance profiling and memory leak detection on Containerization Principles in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Containerization Principles and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Containerization Principles",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Containerization Principles.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "Design a scalable distributed architecture utilizing Dockerfile Writing & Optimization for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Dockerfile Writing & Optimization across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Dockerfile Writing & Optimization.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "How would you optimize latency and throughput for Dockerfile Writing & Optimization under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Dockerfile Writing & Optimization.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Dockerfile Writing & Optimization?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Dockerfile Writing & Optimization.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "How do you perform deep performance profiling and memory leak detection on Dockerfile Writing & Optimization in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Dockerfile Writing & Optimization and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Dockerfile Writing & Optimization",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Dockerfile Writing & Optimization.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "Design a scalable distributed architecture utilizing Docker Networking & Volumes for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Docker Networking & Volumes across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Docker Networking & Volumes.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "How would you optimize latency and throughput for Docker Networking & Volumes under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Docker Networking & Volumes.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Docker Networking & Volumes?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Docker Networking & Volumes.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "How do you perform deep performance profiling and memory leak detection on Docker Networking & Volumes in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Docker Networking & Volumes and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker Networking & Volumes",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Docker Networking & Volumes.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "Design a scalable distributed architecture utilizing Docker Compose for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Docker Compose across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Docker Compose.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "How would you optimize latency and throughput for Docker Compose under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Docker Compose.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Docker Compose?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Docker Compose.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "How do you perform deep performance profiling and memory leak detection on Docker Compose in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Docker Compose and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker Compose",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Docker Compose.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "Design a scalable distributed architecture utilizing Container Security & Scanning for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Container Security & Scanning across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Container Security & Scanning.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "How would you optimize latency and throughput for Container Security & Scanning under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Container Security & Scanning.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Container Security & Scanning?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Container Security & Scanning.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "How do you perform deep performance profiling and memory leak detection on Container Security & Scanning in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Container Security & Scanning and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Container Security & Scanning",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Container Security & Scanning.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  }
+]

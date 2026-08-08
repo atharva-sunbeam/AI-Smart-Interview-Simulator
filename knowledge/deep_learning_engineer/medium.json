@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Math & Matrix Calculus",
+    "question": "How do you implement practical error handling when working with Math & Matrix Calculus in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Math & Matrix Calculus",
+    "question": "Describe a real-world debugging scenario involving Math & Matrix Calculus and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Math & Matrix Calculus",
+    "question": "How does Math & Matrix Calculus perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Math & Matrix Calculus",
+    "question": "What are the best practices for structuring code related to Math & Matrix Calculus?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Math & Matrix Calculus",
+    "question": "In a practical project, how do you integrate Math & Matrix Calculus with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Math & Matrix Calculus",
+    "question": "Compare and contrast two alternative approaches for executing Math & Matrix Calculus.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Math & Matrix Calculus",
+    "question": "How do you write a unit test for a function that relies on Math & Matrix Calculus?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Math & Matrix Calculus",
+    "question": "What performance bottlenecks can arise if Math & Matrix Calculus is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Math & Matrix Calculus",
+    "question": "How do you refactor legacy code using modern standards for Math & Matrix Calculus?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Math & Matrix Calculus",
+    "question": "Explain how data validation is applied to Math & Matrix Calculus payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Neural Networks & Backprop",
+    "question": "How do you implement practical error handling when working with Neural Networks & Backprop in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Neural Networks & Backprop",
+    "question": "Describe a real-world debugging scenario involving Neural Networks & Backprop and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Neural Networks & Backprop",
+    "question": "How does Neural Networks & Backprop perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Neural Networks & Backprop",
+    "question": "What are the best practices for structuring code related to Neural Networks & Backprop?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Neural Networks & Backprop",
+    "question": "In a practical project, how do you integrate Neural Networks & Backprop with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Neural Networks & Backprop",
+    "question": "Compare and contrast two alternative approaches for executing Neural Networks & Backprop.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Neural Networks & Backprop",
+    "question": "How do you write a unit test for a function that relies on Neural Networks & Backprop?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Neural Networks & Backprop",
+    "question": "What performance bottlenecks can arise if Neural Networks & Backprop is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Neural Networks & Backprop",
+    "question": "How do you refactor legacy code using modern standards for Neural Networks & Backprop?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Neural Networks & Backprop",
+    "question": "Explain how data validation is applied to Neural Networks & Backprop payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PyTorch & TensorFlow",
+    "question": "How do you implement practical error handling when working with PyTorch & TensorFlow in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PyTorch & TensorFlow",
+    "question": "Describe a real-world debugging scenario involving PyTorch & TensorFlow and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PyTorch & TensorFlow",
+    "question": "How does PyTorch & TensorFlow perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PyTorch & TensorFlow",
+    "question": "What are the best practices for structuring code related to PyTorch & TensorFlow?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PyTorch & TensorFlow",
+    "question": "In a practical project, how do you integrate PyTorch & TensorFlow with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PyTorch & TensorFlow",
+    "question": "Compare and contrast two alternative approaches for executing PyTorch & TensorFlow.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PyTorch & TensorFlow",
+    "question": "How do you write a unit test for a function that relies on PyTorch & TensorFlow?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PyTorch & TensorFlow",
+    "question": "What performance bottlenecks can arise if PyTorch & TensorFlow is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PyTorch & TensorFlow",
+    "question": "How do you refactor legacy code using modern standards for PyTorch & TensorFlow?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "PyTorch & TensorFlow",
+    "question": "Explain how data validation is applied to PyTorch & TensorFlow payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CNNs & Computer Vision",
+    "question": "How do you implement practical error handling when working with CNNs & Computer Vision in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CNNs & Computer Vision",
+    "question": "Describe a real-world debugging scenario involving CNNs & Computer Vision and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CNNs & Computer Vision",
+    "question": "How does CNNs & Computer Vision perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CNNs & Computer Vision",
+    "question": "What are the best practices for structuring code related to CNNs & Computer Vision?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CNNs & Computer Vision",
+    "question": "In a practical project, how do you integrate CNNs & Computer Vision with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CNNs & Computer Vision",
+    "question": "Compare and contrast two alternative approaches for executing CNNs & Computer Vision.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CNNs & Computer Vision",
+    "question": "How do you write a unit test for a function that relies on CNNs & Computer Vision?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CNNs & Computer Vision",
+    "question": "What performance bottlenecks can arise if CNNs & Computer Vision is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CNNs & Computer Vision",
+    "question": "How do you refactor legacy code using modern standards for CNNs & Computer Vision?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CNNs & Computer Vision",
+    "question": "Explain how data validation is applied to CNNs & Computer Vision payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RNNs & Transformers",
+    "question": "How do you implement practical error handling when working with RNNs & Transformers in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RNNs & Transformers",
+    "question": "Describe a real-world debugging scenario involving RNNs & Transformers and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RNNs & Transformers",
+    "question": "How does RNNs & Transformers perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RNNs & Transformers",
+    "question": "What are the best practices for structuring code related to RNNs & Transformers?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RNNs & Transformers",
+    "question": "In a practical project, how do you integrate RNNs & Transformers with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RNNs & Transformers",
+    "question": "Compare and contrast two alternative approaches for executing RNNs & Transformers.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RNNs & Transformers",
+    "question": "How do you write a unit test for a function that relies on RNNs & Transformers?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RNNs & Transformers",
+    "question": "What performance bottlenecks can arise if RNNs & Transformers is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RNNs & Transformers",
+    "question": "How do you refactor legacy code using modern standards for RNNs & Transformers?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RNNs & Transformers",
+    "question": "Explain how data validation is applied to RNNs & Transformers payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

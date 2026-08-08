@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Python Core",
+    "question": "Design a scalable distributed architecture utilizing Python Core for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Python Core",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Python Core across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Python Core",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Python Core.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Python Core",
+    "question": "How would you optimize latency and throughput for Python Core under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Python Core",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Python Core.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Python Core",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Python Core?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Python Core",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Python Core.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Python Core",
+    "question": "How do you perform deep performance profiling and memory leak detection on Python Core in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Python Core",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Python Core and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Python Core",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Python Core.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "Design a scalable distributed architecture utilizing LangChain & CrewAI for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling LangChain & CrewAI across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying LangChain & CrewAI.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "How would you optimize latency and throughput for LangChain & CrewAI under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in LangChain & CrewAI.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on LangChain & CrewAI?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard LangChain & CrewAI.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "How do you perform deep performance profiling and memory leak detection on LangChain & CrewAI in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with LangChain & CrewAI and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "LangChain & CrewAI",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for LangChain & CrewAI.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "Design a scalable distributed architecture utilizing Vector DBs & Embeddings for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Vector DBs & Embeddings across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Vector DBs & Embeddings.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "How would you optimize latency and throughput for Vector DBs & Embeddings under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Vector DBs & Embeddings.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Vector DBs & Embeddings?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Vector DBs & Embeddings.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "How do you perform deep performance profiling and memory leak detection on Vector DBs & Embeddings in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Vector DBs & Embeddings and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Vector DBs & Embeddings",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Vector DBs & Embeddings.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "Design a scalable distributed architecture utilizing RAG Systems for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling RAG Systems across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying RAG Systems.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "How would you optimize latency and throughput for RAG Systems under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in RAG Systems.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on RAG Systems?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard RAG Systems.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "How do you perform deep performance profiling and memory leak detection on RAG Systems in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with RAG Systems and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "RAG Systems",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for RAG Systems.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "Design a scalable distributed architecture utilizing Prompt Engineering & Guardrails for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Prompt Engineering & Guardrails across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Prompt Engineering & Guardrails.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "How would you optimize latency and throughput for Prompt Engineering & Guardrails under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Prompt Engineering & Guardrails.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Prompt Engineering & Guardrails?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Prompt Engineering & Guardrails.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "How do you perform deep performance profiling and memory leak detection on Prompt Engineering & Guardrails in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Prompt Engineering & Guardrails and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Prompt Engineering & Guardrails.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "Design a scalable distributed architecture utilizing Fine-Tuning & Quantization for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Fine-Tuning & Quantization across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Fine-Tuning & Quantization.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "How would you optimize latency and throughput for Fine-Tuning & Quantization under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Fine-Tuning & Quantization.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Fine-Tuning & Quantization?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Fine-Tuning & Quantization.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "How do you perform deep performance profiling and memory leak detection on Fine-Tuning & Quantization in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Fine-Tuning & Quantization and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Fine-Tuning & Quantization",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Fine-Tuning & Quantization.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  }
+]

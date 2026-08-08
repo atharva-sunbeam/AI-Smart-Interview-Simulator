@@ -1,0 +1,594 @@
+[
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Classification Metrics",
+    "question": "How do you evaluate a classification model? Explain Precision, Recall, F1-Score.",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 1.8,
+    "feedback": "Your answer is on the right track! The explanation was incomplete. To improve, make sure to mention and define terms like: accuracy, measures, both, positive. "
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "How does LangChain organize agent execution using tools, memory, and chains?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 1.8,
+    "feedback": "Your answer is on the right track! The explanation was incomplete. To improve, make sure to mention and define terms like: turns, engines, external, apis. "
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "How does LangChain organize agent execution using tools, memory, and chains?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 1.8,
+    "feedback": "Your answer is on the right track! The explanation was incomplete. To improve, make sure to mention and define terms like: tools, outputs, evaluators, conversation. "
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "How does LangChain organize agent execution using tools, memory, and chains?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 1.8,
+    "feedback": "Your answer is on the right track! The explanation was incomplete. To improve, make sure to mention and define terms like: invoke, such, engines, loops. "
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "How does LangChain organize agent execution using tools, memory, and chains?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 1.8,
+    "feedback": "Your answer is on the right track! The explanation was incomplete. To improve, make sure to mention and define terms like: primitives, engines, agents, stores. "
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "How does LangChain organize agent execution using tools, memory, and chains?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 1.8,
+    "feedback": "Your answer is on the right track! The explanation was incomplete. To improve, make sure to mention and define terms like: stores, state, apis, turns. "
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "How does LangChain organize agent execution using tools, memory, and chains?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 1.8,
+    "feedback": "Your answer is on the right track! The explanation was incomplete. To improve, make sure to mention and define terms like: python, connect, llms, outputs. "
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "Design a LangChain-based architecture to integrate a large language model with a custom database query tool and a web scraper, where the LLM must use the query tool to retrieve relevant data and the web scraper to fetch additional context, and then combine the outputs to generate a final response. How would you implement the reasoning loop to manage the interactions between the LLM, the database query tool, and the web scraper, and what primitives would you use to maintain the conversation state across multiple turns?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 2.0,
+    "feedback": "The candidate's answer briefly mentions the use of a vector store like ChromaDB and the retrieval of relevant documents, which is a relevant concept in integrating a large language model with external tools. However, the answer lacks crucial details about the LangChain primitives used, the LLM reasoning loop, and how conversation state is maintained across turns, making it a very incomplete response. To improve, the candidate should delve deeper into the architecture design, explaining how the LLM interacts with the custom database query tool and web scraper, and how LangChain's primitives facilitate these interactions."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "Design a LangChain-based architecture for a conversational AI agent that integrates with a third-party database API and a custom Python function to generate personalized product recommendations for e-commerce users. The agent should be able to retrieve user preferences from the database, use the LLM to generate a list of relevant products, and then invoke the Python function to filter the products based on the user's location and purchase history. How would you implement the tool invocation logic, memory management, and conversation flow using LangChain's primitives, and what benefits or challenges do you foresee in this approach?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 2.0,
+    "feedback": "The candidate's answer is incomplete and lacks key technical details, only mentioning the Retrieval-Augmented Generation (RAG) concept and its interaction with a vector store, but failing to address the main question about designing a LangChain-based architecture for a conversational AI agent. To improve, the candidate should provide a more comprehensive answer that includes tool invocation logic, memory management, and conversation flow using LangChain's primitives. Additionally, discussing potential benefits and challenges of the approach would demonstrate a deeper understanding of the topic."
+  },
+  {
+    "role": "DevOps / Cloud Engineer",
+    "topic": "Containerization & Docker",
+    "question": "Suppose you're tasked with designing a CI/CD pipeline for a machine learning model developed using Python, scikit-learn, and NLTK, which is containerized using Docker and deployed on a Kubernetes cluster in the cloud. The model is trained on a large dataset stored in an Oracle database and utilizes Spark for data processing. After each code commit, the pipeline should automatically build a new Docker image, run unit tests and integration tests using Pytest, and deploy the updated model to a staging environment on Databricks for validation. If the validation is successful, the pipeline should then deploy the model to a production environment. How would you design this pipeline, and what tools or services would you use to implement each stage, ensuring that the pipeline is scalable, secure, and efficient?",
+    "answer": "A scalable CI/CD pipeline for this ML project can be designed as follows:\n\nSource Control: Store code in GitHub/GitLab. Every commit triggers the pipeline using GitHub Actions, GitLab CI/CD, or Jenkins.\nBuild: Install dependencies, package the Python application, build a Docker image, and push it to Docker Hub or a cloud container registry (ECR/GCR/ACR).\nTesting: Run Pytest for unit and integration tests. Use test coverage tools and static analysis (e.g., flake8, SonarQube) to ensure code quality.\nData Processing: Read training data from Oracle Database using JDBC and process it with Apache Spark. Training can be executed on Databricks for distributed computing.\nContainerization: Package the trained model, scikit-learn, NLTK, and required dependencies into the Docker image.\nStaging Deployment: Deploy the image to a Kubernetes staging cluster on Databricks or cloud infrastructure using Helm manifests. Run validation tests and model performance checks.\nProduction Deployment: If validation passes, automatically promote the same Docker image to the production Kubernetes cluster using rolling or blue-green deployment to minimize downtime.\nMonitoring & Security: Use Prometheus and Grafana for monitoring, MLflow for model versioning, Kubernetes Secrets or HashiCorp Vault for credentials, and image scanning tools like Trivy before deployment.\n\nThis pipeline is automated, scalable, secure, and reliable, enabling continuous integration, testing, validation, and deployment of machine learning models with minimal manual intervention.",
+    "score": 9.0,
+    "feedback": "The candidate's answer effectively outlines a comprehensive CI/CD pipeline for the machine learning model, covering key aspects such as automated testing, containerization, and deployment to staging and production environments, while also addressing security and monitoring considerations. However, the candidate could further improve their answer by providing more detailed explanations of how they would implement specific components, such as the integration with the Oracle database and the use of Spark for data processing, as well as discussing potential error handling and rollback strategies. Additionally, mentioning the use of GitHub webhooks for triggering the pipeline and exploring more advanced security measures could further enhance the response."
+  },
+  {
+    "role": "DevOps / Cloud Engineer",
+    "topic": "Infrastructure as Code",
+    "question": "How does Infrastructure as Code (IaC) work in Terraform, and what is the role of the terraform.tfstate file?",
+    "answer": "Infrastructure as Code (IaC) in Terraform allows you to define and manage cloud infrastructure (such as VMs, networks, Kubernetes clusters, and databases) using declarative configuration files (.tf). When you run terraform init, terraform plan, and terraform apply, Terraform compares the desired infrastructure in the configuration files with the current infrastructure and creates, updates, or deletes resources to match the desired state.\n\nThe terraform.tfstate file is Terraform's state file, which stores the current state of all managed infrastructure, including resource IDs and metadata. Terraform uses this file to determine what changes are needed during future deployments, making infrastructure updates efficient and preventing unnecessary resource recreation. In production, the state file is typically stored remotely (e.g., AWS S3, Azure Storage, or Terraform Cloud) with locking enabled to support team collaboration and avoid conflicts.",
+    "score": 9.0,
+    "feedback": "The candidate's answer accurately describes the core concept of Infrastructure as Code (IaC) in Terraform, including the use of declarative configuration files and the terraform.tfstate file to manage infrastructure state. However, to achieve a perfect score, the candidate could have explicitly mentioned the use of HashiCorp Configuration Language (HCL) for defining infrastructure configurations and provided more detail on how Terraform computes delta changes using the state file. Overall, the answer demonstrates a solid understanding of Terraform's IaC capabilities and state management."
+  },
+  {
+    "role": "DevOps / Cloud Engineer",
+    "topic": "Containerization & Docker",
+    "question": "A company is migrating its monolithic application to a microservices architecture using Docker containers, with multiple services requiring different dependencies and environments. However, the development team is experiencing inconsistencies in container performance and resource utilization across different host machines. As a DevOps/Cloud Engineer, how would you design and implement a strategy to ensure consistent and efficient deployment of Docker containers across the fleet, considering factors such as resource allocation, networking, and monitoring?",
+    "answer": "To ensure consistent and efficient Docker container deployment, I would use Kubernetes as the container orchestration platform. Each microservice would have its own Docker image with versioning, and deployments would be managed using Helm. I would define CPU and memory requests/limits for every container to ensure fair resource allocation and prevent resource starvation. For networking, I would use Kubernetes Services and an Ingress Controller for service discovery and load balancing. Configuration and secrets would be managed using ConfigMaps and Secrets. I would implement horizontal auto-scaling (HPA) based on CPU or custom metrics to handle varying workloads. For monitoring and logging, I would use Prometheus and Grafana for metrics, along with the ELK/EFK stack for centralized logging. Finally, I would automate deployments through a CI/CD pipeline (GitHub Actions/Jenkins/GitLab CI) to ensure every environment uses the same Docker images and deployment configurations, resulting in scalable, secure, and consistent deployments across all hosts.",
+    "score": 8.0,
+    "feedback": "The candidate's answer demonstrates a good understanding of container orchestration using Kubernetes, resource allocation, and monitoring, as well as the importance of automation through CI/CD pipelines. However, the response could be improved by discussing the standardization of host machine configurations, utilizing containerization best practices for efficient resource allocation, and exploring the use of Docker Compose for smaller-scale deployments or development environments, which were missing from the provided answer. Overall, the candidate's approach is well-structured, but could benefit from a more comprehensive consideration of the entire deployment ecosystem."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "Design an LLM agent using LangChain to optimize tool usage and memory allocation",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 4.0,
+    "feedback": "The candidate's answer touches on the concept of retrieving relevant documents using RAG and vector stores like ChromaDB, which is a good start, but it lacks detailed explanation on agent execution, tool integration, and memory management. To improve, the candidate should provide a more comprehensive design that includes how the LLM agent will optimize tool usage and memory allocation, and how the chain of tools will be optimized for efficient execution. Additionally, the candidate should elaborate on how the agent will handle different tools and memory constraints to provide a more complete solution."
+  },
+  {
+    "role": "Backend Engineer",
+    "topic": "Event Streaming & Queues",
+    "question": "Design a Kafka-based queue for real-time NLP task processing in a Python backend system",
+    "answer": "A Kafka-based queue for real-time NLP processing consists of a Python backend (FastAPI/Flask) acting as a Kafka producer, which sends incoming text-processing requests to a Kafka topic (e.g., nlp-tasks). Multiple Python consumer workers use libraries like NLTK, spaCy, or scikit-learn to process the tasks in parallel and store the results in a database or publish them to a results topic. Using Kafka partitions, consumer groups, and Docker/Kubernetes ensures the system is scalable, fault-tolerant, and capable of handling high-throughput real-time NLP workloads.",
+    "score": 7.5,
+    "feedback": "**Main Question Feedback:** The candidate's answer demonstrates a good understanding of the high-level architecture of a Kafka-based queue for real-time NLP task processing, including the role of Python producers and consumers, as well as the importance of scalability and fault tolerance. However, the answer lacks specific details on Kafka cluster setup, topic configuration, and Python producer/consumer implementation, which are crucial for a comprehensive design. To improve, the candidate should provide more technical specifics, such as broker configuration, topic partitioning, and consumer group management, to demonstrate a deeper understanding of the system's design and implementation.\n\n**Follow-up Feedback:** The candidate's answer demonstrates a good understanding of offset management and task idempotence in Kafka consumer workers, correctly suggesting manual offset commits and storing processed task IDs in a database or cache to prevent duplicate processing. However, the answer lacks specific details about Kafka cluster setup and topic configuration, which are crucial for a comprehensive solution. To improve, the candidate should provide more context about their Kafka configuration and Python implementation choices, such as consumer group settings and error handling mechanisms."
+  },
+  {
+    "role": "Backend Engineer",
+    "topic": "Microservices Architecture",
+    "question": "Design a microservice for real-time NLP tasks using Kafka and Python",
+    "answer": "A real-time NLP microservice can be built using FastAPI as the Python backend and Apache Kafka for asynchronous messaging. The API publishes NLP requests (e.g., sentiment analysis or text classification) to a Kafka topic, while multiple Python consumer workers process them using NLTK, spaCy, or scikit-learn and store or return the results. Deploying the service with Docker and Kubernetes ensures scalability, fault tolerance, and high performance for real-time processing.",
+    "score": 8.0,
+    "feedback": "**Main Question Feedback:** The candidate's answer correctly identifies key components of the microservice, including the use of FastAPI, Apache Kafka, and popular NLP libraries like NLTK, spaCy, or scikit-learn, demonstrating a good understanding of the technology stack. However, the answer lacks specific details on Kafka topic creation, partitioning, and replication strategies, as well as how the NLP tasks will be distributed among the consumer workers, which are crucial for a scalable and fault-tolerant design. To improve, the candidate should provide more technical depth on these aspects and consider discussing error handling, monitoring, and logging mechanisms for the microservice.\n\n**Follow-up Feedback:** The candidate's answer demonstrates a good understanding of handling Kafka consumer group rebalancing and preventing duplicate NLP task processing by utilizing manual offset commits and implementing idempotence with unique task IDs. However, the response lacks specific details on Kafka topic creation and the use of Python consumer/producer for NLP task distribution, which are crucial aspects of the question. To improve, the candidate should provide more comprehensive examples, including code snippets or architecture diagrams, to illustrate their approach to Kafka topic creation and task distribution using Python."
+  },
+  {
+    "role": "Backend Engineer",
+    "topic": "Backend Core",
+    "question": "Design a load balancer for HTTP/2 multiplexing vs HTTP/1.1 connections",
+    "answer": "For HTTP/2, I would use a load balancer such as NGINX, HAProxy, or a cloud load balancer that supports connection multiplexing, allowing multiple requests to share a single TCP connection, reducing latency and improving throughput. For HTTP/1.1, I would enable keep-alive connections and use round-robin or least-connections load-balancing algorithms to efficiently distribute requests across backend servers. Health checks, SSL/TLS termination, and auto-scaling would ensure high availability and performance.",
+    "score": 4.5,
+    "feedback": "**Main Question Feedback:** The candidate's answer demonstrates a good understanding of the key differences between HTTP/1.1 and HTTP/2, including the use of connection multiplexing in HTTP/2 and keep-alive connections in HTTP/1.1. However, the answer lacks specific details on how the load balancer would optimize performance for each protocol, such as handling header compression, stream prioritization, and flow control in HTTP/2. To improve, the candidate could provide more technical specifics on how the chosen load balancer would be configured to take full advantage of HTTP/2's features.\n\n**Follow-up Feedback:** The candidate's answer is completely unacceptable and demonstrates a lack of understanding of the question and the topic of HTTP/2 connection prioritization and dependency management. A suitable answer should have discussed the benefits of HTTP/2 multiplexing, compared connection handling approaches, and explored performance optimization strategies, rather than providing a flippant and unprofessional response. To improve, the candidate should study the fundamentals of HTTP/2 and load balancer design, and practice providing technical and thoughtful answers to complex questions."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "Design an LLM agent using LangChain to optimize tool execution with dynamic memory allocation",
+    "answer": "I will akjsdbfliajbdvcliasjv`189335t-0=--=;';./,']\\][p\\]][p][dfb;.s;rkewtpq3847190678UEB979284698-0I--0]dbo;SVODNCWIUJBDVEO23",
+    "score": 1.0,
+    "feedback": "**Main Question Feedback:** The candidate's answer is completely incoherent and lacks any relevant technical details, failing to address the key concepts of LangChain, tools, memory, chains, optimization, and dynamic allocation. To improve, the candidate should provide a clear and structured response that outlines a viable design for an LLM agent using LangChain, including specific examples and technical explanations. A good starting point would be to define the architecture and components of the LLM agent and explain how they interact to optimize tool execution with dynamic memory allocation.\n\n**Follow-up Feedback:** The candidate's response is completely unrelated to the question, failing to address the topic of memory allocation strategy or any relevant technical concepts such as LangChain or dynamic allocation. To improve, the candidate should focus on providing clear and concise technical answers that directly address the question, rather than making non-technical statements. A more appropriate response would have discussed optimization techniques and tools related to memory management."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "RAG Architecture",
+    "question": "Design RAG architecture for a question-answering system using LLM and Retrieval components",
+    "answer": "A Retrieval-Augmented Generation (RAG) system consists of a document store (PDFs, databases, or knowledge base), where documents are converted into embeddings using an embedding model and stored in a vector database (e.g., ChromaDB, FAISS, or Pinecone). When a user submits a question, the query is embedded and the retriever fetches the most relevant documents. These documents, along with the user's question, are passed as context to an LLM (e.g., GPT or Llama), which generates an accurate, context-aware answer. This architecture improves response accuracy by grounding the LLM on relevant retrieved information while reducing hallucinations",
+    "score": 8.0,
+    "feedback": "The candidate's answer correctly identifies the key components of a RAG architecture, including the document store, embedding model, vector database, retriever, and LLM integration, demonstrating a good understanding of the system's overall design. However, the answer lacks specific details on knowledge indexing and how the retrieval module is optimized for efficient querying, which are crucial aspects of a well-designed RAG system. To improve, the candidate should provide more technical details on these components and explain how they contribute to the system's overall performance and accuracy."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Vector DBs & Embeddings",
+    "question": "Design a Vector DB architecture for LLM embeddings using Pinecone and Streamlit",
+    "answer": "A Vector DB architecture using Pinecone and Streamlit starts with users uploading documents through a Streamlit interface. The documents are split into chunks, converted into embeddings using an embedding model (e.g., OpenAI or Sentence Transformers), and stored in Pinecone. When a user asks a question, the query is embedded and Pinecone retrieves the most similar document chunks. These retrieved chunks are passed to an LLM to generate a context-aware answer, which is then displayed in the Streamlit application. This architecture enables fast, scalable, and accurate semantic search and question answering.",
+    "score": 6.0,
+    "feedback": "The candidate's answer correctly identifies the use of Streamlit as a frontend for user interaction and Pinecone for storing and retrieving embeddings, which is a good start. However, the answer lacks details on data ingestion and querying mechanisms, such as the use of Kafka for handling large volumes of data and SQL for querying the database, which are crucial components of a Vector DB architecture. To improve, the candidate should consider adding these missing details to provide a more comprehensive and robust architecture design."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "How does LangChain use tools and memory to execute agent tasks?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 6.0,
+    "feedback": "The candidate has shown some understanding of the LangChain ecosystem by mentioning the retrieval of relevant documents from a vector store, which is a key aspect of tool usage. However, to improve, they should also discuss how memory is utilized to store context and how chains are used for sequential task management to provide a more comprehensive answer. With some additional context on these points, their response would be more aligned with the expected key points."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "How do LLM agents use frameworks to coordinate tasks?",
+    "answer": "LLM agents use frameworks such as LangChain, LangGraph, or CrewAI to coordinate tasks by breaking complex requests into smaller steps, invoking the appropriate tools or APIs, managing memory and context, and orchestrating the workflow between multiple agents or components. This enables the agent to plan, execute, and combine results efficiently to complete complex tasks autonomously.",
+    "score": 8.5,
+    "feedback": "**Main Question Feedback:** The candidate has demonstrated a good understanding of how LLM agents utilize frameworks like LangChain and LangGraph to coordinate tasks, and has correctly highlighted the importance of breaking down complex requests and managing workflow. However, to further improve, they could have explicitly mentioned the underlying mechanisms such as API calls, shared memory, or message passing that enable this coordination. With a bit more technical depth, their answer would be even more comprehensive and effective.\n\n**Follow-up Feedback:** The candidate provided a relevant real-world example of a RAG-based customer support chatbot, correctly highlighting how LangChain coordinates the workflow and manages tasks such as retrieving documents and generating responses. To further improve, they could have explicitly mentioned the underlying mechanisms like API calls, shared memory, or message passing that enable this coordination, but overall their answer demonstrated a good understanding of LangChain's application. With a bit more emphasis on the technical details, their response would be even stronger."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Fine-Tuning vs In-Context Learning",
+    "question": "What is the main difference between Fine-Tuning and In-Context Learning in LLMs?",
+    "answer": "The Fine-Tuning is used for the specific task or use case for example if we want to create an agent specialized in something we use fine tuning while In-context learning is used by providing the context for the model by keeping the same parameters.\n",
+    "score": 8.0,
+    "feedback": "The candidate has correctly identified the main difference between Fine-Tuning and In-Context Learning, highlighting that Fine-Tuning is used for specific tasks and In-Context Learning adapts using input prompts without changing model parameters. To further improve, they could explicitly mention that Fine-Tuning updates model weights, and provide more precise examples to illustrate the distinction. Overall, their answer demonstrates a good understanding of the concepts, with minor details needing clarification."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "How does LangChain use tools and memory for agent execution?",
+    "answer": "LangChain uses tools (such as APIs, databases, search engines, or calculators) to perform actions beyond the LLM's built-in knowledge. It uses memory to retain previous conversation context and relevant information, allowing the agent to maintain continuity, make better decisions, and execute multi-step tasks more effectively.",
+    "score": 8.0,
+    "feedback": "The candidate has correctly identified that LangChain utilizes tools to extend the capabilities of the LLM and memory to store context and relevant information, which is a crucial aspect of agent execution. To further improve, the candidate could explicitly mention the concept of \"chains\" for sequential execution, highlighting how LangChain enables agents to perform complex tasks by linking multiple tools and memory interactions together. Overall, the response demonstrates a solid understanding of LangChain's core components and their roles in agent execution."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "How does LangChain utilize tools and memory for LLM agent execution?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 6.0,
+    "feedback": "The candidate has demonstrated some understanding of the concepts by mentioning the vector store and the interaction with LLM, which is a good start. However, the response seems to be focused on Retrieval-Augmented Generation (RAG) rather than LangChain's overall utilization of tools and memory for LLM agent execution, so it would be beneficial to broaden the scope of the answer to include these aspects. To improve, the candidate could explore how LangChain leverages tools for task execution and memory for storing context and results, in addition to the retrieval mechanisms."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LLM Agents & Tools",
+    "question": "How do LLM agents utilize tools and memory for task execution in LangChain?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 6.0,
+    "feedback": "The candidate has demonstrated some understanding of LangChain's components, specifically mentioning the retrieval of relevant documents from a vector store like ChromaDB, which is a relevant tool in the LangChain ecosystem. However, the response lacks a clear explanation of how LLM agents utilize tools and memory for task execution, and does not mention the concept of chains, which is a crucial aspect of LangChain's architecture. To improve, the candidate should focus on providing a more comprehensive overview of how these components interact to facilitate task automation and decision-making."
+  },
+  {
+    "role": "DevOps / Cloud Engineer",
+    "topic": "Infrastructure as Code",
+    "question": "What benefits does Infrastructure as Code provide in cloud resource management?",
+    "answer": "Infrastructure as code provides automation, consistency, scalability and version control for cloud resources. By defining infrastructure in Coder, it enables repeatable deployments, reduces manual errors, simplifies collaboration through Git, supports disaster recovery, and ensures infrastructure can be provisioned and updated quickly across multiple environments using tool like Terraform or Cloud formation.",
+    "score": 8.0,
+    "feedback": "**Main Question Feedback:** The candidate has correctly identified key benefits of Infrastructure as Code, including automation, consistency, and version control, and has also highlighted the importance of repeatable deployments and collaboration through tools like Git. However, to fully meet the expected key points, the candidate could have explicitly mentioned \"reproducibility\" instead of implying it through \"repeatable deployments\". Overall, the response demonstrates a strong understanding of the concept and its practical applications.\n\n**Follow-up Feedback:** The candidate has correctly identified the automation aspect of Terraform in provisioning cloud resources, such as creating and destroying AWS resources like VPC, security groups, and EC2 instances. However, to improve, they should emphasize the importance of version control, consistency, and reproducibility that Terraform provides, highlighting how these benefits streamline the provisioning process and reduce errors. With a bit more detail on these key points, their answer would more comprehensively demonstrate the value of using Terraform in a cloud environment."
+  },
+  {
+    "role": "DevOps / Cloud Engineer",
+    "topic": "Containerization & Docker",
+    "question": "How does Docker aid in CI/CD pipeline automation for fresher projects?",
+    "answer": "Docker helps in CI/CD automation by packaging an application and all its dependencies into a container, ensuring it runs consistently across development, testing, and production environments. In a CI/CD pipeline, every code commit can automatically trigger Docker image building, testing, and deployment, making the process faster, reliable, and reducing environment-related issues.",
+    "score": 9.0,
+    "feedback": "The candidate's answer accurately highlights how Docker aids in CI/CD pipeline automation by ensuring consistency across environments and enabling faster, more reliable deployment. Their mention of automatic triggering of Docker image building, testing, and deployment upon code commits demonstrates a good understanding of the efficiency gains Docker brings to the pipeline. To further enhance their response, they could explicitly mention how Docker simplifies deployment and reduces environment-related issues, making their answer more comprehensive and aligned with the key points."
+  },
+  {
+    "role": "DevOps / Cloud Engineer",
+    "topic": "Containerization & Docker",
+    "question": "How do you optimize Docker container resource allocation on hosts with varying RAM sizes?",
+    "answer": "I would set CPU and memory limits (--memory, --cpus or Kubernetes requests/limits) to prevent containers from consuming excessive resources. On hosts with different RAM sizes, I would use Kubernetes scheduling and auto-scaling to place containers on suitable nodes, ensuring efficient resource utilization and consistent performance across the cluster.",
+    "score": 7.0,
+    "feedback": "The candidate has demonstrated a good understanding of setting resource limits using flags like --memory and --cpus, which is a crucial aspect of optimizing Docker container resource allocation. However, to fully address the question, it would be beneficial to also discuss Docker-specific tools like Docker-compose and Swarm mode, as well as monitoring tools to track resource usage. Additionally, providing examples of how these concepts apply to hosts with varying RAM sizes would strengthen their response."
+  },
+  {
+    "role": "DevOps / Cloud Engineer",
+    "topic": "Containerization & Docker",
+    "question": "What is Docker image layering and its purpose?",
+    "answer": "Docker image layering is the process of building a Docker image as a stack of read only layers where each docker file instruction such as from RUN or COPY creates a new layer. Its purpose is to use cached layers, reduce image size, speed up builds, and make image distribution more efficient by downloading or updating only the changed layers.",
+    "score": 9.0,
+    "feedback": "**Main Question Feedback:** The candidate has correctly identified the concept of Docker image layering, its purpose, and the benefits it provides, such as caching, reducing image size, and speeding up builds. To further improve, they could elaborate on how this layering mechanism enables efficient image distribution by only updating changed layers, and provide a brief example to illustrate this concept. Overall, their response demonstrates a solid understanding of Docker image layering and its advantages.\n\n**Follow-up Feedback:** The candidate provided a great example of how layering helps in a real-world Docker build scenario, correctly highlighting the caching and reusing of layers for efficient builds. Their explanation of Docker reusing the cached dependency layer when only the application code changes demonstrates a clear understanding of the concept. To further strengthen their answer, they could elaborate on the benefits of this approach, such as reduced build time and improved productivity, and provide additional examples of layering in complex Docker build scenarios."
+  },
+  {
+    "role": "DevOps / Cloud Engineer",
+    "topic": "Containerization & Docker",
+    "question": "How do you optimize Docker container resource usage in a cloud project?",
+    "answer": "Don't  know sir.",
+    "score": 2.0,
+    "feedback": "To optimize Docker container resource usage, it's essential to limit CPU and memory allocation to prevent over-utilization, and utilizing tools like Docker Compose can help manage and orchestrate multiple containers efficiently. I recommend exploring Docker documentation and tutorials to learn more about resource limitation and Docker Compose. With practice and hands-on experience, you'll be able to implement these optimization techniques in your cloud projects."
+  },
+  {
+    "role": "DevOps / Cloud Engineer",
+    "topic": "Containerization & Docker",
+    "question": "How do you deploy a Dockerized app to a Kubernetes cluster?",
+    "answer": "Don't know sir.",
+    "score": 1.0,
+    "feedback": "To deploy a Dockerized app to a Kubernetes cluster, you would typically use the command-line tool kubectl, along with configuring YAML files that define your deployment configurations. I would recommend reviewing the basics of Kubernetes and practicing with sample deployments to become more familiar with the process. Start by exploring how to apply deployments using kubectl and understanding the structure of YAML files for Kubernetes configurations."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Python Core",
+    "question": "What is the basic syntax to print output in Python Core?",
+    "answer": "print(\"Hello World!!\")",
+    "score": 8.5,
+    "feedback": "**Main Question Feedback:** The candidate has provided a correct example of printing output in Python using the print() function, which is a fundamental concept in Python Core. To further improve, it would be beneficial to explicitly state the basic syntax of the print() function, such as \"print()\" or \"print(variable)\" to demonstrate a deeper understanding of the concept. Overall, the candidate's answer demonstrates a good start, and with a bit more explanation, it could be even stronger.\n\n**Follow-up Feedback:** The candidate has provided a comprehensive list of data types that can be printed using the print function in Python, including Booleans, collections, special types, and advanced objects. Their answer demonstrates a strong understanding of Python's print functionality and its versatility in handling various data types. To further improve, the candidate could provide examples of printing these data types, such as `print([1, 2])` or `print({'key': 'value'})`, to illustrate their points more concretely."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LangChain & CrewAI",
+    "question": "What is LangChain in AI engineering?",
+    "answer": "LangChain is an open-source framework designed to help software engineers build applications powered by large language models (LLMs). It acts as an orchestration layer that simplifies combining LLMs with external data sources, computation APIs, and software workflows.",
+    "score": 9.0,
+    "feedback": "The candidate's answer accurately identifies LangChain as an open-source framework for building AI applications powered by large language models, and correctly highlights its role as an orchestration layer. To further improve, the candidate could provide more specific examples of how LangChain simplifies the combination of LLMs with external data sources and software workflows, demonstrating a deeper understanding of its capabilities. Overall, the candidate's response demonstrates a solid grasp of the key concepts and terminology related to LangChain."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Vector DBs & Embeddings",
+    "question": "What naming convention is used for vectors in Vector DBs?",
+    "answer": "Vector databases (Vector DBs) do not enforce a single global standard like SQL, but they follow highly consistent schema design conventions across major platforms like Qdrant, Milvus, Pinecone, and Weaviate.",
+    "score": 8.0,
+    "feedback": "The candidate correctly acknowledges that Vector DBs do not enforce a single global standard and highlights the consistency across major platforms, which shows their understanding of the industry landscape. However, to fully answer the question, they should have explicitly mentioned the naming conventions used for vectors, such as camel case or snake case, which are commonly adopted in Vector DBs. With a bit more specificity on these conventions, their response would be even stronger."
+  },
+  {
+    "role": "Network Engineer",
+    "topic": "OSI Model & TCP/IP Stack",
+    "question": "What are the 7 layers of the OSI model?",
+    "answer": "The 7 layers of the OSI model are Application, Presentation, Session, Transport, Network, Data Link, and Physical.",
+    "score": 10.0,
+    "feedback": "The candidate has correctly listed all 7 layers of the OSI model in the proper order, demonstrating a strong understanding of the fundamental concept. This answer shows a clear and concise recall of the key points, which is excellent for a technical interview. To further enhance their response, the candidate could consider providing a brief explanation or example of how these layers interact, but overall, their answer is accurate and effective."
+  },
+  {
+    "role": "Network Engineer",
+    "topic": "OSI Model & TCP/IP Stack",
+    "question": "Can you briefly describe the primary function of the Transport layer in the OSI model?",
+    "answer": "Transport layer works with the TCP , UDP and it creates end to end communication between channels.",
+    "score": 6.0,
+    "feedback": "The candidate has correctly identified the Transport layer's association with TCP and UDP, and has also touched upon its role in establishing end-to-end communication. However, to improve, it would be beneficial to explicitly mention the layer's position within the OSI model and its primary function of providing reliable data transfer between devices. Additionally, mentioning error detection and correction, or flow control as key aspects of the Transport layer's functionality could further strengthen their response."
+  },
+  {
+    "role": "Network Engineer",
+    "topic": "Routing & Switching (BGP, OSPF)",
+    "question": "What are two main benefits of using BGP in routing?",
+    "answer": "The two main benefits mainly are : It connects systems with external network such as cloud and it uses autonomous systems as metric and it is a path vector routing protocol.",
+    "score": 4.0,
+    "feedback": "The candidate has shown some understanding of BGP by mentioning its role in connecting systems with external networks and its use of autonomous systems, which is a good start. However, they could improve by directly addressing the benefits of scalability and flexibility that BGP provides in routing, which are key advantages of the protocol. To strengthen their answer, the candidate should focus on explicitly highlighting these benefits and explaining how BGP achieves them."
+  },
+  {
+    "role": "Network Engineer",
+    "topic": "Network Security & Firewalls",
+    "question": "What is the primary function of a firewall in network security?",
+    "answer": "It manages network traffic and allows or blocks specific ports.",
+    "score": 7.0,
+    "feedback": "The candidate has correctly identified that a firewall manages network traffic and has mentioned allowing or blocking specific ports, which is a key aspect of controlling incoming and outgoing traffic. However, the answer could be improved by explicitly stating that the primary function of a firewall is to block unauthorized access, providing a clearer understanding of its role in network security. With a bit more detail on the purpose of firewalls, the candidate's answer would be more comprehensive."
+  },
+  {
+    "role": "Network Engineer",
+    "topic": "Candidate Resume Project & Real-World Experience",
+    "question": "You are tasked with implementing a basic firewall rule to block inbound traffic on a specific port for a company's enterprise environment. Describe the steps you would take to achieve this and the key considerations for this rule.",
+    "answer": "To block the inbound port, create a \"Deny\" rule for the target protocol in the central firewall manager and place it above existing allow rules. Before deploying during a maintenance window, verify that no critical enterprise services depend on that port to prevent accidental business disruption.",
+    "score": 6.0,
+    "feedback": "The candidate correctly identifies the need to create a \"Deny\" rule for the target protocol and to place it above existing allow rules, demonstrating a basic understanding of firewall rule configuration and precedence. However, their response lacks detail on key considerations such as identifying the port number, determining the protocol, choosing a firewall management tool, and testing the rule. To improve, the candidate should provide a more comprehensive approach that includes these essential steps to ensure a thorough and effective firewall rule implementation."
+  },
+  {
+    "role": "Network Engineer",
+    "topic": "Candidate Resume Project & Real-World Experience",
+    "question": "How would you handle potential issues with the new rule during the maintenance window?",
+    "answer": "To handle issues, immediately verify service health using automated network tests and monitor firewall drop logs for unexpected legitimate traffic. If critical business services are disrupted, execute a pre-planned rollback to the previous firewall configuration and document the failure for troubleshooting",
+    "score": 6.0,
+    "feedback": "The candidate's response demonstrates a good understanding of post-implementation verification and rollback procedures, highlighting the importance of monitoring and quick reversal in case of disruptions. However, it lacks specific details on identifying and creating the new rule, such as determining the protocol and choosing a firewall management tool, which are crucial steps in handling potential issues during the maintenance window. To improve, the candidate should focus on providing a more comprehensive approach that includes both proactive rule creation and reactive issue resolution strategies."
+  },
+  {
+    "role": "Network Engineer",
+    "topic": "VPNs & DNS/DHCP",
+    "question": "What is the primary function of DNS in a network?",
+    "answer": "The primary function of DNS is to translate human-readable domain names into machine-readable IP addresses.",
+    "score": 9.0,
+    "feedback": "The candidate accurately identified the primary function of DNS as translating human-readable domain names into machine-readable IP addresses, demonstrating a clear understanding of this fundamental network concept. To further strengthen their response, they could have briefly elaborated on the importance of this function in facilitating user-friendly web browsing and network communication. Overall, their answer was concise and directly addressed the question."
+  },
+  {
+    "role": "Network Engineer",
+    "topic": "Wireshark & Packet Analysis",
+    "question": "What is Wireshark used for in network analysis?",
+    "answer": "Wireshark is a packet analyzer used to capture, inspect, and troubleshoot real-time network traffic.",
+    "score": 8.0,
+    "feedback": "The candidate's answer correctly identifies Wireshark as a packet analyzer used for capturing and troubleshooting network traffic, which is a key aspect of network analysis. To further strengthen their response, they could have explicitly mentioned displaying packet data and provided examples of common network issues that Wireshark can help troubleshoot. Overall, their answer demonstrates a solid understanding of Wireshark's primary function."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Python Core",
+    "question": "What is PEP 8 in Python Core?",
+    "answer": "PEP 8 is the official style guide for Python code, providing conventions to improve readability and consistency.",
+    "score": 9.0,
+    "feedback": "The candidate's answer accurately identifies PEP 8 as the official Python style guide, which is a crucial aspect of writing clean and maintainable code. Their mention of improving readability and consistency highlights the key benefits of adhering to PEP 8 conventions. To further enhance their response, they could provide specific examples of PEP 8 guidelines, such as naming conventions or indentation rules, to demonstrate a deeper understanding of the style guide."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "LangChain & CrewAI",
+    "question": "What is the basic purpose of LangChain in AI development?",
+    "answer": "Langchain simplifies building applications powered by large language models by linking them to external data sources and APIs.",
+    "score": 8.0,
+    "feedback": "The candidate correctly identified the purpose of LangChain in simplifying the process of building applications powered by large language models. Their mention of linking LLMs to external data sources and APIs is also a key aspect of LangChain's functionality, demonstrating a good understanding of its capabilities. To further improve, the candidate could explicitly mention the goal of simplifying workflows and highlight the potential benefits of using LangChain in AI development, such as streamlining the integration of LLMs into various applications."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Vector DBs & Embeddings",
+    "question": "What is the basic function of Vector DBs in storing embeddings?",
+    "answer": "The primary function of vector databases is to index, store, and rapidly search high-dimensional vector embeddings using approximate nearest neighbor algorithms.",
+    "score": 9.0,
+    "feedback": "The candidate's answer accurately highlights the primary function of vector databases, including indexing, storing, and rapidly searching high-dimensional vector embeddings, which demonstrates a strong understanding of the topic. To further improve, the candidate could explicitly mention the key aspect of managing dense vector representations of data, but overall, their response effectively conveys the core functionality of vector databases. The mention of approximate nearest neighbor algorithms also shows a good grasp of the technical details involved in vector DBs."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Candidate Resume Project & Real-World Experience",
+    "question": "In your project 'Platform :AI/ML, Generative AI & Multi-Agent', why did you choose the technologies involved, and how did you use them in your project?",
+    "answer": "In a project, we have used uh, crew AI, uh, and multi-agent architecture. Also, we have used the LM model such uh using the Grog API keys and provided A functionality that we can either use uh, the APEC is or. Other offline LLMS like Old Llama, Mistral. Other function other. Other technologies include the. Like Lang Chen, where we. Provide the agents, uh adds agentic as from you using the using the language.",
+    "score": 4.0,
+    "feedback": "The candidate has mentioned some relevant technologies used in the project, such as crew AI, multi-agent architecture, and language models like Llama and Mistral, which shows they have some familiarity with the tools involved. However, their explanation lacks clarity and specificity, making it difficult to understand the reasoning behind choosing these technologies and how they were applied in the project. To improve, the candidate should provide more concrete examples and clearly explain the role of each technology in the project, such as how machine learning algorithms were used for data analysis or how generative models were used for content creation."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "RAG Systems",
+    "question": "What is the primary input for a RAG System?",
+    "answer": "The primary input for a retrieval augmented generation that is RAG system is a user query or prompt.",
+    "score": 10.0,
+    "feedback": "The candidate's answer is accurate and directly addresses the question, correctly identifying the primary input for a RAG system as a user query or prompt. This demonstrates a clear understanding of the fundamental components of a RAG system, which is excellent. To further enhance their response, the candidate could consider briefly elaborating on how this input is processed or utilized within the system, but overall, their answer is concise and correct."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Prompt Engineering & Guardrails",
+    "question": "What is Prompt Engineering in AI development?",
+    "answer": "Prompt engineering is the method to train the ai by telling it's what exactly it needs to do and follow what instructions it is sort. It is sort of a prompt where the machine uh. Possess it as a rule or a law, and which is bound to perform the following actions.",
+    "score": 4.0,
+    "feedback": "The candidate has attempted to grasp the concept of prompt engineering, recognizing its purpose in guiding AI behavior, but their explanation lacks clarity and specificity. To improve, it would be helpful to focus on defining prompt engineering as the process of designing and optimizing text prompts for Large Language Models (LLMs) to elicit specific responses. Providing examples of how prompts can be crafted and refined to achieve desired outcomes would also strengthen their understanding and explanation of this concept."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Candidate Resume Project & Real-World Experience",
+    "question": "In your project 'SystemsDuration :2 Months', why did you choose the technologies involved, and how did you use them in your project?",
+    "answer": "skip",
+    "score": 1.0,
+    "feedback": "No answer was provided, or the answer was too short to evaluate. Please try explaining key terms and concepts."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Fine-Tuning & Quantization",
+    "question": "What is Fine-Tuning in AI model development?",
+    "answer": "Fine-tuning is the process of taking a pre-trained AM model and training it further on a smaller specific data set to adapt it for particular task or domain.",
+    "score": 9.0,
+    "feedback": "The candidate's answer is mostly accurate, correctly identifying fine-tuning as the process of adapting a pre-trained model to a specific task or domain by training it on a smaller dataset. However, it would be beneficial for the candidate to explicitly mention \"adjusting pre-trained model weights\" to demonstrate a deeper understanding of the fine-tuning process. Overall, the response shows a good grasp of the concept, with minor room for improvement in terms of technical specificity."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Python Core",
+    "question": "What is Python Core in basic software architecture?",
+    "answer": "In software architecture, Python Core refers to the language's native runtime, built-in data structures, and standard library used to build foundational business logic without third-party frameworks.",
+    "score": 9.0,
+    "feedback": "The candidate's answer accurately identifies Python Core as the foundation of the language, including its native runtime, built-in data structures, and standard library, which is a great start. To further improve, they could explicitly mention the term \"basic libraries\" and \"standard modules\" to fully align with the expected key points, providing a more comprehensive understanding of Python Core in software architecture. Overall, their response demonstrates a solid grasp of the concept and its significance in building foundational business logic."
+  },
+  {
+    "role": "Machine Learning Engineer",
+    "topic": "Feature Engineering & Data Preprocessing",
+    "question": "What is the first step in feature engineering for a dataset?",
+    "answer": "The absolute The first step in feature engineering is exploratory data analysis and data understanding. Before you can modify, create, or scale any columns, you must understand what your raw data actually represents and identify its fundamental flaws.",
+    "score": 9.0,
+    "feedback": "The candidate's answer is excellent, as it highlights the importance of exploratory data analysis and understanding the raw data before proceeding with feature engineering. The mention of identifying fundamental flaws in the data is also a key point, as it implies data cleaning is a crucial part of this initial step. To further improve, the candidate could explicitly mention data cleaning as a complementary step to exploratory data analysis, to fully align with the expected key points."
+  },
+  {
+    "role": "Machine Learning Engineer",
+    "topic": "Feature Engineering & Data Preprocessing",
+    "question": "Can you elaborate on the tools you use for exploratory data analysis in your workflow?",
+    "answer": "Like exploratory data analysis relies on core Python libraries like Pandas for data manipulation, Numpy for numerical operations, Matplotlib and seaborn for static data visualization, and Plotly for interactive charts. These tools clean data, find patterns, and show trends fast.",
+    "score": 8.0,
+    "feedback": "The candidate has correctly identified key Python libraries used for exploratory data analysis, including Pandas, Numpy, Matplotlib, Seaborn, and Plotly, which is a great start. To further strengthen their response, they could provide specific examples of how these tools are used for data cleaning and exploration, such as handling missing values or visualizing distributions. Additionally, mentioning other important aspects like data quality checks and summary statistics would demonstrate a more comprehensive understanding of the workflow."
+  },
+  {
+    "role": "Machine Learning Engineer",
+    "topic": "Supervised Learning Algorithms (Regression, Classification)",
+    "question": "What is supervised learning in Machine Learning?",
+    "answer": "zkjdbvkz vd",
+    "score": 1.0,
+    "feedback": "Unfortunately, the candidate's response did not provide any relevant information about supervised learning, which is a crucial concept in Machine Learning. To improve, the candidate should focus on explaining that supervised learning involves training models on labeled data to predict outcomes, and provide examples or applications of this type of learning. A clear and concise definition of supervised learning would be a good starting point for a stronger response."
+  },
+  {
+    "role": "Machine Learning Engineer",
+    "topic": "Unsupervised Learning (Clustering, Dimensionality Reduction)",
+    "question": "What is the main difference between basic primitives and Supervised & Unsupervised ML?",
+    "answer": "kdsnvcakjn",
+    "score": 1.0,
+    "feedback": "It seems like there was a misunderstanding or miscommunication in the candidate's response, as the answer provided does not address the question about the difference between basic primitives and Supervised & Unsupervised ML. To improve, the candidate should focus on explaining how basic primitives store single value types and how Supervised & Unsupervised ML organizes logical behavior or structured data operations. A clear and concise explanation of these concepts would be more effective in demonstrating the candidate's understanding."
+  },
+  {
+    "role": "Cloud Engineer (AWS / Azure / GCP)",
+    "topic": "Core Compute Services (EC2 / VMs / Compute Engine)",
+    "question": "What is the primary function of IAM in AWS or Azure Active Directory?",
+    "answer": "dafafda",
+    "score": 1.0,
+    "feedback": "Unfortunately, the candidate's response did not address the question, and the answer provided (\"dafafda\") does not relate to the primary function of IAM in AWS or Azure Active Directory. To improve, the candidate should focus on explaining the role of IAM in managing user identities and permissions, such as access control, authentication, and authorization. A correct answer would highlight user and permission management as the primary function of IAM."
+  },
+  {
+    "role": "Cloud Engineer (AWS / Azure / GCP)",
+    "topic": "Core Compute Services (EC2 / VMs / Compute Engine)",
+    "question": "Let's try again, what does IAM or Azure Active Directory do in simple terms?",
+    "answer": "ascvvcaeq",
+    "score": 1.0,
+    "feedback": "It seems like there was a misunderstanding or technical issue with your response, as it didn't provide any meaningful information about IAM or Azure Active Directory. To improve, try explaining it in simple terms, focusing on how these services manage user identities and control permissions to access various resources. A good starting point would be to describe how they enable organizations to securely manage who has access to what."
+  },
+  {
+    "role": "Cloud Engineer (AWS / Azure / GCP)",
+    "topic": "Cloud Storage (S3 / Blob / Cloud Storage)",
+    "question": "What is object storage in cloud services like S3 or Blob?",
+    "answer": "addassv",
+    "score": 1.0,
+    "feedback": "It seems like the candidate's response was not clear or relevant to the question about object storage in cloud services. To improve, the candidate should focus on explaining that object storage, like S3 or Blob, stores data as objects, often unstructured, and is scalable and accessible via API. A more detailed and accurate response would demonstrate a better understanding of the concept and its key characteristics."
+  },
+  {
+    "role": "Cloud Engineer (AWS / Azure / GCP)",
+    "topic": "Identity & Access Management (IAM)",
+    "question": "What is IAM in cloud computing?",
+    "answer": "aewr",
+    "score": 1.0,
+    "feedback": "No answer was provided, or the answer was too short to evaluate. Please try explaining key terms and concepts."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Retrieval-Augmented Generation (RAG) Architecture",
+    "question": "What optimization techniques mitigate Fine-Tuning and Quantization performance bottlenecks in RAG models?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 2.0,
+    "feedback": "The candidate's response appears to be related to the general functionality of RAG models, but it does not address the question about optimization techniques for mitigating Fine-Tuning and Quantization performance bottlenecks. To improve, the candidate should focus on discussing techniques such as knowledge distillation, pruning, and mixed-precision training that can help optimize RAG model performance. Reviewing these specific optimization methods and their applications in RAG models would be beneficial for the candidate to provide a more accurate and relevant response."
+  },
+  {
+    "role": "Cloud Engineer (AWS / Azure / GCP)",
+    "topic": "Core Compute Services (EC2 / VMs / Compute Engine)",
+    "question": "What is the primary function of a Cloud Compute Service like EC2 or VMs?",
+    "answer": "EC2 or VMS are usually used to make virtual environments or to host the apps on cloud.",
+    "score": 7.0,
+    "feedback": "The candidate's answer is on the right track, as they mentioned creating virtual environments and hosting apps on the cloud, which aligns with the primary function of Cloud Compute Services like EC2 or VMs. However, to improve, they could provide more specificity, such as explicitly stating that these services run virtual machines or instances in the cloud. With a bit more detail and technical precision, their answer would be even stronger."
+  },
+  {
+    "role": "Cloud Engineer (AWS / Azure / GCP)",
+    "topic": "Core Compute Services (EC2 / VMs / Compute Engine)",
+    "question": "That's a good start, can you explain how these virtual environments are managed in the cloud?",
+    "answer": "Don't know.",
+    "score": 1.0,
+    "feedback": "The candidate's response indicates a lack of understanding of virtual environment management in the cloud, which is a crucial aspect of cloud computing. To improve, they should familiarize themselves with running virtual machines or instances in the cloud, such as Amazon EC2 or Google Compute Engine, and understand how these resources are provisioned and managed. This knowledge will help them provide more informed answers in the future."
+  },
+  {
+    "role": "Cloud Engineer (AWS / Azure / GCP)",
+    "topic": "Cloud Storage (S3 / Blob / Cloud Storage)",
+    "question": "What is the primary usage of Cloud Storage in AWS, Azure, or GCP?",
+    "answer": "zcvsgrg",
+    "score": 1.0,
+    "feedback": "It seems like there was a misunderstanding or miscommunication in the candidate's response, as \"zcvsgrg\" does not relate to the primary usage of Cloud Storage in AWS, Azure, or GCP. To improve, the candidate should focus on key points such as storing and serving data, files, and objects, and provide a clear, concise answer highlighting these aspects. A revised answer might discuss how Cloud Storage enables scalable, on-demand storage and retrieval of various data types, supporting a wide range of applications and use cases."
+  },
+  {
+    "role": "Cloud Engineer (AWS / Azure / GCP)",
+    "topic": "Identity & Access Management (IAM)",
+    "question": "What is the purpose of IAM roles in Cloud Engineering?",
+    "answer": "davCewggwg4w24",
+    "score": 1.0,
+    "feedback": "It seems like there was a misunderstanding or technical issue with the candidate's response, as \"davCewggwg4w24\" does not provide any relevant information regarding IAM roles in Cloud Engineering. To improve, the candidate should focus on explaining how IAM roles enable access management, permission assignment, and security in cloud environments. A correct response might discuss how IAM roles allow for the assignment of specific permissions to resources or services, enhancing overall security and access control."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Retrieval-Augmented Generation (RAG) Architecture",
+    "question": "How do you handle retrieval failures in RAG using LangChain and CrewAI?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 2.0,
+    "feedback": "The candidate has demonstrated a basic understanding of RAG's functionality in retrieving relevant documents from a vector store like ChromaDB, but failed to address the core question of handling retrieval failures. To improve, the candidate should focus on error handling, fallback mechanisms, and retry strategies that can be implemented using LangChain and CrewAI. A more comprehensive answer would discuss how to gracefully handle failures and provide alternatives to ensure a seamless user experience."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Retrieval-Augmented Generation (RAG) Architecture",
+    "question": "How do you implement prompt engineering guardrails in RAG models for mitigating hallucination?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 2.0,
+    "feedback": "The candidate has touched on the Retrieval-Augmented Generation (RAG) model's ability to retrieve relevant documents, which is a good starting point. However, the response lacks specific details on implementing prompt engineering guardrails, such as input validation, output filtering, knowledge graph integration, and confidence scoring, to mitigate hallucination. To improve, the candidate should elaborate on these key aspects and provide concrete examples of how they can be applied in a RAG model."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Retrieval-Augmented Generation (RAG) Architecture",
+    "question": "How does Python's GIL impact RAG architecture under concurrent user requests?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 2.0,
+    "feedback": "The candidate's response mentions key components of the RAG architecture, such as retrieving documents from a vector store, but fails to address the impact of Python's Global Interpreter Lock (GIL) on concurrent user requests. To improve, the candidate should discuss how the GIL limits threading in Python and potential bottlenecks that may arise, as well as explore asynchronous workarounds to mitigate these issues. This would demonstrate a deeper understanding of the technical challenges involved in scaling RAG architecture under concurrent user requests."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Retrieval-Augmented Generation (RAG) Architecture",
+    "question": "How does RAG's fine-tuning and quantization handle moderate data loads?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 4.0,
+    "feedback": "The candidate has touched on the retrieval aspect of RAG, mentioning the use of a vector store like ChromaDB, which is a good start. However, to improve, they should delve deeper into the fine-tuning and quantization specifics, such as data loading strategies and quantization techniques, to demonstrate a more comprehensive understanding of handling moderate data loads. Additionally, providing implementation details on how RAG optimizes data processing would strengthen their response."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Retrieval-Augmented Generation (RAG) Architecture",
+    "question": "Implement RAG for a chatbot using Hugging Face Transformers and PyTorch",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 6.0,
+    "feedback": "The candidate has correctly identified the high-level components of RAG, including retrieving relevant documents from a vector store, which is a crucial step in the process. However, to improve, they should provide a more detailed code snippet that showcases the embedding, retrieval, and generation components using Hugging Face Transformers and PyTorch, and explain how these components interact with each other. Additionally, mentioning specific models or techniques, such as using a question encoder and a generator, would demonstrate a deeper understanding of the implementation."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Retrieval-Augmented Generation (RAG) Architecture",
+    "question": "Implement prompt engineering guardrails in RAG using API callbacks",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 2.0,
+    "feedback": "The candidate has started by understanding the role of RAG in retrieving relevant documents, but they haven't addressed the key aspects of implementing prompt engineering guardrails, such as API integration, callback functions, input validation, and error handling. To improve, the candidate should delve into how API callbacks can be utilized to enforce guardrails and ensure robustness in the RAG pipeline."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Retrieval-Augmented Generation (RAG) Architecture",
+    "question": "How do you implement quantized fine-tuning with API database integration?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 2.0,
+    "feedback": "Although the candidate mentions a relevant concept, such as retrieving documents from a vector store, their response lacks a clear description of quantization libraries, API integration methods, and fine-tuning techniques, which are essential for implementing quantized fine-tuning with API database integration. To improve, the candidate should focus on providing a more comprehensive answer that includes specific details about using quantization libraries and fine-tuning techniques. Additionally, they should elaborate on how API integration can be achieved in the context of quantized fine-tuning."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Retrieval-Augmented Generation (RAG) Architecture",
+    "question": "How do you implement knowledge graph updates in RAG systems?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 2.0,
+    "feedback": "The candidate has shown some familiarity with RAG systems by mentioning the retrieval of relevant documents from a vector store, but the answer lacks key details on how knowledge graph updates are implemented, such as graph embedding updates, entity disambiguation, and incremental indexing. To improve, the candidate should focus on explaining the specific mechanisms and techniques used for updating the knowledge graph in RAG systems. Additionally, providing examples or technical details about how these updates are handled would strengthen their response."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Retrieval-Augmented Generation (RAG) Architecture",
+    "question": "How do you optimize Vector DBs for moderate query loads in RAG models?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 2.0,
+    "feedback": "The candidate has a basic understanding of RAG models and their interaction with vector databases, but their answer lacks specific details on optimization techniques for moderate query loads. To improve, they should consider discussing indexing, caching, batching, and parallel processing strategies to enhance the performance of Vector DBs. By exploring these concepts, they can provide a more comprehensive and optimized solution for RAG models."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Retrieval-Augmented Generation (RAG) Architecture",
+    "question": "How do you validate LangChain and CrewAI payload data in a Retrieval-Augmented Generation architecture?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 2.0,
+    "feedback": "The candidate has correctly identified the role of Retrieval-Augmented Generation (RAG) in retrieving relevant documents from a vector store like ChromaDB, but failed to address the core question of validating LangChain and CrewAI payload data. To improve, the candidate should focus on discussing data validation techniques, such as payload schema checks, error handling, and data normalization, to ensure the integrity of the data being processed. Additionally, providing examples of how these techniques can be applied in a RAG architecture would strengthen their response."
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Linux Kernel Architecture",
+    "question": "What is Linux Kernel Architecture in Embedded Linux Developer, and why is it important?",
+    "answer": "Linux Kernel Architecture is a foundational concept in Embedded Linux Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Kernel Architecture",
+    "question": "Define the basic syntax or primary usage of Linux Kernel Architecture.",
+    "answer": "The primary syntax for Linux Kernel Architecture involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Kernel Architecture",
+    "question": "What is the main difference between basic primitives and Linux Kernel Architecture?",
+    "answer": "Basic primitives store single value types, whereas Linux Kernel Architecture organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Kernel Architecture",
+    "question": "What is a common beginner mistake when working with Linux Kernel Architecture?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Linux Kernel Architecture.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Kernel Architecture",
+    "question": "State two key advantages of using Linux Kernel Architecture in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Kernel Architecture",
+    "question": "How do you initialize or instantiate Linux Kernel Architecture in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Kernel Architecture",
+    "question": "What role does Linux Kernel Architecture play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Kernel Architecture",
+    "question": "Explain the simple step-by-step workflow of executing Linux Kernel Architecture.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Kernel Architecture",
+    "question": "What is the recommended naming convention when defining Linux Kernel Architecture?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux Kernel Architecture",
+    "question": "List the basic prerequisites needed before implementing Linux Kernel Architecture.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Buildroot / Yocto Project",
+    "question": "What is Buildroot / Yocto Project in Embedded Linux Developer, and why is it important?",
+    "answer": "Buildroot / Yocto Project is a foundational concept in Embedded Linux Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Buildroot / Yocto Project",
+    "question": "Define the basic syntax or primary usage of Buildroot / Yocto Project.",
+    "answer": "The primary syntax for Buildroot / Yocto Project involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Buildroot / Yocto Project",
+    "question": "What is the main difference between basic primitives and Buildroot / Yocto Project?",
+    "answer": "Basic primitives store single value types, whereas Buildroot / Yocto Project organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Buildroot / Yocto Project",
+    "question": "What is a common beginner mistake when working with Buildroot / Yocto Project?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Buildroot / Yocto Project.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Buildroot / Yocto Project",
+    "question": "State two key advantages of using Buildroot / Yocto Project in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Buildroot / Yocto Project",
+    "question": "How do you initialize or instantiate Buildroot / Yocto Project in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Buildroot / Yocto Project",
+    "question": "What role does Buildroot / Yocto Project play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Buildroot / Yocto Project",
+    "question": "Explain the simple step-by-step workflow of executing Buildroot / Yocto Project.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Buildroot / Yocto Project",
+    "question": "What is the recommended naming convention when defining Buildroot / Yocto Project?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Buildroot / Yocto Project",
+    "question": "List the basic prerequisites needed before implementing Buildroot / Yocto Project.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Device Drivers & Device Trees",
+    "question": "What is Device Drivers & Device Trees in Embedded Linux Developer, and why is it important?",
+    "answer": "Device Drivers & Device Trees is a foundational concept in Embedded Linux Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Device Drivers & Device Trees",
+    "question": "Define the basic syntax or primary usage of Device Drivers & Device Trees.",
+    "answer": "The primary syntax for Device Drivers & Device Trees involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Device Drivers & Device Trees",
+    "question": "What is the main difference between basic primitives and Device Drivers & Device Trees?",
+    "answer": "Basic primitives store single value types, whereas Device Drivers & Device Trees organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Device Drivers & Device Trees",
+    "question": "What is a common beginner mistake when working with Device Drivers & Device Trees?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Device Drivers & Device Trees.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Device Drivers & Device Trees",
+    "question": "State two key advantages of using Device Drivers & Device Trees in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Device Drivers & Device Trees",
+    "question": "How do you initialize or instantiate Device Drivers & Device Trees in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Device Drivers & Device Trees",
+    "question": "What role does Device Drivers & Device Trees play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Device Drivers & Device Trees",
+    "question": "Explain the simple step-by-step workflow of executing Device Drivers & Device Trees.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Device Drivers & Device Trees",
+    "question": "What is the recommended naming convention when defining Device Drivers & Device Trees?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Device Drivers & Device Trees",
+    "question": "List the basic prerequisites needed before implementing Device Drivers & Device Trees.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "U-Boot & Bootloaders",
+    "question": "What is U-Boot & Bootloaders in Embedded Linux Developer, and why is it important?",
+    "answer": "U-Boot & Bootloaders is a foundational concept in Embedded Linux Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "U-Boot & Bootloaders",
+    "question": "Define the basic syntax or primary usage of U-Boot & Bootloaders.",
+    "answer": "The primary syntax for U-Boot & Bootloaders involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "U-Boot & Bootloaders",
+    "question": "What is the main difference between basic primitives and U-Boot & Bootloaders?",
+    "answer": "Basic primitives store single value types, whereas U-Boot & Bootloaders organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "U-Boot & Bootloaders",
+    "question": "What is a common beginner mistake when working with U-Boot & Bootloaders?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in U-Boot & Bootloaders.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "U-Boot & Bootloaders",
+    "question": "State two key advantages of using U-Boot & Bootloaders in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "U-Boot & Bootloaders",
+    "question": "How do you initialize or instantiate U-Boot & Bootloaders in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "U-Boot & Bootloaders",
+    "question": "What role does U-Boot & Bootloaders play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "U-Boot & Bootloaders",
+    "question": "Explain the simple step-by-step workflow of executing U-Boot & Bootloaders.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "U-Boot & Bootloaders",
+    "question": "What is the recommended naming convention when defining U-Boot & Bootloaders?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "U-Boot & Bootloaders",
+    "question": "List the basic prerequisites needed before implementing U-Boot & Bootloaders.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "POSIX Threads & System Calls",
+    "question": "What is POSIX Threads & System Calls in Embedded Linux Developer, and why is it important?",
+    "answer": "POSIX Threads & System Calls is a foundational concept in Embedded Linux Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "POSIX Threads & System Calls",
+    "question": "Define the basic syntax or primary usage of POSIX Threads & System Calls.",
+    "answer": "The primary syntax for POSIX Threads & System Calls involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "POSIX Threads & System Calls",
+    "question": "What is the main difference between basic primitives and POSIX Threads & System Calls?",
+    "answer": "Basic primitives store single value types, whereas POSIX Threads & System Calls organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "POSIX Threads & System Calls",
+    "question": "What is a common beginner mistake when working with POSIX Threads & System Calls?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in POSIX Threads & System Calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "POSIX Threads & System Calls",
+    "question": "State two key advantages of using POSIX Threads & System Calls in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "POSIX Threads & System Calls",
+    "question": "How do you initialize or instantiate POSIX Threads & System Calls in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "POSIX Threads & System Calls",
+    "question": "What role does POSIX Threads & System Calls play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "POSIX Threads & System Calls",
+    "question": "Explain the simple step-by-step workflow of executing POSIX Threads & System Calls.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "POSIX Threads & System Calls",
+    "question": "What is the recommended naming convention when defining POSIX Threads & System Calls?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "POSIX Threads & System Calls",
+    "question": "List the basic prerequisites needed before implementing POSIX Threads & System Calls.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

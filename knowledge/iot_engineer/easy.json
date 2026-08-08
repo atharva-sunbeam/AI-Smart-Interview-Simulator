@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Embedded C / MicroPython",
+    "question": "What is Embedded C / MicroPython in IoT Engineer, and why is it important?",
+    "answer": "Embedded C / MicroPython is a foundational concept in IoT Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Embedded C / MicroPython",
+    "question": "Define the basic syntax or primary usage of Embedded C / MicroPython.",
+    "answer": "The primary syntax for Embedded C / MicroPython involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Embedded C / MicroPython",
+    "question": "What is the main difference between basic primitives and Embedded C / MicroPython?",
+    "answer": "Basic primitives store single value types, whereas Embedded C / MicroPython organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Embedded C / MicroPython",
+    "question": "What is a common beginner mistake when working with Embedded C / MicroPython?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Embedded C / MicroPython.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Embedded C / MicroPython",
+    "question": "State two key advantages of using Embedded C / MicroPython in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Embedded C / MicroPython",
+    "question": "How do you initialize or instantiate Embedded C / MicroPython in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Embedded C / MicroPython",
+    "question": "What role does Embedded C / MicroPython play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Embedded C / MicroPython",
+    "question": "Explain the simple step-by-step workflow of executing Embedded C / MicroPython.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Embedded C / MicroPython",
+    "question": "What is the recommended naming convention when defining Embedded C / MicroPython?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Embedded C / MicroPython",
+    "question": "List the basic prerequisites needed before implementing Embedded C / MicroPython.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IoT Protocols (MQTT, CoAP)",
+    "question": "What is IoT Protocols (MQTT, CoAP) in IoT Engineer, and why is it important?",
+    "answer": "IoT Protocols (MQTT, CoAP) is a foundational concept in IoT Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IoT Protocols (MQTT, CoAP)",
+    "question": "Define the basic syntax or primary usage of IoT Protocols (MQTT, CoAP).",
+    "answer": "The primary syntax for IoT Protocols (MQTT, CoAP) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IoT Protocols (MQTT, CoAP)",
+    "question": "What is the main difference between basic primitives and IoT Protocols (MQTT, CoAP)?",
+    "answer": "Basic primitives store single value types, whereas IoT Protocols (MQTT, CoAP) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IoT Protocols (MQTT, CoAP)",
+    "question": "What is a common beginner mistake when working with IoT Protocols (MQTT, CoAP)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in IoT Protocols (MQTT, CoAP).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IoT Protocols (MQTT, CoAP)",
+    "question": "State two key advantages of using IoT Protocols (MQTT, CoAP) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IoT Protocols (MQTT, CoAP)",
+    "question": "How do you initialize or instantiate IoT Protocols (MQTT, CoAP) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IoT Protocols (MQTT, CoAP)",
+    "question": "What role does IoT Protocols (MQTT, CoAP) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IoT Protocols (MQTT, CoAP)",
+    "question": "Explain the simple step-by-step workflow of executing IoT Protocols (MQTT, CoAP).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IoT Protocols (MQTT, CoAP)",
+    "question": "What is the recommended naming convention when defining IoT Protocols (MQTT, CoAP)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IoT Protocols (MQTT, CoAP)",
+    "question": "List the basic prerequisites needed before implementing IoT Protocols (MQTT, CoAP).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Sensors & Actuators Interfacing",
+    "question": "What is Sensors & Actuators Interfacing in IoT Engineer, and why is it important?",
+    "answer": "Sensors & Actuators Interfacing is a foundational concept in IoT Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Sensors & Actuators Interfacing",
+    "question": "Define the basic syntax or primary usage of Sensors & Actuators Interfacing.",
+    "answer": "The primary syntax for Sensors & Actuators Interfacing involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Sensors & Actuators Interfacing",
+    "question": "What is the main difference between basic primitives and Sensors & Actuators Interfacing?",
+    "answer": "Basic primitives store single value types, whereas Sensors & Actuators Interfacing organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Sensors & Actuators Interfacing",
+    "question": "What is a common beginner mistake when working with Sensors & Actuators Interfacing?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Sensors & Actuators Interfacing.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Sensors & Actuators Interfacing",
+    "question": "State two key advantages of using Sensors & Actuators Interfacing in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Sensors & Actuators Interfacing",
+    "question": "How do you initialize or instantiate Sensors & Actuators Interfacing in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Sensors & Actuators Interfacing",
+    "question": "What role does Sensors & Actuators Interfacing play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Sensors & Actuators Interfacing",
+    "question": "Explain the simple step-by-step workflow of executing Sensors & Actuators Interfacing.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Sensors & Actuators Interfacing",
+    "question": "What is the recommended naming convention when defining Sensors & Actuators Interfacing?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Sensors & Actuators Interfacing",
+    "question": "List the basic prerequisites needed before implementing Sensors & Actuators Interfacing.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Edge Computing & Gateway",
+    "question": "What is Edge Computing & Gateway in IoT Engineer, and why is it important?",
+    "answer": "Edge Computing & Gateway is a foundational concept in IoT Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Edge Computing & Gateway",
+    "question": "Define the basic syntax or primary usage of Edge Computing & Gateway.",
+    "answer": "The primary syntax for Edge Computing & Gateway involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Edge Computing & Gateway",
+    "question": "What is the main difference between basic primitives and Edge Computing & Gateway?",
+    "answer": "Basic primitives store single value types, whereas Edge Computing & Gateway organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Edge Computing & Gateway",
+    "question": "What is a common beginner mistake when working with Edge Computing & Gateway?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Edge Computing & Gateway.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Edge Computing & Gateway",
+    "question": "State two key advantages of using Edge Computing & Gateway in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Edge Computing & Gateway",
+    "question": "How do you initialize or instantiate Edge Computing & Gateway in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Edge Computing & Gateway",
+    "question": "What role does Edge Computing & Gateway play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Edge Computing & Gateway",
+    "question": "Explain the simple step-by-step workflow of executing Edge Computing & Gateway.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Edge Computing & Gateway",
+    "question": "What is the recommended naming convention when defining Edge Computing & Gateway?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Edge Computing & Gateway",
+    "question": "List the basic prerequisites needed before implementing Edge Computing & Gateway.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IoT Cloud Platforms & Security",
+    "question": "What is IoT Cloud Platforms & Security in IoT Engineer, and why is it important?",
+    "answer": "IoT Cloud Platforms & Security is a foundational concept in IoT Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IoT Cloud Platforms & Security",
+    "question": "Define the basic syntax or primary usage of IoT Cloud Platforms & Security.",
+    "answer": "The primary syntax for IoT Cloud Platforms & Security involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IoT Cloud Platforms & Security",
+    "question": "What is the main difference between basic primitives and IoT Cloud Platforms & Security?",
+    "answer": "Basic primitives store single value types, whereas IoT Cloud Platforms & Security organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IoT Cloud Platforms & Security",
+    "question": "What is a common beginner mistake when working with IoT Cloud Platforms & Security?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in IoT Cloud Platforms & Security.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IoT Cloud Platforms & Security",
+    "question": "State two key advantages of using IoT Cloud Platforms & Security in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IoT Cloud Platforms & Security",
+    "question": "How do you initialize or instantiate IoT Cloud Platforms & Security in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IoT Cloud Platforms & Security",
+    "question": "What role does IoT Cloud Platforms & Security play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IoT Cloud Platforms & Security",
+    "question": "Explain the simple step-by-step workflow of executing IoT Cloud Platforms & Security.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IoT Cloud Platforms & Security",
+    "question": "What is the recommended naming convention when defining IoT Cloud Platforms & Security?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "IoT Cloud Platforms & Security",
+    "question": "List the basic prerequisites needed before implementing IoT Cloud Platforms & Security.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

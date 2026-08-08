@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "API Design & Principles",
+    "question": "How do you implement practical error handling when working with API Design & Principles in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Design & Principles",
+    "question": "Describe a real-world debugging scenario involving API Design & Principles and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Design & Principles",
+    "question": "How does API Design & Principles perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Design & Principles",
+    "question": "What are the best practices for structuring code related to API Design & Principles?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Design & Principles",
+    "question": "In a practical project, how do you integrate API Design & Principles with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Design & Principles",
+    "question": "Compare and contrast two alternative approaches for executing API Design & Principles.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Design & Principles",
+    "question": "How do you write a unit test for a function that relies on API Design & Principles?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Design & Principles",
+    "question": "What performance bottlenecks can arise if API Design & Principles is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Design & Principles",
+    "question": "How do you refactor legacy code using modern standards for API Design & Principles?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Design & Principles",
+    "question": "Explain how data validation is applied to API Design & Principles payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTTP Verbs & Status Codes",
+    "question": "How do you implement practical error handling when working with HTTP Verbs & Status Codes in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTTP Verbs & Status Codes",
+    "question": "Describe a real-world debugging scenario involving HTTP Verbs & Status Codes and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTTP Verbs & Status Codes",
+    "question": "How does HTTP Verbs & Status Codes perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTTP Verbs & Status Codes",
+    "question": "What are the best practices for structuring code related to HTTP Verbs & Status Codes?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTTP Verbs & Status Codes",
+    "question": "In a practical project, how do you integrate HTTP Verbs & Status Codes with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTTP Verbs & Status Codes",
+    "question": "Compare and contrast two alternative approaches for executing HTTP Verbs & Status Codes.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTTP Verbs & Status Codes",
+    "question": "How do you write a unit test for a function that relies on HTTP Verbs & Status Codes?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTTP Verbs & Status Codes",
+    "question": "What performance bottlenecks can arise if HTTP Verbs & Status Codes is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTTP Verbs & Status Codes",
+    "question": "How do you refactor legacy code using modern standards for HTTP Verbs & Status Codes?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTTP Verbs & Status Codes",
+    "question": "Explain how data validation is applied to HTTP Verbs & Status Codes payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Authentication (JWT/OAuth)",
+    "question": "How do you implement practical error handling when working with Authentication (JWT/OAuth) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Authentication (JWT/OAuth)",
+    "question": "Describe a real-world debugging scenario involving Authentication (JWT/OAuth) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Authentication (JWT/OAuth)",
+    "question": "How does Authentication (JWT/OAuth) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Authentication (JWT/OAuth)",
+    "question": "What are the best practices for structuring code related to Authentication (JWT/OAuth)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Authentication (JWT/OAuth)",
+    "question": "In a practical project, how do you integrate Authentication (JWT/OAuth) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Authentication (JWT/OAuth)",
+    "question": "Compare and contrast two alternative approaches for executing Authentication (JWT/OAuth).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Authentication (JWT/OAuth)",
+    "question": "How do you write a unit test for a function that relies on Authentication (JWT/OAuth)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Authentication (JWT/OAuth)",
+    "question": "What performance bottlenecks can arise if Authentication (JWT/OAuth) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Authentication (JWT/OAuth)",
+    "question": "How do you refactor legacy code using modern standards for Authentication (JWT/OAuth)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Authentication (JWT/OAuth)",
+    "question": "Explain how data validation is applied to Authentication (JWT/OAuth) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "FastAPI / Express / Spring",
+    "question": "How do you implement practical error handling when working with FastAPI / Express / Spring in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "FastAPI / Express / Spring",
+    "question": "Describe a real-world debugging scenario involving FastAPI / Express / Spring and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "FastAPI / Express / Spring",
+    "question": "How does FastAPI / Express / Spring perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "FastAPI / Express / Spring",
+    "question": "What are the best practices for structuring code related to FastAPI / Express / Spring?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "FastAPI / Express / Spring",
+    "question": "In a practical project, how do you integrate FastAPI / Express / Spring with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "FastAPI / Express / Spring",
+    "question": "Compare and contrast two alternative approaches for executing FastAPI / Express / Spring.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "FastAPI / Express / Spring",
+    "question": "How do you write a unit test for a function that relies on FastAPI / Express / Spring?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "FastAPI / Express / Spring",
+    "question": "What performance bottlenecks can arise if FastAPI / Express / Spring is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "FastAPI / Express / Spring",
+    "question": "How do you refactor legacy code using modern standards for FastAPI / Express / Spring?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "FastAPI / Express / Spring",
+    "question": "Explain how data validation is applied to FastAPI / Express / Spring payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Documentation (OpenAPI)",
+    "question": "How do you implement practical error handling when working with API Documentation (OpenAPI) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Documentation (OpenAPI)",
+    "question": "Describe a real-world debugging scenario involving API Documentation (OpenAPI) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Documentation (OpenAPI)",
+    "question": "How does API Documentation (OpenAPI) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Documentation (OpenAPI)",
+    "question": "What are the best practices for structuring code related to API Documentation (OpenAPI)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Documentation (OpenAPI)",
+    "question": "In a practical project, how do you integrate API Documentation (OpenAPI) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Documentation (OpenAPI)",
+    "question": "Compare and contrast two alternative approaches for executing API Documentation (OpenAPI).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Documentation (OpenAPI)",
+    "question": "How do you write a unit test for a function that relies on API Documentation (OpenAPI)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Documentation (OpenAPI)",
+    "question": "What performance bottlenecks can arise if API Documentation (OpenAPI) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Documentation (OpenAPI)",
+    "question": "How do you refactor legacy code using modern standards for API Documentation (OpenAPI)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "API Documentation (OpenAPI)",
+    "question": "Explain how data validation is applied to API Documentation (OpenAPI) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Rate Limiting & Security",
+    "question": "How do you implement practical error handling when working with Rate Limiting & Security in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Rate Limiting & Security",
+    "question": "Describe a real-world debugging scenario involving Rate Limiting & Security and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Rate Limiting & Security",
+    "question": "How does Rate Limiting & Security perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Rate Limiting & Security",
+    "question": "What are the best practices for structuring code related to Rate Limiting & Security?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Rate Limiting & Security",
+    "question": "In a practical project, how do you integrate Rate Limiting & Security with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Rate Limiting & Security",
+    "question": "Compare and contrast two alternative approaches for executing Rate Limiting & Security.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Rate Limiting & Security",
+    "question": "How do you write a unit test for a function that relies on Rate Limiting & Security?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Rate Limiting & Security",
+    "question": "What performance bottlenecks can arise if Rate Limiting & Security is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Rate Limiting & Security",
+    "question": "How do you refactor legacy code using modern standards for Rate Limiting & Security?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Rate Limiting & Security",
+    "question": "Explain how data validation is applied to Rate Limiting & Security payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Git & Version Control",
+    "question": "Design a scalable distributed architecture utilizing Git & Version Control for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Git & Version Control across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Git & Version Control.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "How would you optimize latency and throughput for Git & Version Control under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Git & Version Control.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Git & Version Control?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Git & Version Control.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "How do you perform deep performance profiling and memory leak detection on Git & Version Control in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Git & Version Control and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Git & Version Control",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Git & Version Control.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "Design a scalable distributed architecture utilizing CI/CD Pipelines (Jenkins/GitHub Actions) for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling CI/CD Pipelines (Jenkins/GitHub Actions) across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying CI/CD Pipelines (Jenkins/GitHub Actions).",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "How would you optimize latency and throughput for CI/CD Pipelines (Jenkins/GitHub Actions) under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in CI/CD Pipelines (Jenkins/GitHub Actions).",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on CI/CD Pipelines (Jenkins/GitHub Actions)?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard CI/CD Pipelines (Jenkins/GitHub Actions).",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "How do you perform deep performance profiling and memory leak detection on CI/CD Pipelines (Jenkins/GitHub Actions) in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with CI/CD Pipelines (Jenkins/GitHub Actions) and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "CI/CD Pipelines (Jenkins/GitHub Actions)",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for CI/CD Pipelines (Jenkins/GitHub Actions).",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "Design a scalable distributed architecture utilizing Docker & Containerization for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Docker & Containerization across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Docker & Containerization.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "How would you optimize latency and throughput for Docker & Containerization under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Docker & Containerization.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Docker & Containerization?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Docker & Containerization.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "How do you perform deep performance profiling and memory leak detection on Docker & Containerization in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Docker & Containerization and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Docker & Containerization.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "Design a scalable distributed architecture utilizing Kubernetes & Orchestration for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Kubernetes & Orchestration across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Kubernetes & Orchestration.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "How would you optimize latency and throughput for Kubernetes & Orchestration under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Kubernetes & Orchestration.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Kubernetes & Orchestration?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Kubernetes & Orchestration.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "How do you perform deep performance profiling and memory leak detection on Kubernetes & Orchestration in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Kubernetes & Orchestration and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Kubernetes & Orchestration",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Kubernetes & Orchestration.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "Design a scalable distributed architecture utilizing Terraform & IaC for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Terraform & IaC across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Terraform & IaC.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "How would you optimize latency and throughput for Terraform & IaC under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Terraform & IaC.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Terraform & IaC?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Terraform & IaC.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "How do you perform deep performance profiling and memory leak detection on Terraform & IaC in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Terraform & IaC and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Terraform & IaC",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Terraform & IaC.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "Design a scalable distributed architecture utilizing Monitoring (Prometheus/Grafana) for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Monitoring (Prometheus/Grafana) across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Monitoring (Prometheus/Grafana).",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "How would you optimize latency and throughput for Monitoring (Prometheus/Grafana) under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Monitoring (Prometheus/Grafana).",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Monitoring (Prometheus/Grafana)?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Monitoring (Prometheus/Grafana).",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "How do you perform deep performance profiling and memory leak detection on Monitoring (Prometheus/Grafana) in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Monitoring (Prometheus/Grafana) and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Monitoring (Prometheus/Grafana)",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Monitoring (Prometheus/Grafana).",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  }
+]

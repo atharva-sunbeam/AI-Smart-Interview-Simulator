@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "What is C Programming & Register Manipulation in Firmware Engineer, and why is it important?",
+    "answer": "C Programming & Register Manipulation is a foundational concept in Firmware Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "Define the basic syntax or primary usage of C Programming & Register Manipulation.",
+    "answer": "The primary syntax for C Programming & Register Manipulation involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "What is the main difference between basic primitives and C Programming & Register Manipulation?",
+    "answer": "Basic primitives store single value types, whereas C Programming & Register Manipulation organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "What is a common beginner mistake when working with C Programming & Register Manipulation?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in C Programming & Register Manipulation.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "State two key advantages of using C Programming & Register Manipulation in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "How do you initialize or instantiate C Programming & Register Manipulation in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "What role does C Programming & Register Manipulation play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "Explain the simple step-by-step workflow of executing C Programming & Register Manipulation.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "What is the recommended naming convention when defining C Programming & Register Manipulation?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C Programming & Register Manipulation",
+    "question": "List the basic prerequisites needed before implementing C Programming & Register Manipulation.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "What is Microcontroller Architecture in Firmware Engineer, and why is it important?",
+    "answer": "Microcontroller Architecture is a foundational concept in Firmware Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "Define the basic syntax or primary usage of Microcontroller Architecture.",
+    "answer": "The primary syntax for Microcontroller Architecture involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "What is the main difference between basic primitives and Microcontroller Architecture?",
+    "answer": "Basic primitives store single value types, whereas Microcontroller Architecture organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "What is a common beginner mistake when working with Microcontroller Architecture?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Microcontroller Architecture.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "State two key advantages of using Microcontroller Architecture in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "How do you initialize or instantiate Microcontroller Architecture in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "What role does Microcontroller Architecture play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "Explain the simple step-by-step workflow of executing Microcontroller Architecture.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "What is the recommended naming convention when defining Microcontroller Architecture?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Microcontroller Architecture",
+    "question": "List the basic prerequisites needed before implementing Microcontroller Architecture.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "What is Hardware Abstraction Layer (HAL) in Firmware Engineer, and why is it important?",
+    "answer": "Hardware Abstraction Layer (HAL) is a foundational concept in Firmware Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "Define the basic syntax or primary usage of Hardware Abstraction Layer (HAL).",
+    "answer": "The primary syntax for Hardware Abstraction Layer (HAL) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "What is the main difference between basic primitives and Hardware Abstraction Layer (HAL)?",
+    "answer": "Basic primitives store single value types, whereas Hardware Abstraction Layer (HAL) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "What is a common beginner mistake when working with Hardware Abstraction Layer (HAL)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Hardware Abstraction Layer (HAL).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "State two key advantages of using Hardware Abstraction Layer (HAL) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "How do you initialize or instantiate Hardware Abstraction Layer (HAL) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "What role does Hardware Abstraction Layer (HAL) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "Explain the simple step-by-step workflow of executing Hardware Abstraction Layer (HAL).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "What is the recommended naming convention when defining Hardware Abstraction Layer (HAL)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Hardware Abstraction Layer (HAL)",
+    "question": "List the basic prerequisites needed before implementing Hardware Abstraction Layer (HAL).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "What is Interrupts & Timers in Firmware Engineer, and why is it important?",
+    "answer": "Interrupts & Timers is a foundational concept in Firmware Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "Define the basic syntax or primary usage of Interrupts & Timers.",
+    "answer": "The primary syntax for Interrupts & Timers involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "What is the main difference between basic primitives and Interrupts & Timers?",
+    "answer": "Basic primitives store single value types, whereas Interrupts & Timers organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "What is a common beginner mistake when working with Interrupts & Timers?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Interrupts & Timers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "State two key advantages of using Interrupts & Timers in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "How do you initialize or instantiate Interrupts & Timers in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "What role does Interrupts & Timers play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "Explain the simple step-by-step workflow of executing Interrupts & Timers.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "What is the recommended naming convention when defining Interrupts & Timers?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Interrupts & Timers",
+    "question": "List the basic prerequisites needed before implementing Interrupts & Timers.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "What is Low Power Optimization in Firmware Engineer, and why is it important?",
+    "answer": "Low Power Optimization is a foundational concept in Firmware Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "Define the basic syntax or primary usage of Low Power Optimization.",
+    "answer": "The primary syntax for Low Power Optimization involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "What is the main difference between basic primitives and Low Power Optimization?",
+    "answer": "Basic primitives store single value types, whereas Low Power Optimization organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "What is a common beginner mistake when working with Low Power Optimization?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Low Power Optimization.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "State two key advantages of using Low Power Optimization in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "How do you initialize or instantiate Low Power Optimization in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "What role does Low Power Optimization play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "Explain the simple step-by-step workflow of executing Low Power Optimization.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "What is the recommended naming convention when defining Low Power Optimization?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Low Power Optimization",
+    "question": "List the basic prerequisites needed before implementing Low Power Optimization.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

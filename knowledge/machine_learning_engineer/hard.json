@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Python & Math Foundations",
+    "question": "Design a scalable distributed architecture utilizing Python & Math Foundations for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Python & Math Foundations across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Python & Math Foundations.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "How would you optimize latency and throughput for Python & Math Foundations under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Python & Math Foundations.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Python & Math Foundations?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Python & Math Foundations.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "How do you perform deep performance profiling and memory leak detection on Python & Math Foundations in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Python & Math Foundations and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Python & Math Foundations",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Python & Math Foundations.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "Design a scalable distributed architecture utilizing Supervised & Unsupervised ML for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Supervised & Unsupervised ML across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Supervised & Unsupervised ML.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "How would you optimize latency and throughput for Supervised & Unsupervised ML under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Supervised & Unsupervised ML.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Supervised & Unsupervised ML?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Supervised & Unsupervised ML.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "How do you perform deep performance profiling and memory leak detection on Supervised & Unsupervised ML in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Supervised & Unsupervised ML and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Supervised & Unsupervised ML",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Supervised & Unsupervised ML.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "Design a scalable distributed architecture utilizing Feature Engineering for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Feature Engineering across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Feature Engineering.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "How would you optimize latency and throughput for Feature Engineering under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Feature Engineering.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Feature Engineering?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Feature Engineering.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "How do you perform deep performance profiling and memory leak detection on Feature Engineering in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Feature Engineering and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Feature Engineering",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Feature Engineering.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "Design a scalable distributed architecture utilizing Scikit-Learn & Modeling for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Scikit-Learn & Modeling across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Scikit-Learn & Modeling.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "How would you optimize latency and throughput for Scikit-Learn & Modeling under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Scikit-Learn & Modeling.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Scikit-Learn & Modeling?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Scikit-Learn & Modeling.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "How do you perform deep performance profiling and memory leak detection on Scikit-Learn & Modeling in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Scikit-Learn & Modeling and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Scikit-Learn & Modeling",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Scikit-Learn & Modeling.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "Design a scalable distributed architecture utilizing Model Evaluation & Tuning for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Model Evaluation & Tuning across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Model Evaluation & Tuning.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "How would you optimize latency and throughput for Model Evaluation & Tuning under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Model Evaluation & Tuning.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Model Evaluation & Tuning?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Model Evaluation & Tuning.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "How do you perform deep performance profiling and memory leak detection on Model Evaluation & Tuning in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Model Evaluation & Tuning and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Model Evaluation & Tuning",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Model Evaluation & Tuning.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "Design a scalable distributed architecture utilizing MLOps & Deployment for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling MLOps & Deployment across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying MLOps & Deployment.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "How would you optimize latency and throughput for MLOps & Deployment under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in MLOps & Deployment.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on MLOps & Deployment?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard MLOps & Deployment.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "How do you perform deep performance profiling and memory leak detection on MLOps & Deployment in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with MLOps & Deployment and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "MLOps & Deployment",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for MLOps & Deployment.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  }
+]

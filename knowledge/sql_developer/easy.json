@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "ANSI SQL Syntax",
+    "question": "What is ANSI SQL Syntax in SQL Developer, and why is it important?",
+    "answer": "ANSI SQL Syntax is a foundational concept in SQL Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ANSI SQL Syntax",
+    "question": "Define the basic syntax or primary usage of ANSI SQL Syntax.",
+    "answer": "The primary syntax for ANSI SQL Syntax involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ANSI SQL Syntax",
+    "question": "What is the main difference between basic primitives and ANSI SQL Syntax?",
+    "answer": "Basic primitives store single value types, whereas ANSI SQL Syntax organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ANSI SQL Syntax",
+    "question": "What is a common beginner mistake when working with ANSI SQL Syntax?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in ANSI SQL Syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ANSI SQL Syntax",
+    "question": "State two key advantages of using ANSI SQL Syntax in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ANSI SQL Syntax",
+    "question": "How do you initialize or instantiate ANSI SQL Syntax in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ANSI SQL Syntax",
+    "question": "What role does ANSI SQL Syntax play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ANSI SQL Syntax",
+    "question": "Explain the simple step-by-step workflow of executing ANSI SQL Syntax.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ANSI SQL Syntax",
+    "question": "What is the recommended naming convention when defining ANSI SQL Syntax?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ANSI SQL Syntax",
+    "question": "List the basic prerequisites needed before implementing ANSI SQL Syntax.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Complex Joins & Subqueries",
+    "question": "What is Complex Joins & Subqueries in SQL Developer, and why is it important?",
+    "answer": "Complex Joins & Subqueries is a foundational concept in SQL Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Complex Joins & Subqueries",
+    "question": "Define the basic syntax or primary usage of Complex Joins & Subqueries.",
+    "answer": "The primary syntax for Complex Joins & Subqueries involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Complex Joins & Subqueries",
+    "question": "What is the main difference between basic primitives and Complex Joins & Subqueries?",
+    "answer": "Basic primitives store single value types, whereas Complex Joins & Subqueries organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Complex Joins & Subqueries",
+    "question": "What is a common beginner mistake when working with Complex Joins & Subqueries?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Complex Joins & Subqueries.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Complex Joins & Subqueries",
+    "question": "State two key advantages of using Complex Joins & Subqueries in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Complex Joins & Subqueries",
+    "question": "How do you initialize or instantiate Complex Joins & Subqueries in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Complex Joins & Subqueries",
+    "question": "What role does Complex Joins & Subqueries play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Complex Joins & Subqueries",
+    "question": "Explain the simple step-by-step workflow of executing Complex Joins & Subqueries.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Complex Joins & Subqueries",
+    "question": "What is the recommended naming convention when defining Complex Joins & Subqueries?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Complex Joins & Subqueries",
+    "question": "List the basic prerequisites needed before implementing Complex Joins & Subqueries.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Window Functions",
+    "question": "What is Window Functions in SQL Developer, and why is it important?",
+    "answer": "Window Functions is a foundational concept in SQL Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Window Functions",
+    "question": "Define the basic syntax or primary usage of Window Functions.",
+    "answer": "The primary syntax for Window Functions involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Window Functions",
+    "question": "What is the main difference between basic primitives and Window Functions?",
+    "answer": "Basic primitives store single value types, whereas Window Functions organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Window Functions",
+    "question": "What is a common beginner mistake when working with Window Functions?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Window Functions.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Window Functions",
+    "question": "State two key advantages of using Window Functions in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Window Functions",
+    "question": "How do you initialize or instantiate Window Functions in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Window Functions",
+    "question": "What role does Window Functions play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Window Functions",
+    "question": "Explain the simple step-by-step workflow of executing Window Functions.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Window Functions",
+    "question": "What is the recommended naming convention when defining Window Functions?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Window Functions",
+    "question": "List the basic prerequisites needed before implementing Window Functions.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Stored Procedures & Triggers",
+    "question": "What is Stored Procedures & Triggers in SQL Developer, and why is it important?",
+    "answer": "Stored Procedures & Triggers is a foundational concept in SQL Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Stored Procedures & Triggers",
+    "question": "Define the basic syntax or primary usage of Stored Procedures & Triggers.",
+    "answer": "The primary syntax for Stored Procedures & Triggers involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Stored Procedures & Triggers",
+    "question": "What is the main difference between basic primitives and Stored Procedures & Triggers?",
+    "answer": "Basic primitives store single value types, whereas Stored Procedures & Triggers organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Stored Procedures & Triggers",
+    "question": "What is a common beginner mistake when working with Stored Procedures & Triggers?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Stored Procedures & Triggers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Stored Procedures & Triggers",
+    "question": "State two key advantages of using Stored Procedures & Triggers in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Stored Procedures & Triggers",
+    "question": "How do you initialize or instantiate Stored Procedures & Triggers in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Stored Procedures & Triggers",
+    "question": "What role does Stored Procedures & Triggers play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Stored Procedures & Triggers",
+    "question": "Explain the simple step-by-step workflow of executing Stored Procedures & Triggers.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Stored Procedures & Triggers",
+    "question": "What is the recommended naming convention when defining Stored Procedures & Triggers?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Stored Procedures & Triggers",
+    "question": "List the basic prerequisites needed before implementing Stored Procedures & Triggers.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Query Optimization & Indexing",
+    "question": "What is Query Optimization & Indexing in SQL Developer, and why is it important?",
+    "answer": "Query Optimization & Indexing is a foundational concept in SQL Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Query Optimization & Indexing",
+    "question": "Define the basic syntax or primary usage of Query Optimization & Indexing.",
+    "answer": "The primary syntax for Query Optimization & Indexing involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Query Optimization & Indexing",
+    "question": "What is the main difference between basic primitives and Query Optimization & Indexing?",
+    "answer": "Basic primitives store single value types, whereas Query Optimization & Indexing organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Query Optimization & Indexing",
+    "question": "What is a common beginner mistake when working with Query Optimization & Indexing?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Query Optimization & Indexing.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Query Optimization & Indexing",
+    "question": "State two key advantages of using Query Optimization & Indexing in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Query Optimization & Indexing",
+    "question": "How do you initialize or instantiate Query Optimization & Indexing in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Query Optimization & Indexing",
+    "question": "What role does Query Optimization & Indexing play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Query Optimization & Indexing",
+    "question": "Explain the simple step-by-step workflow of executing Query Optimization & Indexing.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Query Optimization & Indexing",
+    "question": "What is the recommended naming convention when defining Query Optimization & Indexing?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Query Optimization & Indexing",
+    "question": "List the basic prerequisites needed before implementing Query Optimization & Indexing.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

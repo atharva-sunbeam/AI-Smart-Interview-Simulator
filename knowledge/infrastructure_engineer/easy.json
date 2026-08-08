@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Data Center & Virtualization (VMware)",
+    "question": "What is Data Center & Virtualization (VMware) in Infrastructure Engineer, and why is it important?",
+    "answer": "Data Center & Virtualization (VMware) is a foundational concept in Infrastructure Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Center & Virtualization (VMware)",
+    "question": "Define the basic syntax or primary usage of Data Center & Virtualization (VMware).",
+    "answer": "The primary syntax for Data Center & Virtualization (VMware) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Center & Virtualization (VMware)",
+    "question": "What is the main difference between basic primitives and Data Center & Virtualization (VMware)?",
+    "answer": "Basic primitives store single value types, whereas Data Center & Virtualization (VMware) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Center & Virtualization (VMware)",
+    "question": "What is a common beginner mistake when working with Data Center & Virtualization (VMware)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Data Center & Virtualization (VMware).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Center & Virtualization (VMware)",
+    "question": "State two key advantages of using Data Center & Virtualization (VMware) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Center & Virtualization (VMware)",
+    "question": "How do you initialize or instantiate Data Center & Virtualization (VMware) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Center & Virtualization (VMware)",
+    "question": "What role does Data Center & Virtualization (VMware) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Center & Virtualization (VMware)",
+    "question": "Explain the simple step-by-step workflow of executing Data Center & Virtualization (VMware).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Center & Virtualization (VMware)",
+    "question": "What is the recommended naming convention when defining Data Center & Virtualization (VMware)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Data Center & Virtualization (VMware)",
+    "question": "List the basic prerequisites needed before implementing Data Center & Virtualization (VMware).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Storage Solutions (SAN/NAS)",
+    "question": "What is Storage Solutions (SAN/NAS) in Infrastructure Engineer, and why is it important?",
+    "answer": "Storage Solutions (SAN/NAS) is a foundational concept in Infrastructure Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Storage Solutions (SAN/NAS)",
+    "question": "Define the basic syntax or primary usage of Storage Solutions (SAN/NAS).",
+    "answer": "The primary syntax for Storage Solutions (SAN/NAS) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Storage Solutions (SAN/NAS)",
+    "question": "What is the main difference between basic primitives and Storage Solutions (SAN/NAS)?",
+    "answer": "Basic primitives store single value types, whereas Storage Solutions (SAN/NAS) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Storage Solutions (SAN/NAS)",
+    "question": "What is a common beginner mistake when working with Storage Solutions (SAN/NAS)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Storage Solutions (SAN/NAS).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Storage Solutions (SAN/NAS)",
+    "question": "State two key advantages of using Storage Solutions (SAN/NAS) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Storage Solutions (SAN/NAS)",
+    "question": "How do you initialize or instantiate Storage Solutions (SAN/NAS) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Storage Solutions (SAN/NAS)",
+    "question": "What role does Storage Solutions (SAN/NAS) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Storage Solutions (SAN/NAS)",
+    "question": "Explain the simple step-by-step workflow of executing Storage Solutions (SAN/NAS).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Storage Solutions (SAN/NAS)",
+    "question": "What is the recommended naming convention when defining Storage Solutions (SAN/NAS)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Storage Solutions (SAN/NAS)",
+    "question": "List the basic prerequisites needed before implementing Storage Solutions (SAN/NAS).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Networking & Load Balancing",
+    "question": "What is Networking & Load Balancing in Infrastructure Engineer, and why is it important?",
+    "answer": "Networking & Load Balancing is a foundational concept in Infrastructure Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Networking & Load Balancing",
+    "question": "Define the basic syntax or primary usage of Networking & Load Balancing.",
+    "answer": "The primary syntax for Networking & Load Balancing involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Networking & Load Balancing",
+    "question": "What is the main difference between basic primitives and Networking & Load Balancing?",
+    "answer": "Basic primitives store single value types, whereas Networking & Load Balancing organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Networking & Load Balancing",
+    "question": "What is a common beginner mistake when working with Networking & Load Balancing?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Networking & Load Balancing.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Networking & Load Balancing",
+    "question": "State two key advantages of using Networking & Load Balancing in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Networking & Load Balancing",
+    "question": "How do you initialize or instantiate Networking & Load Balancing in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Networking & Load Balancing",
+    "question": "What role does Networking & Load Balancing play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Networking & Load Balancing",
+    "question": "Explain the simple step-by-step workflow of executing Networking & Load Balancing.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Networking & Load Balancing",
+    "question": "What is the recommended naming convention when defining Networking & Load Balancing?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Networking & Load Balancing",
+    "question": "List the basic prerequisites needed before implementing Networking & Load Balancing.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux/Windows Server Administration",
+    "question": "What is Linux/Windows Server Administration in Infrastructure Engineer, and why is it important?",
+    "answer": "Linux/Windows Server Administration is a foundational concept in Infrastructure Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux/Windows Server Administration",
+    "question": "Define the basic syntax or primary usage of Linux/Windows Server Administration.",
+    "answer": "The primary syntax for Linux/Windows Server Administration involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux/Windows Server Administration",
+    "question": "What is the main difference between basic primitives and Linux/Windows Server Administration?",
+    "answer": "Basic primitives store single value types, whereas Linux/Windows Server Administration organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux/Windows Server Administration",
+    "question": "What is a common beginner mistake when working with Linux/Windows Server Administration?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Linux/Windows Server Administration.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux/Windows Server Administration",
+    "question": "State two key advantages of using Linux/Windows Server Administration in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux/Windows Server Administration",
+    "question": "How do you initialize or instantiate Linux/Windows Server Administration in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux/Windows Server Administration",
+    "question": "What role does Linux/Windows Server Administration play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux/Windows Server Administration",
+    "question": "Explain the simple step-by-step workflow of executing Linux/Windows Server Administration.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux/Windows Server Administration",
+    "question": "What is the recommended naming convention when defining Linux/Windows Server Administration?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Linux/Windows Server Administration",
+    "question": "List the basic prerequisites needed before implementing Linux/Windows Server Administration.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Backup & Disaster Recovery",
+    "question": "What is Backup & Disaster Recovery in Infrastructure Engineer, and why is it important?",
+    "answer": "Backup & Disaster Recovery is a foundational concept in Infrastructure Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Backup & Disaster Recovery",
+    "question": "Define the basic syntax or primary usage of Backup & Disaster Recovery.",
+    "answer": "The primary syntax for Backup & Disaster Recovery involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Backup & Disaster Recovery",
+    "question": "What is the main difference between basic primitives and Backup & Disaster Recovery?",
+    "answer": "Basic primitives store single value types, whereas Backup & Disaster Recovery organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Backup & Disaster Recovery",
+    "question": "What is a common beginner mistake when working with Backup & Disaster Recovery?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Backup & Disaster Recovery.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Backup & Disaster Recovery",
+    "question": "State two key advantages of using Backup & Disaster Recovery in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Backup & Disaster Recovery",
+    "question": "How do you initialize or instantiate Backup & Disaster Recovery in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Backup & Disaster Recovery",
+    "question": "What role does Backup & Disaster Recovery play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Backup & Disaster Recovery",
+    "question": "Explain the simple step-by-step workflow of executing Backup & Disaster Recovery.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Backup & Disaster Recovery",
+    "question": "What is the recommended naming convention when defining Backup & Disaster Recovery?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Backup & Disaster Recovery",
+    "question": "List the basic prerequisites needed before implementing Backup & Disaster Recovery.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

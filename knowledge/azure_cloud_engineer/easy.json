@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Azure Virtual Machines & VNet",
+    "question": "What is Azure Virtual Machines & VNet in Azure Cloud Engineer, and why is it important?",
+    "answer": "Azure Virtual Machines & VNet is a foundational concept in Azure Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure Virtual Machines & VNet",
+    "question": "Define the basic syntax or primary usage of Azure Virtual Machines & VNet.",
+    "answer": "The primary syntax for Azure Virtual Machines & VNet involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure Virtual Machines & VNet",
+    "question": "What is the main difference between basic primitives and Azure Virtual Machines & VNet?",
+    "answer": "Basic primitives store single value types, whereas Azure Virtual Machines & VNet organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure Virtual Machines & VNet",
+    "question": "What is a common beginner mistake when working with Azure Virtual Machines & VNet?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Azure Virtual Machines & VNet.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure Virtual Machines & VNet",
+    "question": "State two key advantages of using Azure Virtual Machines & VNet in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure Virtual Machines & VNet",
+    "question": "How do you initialize or instantiate Azure Virtual Machines & VNet in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure Virtual Machines & VNet",
+    "question": "What role does Azure Virtual Machines & VNet play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure Virtual Machines & VNet",
+    "question": "Explain the simple step-by-step workflow of executing Azure Virtual Machines & VNet.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure Virtual Machines & VNet",
+    "question": "What is the recommended naming convention when defining Azure Virtual Machines & VNet?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure Virtual Machines & VNet",
+    "question": "List the basic prerequisites needed before implementing Azure Virtual Machines & VNet.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure Active Directory (Entra ID)",
+    "question": "What is Azure Active Directory (Entra ID) in Azure Cloud Engineer, and why is it important?",
+    "answer": "Azure Active Directory (Entra ID) is a foundational concept in Azure Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure Active Directory (Entra ID)",
+    "question": "Define the basic syntax or primary usage of Azure Active Directory (Entra ID).",
+    "answer": "The primary syntax for Azure Active Directory (Entra ID) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure Active Directory (Entra ID)",
+    "question": "What is the main difference between basic primitives and Azure Active Directory (Entra ID)?",
+    "answer": "Basic primitives store single value types, whereas Azure Active Directory (Entra ID) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure Active Directory (Entra ID)",
+    "question": "What is a common beginner mistake when working with Azure Active Directory (Entra ID)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Azure Active Directory (Entra ID).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure Active Directory (Entra ID)",
+    "question": "State two key advantages of using Azure Active Directory (Entra ID) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure Active Directory (Entra ID)",
+    "question": "How do you initialize or instantiate Azure Active Directory (Entra ID) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure Active Directory (Entra ID)",
+    "question": "What role does Azure Active Directory (Entra ID) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure Active Directory (Entra ID)",
+    "question": "Explain the simple step-by-step workflow of executing Azure Active Directory (Entra ID).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure Active Directory (Entra ID)",
+    "question": "What is the recommended naming convention when defining Azure Active Directory (Entra ID)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure Active Directory (Entra ID)",
+    "question": "List the basic prerequisites needed before implementing Azure Active Directory (Entra ID).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure App Services & Functions",
+    "question": "What is Azure App Services & Functions in Azure Cloud Engineer, and why is it important?",
+    "answer": "Azure App Services & Functions is a foundational concept in Azure Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure App Services & Functions",
+    "question": "Define the basic syntax or primary usage of Azure App Services & Functions.",
+    "answer": "The primary syntax for Azure App Services & Functions involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure App Services & Functions",
+    "question": "What is the main difference between basic primitives and Azure App Services & Functions?",
+    "answer": "Basic primitives store single value types, whereas Azure App Services & Functions organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure App Services & Functions",
+    "question": "What is a common beginner mistake when working with Azure App Services & Functions?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Azure App Services & Functions.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure App Services & Functions",
+    "question": "State two key advantages of using Azure App Services & Functions in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure App Services & Functions",
+    "question": "How do you initialize or instantiate Azure App Services & Functions in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure App Services & Functions",
+    "question": "What role does Azure App Services & Functions play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure App Services & Functions",
+    "question": "Explain the simple step-by-step workflow of executing Azure App Services & Functions.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure App Services & Functions",
+    "question": "What is the recommended naming convention when defining Azure App Services & Functions?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure App Services & Functions",
+    "question": "List the basic prerequisites needed before implementing Azure App Services & Functions.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure DevOps Pipelines",
+    "question": "What is Azure DevOps Pipelines in Azure Cloud Engineer, and why is it important?",
+    "answer": "Azure DevOps Pipelines is a foundational concept in Azure Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure DevOps Pipelines",
+    "question": "Define the basic syntax or primary usage of Azure DevOps Pipelines.",
+    "answer": "The primary syntax for Azure DevOps Pipelines involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure DevOps Pipelines",
+    "question": "What is the main difference between basic primitives and Azure DevOps Pipelines?",
+    "answer": "Basic primitives store single value types, whereas Azure DevOps Pipelines organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure DevOps Pipelines",
+    "question": "What is a common beginner mistake when working with Azure DevOps Pipelines?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Azure DevOps Pipelines.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure DevOps Pipelines",
+    "question": "State two key advantages of using Azure DevOps Pipelines in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure DevOps Pipelines",
+    "question": "How do you initialize or instantiate Azure DevOps Pipelines in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure DevOps Pipelines",
+    "question": "What role does Azure DevOps Pipelines play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure DevOps Pipelines",
+    "question": "Explain the simple step-by-step workflow of executing Azure DevOps Pipelines.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure DevOps Pipelines",
+    "question": "What is the recommended naming convention when defining Azure DevOps Pipelines?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Azure DevOps Pipelines",
+    "question": "List the basic prerequisites needed before implementing Azure DevOps Pipelines.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ARM Templates / Bicep",
+    "question": "What is ARM Templates / Bicep in Azure Cloud Engineer, and why is it important?",
+    "answer": "ARM Templates / Bicep is a foundational concept in Azure Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ARM Templates / Bicep",
+    "question": "Define the basic syntax or primary usage of ARM Templates / Bicep.",
+    "answer": "The primary syntax for ARM Templates / Bicep involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ARM Templates / Bicep",
+    "question": "What is the main difference between basic primitives and ARM Templates / Bicep?",
+    "answer": "Basic primitives store single value types, whereas ARM Templates / Bicep organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ARM Templates / Bicep",
+    "question": "What is a common beginner mistake when working with ARM Templates / Bicep?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in ARM Templates / Bicep.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ARM Templates / Bicep",
+    "question": "State two key advantages of using ARM Templates / Bicep in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ARM Templates / Bicep",
+    "question": "How do you initialize or instantiate ARM Templates / Bicep in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ARM Templates / Bicep",
+    "question": "What role does ARM Templates / Bicep play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ARM Templates / Bicep",
+    "question": "Explain the simple step-by-step workflow of executing ARM Templates / Bicep.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ARM Templates / Bicep",
+    "question": "What is the recommended naming convention when defining ARM Templates / Bicep?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "ARM Templates / Bicep",
+    "question": "List the basic prerequisites needed before implementing ARM Templates / Bicep.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

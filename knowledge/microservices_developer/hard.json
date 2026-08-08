@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "Design a scalable distributed architecture utilizing Monolith vs Microservices for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Monolith vs Microservices across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Monolith vs Microservices.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "How would you optimize latency and throughput for Monolith vs Microservices under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Monolith vs Microservices.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Monolith vs Microservices?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Monolith vs Microservices.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "How do you perform deep performance profiling and memory leak detection on Monolith vs Microservices in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Monolith vs Microservices and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Monolith vs Microservices.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "Design a scalable distributed architecture utilizing Service Communication (REST/gRPC) for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Service Communication (REST/gRPC) across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Service Communication (REST/gRPC).",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "How would you optimize latency and throughput for Service Communication (REST/gRPC) under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Service Communication (REST/gRPC).",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Service Communication (REST/gRPC)?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Service Communication (REST/gRPC).",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "How do you perform deep performance profiling and memory leak detection on Service Communication (REST/gRPC) in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Service Communication (REST/gRPC) and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Service Communication (REST/gRPC).",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "Design a scalable distributed architecture utilizing API Gateway & Service Discovery for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling API Gateway & Service Discovery across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying API Gateway & Service Discovery.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "How would you optimize latency and throughput for API Gateway & Service Discovery under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in API Gateway & Service Discovery.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on API Gateway & Service Discovery?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard API Gateway & Service Discovery.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "How do you perform deep performance profiling and memory leak detection on API Gateway & Service Discovery in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with API Gateway & Service Discovery and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for API Gateway & Service Discovery.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "Design a scalable distributed architecture utilizing Event-Driven Architecture (Kafka) for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Event-Driven Architecture (Kafka) across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Event-Driven Architecture (Kafka).",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "How would you optimize latency and throughput for Event-Driven Architecture (Kafka) under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Event-Driven Architecture (Kafka).",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Event-Driven Architecture (Kafka)?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Event-Driven Architecture (Kafka).",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "How do you perform deep performance profiling and memory leak detection on Event-Driven Architecture (Kafka) in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Event-Driven Architecture (Kafka) and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Event-Driven Architecture (Kafka).",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "Design a scalable distributed architecture utilizing Docker & Kubernetes for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Docker & Kubernetes across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Docker & Kubernetes.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "How would you optimize latency and throughput for Docker & Kubernetes under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Docker & Kubernetes.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Docker & Kubernetes?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Docker & Kubernetes.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "How do you perform deep performance profiling and memory leak detection on Docker & Kubernetes in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Docker & Kubernetes and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Docker & Kubernetes.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "Design a scalable distributed architecture utilizing Distributed Tracing for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Distributed Tracing across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Distributed Tracing.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "How would you optimize latency and throughput for Distributed Tracing under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Distributed Tracing.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Distributed Tracing?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Distributed Tracing.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "How do you perform deep performance profiling and memory leak detection on Distributed Tracing in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Distributed Tracing and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Distributed Tracing.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  }
+]

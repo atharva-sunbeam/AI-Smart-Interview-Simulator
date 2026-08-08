@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Python & ML Pipelines",
+    "question": "What is Python & ML Pipelines in MLOps Engineer, and why is it important?",
+    "answer": "Python & ML Pipelines is a foundational concept in MLOps Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & ML Pipelines",
+    "question": "Define the basic syntax or primary usage of Python & ML Pipelines.",
+    "answer": "The primary syntax for Python & ML Pipelines involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & ML Pipelines",
+    "question": "What is the main difference between basic primitives and Python & ML Pipelines?",
+    "answer": "Basic primitives store single value types, whereas Python & ML Pipelines organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & ML Pipelines",
+    "question": "What is a common beginner mistake when working with Python & ML Pipelines?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Python & ML Pipelines.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & ML Pipelines",
+    "question": "State two key advantages of using Python & ML Pipelines in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & ML Pipelines",
+    "question": "How do you initialize or instantiate Python & ML Pipelines in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & ML Pipelines",
+    "question": "What role does Python & ML Pipelines play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & ML Pipelines",
+    "question": "Explain the simple step-by-step workflow of executing Python & ML Pipelines.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & ML Pipelines",
+    "question": "What is the recommended naming convention when defining Python & ML Pipelines?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python & ML Pipelines",
+    "question": "List the basic prerequisites needed before implementing Python & ML Pipelines.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "What is Docker & Containerization in MLOps Engineer, and why is it important?",
+    "answer": "Docker & Containerization is a foundational concept in MLOps Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "Define the basic syntax or primary usage of Docker & Containerization.",
+    "answer": "The primary syntax for Docker & Containerization involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "What is the main difference between basic primitives and Docker & Containerization?",
+    "answer": "Basic primitives store single value types, whereas Docker & Containerization organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "What is a common beginner mistake when working with Docker & Containerization?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Docker & Containerization.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "State two key advantages of using Docker & Containerization in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "How do you initialize or instantiate Docker & Containerization in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "What role does Docker & Containerization play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "Explain the simple step-by-step workflow of executing Docker & Containerization.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "What is the recommended naming convention when defining Docker & Containerization?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "List the basic prerequisites needed before implementing Docker & Containerization.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes & Deployment",
+    "question": "What is Kubernetes & Deployment in MLOps Engineer, and why is it important?",
+    "answer": "Kubernetes & Deployment is a foundational concept in MLOps Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes & Deployment",
+    "question": "Define the basic syntax or primary usage of Kubernetes & Deployment.",
+    "answer": "The primary syntax for Kubernetes & Deployment involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes & Deployment",
+    "question": "What is the main difference between basic primitives and Kubernetes & Deployment?",
+    "answer": "Basic primitives store single value types, whereas Kubernetes & Deployment organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes & Deployment",
+    "question": "What is a common beginner mistake when working with Kubernetes & Deployment?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Kubernetes & Deployment.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes & Deployment",
+    "question": "State two key advantages of using Kubernetes & Deployment in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes & Deployment",
+    "question": "How do you initialize or instantiate Kubernetes & Deployment in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes & Deployment",
+    "question": "What role does Kubernetes & Deployment play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes & Deployment",
+    "question": "Explain the simple step-by-step workflow of executing Kubernetes & Deployment.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes & Deployment",
+    "question": "What is the recommended naming convention when defining Kubernetes & Deployment?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Kubernetes & Deployment",
+    "question": "List the basic prerequisites needed before implementing Kubernetes & Deployment.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "MLflow & Model Tracking",
+    "question": "What is MLflow & Model Tracking in MLOps Engineer, and why is it important?",
+    "answer": "MLflow & Model Tracking is a foundational concept in MLOps Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "MLflow & Model Tracking",
+    "question": "Define the basic syntax or primary usage of MLflow & Model Tracking.",
+    "answer": "The primary syntax for MLflow & Model Tracking involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "MLflow & Model Tracking",
+    "question": "What is the main difference between basic primitives and MLflow & Model Tracking?",
+    "answer": "Basic primitives store single value types, whereas MLflow & Model Tracking organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "MLflow & Model Tracking",
+    "question": "What is a common beginner mistake when working with MLflow & Model Tracking?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in MLflow & Model Tracking.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "MLflow & Model Tracking",
+    "question": "State two key advantages of using MLflow & Model Tracking in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "MLflow & Model Tracking",
+    "question": "How do you initialize or instantiate MLflow & Model Tracking in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "MLflow & Model Tracking",
+    "question": "What role does MLflow & Model Tracking play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "MLflow & Model Tracking",
+    "question": "Explain the simple step-by-step workflow of executing MLflow & Model Tracking.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "MLflow & Model Tracking",
+    "question": "What is the recommended naming convention when defining MLflow & Model Tracking?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "MLflow & Model Tracking",
+    "question": "List the basic prerequisites needed before implementing MLflow & Model Tracking.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CI/CD for ML",
+    "question": "What is CI/CD for ML in MLOps Engineer, and why is it important?",
+    "answer": "CI/CD for ML is a foundational concept in MLOps Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CI/CD for ML",
+    "question": "Define the basic syntax or primary usage of CI/CD for ML.",
+    "answer": "The primary syntax for CI/CD for ML involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CI/CD for ML",
+    "question": "What is the main difference between basic primitives and CI/CD for ML?",
+    "answer": "Basic primitives store single value types, whereas CI/CD for ML organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CI/CD for ML",
+    "question": "What is a common beginner mistake when working with CI/CD for ML?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in CI/CD for ML.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CI/CD for ML",
+    "question": "State two key advantages of using CI/CD for ML in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CI/CD for ML",
+    "question": "How do you initialize or instantiate CI/CD for ML in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CI/CD for ML",
+    "question": "What role does CI/CD for ML play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CI/CD for ML",
+    "question": "Explain the simple step-by-step workflow of executing CI/CD for ML.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CI/CD for ML",
+    "question": "What is the recommended naming convention when defining CI/CD for ML?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CI/CD for ML",
+    "question": "List the basic prerequisites needed before implementing CI/CD for ML.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Infra",
+    "question": "What is Cloud Infra in MLOps Engineer, and why is it important?",
+    "answer": "Cloud Infra is a foundational concept in MLOps Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Infra",
+    "question": "Define the basic syntax or primary usage of Cloud Infra.",
+    "answer": "The primary syntax for Cloud Infra involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Infra",
+    "question": "What is the main difference between basic primitives and Cloud Infra?",
+    "answer": "Basic primitives store single value types, whereas Cloud Infra organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Infra",
+    "question": "What is a common beginner mistake when working with Cloud Infra?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Cloud Infra.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Infra",
+    "question": "State two key advantages of using Cloud Infra in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Infra",
+    "question": "How do you initialize or instantiate Cloud Infra in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Infra",
+    "question": "What role does Cloud Infra play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Infra",
+    "question": "Explain the simple step-by-step workflow of executing Cloud Infra.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Infra",
+    "question": "What is the recommended naming convention when defining Cloud Infra?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Infra",
+    "question": "List the basic prerequisites needed before implementing Cloud Infra.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

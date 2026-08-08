@@ -1,0 +1,422 @@
+[
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "Design a scalable distributed architecture utilizing HTML, CSS & JavaScript for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling HTML, CSS & JavaScript across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying HTML, CSS & JavaScript.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "How would you optimize latency and throughput for HTML, CSS & JavaScript under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in HTML, CSS & JavaScript.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on HTML, CSS & JavaScript?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard HTML, CSS & JavaScript.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "How do you perform deep performance profiling and memory leak detection on HTML, CSS & JavaScript in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with HTML, CSS & JavaScript and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for HTML, CSS & JavaScript.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "Design a scalable distributed architecture utilizing React / Frontend Frameworks for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling React / Frontend Frameworks across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying React / Frontend Frameworks.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "How would you optimize latency and throughput for React / Frontend Frameworks under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in React / Frontend Frameworks.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on React / Frontend Frameworks?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard React / Frontend Frameworks.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "How do you perform deep performance profiling and memory leak detection on React / Frontend Frameworks in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with React / Frontend Frameworks and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for React / Frontend Frameworks.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "Design a scalable distributed architecture utilizing Node.js / Express / Backend for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Node.js / Express / Backend across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Node.js / Express / Backend.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "How would you optimize latency and throughput for Node.js / Express / Backend under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Node.js / Express / Backend.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Node.js / Express / Backend?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Node.js / Express / Backend.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "How do you perform deep performance profiling and memory leak detection on Node.js / Express / Backend in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Node.js / Express / Backend and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Node.js / Express / Backend.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "Design a scalable distributed architecture utilizing RESTful APIs for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling RESTful APIs across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying RESTful APIs.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "How would you optimize latency and throughput for RESTful APIs under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in RESTful APIs.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on RESTful APIs?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard RESTful APIs.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "How do you perform deep performance profiling and memory leak detection on RESTful APIs in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with RESTful APIs and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for RESTful APIs.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "Design a scalable distributed architecture utilizing SQL & NoSQL Databases for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling SQL & NoSQL Databases across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying SQL & NoSQL Databases.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "How would you optimize latency and throughput for SQL & NoSQL Databases under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in SQL & NoSQL Databases.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on SQL & NoSQL Databases?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard SQL & NoSQL Databases.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "How do you perform deep performance profiling and memory leak detection on SQL & NoSQL Databases in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with SQL & NoSQL Databases and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for SQL & NoSQL Databases.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "Design a scalable distributed architecture utilizing Authentication & Security for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Authentication & Security across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Authentication & Security.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "How would you optimize latency and throughput for Authentication & Security under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Authentication & Security.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Authentication & Security?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Authentication & Security.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "How do you perform deep performance profiling and memory leak detection on Authentication & Security in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Authentication & Security and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Authentication & Security.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "Design a scalable distributed architecture utilizing Deployment & Docker for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Deployment & Docker across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Deployment & Docker.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "How would you optimize latency and throughput for Deployment & Docker under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Deployment & Docker.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Deployment & Docker?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Deployment & Docker.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "How do you perform deep performance profiling and memory leak detection on Deployment & Docker in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Deployment & Docker and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Deployment & Docker.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  }
+]

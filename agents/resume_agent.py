@@ -1,24 +1,54 @@
 import re
+import json
 import PyPDF2
+from agents.role_catalog import predict_role_from_skills
+from agents.orchestrator import LLMManager
 
-# Predefined skill keywords for pattern matching
+# Skill domains with expanded ITISS, Cyber Security, Cloud, DBDA, DMC, DESD, BDA, and DAC keywords
 SKILL_DOMAINS = {
-    "Languages": ["python", "sql", "java", "c\\+\\+", "javascript", "scala", "golang", "r", "bash", "html", "css"],
-    "Python Frameworks": ["django", "flask", "fastapi", "numpy", "pandas", "scipy", "celery", "poetry"],
-    "Data Engineering": ["spark", "pyspark", "kafka", "airflow", "hadoop", "hive", "etl", "elt", "redshift", "snowflake", "bigquery", "databricks", "dbt", "glues", "fargate"],
-    "Machine Learning & DL": ["scikit-learn", "sklearn", "pytorch", "tensorflow", "keras", "opencv", "transformers", "nlp", "cnn", "rnn", "lstm", "bert", "llm", "deep learning", "machine learning"],
-    "Databases": ["postgresql", "mysql", "sqlite", "mongodb", "redis", "cassandra", "dynamodb", "oracle"],
-    "Tools & DevOps": ["docker", "kubernetes", "git", "github", "aws", "gcp", "azure", "jenkins", "terraform", "ansible"]
+    "ITISS & Networking": [
+        "networking", "tcp/ip", "subnetting", "routing", "switching", "cisco", "wireshark",
+        "dns", "dhcp", "vpn", "ipsec", "firewall", "iptables", "ufw", "sysadmin", "system administration",
+        "linux", "redhat", "centos", "ubuntu", "bash", "shell scripting", "systemd", "lvm", "nfs", "ssh", "cron", "selinux"
+    ],
+    "Cloud & Infrastructure": [
+        "aws", "gcp", "azure", "docker", "kubernetes", "k8s", "terraform", "ansible", "cloudformation",
+        "ci/cd", "jenkins", "github actions", "prometheus", "grafana", "nagios", "zabbix", "sre"
+    ],
+    "Cyber Security": [
+        "cybersecurity", "cyber security", "siem", "splunk", "nessus", "metasploit", "burp suite",
+        "wireshark", "nmap", "owasp", "vulnerability assessment", "penetration testing", "incident response"
+    ],
+    "Programming Languages": [
+        "python", "sql", "java", "c\\+\\+", "cpp", "c", "javascript", "typescript", "scala", "golang", "bash", "kotlin", "dart", "r"
+    ],
+    "Machine Learning & Data Science": [
+        "machine learning", "practical machine learning", "data science", "statistics", "advanced analytics", "deep learning", "predictive modeling", "feature engineering"
+    ],
+    "Generative AI & LLMs": [
+        "generative ai", "genai", "llm", "llms", "large language models", "rag", "langchain", "crewai", "ollama", "multi-agent", "ai agents", "nlp", "bert", "transformers", "pytorch", "tensorflow", "keras"
+    ],
+    "Big Data & Data Engineering": [
+        "big data", "spark", "apache spark", "databricks", "kafka", "pyspark", "hadoop", "etl", "delta lake", "data warehousing"
+    ],
+    "Web & Databases": [
+        "react", "vue", "angular", "node", "express", "next.js", "tailwind", "postgresql", "mysql",
+        "sqlite", "mongodb", "redis", "cassandra", "dynamodb", "oracle", "chromadb", "faiss", "streamlit"
+    ],
+    "Embedded & Mobile": [
+        "embedded", "microcontroller", "arm", "rtos", "stm32", "yocto", "flutter", "android", "jetpack compose"
+    ]
 }
+
+ALL_TOOL_KEYWORDS = [kw.replace("\\", "") for sublist in SKILL_DOMAINS.values() for kw in sublist]
+
 
 class ResumeAgent:
     def __init__(self):
-        pass
+        self.llm_manager = LLMManager()
 
     def extract_text_from_pdf(self, pdf_file_path):
-        """
-        Extracts raw text from a PDF resume.
-        """
+        """Extracts raw text from a PDF resume."""
         text = ""
         try:
             with open(pdf_file_path, "rb") as f:
@@ -31,14 +61,108 @@ class ResumeAgent:
             print(f"[Resume Parsing Error] {e}")
         return text
 
+    def extract_tools_from_text(self, text_snippet):
+        """Extracts specific tool/technology names mentioned in a text snippet."""
+        text_lower = text_snippet.lower()
+        found_tools = []
+        for tool in ALL_TOOL_KEYWORDS:
+            if len(tool) <= 2 and tool not in ["c", "r", "ai", "db"]:
+                continue
+            pattern = r'(?:\b|_)' + re.escape(tool) + r'(?:\b|_)'
+            if re.search(pattern, text_lower) or tool in text_lower:
+                display_tool = tool.upper()
+                if display_tool not in found_tools:
+                    found_tools.append(display_tool)
+        return found_tools
+
+    def extract_projects(self, text):
+        """
+        Extracts structured project metadata (Exact Project Name, Tools Used, Short Description)
+        using LLM extraction with regex fallback.
+        """
+        if not text or len(text.strip()) < 15:
+            return []
+
+        # 1. LLM Hybrid Structured Extraction (100% Precision)
+        if self.llm_manager.is_connected:
+            prompt = (
+                "You are an expert technical recruiter analyzing a resume.\n"
+                "Task: Extract all projects mentioned in the resume below.\n"
+                "For EACH project, extract:\n"
+                "1. 'name': Exact project title/name\n"
+                "2. 'tools': List of specific tools, languages, libraries, databases, or platforms used\n"
+                "3. 'description': Short 1-2 sentence description of what the project accomplished\n\n"
+                f"Resume Text:\n{text[:2500]}\n\n"
+                "Respond STRICTLY as a JSON array of objects:\n"
+                "[\n  {\n    \"name\": \"<project name>\",\n    \"tools\": [\"<tool1>\", \"<tool2>\"],\n    \"description\": \"<1-2 sentence summary>\"\n  }\n]"
+            )
+            response = self.llm_manager.generate(prompt)
+            if response:
+                try:
+                    clean_res = re.sub(r'```json\s*|\s*```', '', response).strip()
+                    parsed = json.loads(clean_res)
+                    if isinstance(parsed, list) and len(parsed) > 0:
+                        valid_projects = []
+                        for item in parsed:
+                            if isinstance(item, dict) and "name" in item:
+                                valid_projects.append({
+                                    "name": item.get("name", "Project").strip(),
+                                    "tools": [t.upper() for t in item.get("tools", [])] if item.get("tools") else self.extract_tools_from_text(item.get("description", "")),
+                                    "description": item.get("description", item.get("name", "")).strip(),
+                                    "text": f"{item.get('name')}: {item.get('description')}"
+                                })
+                        if valid_projects:
+                            return valid_projects[:4]
+                except Exception as e:
+                    print(f"[ResumeAgent LLM Project Extraction Warning] {e}")
+
+        # 2. Regex & Heuristic Parsing Fallback
+        projects = []
+        pattern = r'(?:projects|key projects|academic projects|project highlights|recent projects)[\s\S]*?(?=(?:education|experience|skills|certifications|achievements|$))'
+        match = re.search(pattern, text, re.IGNORECASE)
+
+        raw_items = []
+        if match:
+            project_block = match.group(0)
+            raw_items = [item.strip() for item in re.split(r'[\n\r\-•*]+', project_block) if len(item.strip()) > 10]
+
+        if not raw_items:
+            for item in re.split(r'[\n\r\-•*]+', text):
+                item_str = item.strip()
+                if any(kw in item_str.lower() for kw in ["project", "developed", "built", "implemented", "system", "application", "platform"]):
+                    if 15 <= len(item_str) <= 150:
+                        raw_items.append(item_str)
+
+        for clean_line in raw_items:
+            if re.match(r'^(projects|key projects|academic projects|project highlights)', clean_line, re.IGNORECASE):
+                continue
+
+            if len(clean_line) < 15:
+                continue
+
+            parts = re.split(r'[:–—|]|\busing\b|\bwith\b|\bbuilt\b', clean_line, flags=re.IGNORECASE)
+            proj_name = parts[0].strip() if len(parts) > 1 and len(parts[0].strip()) >= 5 else clean_line[:40].strip()
+
+            tools = self.extract_tools_from_text(clean_line)
+            desc = clean_line
+
+            projects.append({
+                "name": proj_name,
+                "tools": tools if tools else ["SOFTWARE TOOLS"],
+                "description": desc,
+                "text": clean_line
+            })
+
+            if len(projects) >= 4:
+                break
+
+        return projects
+
     def parse_resume(self, text_or_path):
         """
-        Parses resume text (or extracts it from a PDF path) and extracts:
-        - Found Skills
-        - Recommended Role
-        - Identified Keywords
+        Parses resume text or PDF file and returns extracted skills matrix, structured project metadata,
+        and recommended target job role based on parsed skills and tech stack.
         """
-        # If a file path is provided, extract text first
         if text_or_path.lower().endswith(".pdf"):
             text = self.extract_text_from_pdf(text_or_path)
         else:
@@ -47,93 +171,56 @@ class ResumeAgent:
         if not text:
             return {
                 "skills": [],
+                "skills_by_domain": {},
+                "projects": [],
                 "recommended_role": "Python Developer",
-                "extracted_info": {}
+                "text_length": 0
             }
 
         text_lower = text.lower()
         extracted_skills = {}
         total_skills_count = 0
 
-        # Scan for skills across predefined domains
         for domain, keywords in SKILL_DOMAINS.items():
             found_in_domain = []
             for kw in keywords:
-                # Use regex word boundaries for precise matching
-                pattern = r'\b' + kw + r'\b'
-                if re.search(pattern, text_lower):
-                    # Clean display formatting
-                    display_kw = kw.replace("\\", "").upper()
-                    found_in_domain.append(display_kw)
+                clean_kw = kw.replace("\\", "")
+                pattern = r'(?:\b|_)' + re.escape(clean_kw) + r'(?:\b|_)'
+                if re.search(pattern, text_lower) or clean_kw in text_lower:
+                    display_kw = clean_kw.upper()
+                    if display_kw not in found_in_domain:
+                        found_in_domain.append(display_kw)
             if found_in_domain:
                 extracted_skills[domain] = found_in_domain
                 total_skills_count += len(found_in_domain)
 
-        # Heuristic to recommend a role based on skills count
-        role_scores = {
-            "Python Developer": 0,
-            "Data Analyst": 0,
-            "Data Engineer": 0,
-            "Machine Learning Engineer": 0
-        }
-
-        # Calculate role weights
         all_skills_flat = [s for sublist in extracted_skills.values() for s in sublist]
-        
-        # Python Developer weights
-        for s in ["PYTHON", "DJANGO", "FLASK", "FASTAPI", "GIT", "POSTGRESQL"]:
-            if s in all_skills_flat:
-                role_scores["Python Developer"] += 2
-                
-        # Data Analyst weights
-        for s in ["SQL", "PANDAS", "NUMPY", "EXCEL", "POSTGRESQL", "MYSQL"]:
-            if s in all_skills_flat:
-                role_scores["Data Analyst"] += 2
-                
-        # Data Engineer weights
-        for s in ["SPARK", "PYSPARK", "KAFKA", "AIRFLOW", "HADOOP", "ETL", "ELT", "SNOWFLAKE", "SCALA"]:
-            if s in all_skills_flat:
-                role_scores["Data Engineer"] += 3
+        extracted_projects = self.extract_projects(text)
 
-        # ML Engineer weights
-        for s in ["PYTORCH", "TENSORFLOW", "SCIKIT-LEARN", "TRANSFORMERS", "NLP", "MACHINE LEARNING", "DEEP LEARNING", "LLM"]:
-            if s in all_skills_flat:
-                role_scores["Machine Learning Engineer"] += 3
-
-        # Add generic weights based on languages
-        if "PYTHON" in all_skills_flat:
-            role_scores["Python Developer"] += 1
-            role_scores["Machine Learning Engineer"] += 1
-            role_scores["Data Engineer"] += 1
-        if "SQL" in all_skills_flat:
-            role_scores["Data Analyst"] += 1
-            role_scores["Data Engineer"] += 1
-
-        # Determine recommended role
-        recommended_role = max(role_scores, key=role_scores.get)
-        
-        # If no skills found, default to Python Developer
-        if total_skills_count == 0:
-            recommended_role = "Python Developer"
+        # Use RoleCatalog prediction engine
+        recommended_role = predict_role_from_skills(all_skills_flat)
 
         return {
             "skills": all_skills_flat,
             "skills_by_domain": extracted_skills,
+            "projects": extracted_projects,
             "recommended_role": recommended_role,
             "text_length": len(text)
         }
 
 if __name__ == "__main__":
-    # Test parser with simulated resume text
     agent = ResumeAgent()
-    sample_resume = """
-    John Doe - Data Pipeline Engineer
-    Skills: Python, SQL, Apache Spark, PySpark, Apache Kafka, Apache Airflow.
-    Databases: PostgreSQL, MongoDB.
-    Tools: Docker, Git, AWS.
-    Experience in building scalable ETL pipelines.
+    sample = """
+    John Doe - AI & Cloud Engineer
+    Skills: Python, FastAPI, Docker, AWS, LangChain, Llama, ChromaDB.
+
+    Projects:
+    - Smart AI Interview Simulator: Developed an interactive AI interviewing tool using Python, FastAPI, LangChain, Groq LLM (llama-3.3-70b-versatile), and ChromaDB RAG for real-time question evaluation.
+    - Cloud Infrastructure Log Monitor: Built an automated log processing system with Docker, Kafka, AWS EC2 and Prometheus.
     """
-    res = agent.parse_resume(sample_resume)
-    print("[Test] Recommended Role:", res["recommended_role"])
-    print("[Test] Extracted Skills:", res["skills"])
-    print("[Test] Skills by Domain:", res["skills_by_domain"])
+    res = agent.parse_resume(sample)
+    print("Recommended Role:", res["recommended_role"])
+    print("Extracted Projects Metadata:")
+    for p in res["projects"]:
+        print(f"  Name: {p['name']}\n  Tools: {p['tools']}\n  Description: {p['description']}\n")
+

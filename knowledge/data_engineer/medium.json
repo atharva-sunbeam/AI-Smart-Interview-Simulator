@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Python & SQL",
+    "question": "How do you implement practical error handling when working with Python & SQL in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & SQL",
+    "question": "Describe a real-world debugging scenario involving Python & SQL and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & SQL",
+    "question": "How does Python & SQL perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & SQL",
+    "question": "What are the best practices for structuring code related to Python & SQL?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & SQL",
+    "question": "In a practical project, how do you integrate Python & SQL with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & SQL",
+    "question": "Compare and contrast two alternative approaches for executing Python & SQL.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & SQL",
+    "question": "How do you write a unit test for a function that relies on Python & SQL?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & SQL",
+    "question": "What performance bottlenecks can arise if Python & SQL is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & SQL",
+    "question": "How do you refactor legacy code using modern standards for Python & SQL?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & SQL",
+    "question": "Explain how data validation is applied to Python & SQL payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing & Modeling",
+    "question": "How do you implement practical error handling when working with Data Warehousing & Modeling in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing & Modeling",
+    "question": "Describe a real-world debugging scenario involving Data Warehousing & Modeling and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing & Modeling",
+    "question": "How does Data Warehousing & Modeling perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing & Modeling",
+    "question": "What are the best practices for structuring code related to Data Warehousing & Modeling?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing & Modeling",
+    "question": "In a practical project, how do you integrate Data Warehousing & Modeling with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing & Modeling",
+    "question": "Compare and contrast two alternative approaches for executing Data Warehousing & Modeling.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing & Modeling",
+    "question": "How do you write a unit test for a function that relies on Data Warehousing & Modeling?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing & Modeling",
+    "question": "What performance bottlenecks can arise if Data Warehousing & Modeling is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing & Modeling",
+    "question": "How do you refactor legacy code using modern standards for Data Warehousing & Modeling?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing & Modeling",
+    "question": "Explain how data validation is applied to Data Warehousing & Modeling payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "How do you implement practical error handling when working with ETL/ELT Pipelines in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "Describe a real-world debugging scenario involving ETL/ELT Pipelines and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "How does ETL/ELT Pipelines perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "What are the best practices for structuring code related to ETL/ELT Pipelines?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "In a practical project, how do you integrate ETL/ELT Pipelines with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "Compare and contrast two alternative approaches for executing ETL/ELT Pipelines.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "How do you write a unit test for a function that relies on ETL/ELT Pipelines?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "What performance bottlenecks can arise if ETL/ELT Pipelines is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "How do you refactor legacy code using modern standards for ETL/ELT Pipelines?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "Explain how data validation is applied to ETL/ELT Pipelines payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Apache Spark & PySpark",
+    "question": "How do you implement practical error handling when working with Apache Spark & PySpark in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Apache Spark & PySpark",
+    "question": "Describe a real-world debugging scenario involving Apache Spark & PySpark and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Apache Spark & PySpark",
+    "question": "How does Apache Spark & PySpark perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Apache Spark & PySpark",
+    "question": "What are the best practices for structuring code related to Apache Spark & PySpark?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Apache Spark & PySpark",
+    "question": "In a practical project, how do you integrate Apache Spark & PySpark with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Apache Spark & PySpark",
+    "question": "Compare and contrast two alternative approaches for executing Apache Spark & PySpark.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Apache Spark & PySpark",
+    "question": "How do you write a unit test for a function that relies on Apache Spark & PySpark?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Apache Spark & PySpark",
+    "question": "What performance bottlenecks can arise if Apache Spark & PySpark is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Apache Spark & PySpark",
+    "question": "How do you refactor legacy code using modern standards for Apache Spark & PySpark?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Apache Spark & PySpark",
+    "question": "Explain how data validation is applied to Apache Spark & PySpark payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kafka & Streaming",
+    "question": "How do you implement practical error handling when working with Kafka & Streaming in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kafka & Streaming",
+    "question": "Describe a real-world debugging scenario involving Kafka & Streaming and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kafka & Streaming",
+    "question": "How does Kafka & Streaming perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kafka & Streaming",
+    "question": "What are the best practices for structuring code related to Kafka & Streaming?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kafka & Streaming",
+    "question": "In a practical project, how do you integrate Kafka & Streaming with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kafka & Streaming",
+    "question": "Compare and contrast two alternative approaches for executing Kafka & Streaming.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kafka & Streaming",
+    "question": "How do you write a unit test for a function that relies on Kafka & Streaming?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kafka & Streaming",
+    "question": "What performance bottlenecks can arise if Kafka & Streaming is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kafka & Streaming",
+    "question": "How do you refactor legacy code using modern standards for Kafka & Streaming?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kafka & Streaming",
+    "question": "Explain how data validation is applied to Kafka & Streaming payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "BigData (Hadoop/Hive)",
+    "question": "How do you implement practical error handling when working with BigData (Hadoop/Hive) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "BigData (Hadoop/Hive)",
+    "question": "Describe a real-world debugging scenario involving BigData (Hadoop/Hive) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "BigData (Hadoop/Hive)",
+    "question": "How does BigData (Hadoop/Hive) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "BigData (Hadoop/Hive)",
+    "question": "What are the best practices for structuring code related to BigData (Hadoop/Hive)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "BigData (Hadoop/Hive)",
+    "question": "In a practical project, how do you integrate BigData (Hadoop/Hive) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "BigData (Hadoop/Hive)",
+    "question": "Compare and contrast two alternative approaches for executing BigData (Hadoop/Hive).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "BigData (Hadoop/Hive)",
+    "question": "How do you write a unit test for a function that relies on BigData (Hadoop/Hive)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "BigData (Hadoop/Hive)",
+    "question": "What performance bottlenecks can arise if BigData (Hadoop/Hive) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "BigData (Hadoop/Hive)",
+    "question": "How do you refactor legacy code using modern standards for BigData (Hadoop/Hive)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "BigData (Hadoop/Hive)",
+    "question": "Explain how data validation is applied to BigData (Hadoop/Hive) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

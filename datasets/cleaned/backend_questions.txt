@@ -1,0 +1,30 @@
+Q: How do B-Tree indexes improve database query performance, and what are their write overhead trade-offs?
+A: B-Tree indexes maintain sorted self-balancing tree structures allowing O(log N) lookups for equality and range queries instead of full table scans. The trade-off is write overhead: every INSERT, UPDATE, or DELETE requires updating index node trees, slowing write performance.
+
+----------------------------------------
+Q: Explain the Cache-Aside pattern and how cache stampedes (thundering herd problem) are prevented.
+A: In Cache-Aside, the application first queries Redis; if a miss occurs, it loads data from the database and updates Redis. Cache stampedes occur when multiple concurrent requests simultaneously query a missing key; they are prevented using distributed locks (mutexes) or probabilistic early expiration.
+
+----------------------------------------
+Q: What is the N+1 Query Problem in ORMs (like SQLAlchemy or Django ORM), and how do you fix it?
+A: The N+1 problem occurs when an application executes 1 query to fetch parent records and then N additional queries to fetch related child records for each parent. It is fixed using eager loading techniques like `joinedload()`, `select_related()`, or `prefetch_related()`.
+
+----------------------------------------
+Q: Describe the core characteristics of Microservices Architecture versus Monolithic Architecture.
+A: Monoliths bundle all components into a single application codebase and process. Microservices break domain capabilities into independently deployable, loosely coupled services communicating via lightweight protocols (gRPC or REST), scaling independently at the cost of operational complexity.
+
+----------------------------------------
+Q: What are Message Queues (e.g. RabbitMQ, Apache Kafka), and why are they used in backend systems?
+A: Message queues enable asynchronous, decoupled communication between backend services. They buffer peak traffic bursts, ensure task durability, provide pub/sub event broadcasting, and guarantee system availability during downstream component outages.
+
+----------------------------------------
+Q: Explain HTTP/2 multiplexing vs HTTP/1.1 connection handling.
+A: HTTP/1.1 requires separate TCP connections or serial head-of-line blocking requests. HTTP/2 introduces binary frame streaming over a single TCP connection, allowing multiple request and response streams to be multiplexed concurrently without blocking.
+
+----------------------------------------
+Q: What is Database Sharding, and how does horizontal scaling differ from vertical scaling?
+A: Vertical scaling adds more CPU/RAM to a single server. Horizontal scaling adds more server nodes. Database Sharding partitions rows across multiple distinct database instances based on a shard key (e.g., hash of user_id), scaling write bandwidth beyond single-server limits.
+
+----------------------------------------
+Q: Explain the CAP Theorem and how database engines handle trade-offs between Consistency and Availability.
+A: CAP states a distributed system can simultaneously guarantee only 2 of 3 properties: Consistency, Availability, and Partition Tolerance. In a network partition, CP systems (e.g. HBase, MongoDB) sacrifice availability to prevent stale reads, while AP systems (e.g. Cassandra, DynamoDB) maintain availability with eventual consistency.

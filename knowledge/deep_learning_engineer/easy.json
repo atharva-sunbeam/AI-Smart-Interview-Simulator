@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Math & Matrix Calculus",
+    "question": "What is Math & Matrix Calculus in Deep Learning Engineer, and why is it important?",
+    "answer": "Math & Matrix Calculus is a foundational concept in Deep Learning Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Math & Matrix Calculus",
+    "question": "Define the basic syntax or primary usage of Math & Matrix Calculus.",
+    "answer": "The primary syntax for Math & Matrix Calculus involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Math & Matrix Calculus",
+    "question": "What is the main difference between basic primitives and Math & Matrix Calculus?",
+    "answer": "Basic primitives store single value types, whereas Math & Matrix Calculus organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Math & Matrix Calculus",
+    "question": "What is a common beginner mistake when working with Math & Matrix Calculus?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Math & Matrix Calculus.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Math & Matrix Calculus",
+    "question": "State two key advantages of using Math & Matrix Calculus in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Math & Matrix Calculus",
+    "question": "How do you initialize or instantiate Math & Matrix Calculus in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Math & Matrix Calculus",
+    "question": "What role does Math & Matrix Calculus play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Math & Matrix Calculus",
+    "question": "Explain the simple step-by-step workflow of executing Math & Matrix Calculus.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Math & Matrix Calculus",
+    "question": "What is the recommended naming convention when defining Math & Matrix Calculus?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Math & Matrix Calculus",
+    "question": "List the basic prerequisites needed before implementing Math & Matrix Calculus.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Neural Networks & Backprop",
+    "question": "What is Neural Networks & Backprop in Deep Learning Engineer, and why is it important?",
+    "answer": "Neural Networks & Backprop is a foundational concept in Deep Learning Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Neural Networks & Backprop",
+    "question": "Define the basic syntax or primary usage of Neural Networks & Backprop.",
+    "answer": "The primary syntax for Neural Networks & Backprop involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Neural Networks & Backprop",
+    "question": "What is the main difference between basic primitives and Neural Networks & Backprop?",
+    "answer": "Basic primitives store single value types, whereas Neural Networks & Backprop organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Neural Networks & Backprop",
+    "question": "What is a common beginner mistake when working with Neural Networks & Backprop?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Neural Networks & Backprop.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Neural Networks & Backprop",
+    "question": "State two key advantages of using Neural Networks & Backprop in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Neural Networks & Backprop",
+    "question": "How do you initialize or instantiate Neural Networks & Backprop in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Neural Networks & Backprop",
+    "question": "What role does Neural Networks & Backprop play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Neural Networks & Backprop",
+    "question": "Explain the simple step-by-step workflow of executing Neural Networks & Backprop.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Neural Networks & Backprop",
+    "question": "What is the recommended naming convention when defining Neural Networks & Backprop?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Neural Networks & Backprop",
+    "question": "List the basic prerequisites needed before implementing Neural Networks & Backprop.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PyTorch & TensorFlow",
+    "question": "What is PyTorch & TensorFlow in Deep Learning Engineer, and why is it important?",
+    "answer": "PyTorch & TensorFlow is a foundational concept in Deep Learning Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PyTorch & TensorFlow",
+    "question": "Define the basic syntax or primary usage of PyTorch & TensorFlow.",
+    "answer": "The primary syntax for PyTorch & TensorFlow involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PyTorch & TensorFlow",
+    "question": "What is the main difference between basic primitives and PyTorch & TensorFlow?",
+    "answer": "Basic primitives store single value types, whereas PyTorch & TensorFlow organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PyTorch & TensorFlow",
+    "question": "What is a common beginner mistake when working with PyTorch & TensorFlow?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in PyTorch & TensorFlow.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PyTorch & TensorFlow",
+    "question": "State two key advantages of using PyTorch & TensorFlow in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PyTorch & TensorFlow",
+    "question": "How do you initialize or instantiate PyTorch & TensorFlow in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PyTorch & TensorFlow",
+    "question": "What role does PyTorch & TensorFlow play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PyTorch & TensorFlow",
+    "question": "Explain the simple step-by-step workflow of executing PyTorch & TensorFlow.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PyTorch & TensorFlow",
+    "question": "What is the recommended naming convention when defining PyTorch & TensorFlow?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "PyTorch & TensorFlow",
+    "question": "List the basic prerequisites needed before implementing PyTorch & TensorFlow.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CNNs & Computer Vision",
+    "question": "What is CNNs & Computer Vision in Deep Learning Engineer, and why is it important?",
+    "answer": "CNNs & Computer Vision is a foundational concept in Deep Learning Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CNNs & Computer Vision",
+    "question": "Define the basic syntax or primary usage of CNNs & Computer Vision.",
+    "answer": "The primary syntax for CNNs & Computer Vision involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CNNs & Computer Vision",
+    "question": "What is the main difference between basic primitives and CNNs & Computer Vision?",
+    "answer": "Basic primitives store single value types, whereas CNNs & Computer Vision organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CNNs & Computer Vision",
+    "question": "What is a common beginner mistake when working with CNNs & Computer Vision?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in CNNs & Computer Vision.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CNNs & Computer Vision",
+    "question": "State two key advantages of using CNNs & Computer Vision in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CNNs & Computer Vision",
+    "question": "How do you initialize or instantiate CNNs & Computer Vision in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CNNs & Computer Vision",
+    "question": "What role does CNNs & Computer Vision play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CNNs & Computer Vision",
+    "question": "Explain the simple step-by-step workflow of executing CNNs & Computer Vision.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CNNs & Computer Vision",
+    "question": "What is the recommended naming convention when defining CNNs & Computer Vision?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "CNNs & Computer Vision",
+    "question": "List the basic prerequisites needed before implementing CNNs & Computer Vision.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RNNs & Transformers",
+    "question": "What is RNNs & Transformers in Deep Learning Engineer, and why is it important?",
+    "answer": "RNNs & Transformers is a foundational concept in Deep Learning Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RNNs & Transformers",
+    "question": "Define the basic syntax or primary usage of RNNs & Transformers.",
+    "answer": "The primary syntax for RNNs & Transformers involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RNNs & Transformers",
+    "question": "What is the main difference between basic primitives and RNNs & Transformers?",
+    "answer": "Basic primitives store single value types, whereas RNNs & Transformers organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RNNs & Transformers",
+    "question": "What is a common beginner mistake when working with RNNs & Transformers?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in RNNs & Transformers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RNNs & Transformers",
+    "question": "State two key advantages of using RNNs & Transformers in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RNNs & Transformers",
+    "question": "How do you initialize or instantiate RNNs & Transformers in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RNNs & Transformers",
+    "question": "What role does RNNs & Transformers play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RNNs & Transformers",
+    "question": "Explain the simple step-by-step workflow of executing RNNs & Transformers.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RNNs & Transformers",
+    "question": "What is the recommended naming convention when defining RNNs & Transformers?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "RNNs & Transformers",
+    "question": "List the basic prerequisites needed before implementing RNNs & Transformers.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Information Security Principles",
+    "question": "How do you implement practical error handling when working with Information Security Principles in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Information Security Principles",
+    "question": "Describe a real-world debugging scenario involving Information Security Principles and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Information Security Principles",
+    "question": "How does Information Security Principles perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Information Security Principles",
+    "question": "What are the best practices for structuring code related to Information Security Principles?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Information Security Principles",
+    "question": "In a practical project, how do you integrate Information Security Principles with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Information Security Principles",
+    "question": "Compare and contrast two alternative approaches for executing Information Security Principles.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Information Security Principles",
+    "question": "How do you write a unit test for a function that relies on Information Security Principles?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Information Security Principles",
+    "question": "What performance bottlenecks can arise if Information Security Principles is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Information Security Principles",
+    "question": "How do you refactor legacy code using modern standards for Information Security Principles?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Information Security Principles",
+    "question": "Explain how data validation is applied to Information Security Principles payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Risk Assessment & Compliance",
+    "question": "How do you implement practical error handling when working with Risk Assessment & Compliance in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Risk Assessment & Compliance",
+    "question": "Describe a real-world debugging scenario involving Risk Assessment & Compliance and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Risk Assessment & Compliance",
+    "question": "How does Risk Assessment & Compliance perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Risk Assessment & Compliance",
+    "question": "What are the best practices for structuring code related to Risk Assessment & Compliance?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Risk Assessment & Compliance",
+    "question": "In a practical project, how do you integrate Risk Assessment & Compliance with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Risk Assessment & Compliance",
+    "question": "Compare and contrast two alternative approaches for executing Risk Assessment & Compliance.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Risk Assessment & Compliance",
+    "question": "How do you write a unit test for a function that relies on Risk Assessment & Compliance?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Risk Assessment & Compliance",
+    "question": "What performance bottlenecks can arise if Risk Assessment & Compliance is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Risk Assessment & Compliance",
+    "question": "How do you refactor legacy code using modern standards for Risk Assessment & Compliance?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Risk Assessment & Compliance",
+    "question": "Explain how data validation is applied to Risk Assessment & Compliance payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Vulnerability Management",
+    "question": "How do you implement practical error handling when working with Vulnerability Management in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Vulnerability Management",
+    "question": "Describe a real-world debugging scenario involving Vulnerability Management and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Vulnerability Management",
+    "question": "How does Vulnerability Management perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Vulnerability Management",
+    "question": "What are the best practices for structuring code related to Vulnerability Management?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Vulnerability Management",
+    "question": "In a practical project, how do you integrate Vulnerability Management with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Vulnerability Management",
+    "question": "Compare and contrast two alternative approaches for executing Vulnerability Management.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Vulnerability Management",
+    "question": "How do you write a unit test for a function that relies on Vulnerability Management?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Vulnerability Management",
+    "question": "What performance bottlenecks can arise if Vulnerability Management is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Vulnerability Management",
+    "question": "How do you refactor legacy code using modern standards for Vulnerability Management?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Vulnerability Management",
+    "question": "Explain how data validation is applied to Vulnerability Management payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network & Endpoint Security",
+    "question": "How do you implement practical error handling when working with Network & Endpoint Security in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network & Endpoint Security",
+    "question": "Describe a real-world debugging scenario involving Network & Endpoint Security and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network & Endpoint Security",
+    "question": "How does Network & Endpoint Security perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network & Endpoint Security",
+    "question": "What are the best practices for structuring code related to Network & Endpoint Security?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network & Endpoint Security",
+    "question": "In a practical project, how do you integrate Network & Endpoint Security with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network & Endpoint Security",
+    "question": "Compare and contrast two alternative approaches for executing Network & Endpoint Security.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network & Endpoint Security",
+    "question": "How do you write a unit test for a function that relies on Network & Endpoint Security?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network & Endpoint Security",
+    "question": "What performance bottlenecks can arise if Network & Endpoint Security is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network & Endpoint Security",
+    "question": "How do you refactor legacy code using modern standards for Network & Endpoint Security?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Network & Endpoint Security",
+    "question": "Explain how data validation is applied to Network & Endpoint Security payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Incident Handling",
+    "question": "How do you implement practical error handling when working with Security Incident Handling in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Incident Handling",
+    "question": "Describe a real-world debugging scenario involving Security Incident Handling and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Incident Handling",
+    "question": "How does Security Incident Handling perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Incident Handling",
+    "question": "What are the best practices for structuring code related to Security Incident Handling?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Incident Handling",
+    "question": "In a practical project, how do you integrate Security Incident Handling with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Incident Handling",
+    "question": "Compare and contrast two alternative approaches for executing Security Incident Handling.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Incident Handling",
+    "question": "How do you write a unit test for a function that relies on Security Incident Handling?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Incident Handling",
+    "question": "What performance bottlenecks can arise if Security Incident Handling is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Incident Handling",
+    "question": "How do you refactor legacy code using modern standards for Security Incident Handling?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Security Incident Handling",
+    "question": "Explain how data validation is applied to Security Incident Handling payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

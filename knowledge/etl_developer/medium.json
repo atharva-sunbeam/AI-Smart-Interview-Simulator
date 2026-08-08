@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "SQL & Relational DBs",
+    "question": "How do you implement practical error handling when working with SQL & Relational DBs in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & Relational DBs",
+    "question": "Describe a real-world debugging scenario involving SQL & Relational DBs and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & Relational DBs",
+    "question": "How does SQL & Relational DBs perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & Relational DBs",
+    "question": "What are the best practices for structuring code related to SQL & Relational DBs?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & Relational DBs",
+    "question": "In a practical project, how do you integrate SQL & Relational DBs with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & Relational DBs",
+    "question": "Compare and contrast two alternative approaches for executing SQL & Relational DBs.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & Relational DBs",
+    "question": "How do you write a unit test for a function that relies on SQL & Relational DBs?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & Relational DBs",
+    "question": "What performance bottlenecks can arise if SQL & Relational DBs is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & Relational DBs",
+    "question": "How do you refactor legacy code using modern standards for SQL & Relational DBs?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & Relational DBs",
+    "question": "Explain how data validation is applied to SQL & Relational DBs payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "How do you implement practical error handling when working with ETL/ELT Pipelines in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "Describe a real-world debugging scenario involving ETL/ELT Pipelines and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "How does ETL/ELT Pipelines perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "What are the best practices for structuring code related to ETL/ELT Pipelines?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "In a practical project, how do you integrate ETL/ELT Pipelines with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "Compare and contrast two alternative approaches for executing ETL/ELT Pipelines.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "How do you write a unit test for a function that relies on ETL/ELT Pipelines?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "What performance bottlenecks can arise if ETL/ELT Pipelines is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "How do you refactor legacy code using modern standards for ETL/ELT Pipelines?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL/ELT Pipelines",
+    "question": "Explain how data validation is applied to ETL/ELT Pipelines payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "How do you implement practical error handling when working with Data Warehousing in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "Describe a real-world debugging scenario involving Data Warehousing and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "How does Data Warehousing perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "What are the best practices for structuring code related to Data Warehousing?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "In a practical project, how do you integrate Data Warehousing with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "Compare and contrast two alternative approaches for executing Data Warehousing.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "How do you write a unit test for a function that relies on Data Warehousing?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "What performance bottlenecks can arise if Data Warehousing is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "How do you refactor legacy code using modern standards for Data Warehousing?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "Explain how data validation is applied to Data Warehousing payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Airflow & Scheduling",
+    "question": "How do you implement practical error handling when working with Airflow & Scheduling in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Airflow & Scheduling",
+    "question": "Describe a real-world debugging scenario involving Airflow & Scheduling and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Airflow & Scheduling",
+    "question": "How does Airflow & Scheduling perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Airflow & Scheduling",
+    "question": "What are the best practices for structuring code related to Airflow & Scheduling?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Airflow & Scheduling",
+    "question": "In a practical project, how do you integrate Airflow & Scheduling with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Airflow & Scheduling",
+    "question": "Compare and contrast two alternative approaches for executing Airflow & Scheduling.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Airflow & Scheduling",
+    "question": "How do you write a unit test for a function that relies on Airflow & Scheduling?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Airflow & Scheduling",
+    "question": "What performance bottlenecks can arise if Airflow & Scheduling is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Airflow & Scheduling",
+    "question": "How do you refactor legacy code using modern standards for Airflow & Scheduling?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Airflow & Scheduling",
+    "question": "Explain how data validation is applied to Airflow & Scheduling payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Transformation",
+    "question": "How do you implement practical error handling when working with Data Transformation in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Transformation",
+    "question": "Describe a real-world debugging scenario involving Data Transformation and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Transformation",
+    "question": "How does Data Transformation perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Transformation",
+    "question": "What are the best practices for structuring code related to Data Transformation?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Transformation",
+    "question": "In a practical project, how do you integrate Data Transformation with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Transformation",
+    "question": "Compare and contrast two alternative approaches for executing Data Transformation.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Transformation",
+    "question": "How do you write a unit test for a function that relies on Data Transformation?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Transformation",
+    "question": "What performance bottlenecks can arise if Data Transformation is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Transformation",
+    "question": "How do you refactor legacy code using modern standards for Data Transformation?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Transformation",
+    "question": "Explain how data validation is applied to Data Transformation payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

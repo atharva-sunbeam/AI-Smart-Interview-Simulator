@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Footprinting & Reconnaissance",
+    "question": "How do you implement practical error handling when working with Footprinting & Reconnaissance in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Footprinting & Reconnaissance",
+    "question": "Describe a real-world debugging scenario involving Footprinting & Reconnaissance and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Footprinting & Reconnaissance",
+    "question": "How does Footprinting & Reconnaissance perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Footprinting & Reconnaissance",
+    "question": "What are the best practices for structuring code related to Footprinting & Reconnaissance?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Footprinting & Reconnaissance",
+    "question": "In a practical project, how do you integrate Footprinting & Reconnaissance with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Footprinting & Reconnaissance",
+    "question": "Compare and contrast two alternative approaches for executing Footprinting & Reconnaissance.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Footprinting & Reconnaissance",
+    "question": "How do you write a unit test for a function that relies on Footprinting & Reconnaissance?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Footprinting & Reconnaissance",
+    "question": "What performance bottlenecks can arise if Footprinting & Reconnaissance is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Footprinting & Reconnaissance",
+    "question": "How do you refactor legacy code using modern standards for Footprinting & Reconnaissance?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Footprinting & Reconnaissance",
+    "question": "Explain how data validation is applied to Footprinting & Reconnaissance payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Port Scanning & Nmap",
+    "question": "How do you implement practical error handling when working with Port Scanning & Nmap in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Port Scanning & Nmap",
+    "question": "Describe a real-world debugging scenario involving Port Scanning & Nmap and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Port Scanning & Nmap",
+    "question": "How does Port Scanning & Nmap perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Port Scanning & Nmap",
+    "question": "What are the best practices for structuring code related to Port Scanning & Nmap?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Port Scanning & Nmap",
+    "question": "In a practical project, how do you integrate Port Scanning & Nmap with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Port Scanning & Nmap",
+    "question": "Compare and contrast two alternative approaches for executing Port Scanning & Nmap.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Port Scanning & Nmap",
+    "question": "How do you write a unit test for a function that relies on Port Scanning & Nmap?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Port Scanning & Nmap",
+    "question": "What performance bottlenecks can arise if Port Scanning & Nmap is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Port Scanning & Nmap",
+    "question": "How do you refactor legacy code using modern standards for Port Scanning & Nmap?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Port Scanning & Nmap",
+    "question": "Explain how data validation is applied to Port Scanning & Nmap payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Exploitation Techniques",
+    "question": "How do you implement practical error handling when working with Exploitation Techniques in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Exploitation Techniques",
+    "question": "Describe a real-world debugging scenario involving Exploitation Techniques and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Exploitation Techniques",
+    "question": "How does Exploitation Techniques perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Exploitation Techniques",
+    "question": "What are the best practices for structuring code related to Exploitation Techniques?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Exploitation Techniques",
+    "question": "In a practical project, how do you integrate Exploitation Techniques with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Exploitation Techniques",
+    "question": "Compare and contrast two alternative approaches for executing Exploitation Techniques.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Exploitation Techniques",
+    "question": "How do you write a unit test for a function that relies on Exploitation Techniques?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Exploitation Techniques",
+    "question": "What performance bottlenecks can arise if Exploitation Techniques is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Exploitation Techniques",
+    "question": "How do you refactor legacy code using modern standards for Exploitation Techniques?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Exploitation Techniques",
+    "question": "Explain how data validation is applied to Exploitation Techniques payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Wireless & Mobile Hacking",
+    "question": "How do you implement practical error handling when working with Wireless & Mobile Hacking in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Wireless & Mobile Hacking",
+    "question": "Describe a real-world debugging scenario involving Wireless & Mobile Hacking and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Wireless & Mobile Hacking",
+    "question": "How does Wireless & Mobile Hacking perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Wireless & Mobile Hacking",
+    "question": "What are the best practices for structuring code related to Wireless & Mobile Hacking?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Wireless & Mobile Hacking",
+    "question": "In a practical project, how do you integrate Wireless & Mobile Hacking with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Wireless & Mobile Hacking",
+    "question": "Compare and contrast two alternative approaches for executing Wireless & Mobile Hacking.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Wireless & Mobile Hacking",
+    "question": "How do you write a unit test for a function that relies on Wireless & Mobile Hacking?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Wireless & Mobile Hacking",
+    "question": "What performance bottlenecks can arise if Wireless & Mobile Hacking is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Wireless & Mobile Hacking",
+    "question": "How do you refactor legacy code using modern standards for Wireless & Mobile Hacking?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Wireless & Mobile Hacking",
+    "question": "Explain how data validation is applied to Wireless & Mobile Hacking payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Social Engineering",
+    "question": "How do you implement practical error handling when working with Social Engineering in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Social Engineering",
+    "question": "Describe a real-world debugging scenario involving Social Engineering and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Social Engineering",
+    "question": "How does Social Engineering perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Social Engineering",
+    "question": "What are the best practices for structuring code related to Social Engineering?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Social Engineering",
+    "question": "In a practical project, how do you integrate Social Engineering with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Social Engineering",
+    "question": "Compare and contrast two alternative approaches for executing Social Engineering.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Social Engineering",
+    "question": "How do you write a unit test for a function that relies on Social Engineering?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Social Engineering",
+    "question": "What performance bottlenecks can arise if Social Engineering is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Social Engineering",
+    "question": "How do you refactor legacy code using modern standards for Social Engineering?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Social Engineering",
+    "question": "Explain how data validation is applied to Social Engineering payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

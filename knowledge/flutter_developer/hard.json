@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Dart Programming Language",
+    "question": "Design a scalable distributed architecture utilizing Dart Programming Language for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Dart Programming Language across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Dart Programming Language.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "How would you optimize latency and throughput for Dart Programming Language under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Dart Programming Language.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Dart Programming Language?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Dart Programming Language.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "How do you perform deep performance profiling and memory leak detection on Dart Programming Language in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Dart Programming Language and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Dart Programming Language.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "Design a scalable distributed architecture utilizing Flutter Widgets & UI Layouts for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling Flutter Widgets & UI Layouts across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying Flutter Widgets & UI Layouts.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "How would you optimize latency and throughput for Flutter Widgets & UI Layouts under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in Flutter Widgets & UI Layouts.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on Flutter Widgets & UI Layouts?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard Flutter Widgets & UI Layouts.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "How do you perform deep performance profiling and memory leak detection on Flutter Widgets & UI Layouts in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with Flutter Widgets & UI Layouts and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for Flutter Widgets & UI Layouts.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "Design a scalable distributed architecture utilizing State Management (Bloc/Provider) for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling State Management (Bloc/Provider) across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying State Management (Bloc/Provider).",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "How would you optimize latency and throughput for State Management (Bloc/Provider) under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in State Management (Bloc/Provider).",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on State Management (Bloc/Provider)?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard State Management (Bloc/Provider).",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "How do you perform deep performance profiling and memory leak detection on State Management (Bloc/Provider) in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with State Management (Bloc/Provider) and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for State Management (Bloc/Provider).",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "Design a scalable distributed architecture utilizing REST APIs & Firebase Integration for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling REST APIs & Firebase Integration across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying REST APIs & Firebase Integration.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "How would you optimize latency and throughput for REST APIs & Firebase Integration under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in REST APIs & Firebase Integration.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on REST APIs & Firebase Integration?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard REST APIs & Firebase Integration.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "How do you perform deep performance profiling and memory leak detection on REST APIs & Firebase Integration in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with REST APIs & Firebase Integration and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for REST APIs & Firebase Integration.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "Design a scalable distributed architecture utilizing App Performance & Release for high-throughput enterprise systems.",
+    "answer": "Utilize partitioned message queues, decoupled microservices, asynchronous worker pools, and distributed caching to achieve horizontal scalability.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "How do you resolve race conditions and memory concurrency issues when scaling App Performance & Release across multiple threads or nodes?",
+    "answer": "Implement atomic operations, distributed locks (e.g., Redis Redlock), optimistic concurrency control, or immutable state passing.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "Describe the low-level memory allocation and garbage collection mechanisms underlying App Performance & Release.",
+    "answer": "Memory is dynamically allocated on heap segments; references are tracked via reference counting or generational garbage collectors to prevent leaks.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "How would you optimize latency and throughput for App Performance & Release under heavy IO-bound or CPU-bound loads?",
+    "answer": "Employ non-blocking async event loops for IO-bound work, process pools or SIMD vectorization for CPU-bound tasks, and profile with flamegraphs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "Analyze the CAP theorem trade-offs when implementing distributed storage or state management in App Performance & Release.",
+    "answer": "Under network partitions, choose between strict Consistency (locking reads) or Eventual Availability based on business SLAs.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "How do you design zero-downtime deployment strategies for services reliant on App Performance & Release?",
+    "answer": "Use blue-green deployments, canary releases, feature flags, and backward-compatible database schema migrations.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "Explain how fault tolerance, circuit breaking, and retry backoff strategies safeguard App Performance & Release.",
+    "answer": "Wrap remote calls with exponential backoff retries and circuit breakers (e.g. Resilience4j) to prevent cascading system failures.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "How do you perform deep performance profiling and memory leak detection on App Performance & Release in production?",
+    "answer": "Analyze heap dumps, profile CPU utilization using sampling profilers, monitor GC pauses, and track allocation deltas over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "Evaluate the security attack vectors (e.g., injection, deserialization) associated with App Performance & Release and mitigation strategies.",
+    "answer": "Mitigate by enforcing strict input validation, parameterized queries, cryptographically signed tokens, and principle of least privilege.",
+    "difficulty": "Hard"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "Architect a multi-region disaster recovery and failover mechanism for App Performance & Release.",
+    "answer": "Replicate state asynchronously across regions, use DNS health-check failover (e.g. Route53), and maintain automated pilot-light environments.",
+    "difficulty": "Hard"
+  }
+]

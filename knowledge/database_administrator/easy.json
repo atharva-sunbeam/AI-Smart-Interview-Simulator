@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Relational Database Management",
+    "question": "What is Relational Database Management in Database Administrator, and why is it important?",
+    "answer": "Relational Database Management is a foundational concept in Database Administrator. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Relational Database Management",
+    "question": "Define the basic syntax or primary usage of Relational Database Management.",
+    "answer": "The primary syntax for Relational Database Management involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Relational Database Management",
+    "question": "What is the main difference between basic primitives and Relational Database Management?",
+    "answer": "Basic primitives store single value types, whereas Relational Database Management organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Relational Database Management",
+    "question": "What is a common beginner mistake when working with Relational Database Management?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Relational Database Management.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Relational Database Management",
+    "question": "State two key advantages of using Relational Database Management in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Relational Database Management",
+    "question": "How do you initialize or instantiate Relational Database Management in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Relational Database Management",
+    "question": "What role does Relational Database Management play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Relational Database Management",
+    "question": "Explain the simple step-by-step workflow of executing Relational Database Management.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Relational Database Management",
+    "question": "What is the recommended naming convention when defining Relational Database Management?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Relational Database Management",
+    "question": "List the basic prerequisites needed before implementing Relational Database Management.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Tuning & Indexing",
+    "question": "What is SQL Tuning & Indexing in Database Administrator, and why is it important?",
+    "answer": "SQL Tuning & Indexing is a foundational concept in Database Administrator. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Tuning & Indexing",
+    "question": "Define the basic syntax or primary usage of SQL Tuning & Indexing.",
+    "answer": "The primary syntax for SQL Tuning & Indexing involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Tuning & Indexing",
+    "question": "What is the main difference between basic primitives and SQL Tuning & Indexing?",
+    "answer": "Basic primitives store single value types, whereas SQL Tuning & Indexing organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Tuning & Indexing",
+    "question": "What is a common beginner mistake when working with SQL Tuning & Indexing?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in SQL Tuning & Indexing.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Tuning & Indexing",
+    "question": "State two key advantages of using SQL Tuning & Indexing in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Tuning & Indexing",
+    "question": "How do you initialize or instantiate SQL Tuning & Indexing in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Tuning & Indexing",
+    "question": "What role does SQL Tuning & Indexing play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Tuning & Indexing",
+    "question": "Explain the simple step-by-step workflow of executing SQL Tuning & Indexing.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Tuning & Indexing",
+    "question": "What is the recommended naming convention when defining SQL Tuning & Indexing?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL Tuning & Indexing",
+    "question": "List the basic prerequisites needed before implementing SQL Tuning & Indexing.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Backup & Recovery",
+    "question": "What is Backup & Recovery in Database Administrator, and why is it important?",
+    "answer": "Backup & Recovery is a foundational concept in Database Administrator. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Backup & Recovery",
+    "question": "Define the basic syntax or primary usage of Backup & Recovery.",
+    "answer": "The primary syntax for Backup & Recovery involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Backup & Recovery",
+    "question": "What is the main difference between basic primitives and Backup & Recovery?",
+    "answer": "Basic primitives store single value types, whereas Backup & Recovery organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Backup & Recovery",
+    "question": "What is a common beginner mistake when working with Backup & Recovery?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Backup & Recovery.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Backup & Recovery",
+    "question": "State two key advantages of using Backup & Recovery in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Backup & Recovery",
+    "question": "How do you initialize or instantiate Backup & Recovery in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Backup & Recovery",
+    "question": "What role does Backup & Recovery play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Backup & Recovery",
+    "question": "Explain the simple step-by-step workflow of executing Backup & Recovery.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Backup & Recovery",
+    "question": "What is the recommended naming convention when defining Backup & Recovery?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Backup & Recovery",
+    "question": "List the basic prerequisites needed before implementing Backup & Recovery.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "User Privileges & Security",
+    "question": "What is User Privileges & Security in Database Administrator, and why is it important?",
+    "answer": "User Privileges & Security is a foundational concept in Database Administrator. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "User Privileges & Security",
+    "question": "Define the basic syntax or primary usage of User Privileges & Security.",
+    "answer": "The primary syntax for User Privileges & Security involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "User Privileges & Security",
+    "question": "What is the main difference between basic primitives and User Privileges & Security?",
+    "answer": "Basic primitives store single value types, whereas User Privileges & Security organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "User Privileges & Security",
+    "question": "What is a common beginner mistake when working with User Privileges & Security?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in User Privileges & Security.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "User Privileges & Security",
+    "question": "State two key advantages of using User Privileges & Security in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "User Privileges & Security",
+    "question": "How do you initialize or instantiate User Privileges & Security in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "User Privileges & Security",
+    "question": "What role does User Privileges & Security play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "User Privileges & Security",
+    "question": "Explain the simple step-by-step workflow of executing User Privileges & Security.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "User Privileges & Security",
+    "question": "What is the recommended naming convention when defining User Privileges & Security?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "User Privileges & Security",
+    "question": "List the basic prerequisites needed before implementing User Privileges & Security.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Replication & High Availability",
+    "question": "What is Replication & High Availability in Database Administrator, and why is it important?",
+    "answer": "Replication & High Availability is a foundational concept in Database Administrator. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Replication & High Availability",
+    "question": "Define the basic syntax or primary usage of Replication & High Availability.",
+    "answer": "The primary syntax for Replication & High Availability involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Replication & High Availability",
+    "question": "What is the main difference between basic primitives and Replication & High Availability?",
+    "answer": "Basic primitives store single value types, whereas Replication & High Availability organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Replication & High Availability",
+    "question": "What is a common beginner mistake when working with Replication & High Availability?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Replication & High Availability.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Replication & High Availability",
+    "question": "State two key advantages of using Replication & High Availability in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Replication & High Availability",
+    "question": "How do you initialize or instantiate Replication & High Availability in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Replication & High Availability",
+    "question": "What role does Replication & High Availability play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Replication & High Availability",
+    "question": "Explain the simple step-by-step workflow of executing Replication & High Availability.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Replication & High Availability",
+    "question": "What is the recommended naming convention when defining Replication & High Availability?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Replication & High Availability",
+    "question": "List the basic prerequisites needed before implementing Replication & High Availability.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database Clustering",
+    "question": "What is Database Clustering in Database Administrator, and why is it important?",
+    "answer": "Database Clustering is a foundational concept in Database Administrator. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database Clustering",
+    "question": "Define the basic syntax or primary usage of Database Clustering.",
+    "answer": "The primary syntax for Database Clustering involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database Clustering",
+    "question": "What is the main difference between basic primitives and Database Clustering?",
+    "answer": "Basic primitives store single value types, whereas Database Clustering organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database Clustering",
+    "question": "What is a common beginner mistake when working with Database Clustering?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Database Clustering.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database Clustering",
+    "question": "State two key advantages of using Database Clustering in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database Clustering",
+    "question": "How do you initialize or instantiate Database Clustering in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database Clustering",
+    "question": "What role does Database Clustering play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database Clustering",
+    "question": "Explain the simple step-by-step workflow of executing Database Clustering.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database Clustering",
+    "question": "What is the recommended naming convention when defining Database Clustering?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Database Clustering",
+    "question": "List the basic prerequisites needed before implementing Database Clustering.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

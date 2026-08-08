@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Cloud Engineer Core Fundamentals",
+    "question": "What is Cloud Engineer Core Fundamentals in Cloud Engineer, and why is it important?",
+    "answer": "Cloud Engineer Core Fundamentals is a foundational concept in Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Engineer Core Fundamentals",
+    "question": "Define the basic syntax or primary usage of Cloud Engineer Core Fundamentals.",
+    "answer": "The primary syntax for Cloud Engineer Core Fundamentals involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Engineer Core Fundamentals",
+    "question": "What is the main difference between basic primitives and Cloud Engineer Core Fundamentals?",
+    "answer": "Basic primitives store single value types, whereas Cloud Engineer Core Fundamentals organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Engineer Core Fundamentals",
+    "question": "What is a common beginner mistake when working with Cloud Engineer Core Fundamentals?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Cloud Engineer Core Fundamentals.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Engineer Core Fundamentals",
+    "question": "State two key advantages of using Cloud Engineer Core Fundamentals in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Engineer Core Fundamentals",
+    "question": "How do you initialize or instantiate Cloud Engineer Core Fundamentals in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Engineer Core Fundamentals",
+    "question": "What role does Cloud Engineer Core Fundamentals play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Engineer Core Fundamentals",
+    "question": "Explain the simple step-by-step workflow of executing Cloud Engineer Core Fundamentals.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Engineer Core Fundamentals",
+    "question": "What is the recommended naming convention when defining Cloud Engineer Core Fundamentals?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Cloud Engineer Core Fundamentals",
+    "question": "List the basic prerequisites needed before implementing Cloud Engineer Core Fundamentals.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Architecture & Design",
+    "question": "What is Architecture & Design in Cloud Engineer, and why is it important?",
+    "answer": "Architecture & Design is a foundational concept in Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Architecture & Design",
+    "question": "Define the basic syntax or primary usage of Architecture & Design.",
+    "answer": "The primary syntax for Architecture & Design involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Architecture & Design",
+    "question": "What is the main difference between basic primitives and Architecture & Design?",
+    "answer": "Basic primitives store single value types, whereas Architecture & Design organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Architecture & Design",
+    "question": "What is a common beginner mistake when working with Architecture & Design?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Architecture & Design.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Architecture & Design",
+    "question": "State two key advantages of using Architecture & Design in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Architecture & Design",
+    "question": "How do you initialize or instantiate Architecture & Design in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Architecture & Design",
+    "question": "What role does Architecture & Design play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Architecture & Design",
+    "question": "Explain the simple step-by-step workflow of executing Architecture & Design.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Architecture & Design",
+    "question": "What is the recommended naming convention when defining Architecture & Design?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Architecture & Design",
+    "question": "List the basic prerequisites needed before implementing Architecture & Design.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Practical Implementation",
+    "question": "What is Practical Implementation in Cloud Engineer, and why is it important?",
+    "answer": "Practical Implementation is a foundational concept in Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Practical Implementation",
+    "question": "Define the basic syntax or primary usage of Practical Implementation.",
+    "answer": "The primary syntax for Practical Implementation involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Practical Implementation",
+    "question": "What is the main difference between basic primitives and Practical Implementation?",
+    "answer": "Basic primitives store single value types, whereas Practical Implementation organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Practical Implementation",
+    "question": "What is a common beginner mistake when working with Practical Implementation?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Practical Implementation.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Practical Implementation",
+    "question": "State two key advantages of using Practical Implementation in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Practical Implementation",
+    "question": "How do you initialize or instantiate Practical Implementation in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Practical Implementation",
+    "question": "What role does Practical Implementation play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Practical Implementation",
+    "question": "Explain the simple step-by-step workflow of executing Practical Implementation.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Practical Implementation",
+    "question": "What is the recommended naming convention when defining Practical Implementation?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Practical Implementation",
+    "question": "List the basic prerequisites needed before implementing Practical Implementation.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Debugging & Troubleshooting",
+    "question": "What is Debugging & Troubleshooting in Cloud Engineer, and why is it important?",
+    "answer": "Debugging & Troubleshooting is a foundational concept in Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Debugging & Troubleshooting",
+    "question": "Define the basic syntax or primary usage of Debugging & Troubleshooting.",
+    "answer": "The primary syntax for Debugging & Troubleshooting involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Debugging & Troubleshooting",
+    "question": "What is the main difference between basic primitives and Debugging & Troubleshooting?",
+    "answer": "Basic primitives store single value types, whereas Debugging & Troubleshooting organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Debugging & Troubleshooting",
+    "question": "What is a common beginner mistake when working with Debugging & Troubleshooting?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Debugging & Troubleshooting.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Debugging & Troubleshooting",
+    "question": "State two key advantages of using Debugging & Troubleshooting in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Debugging & Troubleshooting",
+    "question": "How do you initialize or instantiate Debugging & Troubleshooting in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Debugging & Troubleshooting",
+    "question": "What role does Debugging & Troubleshooting play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Debugging & Troubleshooting",
+    "question": "Explain the simple step-by-step workflow of executing Debugging & Troubleshooting.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Debugging & Troubleshooting",
+    "question": "What is the recommended naming convention when defining Debugging & Troubleshooting?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Debugging & Troubleshooting",
+    "question": "List the basic prerequisites needed before implementing Debugging & Troubleshooting.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Best Practices & Security",
+    "question": "What is Best Practices & Security in Cloud Engineer, and why is it important?",
+    "answer": "Best Practices & Security is a foundational concept in Cloud Engineer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Best Practices & Security",
+    "question": "Define the basic syntax or primary usage of Best Practices & Security.",
+    "answer": "The primary syntax for Best Practices & Security involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Best Practices & Security",
+    "question": "What is the main difference between basic primitives and Best Practices & Security?",
+    "answer": "Basic primitives store single value types, whereas Best Practices & Security organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Best Practices & Security",
+    "question": "What is a common beginner mistake when working with Best Practices & Security?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Best Practices & Security.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Best Practices & Security",
+    "question": "State two key advantages of using Best Practices & Security in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Best Practices & Security",
+    "question": "How do you initialize or instantiate Best Practices & Security in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Best Practices & Security",
+    "question": "What role does Best Practices & Security play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Best Practices & Security",
+    "question": "Explain the simple step-by-step workflow of executing Best Practices & Security.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Best Practices & Security",
+    "question": "What is the recommended naming convention when defining Best Practices & Security?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Best Practices & Security",
+    "question": "List the basic prerequisites needed before implementing Best Practices & Security.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

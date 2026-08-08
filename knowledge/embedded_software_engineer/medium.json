@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "C / C++ Programming",
+    "question": "How do you implement practical error handling when working with C / C++ Programming in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C / C++ Programming",
+    "question": "Describe a real-world debugging scenario involving C / C++ Programming and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C / C++ Programming",
+    "question": "How does C / C++ Programming perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C / C++ Programming",
+    "question": "What are the best practices for structuring code related to C / C++ Programming?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C / C++ Programming",
+    "question": "In a practical project, how do you integrate C / C++ Programming with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C / C++ Programming",
+    "question": "Compare and contrast two alternative approaches for executing C / C++ Programming.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C / C++ Programming",
+    "question": "How do you write a unit test for a function that relies on C / C++ Programming?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C / C++ Programming",
+    "question": "What performance bottlenecks can arise if C / C++ Programming is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C / C++ Programming",
+    "question": "How do you refactor legacy code using modern standards for C / C++ Programming?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C / C++ Programming",
+    "question": "Explain how data validation is applied to C / C++ Programming payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Microcontrollers (ARM/AVR)",
+    "question": "How do you implement practical error handling when working with Microcontrollers (ARM/AVR) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Microcontrollers (ARM/AVR)",
+    "question": "Describe a real-world debugging scenario involving Microcontrollers (ARM/AVR) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Microcontrollers (ARM/AVR)",
+    "question": "How does Microcontrollers (ARM/AVR) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Microcontrollers (ARM/AVR)",
+    "question": "What are the best practices for structuring code related to Microcontrollers (ARM/AVR)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Microcontrollers (ARM/AVR)",
+    "question": "In a practical project, how do you integrate Microcontrollers (ARM/AVR) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Microcontrollers (ARM/AVR)",
+    "question": "Compare and contrast two alternative approaches for executing Microcontrollers (ARM/AVR).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Microcontrollers (ARM/AVR)",
+    "question": "How do you write a unit test for a function that relies on Microcontrollers (ARM/AVR)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Microcontrollers (ARM/AVR)",
+    "question": "What performance bottlenecks can arise if Microcontrollers (ARM/AVR) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Microcontrollers (ARM/AVR)",
+    "question": "How do you refactor legacy code using modern standards for Microcontrollers (ARM/AVR)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Microcontrollers (ARM/AVR)",
+    "question": "Explain how data validation is applied to Microcontrollers (ARM/AVR) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Peripherals (UART, SPI, I2C)",
+    "question": "How do you implement practical error handling when working with Peripherals (UART, SPI, I2C) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Peripherals (UART, SPI, I2C)",
+    "question": "Describe a real-world debugging scenario involving Peripherals (UART, SPI, I2C) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Peripherals (UART, SPI, I2C)",
+    "question": "How does Peripherals (UART, SPI, I2C) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Peripherals (UART, SPI, I2C)",
+    "question": "What are the best practices for structuring code related to Peripherals (UART, SPI, I2C)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Peripherals (UART, SPI, I2C)",
+    "question": "In a practical project, how do you integrate Peripherals (UART, SPI, I2C) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Peripherals (UART, SPI, I2C)",
+    "question": "Compare and contrast two alternative approaches for executing Peripherals (UART, SPI, I2C).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Peripherals (UART, SPI, I2C)",
+    "question": "How do you write a unit test for a function that relies on Peripherals (UART, SPI, I2C)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Peripherals (UART, SPI, I2C)",
+    "question": "What performance bottlenecks can arise if Peripherals (UART, SPI, I2C) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Peripherals (UART, SPI, I2C)",
+    "question": "How do you refactor legacy code using modern standards for Peripherals (UART, SPI, I2C)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Peripherals (UART, SPI, I2C)",
+    "question": "Explain how data validation is applied to Peripherals (UART, SPI, I2C) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RTOS & Task Scheduling",
+    "question": "How do you implement practical error handling when working with RTOS & Task Scheduling in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RTOS & Task Scheduling",
+    "question": "Describe a real-world debugging scenario involving RTOS & Task Scheduling and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RTOS & Task Scheduling",
+    "question": "How does RTOS & Task Scheduling perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RTOS & Task Scheduling",
+    "question": "What are the best practices for structuring code related to RTOS & Task Scheduling?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RTOS & Task Scheduling",
+    "question": "In a practical project, how do you integrate RTOS & Task Scheduling with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RTOS & Task Scheduling",
+    "question": "Compare and contrast two alternative approaches for executing RTOS & Task Scheduling.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RTOS & Task Scheduling",
+    "question": "How do you write a unit test for a function that relies on RTOS & Task Scheduling?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RTOS & Task Scheduling",
+    "question": "What performance bottlenecks can arise if RTOS & Task Scheduling is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RTOS & Task Scheduling",
+    "question": "How do you refactor legacy code using modern standards for RTOS & Task Scheduling?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RTOS & Task Scheduling",
+    "question": "Explain how data validation is applied to RTOS & Task Scheduling payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hardware Debugging & Memory Limits",
+    "question": "How do you implement practical error handling when working with Hardware Debugging & Memory Limits in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hardware Debugging & Memory Limits",
+    "question": "Describe a real-world debugging scenario involving Hardware Debugging & Memory Limits and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hardware Debugging & Memory Limits",
+    "question": "How does Hardware Debugging & Memory Limits perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hardware Debugging & Memory Limits",
+    "question": "What are the best practices for structuring code related to Hardware Debugging & Memory Limits?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hardware Debugging & Memory Limits",
+    "question": "In a practical project, how do you integrate Hardware Debugging & Memory Limits with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hardware Debugging & Memory Limits",
+    "question": "Compare and contrast two alternative approaches for executing Hardware Debugging & Memory Limits.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hardware Debugging & Memory Limits",
+    "question": "How do you write a unit test for a function that relies on Hardware Debugging & Memory Limits?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hardware Debugging & Memory Limits",
+    "question": "What performance bottlenecks can arise if Hardware Debugging & Memory Limits is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hardware Debugging & Memory Limits",
+    "question": "How do you refactor legacy code using modern standards for Hardware Debugging & Memory Limits?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Hardware Debugging & Memory Limits",
+    "question": "Explain how data validation is applied to Hardware Debugging & Memory Limits payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

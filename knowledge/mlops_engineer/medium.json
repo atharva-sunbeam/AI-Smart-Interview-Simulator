@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Python & ML Pipelines",
+    "question": "How do you implement practical error handling when working with Python & ML Pipelines in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & ML Pipelines",
+    "question": "Describe a real-world debugging scenario involving Python & ML Pipelines and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & ML Pipelines",
+    "question": "How does Python & ML Pipelines perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & ML Pipelines",
+    "question": "What are the best practices for structuring code related to Python & ML Pipelines?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & ML Pipelines",
+    "question": "In a practical project, how do you integrate Python & ML Pipelines with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & ML Pipelines",
+    "question": "Compare and contrast two alternative approaches for executing Python & ML Pipelines.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & ML Pipelines",
+    "question": "How do you write a unit test for a function that relies on Python & ML Pipelines?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & ML Pipelines",
+    "question": "What performance bottlenecks can arise if Python & ML Pipelines is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & ML Pipelines",
+    "question": "How do you refactor legacy code using modern standards for Python & ML Pipelines?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Python & ML Pipelines",
+    "question": "Explain how data validation is applied to Python & ML Pipelines payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "How do you implement practical error handling when working with Docker & Containerization in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "Describe a real-world debugging scenario involving Docker & Containerization and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "How does Docker & Containerization perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "What are the best practices for structuring code related to Docker & Containerization?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "In a practical project, how do you integrate Docker & Containerization with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "Compare and contrast two alternative approaches for executing Docker & Containerization.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "How do you write a unit test for a function that relies on Docker & Containerization?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "What performance bottlenecks can arise if Docker & Containerization is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "How do you refactor legacy code using modern standards for Docker & Containerization?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Docker & Containerization",
+    "question": "Explain how data validation is applied to Docker & Containerization payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes & Deployment",
+    "question": "How do you implement practical error handling when working with Kubernetes & Deployment in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes & Deployment",
+    "question": "Describe a real-world debugging scenario involving Kubernetes & Deployment and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes & Deployment",
+    "question": "How does Kubernetes & Deployment perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes & Deployment",
+    "question": "What are the best practices for structuring code related to Kubernetes & Deployment?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes & Deployment",
+    "question": "In a practical project, how do you integrate Kubernetes & Deployment with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes & Deployment",
+    "question": "Compare and contrast two alternative approaches for executing Kubernetes & Deployment.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes & Deployment",
+    "question": "How do you write a unit test for a function that relies on Kubernetes & Deployment?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes & Deployment",
+    "question": "What performance bottlenecks can arise if Kubernetes & Deployment is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes & Deployment",
+    "question": "How do you refactor legacy code using modern standards for Kubernetes & Deployment?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Kubernetes & Deployment",
+    "question": "Explain how data validation is applied to Kubernetes & Deployment payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "MLflow & Model Tracking",
+    "question": "How do you implement practical error handling when working with MLflow & Model Tracking in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "MLflow & Model Tracking",
+    "question": "Describe a real-world debugging scenario involving MLflow & Model Tracking and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "MLflow & Model Tracking",
+    "question": "How does MLflow & Model Tracking perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "MLflow & Model Tracking",
+    "question": "What are the best practices for structuring code related to MLflow & Model Tracking?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "MLflow & Model Tracking",
+    "question": "In a practical project, how do you integrate MLflow & Model Tracking with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "MLflow & Model Tracking",
+    "question": "Compare and contrast two alternative approaches for executing MLflow & Model Tracking.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "MLflow & Model Tracking",
+    "question": "How do you write a unit test for a function that relies on MLflow & Model Tracking?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "MLflow & Model Tracking",
+    "question": "What performance bottlenecks can arise if MLflow & Model Tracking is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "MLflow & Model Tracking",
+    "question": "How do you refactor legacy code using modern standards for MLflow & Model Tracking?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "MLflow & Model Tracking",
+    "question": "Explain how data validation is applied to MLflow & Model Tracking payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CI/CD for ML",
+    "question": "How do you implement practical error handling when working with CI/CD for ML in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CI/CD for ML",
+    "question": "Describe a real-world debugging scenario involving CI/CD for ML and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CI/CD for ML",
+    "question": "How does CI/CD for ML perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CI/CD for ML",
+    "question": "What are the best practices for structuring code related to CI/CD for ML?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CI/CD for ML",
+    "question": "In a practical project, how do you integrate CI/CD for ML with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CI/CD for ML",
+    "question": "Compare and contrast two alternative approaches for executing CI/CD for ML.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CI/CD for ML",
+    "question": "How do you write a unit test for a function that relies on CI/CD for ML?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CI/CD for ML",
+    "question": "What performance bottlenecks can arise if CI/CD for ML is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CI/CD for ML",
+    "question": "How do you refactor legacy code using modern standards for CI/CD for ML?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "CI/CD for ML",
+    "question": "Explain how data validation is applied to CI/CD for ML payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cloud Infra",
+    "question": "How do you implement practical error handling when working with Cloud Infra in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cloud Infra",
+    "question": "Describe a real-world debugging scenario involving Cloud Infra and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cloud Infra",
+    "question": "How does Cloud Infra perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cloud Infra",
+    "question": "What are the best practices for structuring code related to Cloud Infra?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cloud Infra",
+    "question": "In a practical project, how do you integrate Cloud Infra with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cloud Infra",
+    "question": "Compare and contrast two alternative approaches for executing Cloud Infra.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cloud Infra",
+    "question": "How do you write a unit test for a function that relies on Cloud Infra?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cloud Infra",
+    "question": "What performance bottlenecks can arise if Cloud Infra is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cloud Infra",
+    "question": "How do you refactor legacy code using modern standards for Cloud Infra?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Cloud Infra",
+    "question": "Explain how data validation is applied to Cloud Infra payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

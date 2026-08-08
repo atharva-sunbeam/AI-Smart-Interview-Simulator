@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "What is Monolith vs Microservices in Microservices Developer, and why is it important?",
+    "answer": "Monolith vs Microservices is a foundational concept in Microservices Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "Define the basic syntax or primary usage of Monolith vs Microservices.",
+    "answer": "The primary syntax for Monolith vs Microservices involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "What is the main difference between basic primitives and Monolith vs Microservices?",
+    "answer": "Basic primitives store single value types, whereas Monolith vs Microservices organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "What is a common beginner mistake when working with Monolith vs Microservices?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Monolith vs Microservices.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "State two key advantages of using Monolith vs Microservices in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "How do you initialize or instantiate Monolith vs Microservices in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "What role does Monolith vs Microservices play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "Explain the simple step-by-step workflow of executing Monolith vs Microservices.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "What is the recommended naming convention when defining Monolith vs Microservices?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Monolith vs Microservices",
+    "question": "List the basic prerequisites needed before implementing Monolith vs Microservices.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "What is Service Communication (REST/gRPC) in Microservices Developer, and why is it important?",
+    "answer": "Service Communication (REST/gRPC) is a foundational concept in Microservices Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "Define the basic syntax or primary usage of Service Communication (REST/gRPC).",
+    "answer": "The primary syntax for Service Communication (REST/gRPC) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "What is the main difference between basic primitives and Service Communication (REST/gRPC)?",
+    "answer": "Basic primitives store single value types, whereas Service Communication (REST/gRPC) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "What is a common beginner mistake when working with Service Communication (REST/gRPC)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Service Communication (REST/gRPC).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "State two key advantages of using Service Communication (REST/gRPC) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "How do you initialize or instantiate Service Communication (REST/gRPC) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "What role does Service Communication (REST/gRPC) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "Explain the simple step-by-step workflow of executing Service Communication (REST/gRPC).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "What is the recommended naming convention when defining Service Communication (REST/gRPC)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Service Communication (REST/gRPC)",
+    "question": "List the basic prerequisites needed before implementing Service Communication (REST/gRPC).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "What is API Gateway & Service Discovery in Microservices Developer, and why is it important?",
+    "answer": "API Gateway & Service Discovery is a foundational concept in Microservices Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "Define the basic syntax or primary usage of API Gateway & Service Discovery.",
+    "answer": "The primary syntax for API Gateway & Service Discovery involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "What is the main difference between basic primitives and API Gateway & Service Discovery?",
+    "answer": "Basic primitives store single value types, whereas API Gateway & Service Discovery organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "What is a common beginner mistake when working with API Gateway & Service Discovery?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in API Gateway & Service Discovery.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "State two key advantages of using API Gateway & Service Discovery in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "How do you initialize or instantiate API Gateway & Service Discovery in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "What role does API Gateway & Service Discovery play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "Explain the simple step-by-step workflow of executing API Gateway & Service Discovery.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "What is the recommended naming convention when defining API Gateway & Service Discovery?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "API Gateway & Service Discovery",
+    "question": "List the basic prerequisites needed before implementing API Gateway & Service Discovery.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "What is Event-Driven Architecture (Kafka) in Microservices Developer, and why is it important?",
+    "answer": "Event-Driven Architecture (Kafka) is a foundational concept in Microservices Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "Define the basic syntax or primary usage of Event-Driven Architecture (Kafka).",
+    "answer": "The primary syntax for Event-Driven Architecture (Kafka) involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "What is the main difference between basic primitives and Event-Driven Architecture (Kafka)?",
+    "answer": "Basic primitives store single value types, whereas Event-Driven Architecture (Kafka) organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "What is a common beginner mistake when working with Event-Driven Architecture (Kafka)?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Event-Driven Architecture (Kafka).",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "State two key advantages of using Event-Driven Architecture (Kafka) in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "How do you initialize or instantiate Event-Driven Architecture (Kafka) in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "What role does Event-Driven Architecture (Kafka) play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "Explain the simple step-by-step workflow of executing Event-Driven Architecture (Kafka).",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "What is the recommended naming convention when defining Event-Driven Architecture (Kafka)?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Event-Driven Architecture (Kafka)",
+    "question": "List the basic prerequisites needed before implementing Event-Driven Architecture (Kafka).",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "What is Docker & Kubernetes in Microservices Developer, and why is it important?",
+    "answer": "Docker & Kubernetes is a foundational concept in Microservices Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "Define the basic syntax or primary usage of Docker & Kubernetes.",
+    "answer": "The primary syntax for Docker & Kubernetes involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "What is the main difference between basic primitives and Docker & Kubernetes?",
+    "answer": "Basic primitives store single value types, whereas Docker & Kubernetes organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "What is a common beginner mistake when working with Docker & Kubernetes?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Docker & Kubernetes.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "State two key advantages of using Docker & Kubernetes in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "How do you initialize or instantiate Docker & Kubernetes in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "What role does Docker & Kubernetes play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "Explain the simple step-by-step workflow of executing Docker & Kubernetes.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "What is the recommended naming convention when defining Docker & Kubernetes?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Docker & Kubernetes",
+    "question": "List the basic prerequisites needed before implementing Docker & Kubernetes.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "What is Distributed Tracing in Microservices Developer, and why is it important?",
+    "answer": "Distributed Tracing is a foundational concept in Microservices Developer. It provides core structural mechanisms for implementing foundational logic safely.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "Define the basic syntax or primary usage of Distributed Tracing.",
+    "answer": "The primary syntax for Distributed Tracing involves defining basic structures, specifying required parameters, and executing standard calls.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "What is the main difference between basic primitives and Distributed Tracing?",
+    "answer": "Basic primitives store single value types, whereas Distributed Tracing organizes logical behavior or structured data operations.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "What is a common beginner mistake when working with Distributed Tracing?",
+    "answer": "A common beginner mistake is ignoring parameter scope or failing to handle default initial states in Distributed Tracing.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "State two key advantages of using Distributed Tracing in daily development.",
+    "answer": "Key advantages include improved readability, code reusability, and simplified testing for freshers.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "How do you initialize or instantiate Distributed Tracing in a standard project?",
+    "answer": "Initialization is accomplished by creating an instance using standard constructor syntax or declaring configuration parameters.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "What role does Distributed Tracing play in basic software architecture?",
+    "answer": "It serves as an essential building block that decouples basic business logic from lower-level environment details.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "Explain the simple step-by-step workflow of executing Distributed Tracing.",
+    "answer": "Step 1: Declare or configure. Step 2: Pass required arguments. Step 3: Execute and evaluate the return value or state change.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "What is the recommended naming convention when defining Distributed Tracing?",
+    "answer": "Use clear, descriptive snake_case or camelCase naming conventions adhering to standard language style guides.",
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Distributed Tracing",
+    "question": "List the basic prerequisites needed before implementing Distributed Tracing.",
+    "answer": "Prerequisites include understanding basic variables, control flow statements, and function call syntax.",
+    "difficulty": "Easy"
+  }
+]

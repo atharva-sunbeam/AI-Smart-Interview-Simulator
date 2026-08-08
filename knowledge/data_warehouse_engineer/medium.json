@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Data Warehousing",
+    "question": "How do you implement practical error handling when working with Data Warehousing in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "Describe a real-world debugging scenario involving Data Warehousing and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "How does Data Warehousing perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "What are the best practices for structuring code related to Data Warehousing?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "In a practical project, how do you integrate Data Warehousing with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "Compare and contrast two alternative approaches for executing Data Warehousing.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "How do you write a unit test for a function that relies on Data Warehousing?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "What performance bottlenecks can arise if Data Warehousing is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "How do you refactor legacy code using modern standards for Data Warehousing?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Data Warehousing",
+    "question": "Explain how data validation is applied to Data Warehousing payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Star & Snowflake Schema",
+    "question": "How do you implement practical error handling when working with Star & Snowflake Schema in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Star & Snowflake Schema",
+    "question": "Describe a real-world debugging scenario involving Star & Snowflake Schema and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Star & Snowflake Schema",
+    "question": "How does Star & Snowflake Schema perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Star & Snowflake Schema",
+    "question": "What are the best practices for structuring code related to Star & Snowflake Schema?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Star & Snowflake Schema",
+    "question": "In a practical project, how do you integrate Star & Snowflake Schema with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Star & Snowflake Schema",
+    "question": "Compare and contrast two alternative approaches for executing Star & Snowflake Schema.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Star & Snowflake Schema",
+    "question": "How do you write a unit test for a function that relies on Star & Snowflake Schema?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Star & Snowflake Schema",
+    "question": "What performance bottlenecks can arise if Star & Snowflake Schema is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Star & Snowflake Schema",
+    "question": "How do you refactor legacy code using modern standards for Star & Snowflake Schema?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Star & Snowflake Schema",
+    "question": "Explain how data validation is applied to Star & Snowflake Schema payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL Pipelines",
+    "question": "How do you implement practical error handling when working with ETL Pipelines in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL Pipelines",
+    "question": "Describe a real-world debugging scenario involving ETL Pipelines and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL Pipelines",
+    "question": "How does ETL Pipelines perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL Pipelines",
+    "question": "What are the best practices for structuring code related to ETL Pipelines?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL Pipelines",
+    "question": "In a practical project, how do you integrate ETL Pipelines with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL Pipelines",
+    "question": "Compare and contrast two alternative approaches for executing ETL Pipelines.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL Pipelines",
+    "question": "How do you write a unit test for a function that relies on ETL Pipelines?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL Pipelines",
+    "question": "What performance bottlenecks can arise if ETL Pipelines is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL Pipelines",
+    "question": "How do you refactor legacy code using modern standards for ETL Pipelines?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "ETL Pipelines",
+    "question": "Explain how data validation is applied to ETL Pipelines payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Redshift / Snowflake",
+    "question": "How do you implement practical error handling when working with Redshift / Snowflake in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Redshift / Snowflake",
+    "question": "Describe a real-world debugging scenario involving Redshift / Snowflake and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Redshift / Snowflake",
+    "question": "How does Redshift / Snowflake perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Redshift / Snowflake",
+    "question": "What are the best practices for structuring code related to Redshift / Snowflake?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Redshift / Snowflake",
+    "question": "In a practical project, how do you integrate Redshift / Snowflake with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Redshift / Snowflake",
+    "question": "Compare and contrast two alternative approaches for executing Redshift / Snowflake.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Redshift / Snowflake",
+    "question": "How do you write a unit test for a function that relies on Redshift / Snowflake?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Redshift / Snowflake",
+    "question": "What performance bottlenecks can arise if Redshift / Snowflake is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Redshift / Snowflake",
+    "question": "How do you refactor legacy code using modern standards for Redshift / Snowflake?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Redshift / Snowflake",
+    "question": "Explain how data validation is applied to Redshift / Snowflake payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL Query Tuning",
+    "question": "How do you implement practical error handling when working with SQL Query Tuning in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL Query Tuning",
+    "question": "Describe a real-world debugging scenario involving SQL Query Tuning and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL Query Tuning",
+    "question": "How does SQL Query Tuning perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL Query Tuning",
+    "question": "What are the best practices for structuring code related to SQL Query Tuning?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL Query Tuning",
+    "question": "In a practical project, how do you integrate SQL Query Tuning with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL Query Tuning",
+    "question": "Compare and contrast two alternative approaches for executing SQL Query Tuning.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL Query Tuning",
+    "question": "How do you write a unit test for a function that relies on SQL Query Tuning?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL Query Tuning",
+    "question": "What performance bottlenecks can arise if SQL Query Tuning is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL Query Tuning",
+    "question": "How do you refactor legacy code using modern standards for SQL Query Tuning?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL Query Tuning",
+    "question": "Explain how data validation is applied to SQL Query Tuning payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "topic": "Dart Programming Language",
+    "question": "How do you implement practical error handling when working with Dart Programming Language in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "Describe a real-world debugging scenario involving Dart Programming Language and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "How does Dart Programming Language perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "What are the best practices for structuring code related to Dart Programming Language?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "In a practical project, how do you integrate Dart Programming Language with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "Compare and contrast two alternative approaches for executing Dart Programming Language.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "How do you write a unit test for a function that relies on Dart Programming Language?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "What performance bottlenecks can arise if Dart Programming Language is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "How do you refactor legacy code using modern standards for Dart Programming Language?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Dart Programming Language",
+    "question": "Explain how data validation is applied to Dart Programming Language payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "How do you implement practical error handling when working with Flutter Widgets & UI Layouts in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "Describe a real-world debugging scenario involving Flutter Widgets & UI Layouts and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "How does Flutter Widgets & UI Layouts perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "What are the best practices for structuring code related to Flutter Widgets & UI Layouts?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "In a practical project, how do you integrate Flutter Widgets & UI Layouts with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "Compare and contrast two alternative approaches for executing Flutter Widgets & UI Layouts.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "How do you write a unit test for a function that relies on Flutter Widgets & UI Layouts?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "What performance bottlenecks can arise if Flutter Widgets & UI Layouts is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "How do you refactor legacy code using modern standards for Flutter Widgets & UI Layouts?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Flutter Widgets & UI Layouts",
+    "question": "Explain how data validation is applied to Flutter Widgets & UI Layouts payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "How do you implement practical error handling when working with State Management (Bloc/Provider) in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "Describe a real-world debugging scenario involving State Management (Bloc/Provider) and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "How does State Management (Bloc/Provider) perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "What are the best practices for structuring code related to State Management (Bloc/Provider)?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "In a practical project, how do you integrate State Management (Bloc/Provider) with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "Compare and contrast two alternative approaches for executing State Management (Bloc/Provider).",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "How do you write a unit test for a function that relies on State Management (Bloc/Provider)?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "What performance bottlenecks can arise if State Management (Bloc/Provider) is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "How do you refactor legacy code using modern standards for State Management (Bloc/Provider)?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "State Management (Bloc/Provider)",
+    "question": "Explain how data validation is applied to State Management (Bloc/Provider) payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "How do you implement practical error handling when working with REST APIs & Firebase Integration in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "Describe a real-world debugging scenario involving REST APIs & Firebase Integration and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "How does REST APIs & Firebase Integration perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "What are the best practices for structuring code related to REST APIs & Firebase Integration?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "In a practical project, how do you integrate REST APIs & Firebase Integration with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "Compare and contrast two alternative approaches for executing REST APIs & Firebase Integration.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "How do you write a unit test for a function that relies on REST APIs & Firebase Integration?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "What performance bottlenecks can arise if REST APIs & Firebase Integration is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "How do you refactor legacy code using modern standards for REST APIs & Firebase Integration?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "REST APIs & Firebase Integration",
+    "question": "Explain how data validation is applied to REST APIs & Firebase Integration payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "How do you implement practical error handling when working with App Performance & Release in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "Describe a real-world debugging scenario involving App Performance & Release and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "How does App Performance & Release perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "What are the best practices for structuring code related to App Performance & Release?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "In a practical project, how do you integrate App Performance & Release with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "Compare and contrast two alternative approaches for executing App Performance & Release.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "How do you write a unit test for a function that relies on App Performance & Release?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "What performance bottlenecks can arise if App Performance & Release is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "How do you refactor legacy code using modern standards for App Performance & Release?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "App Performance & Release",
+    "question": "Explain how data validation is applied to App Performance & Release payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "How do you implement practical error handling when working with HTML, CSS & JavaScript in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "Describe a real-world debugging scenario involving HTML, CSS & JavaScript and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "How does HTML, CSS & JavaScript perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "What are the best practices for structuring code related to HTML, CSS & JavaScript?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "In a practical project, how do you integrate HTML, CSS & JavaScript with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "Compare and contrast two alternative approaches for executing HTML, CSS & JavaScript.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "How do you write a unit test for a function that relies on HTML, CSS & JavaScript?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "What performance bottlenecks can arise if HTML, CSS & JavaScript is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "How do you refactor legacy code using modern standards for HTML, CSS & JavaScript?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "HTML, CSS & JavaScript",
+    "question": "Explain how data validation is applied to HTML, CSS & JavaScript payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "How do you implement practical error handling when working with React / Frontend Frameworks in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "Describe a real-world debugging scenario involving React / Frontend Frameworks and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "How does React / Frontend Frameworks perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "What are the best practices for structuring code related to React / Frontend Frameworks?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "In a practical project, how do you integrate React / Frontend Frameworks with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "Compare and contrast two alternative approaches for executing React / Frontend Frameworks.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "How do you write a unit test for a function that relies on React / Frontend Frameworks?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "What performance bottlenecks can arise if React / Frontend Frameworks is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "How do you refactor legacy code using modern standards for React / Frontend Frameworks?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "React / Frontend Frameworks",
+    "question": "Explain how data validation is applied to React / Frontend Frameworks payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "How do you implement practical error handling when working with Node.js / Express / Backend in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "Describe a real-world debugging scenario involving Node.js / Express / Backend and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "How does Node.js / Express / Backend perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "What are the best practices for structuring code related to Node.js / Express / Backend?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "In a practical project, how do you integrate Node.js / Express / Backend with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "Compare and contrast two alternative approaches for executing Node.js / Express / Backend.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "How do you write a unit test for a function that relies on Node.js / Express / Backend?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "What performance bottlenecks can arise if Node.js / Express / Backend is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "How do you refactor legacy code using modern standards for Node.js / Express / Backend?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Node.js / Express / Backend",
+    "question": "Explain how data validation is applied to Node.js / Express / Backend payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "How do you implement practical error handling when working with RESTful APIs in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "Describe a real-world debugging scenario involving RESTful APIs and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "How does RESTful APIs perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "What are the best practices for structuring code related to RESTful APIs?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "In a practical project, how do you integrate RESTful APIs with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "Compare and contrast two alternative approaches for executing RESTful APIs.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "How do you write a unit test for a function that relies on RESTful APIs?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "What performance bottlenecks can arise if RESTful APIs is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "How do you refactor legacy code using modern standards for RESTful APIs?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "RESTful APIs",
+    "question": "Explain how data validation is applied to RESTful APIs payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "How do you implement practical error handling when working with SQL & NoSQL Databases in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "Describe a real-world debugging scenario involving SQL & NoSQL Databases and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "How does SQL & NoSQL Databases perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "What are the best practices for structuring code related to SQL & NoSQL Databases?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "In a practical project, how do you integrate SQL & NoSQL Databases with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "Compare and contrast two alternative approaches for executing SQL & NoSQL Databases.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "How do you write a unit test for a function that relies on SQL & NoSQL Databases?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "What performance bottlenecks can arise if SQL & NoSQL Databases is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "How do you refactor legacy code using modern standards for SQL & NoSQL Databases?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL & NoSQL Databases",
+    "question": "Explain how data validation is applied to SQL & NoSQL Databases payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "How do you implement practical error handling when working with Authentication & Security in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "Describe a real-world debugging scenario involving Authentication & Security and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "How does Authentication & Security perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "What are the best practices for structuring code related to Authentication & Security?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "In a practical project, how do you integrate Authentication & Security with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "Compare and contrast two alternative approaches for executing Authentication & Security.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "How do you write a unit test for a function that relies on Authentication & Security?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "What performance bottlenecks can arise if Authentication & Security is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "How do you refactor legacy code using modern standards for Authentication & Security?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Authentication & Security",
+    "question": "Explain how data validation is applied to Authentication & Security payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "How do you implement practical error handling when working with Deployment & Docker in production?",
+    "answer": "Use try-catch/except blocks, log exception tracebacks with contextual metadata, and ensure clean resource release via finally blocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "Describe a real-world debugging scenario involving Deployment & Docker and how you would solve it.",
+    "answer": "Identify unexpected null or out-of-bounds inputs by inspecting runtime logs, set execution breakpoints, and validate state transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "How does Deployment & Docker perform under moderate data loads or concurrent user requests?",
+    "answer": "Performance remains stable if input sizes are bounded, memory allocations are reused, and blocking I/O calls are mitigated.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "What are the best practices for structuring code related to Deployment & Docker?",
+    "answer": "Keep methods small and single-purposed, separate data access from presentation, and write unit tests for boundary conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "In a practical project, how do you integrate Deployment & Docker with database or API layers?",
+    "answer": "Abstract access behind service or repository patterns, sanitize payloads before execution, and manage transaction states.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "Compare and contrast two alternative approaches for executing Deployment & Docker.",
+    "answer": "Approach A focuses on imperative step-by-step execution for simplicity, while Approach B uses declarative functional constructs for modularity.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "How do you write a unit test for a function that relies on Deployment & Docker?",
+    "answer": "Mock external dependencies, pass expected test fixtures, assert expected outputs, and verify edge-case exception handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "What performance bottlenecks can arise if Deployment & Docker is implemented inefficiently?",
+    "answer": "Bottlenecks include redundant memory allocations, unindexed query lookups, and unhandled synchronous network latency.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "How do you refactor legacy code using modern standards for Deployment & Docker?",
+    "answer": "Replace deprecated syntax with modern language features, eliminate duplicated blocks, and add comprehensive automated test suites.",
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "Deployment & Docker",
+    "question": "Explain how data validation is applied to Deployment & Docker payloads.",
+    "answer": "Validate schema structures, enforce data type checks, sanitize user inputs, and raise descriptive validation errors early.",
+    "difficulty": "Medium"
+  }
+]
