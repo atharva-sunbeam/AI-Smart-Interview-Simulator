@@ -590,5 +590,69 @@
     "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
     "score": 2.0,
     "feedback": "The candidate has correctly identified the role of Retrieval-Augmented Generation (RAG) in retrieving relevant documents from a vector store like ChromaDB, but failed to address the core question of validating LangChain and CrewAI payload data. To improve, the candidate should focus on discussing data validation techniques, such as payload schema checks, error handling, and data normalization, to ensure the integrity of the data being processed. Additionally, providing examples of how these techniques can be applied in a RAG architecture would strengthen their response."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Large Language Models (LLMs) & Transformer Architecture",
+    "question": "What are two basic benefits of using Transformers in NLP tasks?",
+    "answer": "Transformers provide two main benefits - they allow parallel processing for faster training and use self-attention to capture long contexts perfectly.",
+    "score": 8.0,
+    "feedback": "The candidate correctly identified the benefit of parallel processing, which is a key advantage of Transformers in NLP tasks, allowing for faster training times. However, they could have more explicitly stated the reduction of sequential computation as the second benefit, instead mentioning self-attention, which is a mechanism used in Transformers but not the direct benefit being asked for. With a bit more precision in highlighting the reduced sequential computation, the answer would be even stronger."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Retrieval-Augmented Generation (RAG) Architecture",
+    "question": "What is Python Core in AI/LLM engineering?",
+    "answer": "In AI and Large Language Model (LLM) engineering, Python Core refers to the foundational, built-in features of the Python programming language\u2014such as standard data structures, object-oriented programming, file handling, and memory management\u2014that are essential for building, optimizing, and deploying AI applications without relying on external libraries.",
+    "score": 8.0,
+    "feedback": "The candidate's response accurately identifies Python Core as the foundational features of the Python programming language, highlighting essential aspects such as standard data structures and object-oriented programming. To further strengthen their answer, they could have explicitly mentioned key Python libraries like NumPy, Pandas, and scikit-learn that are crucial for AI/LLM development, in addition to the built-in features. Overall, their response demonstrates a solid understanding of Python's role in AI/LLM engineering, and with a bit more detail, it could be even more comprehensive."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Vector Databases (ChromaDB, FAISS, Pinecone)",
+    "question": "What is the main difference between basic primitives and Python Core?",
+    "answer": "The main difference is that basic primitives are the raw, single-value building blocks of data, while Python Core encompasses the entire language infrastructure, including built-in structures, rules, and mechanisms used to manipulate those primitives.",
+    "score": 9.0,
+    "feedback": "The candidate's answer accurately highlights the key difference between basic primitives and Python Core, emphasizing that primitives are single-value building blocks and Python Core encompasses a broader language infrastructure. To further improve, the candidate could provide more specific examples of how Python Core organizes logical behavior or structured data operations, but overall, their response demonstrates a solid understanding of the concept. With a bit more detail on the organizational aspects of Python Core, their answer would be even more comprehensive and effective."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Candidate Resume Project & Real-World Experience",
+    "question": "In your project 'AI Smart Interview Simulator' (The AI Smart Interview Simulator is an AI-based platform des), what specific tools and technologies did you use (such as PYTHON, STREAMLIT, LANGCHAIN, CREWAI, AI AGENTS, GROK/OLLAMA, GIT, GITHUB, VISUAL STUDIO CODE, NLP, LLMS), and why did you choose them?",
+    "answer": "The AI Smart Interview Simulator uses Python and Streamlit for the interface, LangChain and CrewAI to orchestrate specialized AI Agents, and Ollama or Groq to run LLMs and NLP models efficiently, chosen to deliver a low-latency, private, and modular multi-agent interview experience developed using VS Code, Git, and GitHub.",
+    "score": 9.0,
+    "feedback": "The candidate has correctly identified the key tools and technologies used in the 'AI Smart Interview Simulator' project, such as Python, Streamlit, LangChain, and CrewAI, demonstrating a good understanding of the project's technical requirements. To further improve, the candidate could provide more specific details on their core role in the project and elaborate on how these tools were utilized to achieve the desired outcomes, such as the low-latency and private multi-agent interview experience. Additionally, mentioning the benefits of using version control systems like Git and GitHub would strengthen their response."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Prompt Engineering, Chain-of-Thought & Agentic Workflows",
+    "question": "What is a common beginner mistake when working with Prompt Engineering & Guardrails?",
+    "answer": "A common beginner mistake is relying solely on vague prompt instructions for safety instead of implementing structural, programmatic guardrails to validate inputs and enforce hard output limits.",
+    "score": 8.0,
+    "feedback": "The candidate correctly identifies a common beginner mistake in Prompt Engineering & Guardrails, which is relying on vague prompt instructions for safety, and instead emphasizes the importance of implementing structural guardrails. However, the response could be improved by also mentioning the significance of parameter scope and default initial states, as these are also crucial aspects to consider. Overall, the candidate demonstrates a good understanding of the topic and provides a relevant answer, but could benefit from a more comprehensive discussion of potential pitfalls."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Fine-Tuning Strategies (LoRA, QLoRA, PEFT)",
+    "question": "What is Fine-Tuning in LLM context?",
+    "answer": "Fine-tuning is the process of taking a pre-trained Large Language Model (LLM) that already understands general language and training it further on a smaller, specific dataset to adapt it for a particular task, style, or domain.",
+    "score": 9.0,
+    "feedback": "The candidate's answer accurately captures the essence of fine-tuning in the LLM context, correctly emphasizing the adaptation of a pre-trained model to a specific task or domain through additional training on a smaller dataset. Their response demonstrates a clear understanding of the concept, and the use of terms like \"general language\" and \"particular task\" shows a good grasp of the underlying principles. To further improve, the candidate could mention the adjustment of pre-trained model weights as a key aspect of the fine-tuning process."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Retrieval-Augmented Generation (RAG) Architecture",
+    "question": "How do you handle embedding mismatches in RAG models using Python?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 4.0,
+    "feedback": "The candidate has demonstrated a basic understanding of RAG models and their interaction with vector stores like ChromaDB, which is a good starting point. However, to fully address the question, they should have discussed error handling strategies, embedding validation, and data preprocessing techniques to effectively handle embedding mismatches. To improve, the candidate could explore how to implement validation checks and preprocessing steps in Python to ensure robust embedding matching in RAG models."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Retrieval-Augmented Generation (RAG) Architecture",
+    "question": "How do you handle out-of-vocabulary terms in RAG architecture using Python?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 2.0,
+    "feedback": "While the candidate mentions RAG and its ability to retrieve relevant documents, the response lacks discussion on handling out-of-vocabulary terms using subword modeling, tokenization, and vocabulary expansion techniques. To improve, the candidate should explore how RAG's tokenization process and integration with language models can be leveraged to address out-of-vocabulary terms, and provide specific examples of implementation in Python. Additionally, mentioning libraries like Hugging Face's tokenizers or sentencepiece could demonstrate a deeper understanding of the topic."
   }
 ]

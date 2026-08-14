@@ -43,6 +43,29 @@ SKILL_DOMAINS = {
 ALL_TOOL_KEYWORDS = [kw.replace("\\", "") for sublist in SKILL_DOMAINS.values() for kw in sublist]
 
 
+def match_skill_keyword(kw: str, text_lower: str) -> bool:
+    """
+    Strictly matches skill keywords using precise regex boundaries.
+    Prevents false positive substring matches like 'scala' in 'scalable' or 'c' in 'curriculum'.
+    """
+    clean_kw = kw.replace("\\", "").strip().lower()
+    if not clean_kw:
+        return False
+
+    if clean_kw in ["c++", "cpp"]:
+        pattern = r'(?:\b|_)(?:c\+\+|cpp)(?:\b|_|\s|,|;|\.|\/|$)'
+        return bool(re.search(pattern, text_lower))
+    elif clean_kw == "c#":
+        pattern = r'(?:\b|_)(?:c\#|csharp)(?:\b|_|\s|,|;|\.|\/|$)'
+        return bool(re.search(pattern, text_lower))
+    elif clean_kw in ["c", "r"]:
+        pattern = r'(?:^|[\s,;:\(\)\[\]\{\}\/])' + re.escape(clean_kw) + r'(?:$|[\s,;:\(\)\[\]\{\}\/])'
+        return bool(re.search(pattern, text_lower))
+    else:
+        pattern = r'(?:\b|_)' + re.escape(clean_kw) + r'(?:\b|_)'
+        return bool(re.search(pattern, text_lower))
+
+
 class ResumeAgent:
     def __init__(self):
         self.llm_manager = LLMManager()
@@ -66,11 +89,9 @@ class ResumeAgent:
         text_lower = text_snippet.lower()
         found_tools = []
         for tool in ALL_TOOL_KEYWORDS:
-            if len(tool) <= 2 and tool not in ["c", "r", "ai", "db"]:
-                continue
-            pattern = r'(?:\b|_)' + re.escape(tool) + r'(?:\b|_)'
-            if re.search(pattern, text_lower) or tool in text_lower:
-                display_tool = tool.upper()
+            clean_tool = tool.replace("\\", "").strip().lower()
+            if match_skill_keyword(clean_tool, text_lower):
+                display_tool = "C++" if clean_tool in ["c++", "cpp"] else clean_tool.upper()
                 if display_tool not in found_tools:
                     found_tools.append(display_tool)
         return found_tools
@@ -184,10 +205,9 @@ class ResumeAgent:
         for domain, keywords in SKILL_DOMAINS.items():
             found_in_domain = []
             for kw in keywords:
-                clean_kw = kw.replace("\\", "")
-                pattern = r'(?:\b|_)' + re.escape(clean_kw) + r'(?:\b|_)'
-                if re.search(pattern, text_lower) or clean_kw in text_lower:
-                    display_kw = clean_kw.upper()
+                clean_kw = kw.replace("\\", "").strip().lower()
+                if match_skill_keyword(clean_kw, text_lower):
+                    display_kw = "C++" if clean_kw in ["c++", "cpp"] else clean_kw.upper()
                     if display_kw not in found_in_domain:
                         found_in_domain.append(display_kw)
             if found_in_domain:
@@ -220,7 +240,4 @@ if __name__ == "__main__":
     """
     res = agent.parse_resume(sample)
     print("Recommended Role:", res["recommended_role"])
-    print("Extracted Projects Metadata:")
-    for p in res["projects"]:
-        print(f"  Name: {p['name']}\n  Tools: {p['tools']}\n  Description: {p['description']}\n")
-
+    print("Extracted Skills:", res["skills"])
