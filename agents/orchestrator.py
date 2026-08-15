@@ -21,11 +21,18 @@ except ImportError:
 
 class LLMManager:
     """
-    LLM Engine Client using Groq Cloud API (llama-3.3-70b-versatile) with fallback to Ollama & Smart Offline Mode.
+    LLM Engine Client using Groq Cloud API (openai/gpt-oss-120b) with fallback to Ollama & Smart Offline Mode.
     """
-    def __init__(self, provider="auto", model_name="llama-3.3-70b-versatile", api_key=None, host="http://localhost:11434"):
+    GROQ_FALLBACK_MODELS = [
+        "openai/gpt-oss-120b",
+        "llama-3.1-8b-instant",
+        "qwen/qwen3.6-27b",
+        "llama-3.3-70b-versatile"
+    ]
+
+    def __init__(self, provider="auto", model_name="openai/gpt-oss-120b", api_key=None, host="http://localhost:11434"):
         self.provider = provider
-        self.model_name = model_name or "llama-3.3-70b-versatile"
+        self.model_name = model_name or "openai/gpt-oss-120b"
         self.api_key = api_key
         self.host = host
         self.llm = None
@@ -39,24 +46,25 @@ class LLMManager:
         if key:
             self.api_key = key
             url = "https://api.groq.com/openai/v1/chat/completions"
-            model = self.model_name
-            try:
-                res = requests.post(
-                    url,
-                    headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
-                    json={"model": model, "messages": [{"role": "user", "content": "ping"}], "max_tokens": 5},
-                    timeout=5
-                )
-                if res.status_code == 200:
-                    self.is_connected = True
-                    self.provider = "groq"
-                    self.model_name = model
-                    print(f"[LLMManager] Connected to Groq API Engine ({model}) successfully.")
-                    return
-                else:
-                    print(f"[LLMManager] Groq API check status code {res.status_code}: {res.text[:100]}")
-            except Exception as e:
-                print(f"[LLMManager] Groq API check error: {e}")
+            models_to_test = [self.model_name] + [m for m in self.GROQ_FALLBACK_MODELS if m != self.model_name]
+            for model in models_to_test:
+                try:
+                    res = requests.post(
+                        url,
+                        headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+                        json={"model": model, "messages": [{"role": "user", "content": "ping"}], "max_tokens": 5},
+                        timeout=5
+                    )
+                    if res.status_code == 200:
+                        self.is_connected = True
+                        self.provider = "groq"
+                        self.model_name = model
+                        print(f"[LLMManager] Connected to Groq API Engine ({model}) successfully.")
+                        return
+                    else:
+                        print(f"[LLMManager] Groq model {model} status {res.status_code}, trying fallback...")
+                except Exception as e:
+                    print(f"[LLMManager] Groq model {model} error: {e}")
 
         # Fallback to Local Ollama
         try:
@@ -83,22 +91,23 @@ class LLMManager:
 
         if self.provider == "groq" and self.api_key:
             url = "https://api.groq.com/openai/v1/chat/completions"
-            model = self.model_name or "llama-3.3-70b-versatile"
-            try:
-                headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
-                payload = {
-                    "model": model,
-                    "messages": [{"role": "user", "content": prompt}],
-                    "temperature": temperature
-                }
-                res = requests.post(url, headers=headers, json=payload, timeout=15)
-                if res.status_code == 200:
-                    data = res.json()
-                    return data["choices"][0]["message"]["content"].strip()
-                else:
-                    print(f"[Groq REST API Error] Status {res.status_code}: {res.text[:100]}")
-            except Exception as e:
-                print(f"[Groq REST API Exception] {e}")
+            models_to_try = [self.model_name] + [m for m in self.GROQ_FALLBACK_MODELS if m != self.model_name]
+            for model in models_to_try:
+                try:
+                    headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
+                    payload = {
+                        "model": model,
+                        "messages": [{"role": "user", "content": prompt}],
+                        "temperature": temperature
+                    }
+                    res = requests.post(url, headers=headers, json=payload, timeout=15)
+                    if res.status_code == 200:
+                        data = res.json()
+                        return data["choices"][0]["message"]["content"].strip()
+                    else:
+                        print(f"[Groq REST API Error] Model {model} Status {res.status_code}: {res.text[:100]}")
+                except Exception as e:
+                    print(f"[Groq REST API Exception] Model {model}: {e}")
 
         if self.llm:
             try:

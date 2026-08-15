@@ -263,8 +263,9 @@ with st.sidebar:
 
     # Multi-Tier Engine Connection Status
     provider = super_agent.llm_manager.provider
+    active_model = getattr(super_agent.llm_manager, "model_name", "llama-3.3-70b-versatile")
     if provider == "groq":
-        st.success("🤖 Engine: Groq API (llama-3.3-70b-versatile)")
+        st.success(f"🤖 Engine: Groq API ({active_model})")
     elif provider == "ollama":
         st.success("🤖 Engine: Ollama (Local Server)")
     else:
