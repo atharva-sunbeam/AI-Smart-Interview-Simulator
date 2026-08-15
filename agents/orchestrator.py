@@ -25,9 +25,8 @@ class LLMManager:
     """
     GROQ_FALLBACK_MODELS = [
         "openai/gpt-oss-120b",
-        "llama-3.1-8b-instant",
-        "qwen/qwen3.6-27b",
-        "llama-3.3-70b-versatile"
+        "openai/gpt-oss-20b",
+        "qwen/qwen3.6-27b"
     ]
 
     def __init__(self, provider="auto", model_name="openai/gpt-oss-120b", api_key=None, host="http://localhost:11434"):
