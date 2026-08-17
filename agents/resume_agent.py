@@ -59,8 +59,16 @@ def match_skill_keyword(kw: str, text_lower: str) -> bool:
         pattern = r'(?:\b|_)(?:c\#|csharp)(?:\b|_|\s|,|;|\.|\/|$)'
         return bool(re.search(pattern, text_lower))
     elif clean_kw in ["c", "r"]:
-        pattern = r'(?:^|[\s,;:\(\)\[\]\{\}\/])' + re.escape(clean_kw) + r'(?:$|[\s,;:\(\)\[\]\{\}\/])'
-        return bool(re.search(pattern, text_lower))
+        # Exclude R&D, R & D, (R), C&A, (C) false positives
+        text_clean = re.sub(r'\b[cr]\s*&\s*[da]\b', '', text_lower)
+        text_clean = re.sub(r'\(\s*[cr]\s*\)', '', text_clean)
+        if re.search(r'\b(?:' + clean_kw + r'\s+programming|' + clean_kw + r'\s+language|' + clean_kw + r'-lang|rstudio)\b', text_clean):
+            return True
+        pattern = r'(?:\b(?:languages?|skills?|tools?|technologies|programming|proficient in|experienced with|knowledge of)\b[\s\S]{0,150}?\b)' + clean_kw + r'\b'
+        if re.search(pattern, text_clean):
+            return True
+        list_pattern = r'(?:,\s*|\/\s*)' + clean_kw + r'(?:\s*,|\s*\/|\s*$)'
+        return bool(re.search(list_pattern, text_clean))
     else:
         pattern = r'(?:\b|_)' + re.escape(clean_kw) + r'(?:\b|_)'
         return bool(re.search(pattern, text_lower))

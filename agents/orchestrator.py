@@ -24,9 +24,7 @@ class LLMManager:
     LLM Engine Client using Groq Cloud API (openai/gpt-oss-120b) with fallback to Ollama & Smart Offline Mode.
     """
     GROQ_FALLBACK_MODELS = [
-        "openai/gpt-oss-120b",
-        "openai/gpt-oss-20b",
-        "qwen/qwen3.6-27b"
+        "openai/gpt-oss-120b"
     ]
 
     def __init__(self, provider="auto", model_name="openai/gpt-oss-120b", api_key=None, host="http://localhost:11434"):
