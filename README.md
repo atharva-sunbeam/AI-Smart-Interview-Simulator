@@ -1,6 +1,6 @@
 # 🤖 AI-Powered Smart Technical Interview Simulator
 
-An enterprise-grade, multi-agent technical interview simulation platform powered by **Retrieval-Augmented Generation (RAG)**, **Groq Cloud API (`llama-3.3-70b-versatile`)**, **ChromaDB Vector Store**, and **Streamlit**.
+An enterprise-grade, multi-agent technical interview simulation platform powered by **Retrieval-Augmented Generation (RAG)**, **Groq Cloud API (`openai/gpt-oss-120b`)**, **ChromaDB Vector Store**, and **Streamlit**.
 
 ---
 
@@ -35,7 +35,7 @@ To engineer an autonomous, scalable, multi-agent AI interview platform that:
 
 | Domain | Technologies & Libraries |
 | :--- | :--- |
-| **LLM Engine & Multi-Agent** | Groq Cloud API (`llama-3.3-70b-versatile`), LangChain, CrewAI, Ollama (Local Fallback) |
+| **LLM Engine & Multi-Agent** | Groq Cloud API (`openai/gpt-oss-120b`), LangChain, CrewAI, Ollama (Local Fallback) |
 | **RAG & Vector Database** | ChromaDB, HuggingFace Sentence-Transformers (`all-MiniLM-L6-v2`), LangChain VectorStore |
 | **User Interface & Audio** | Streamlit, Web Speech API (Bi-Directional Voice TTS & STT over Secure HTTPS) |
 | **Data Scraping & Processing** | Python 3.12, BeautifulSoup4, PyPDF2, Pandas, Requests |
