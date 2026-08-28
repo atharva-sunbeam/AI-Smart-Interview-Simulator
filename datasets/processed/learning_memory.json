@@ -654,5 +654,37 @@
     "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
     "score": 2.0,
     "feedback": "While the candidate mentions RAG and its ability to retrieve relevant documents, the response lacks discussion on handling out-of-vocabulary terms using subword modeling, tokenization, and vocabulary expansion techniques. To improve, the candidate should explore how RAG's tokenization process and integration with language models can be leveraged to address out-of-vocabulary terms, and provide specific examples of implementation in Python. Additionally, mentioning libraries like Hugging Face's tokenizers or sentencepiece could demonstrate a deeper understanding of the topic."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Retrieval-Augmented Generation (RAG) Architecture",
+    "question": "Explain how to build a pipeline that reads new PostgreSQL rows, creates embeddings, upserts them into Pinecone, and serves a REST RAG query endpoint.",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 2.0,
+    "feedback": "Your response mentions a generic RAG flow but omits the core components asked for, such as detecting new PostgreSQL rows, generating embeddings, upserting vectors into Pinecone, and building a REST query endpoint. To improve, describe how to capture changes (CDC or batch), create embeddings with a model, map row IDs to vector IDs for upserts, and outline the API that embeds queries, searches Pinecone, retrieves full rows from PostgreSQL, and returns LLM\u2011generated answers. Also consider error handling, rate limiting, and performance optimizations."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Retrieval-Augmented Generation (RAG) Architecture",
+    "question": "How would you modularize a RAG pipeline that fine\u2011tunes a dense retriever, applies post\u2011training quantization, and integrates it with a generator for scalable production?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 2.0,
+    "feedback": "You correctly identified the basic RAG flow of retrieving documents and feeding them to an LLM, but you didn\u2019t address modularization, fine\u2011tuning, quantization, or production concerns. In future answers, outline separate components (data preprocessing, trainer wrapper, quantization step, retrieval cache, generator service), configuration management, and deployment details such as Docker, async APIs, and testing. This will demonstrate a complete, production\u2011ready design."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Retrieval-Augmented Generation (RAG) Architecture",
+    "question": "Describe how you would add robust error handling to a production RAG pipeline that uses a quantized fine\u2011tuned retriever model.",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 2.0,
+    "feedback": "Your response describes the basic RAG flow but does not address the core of the question\u2014adding robust error handling for a quantized retriever. You need to discuss wrapping model loading and inference in try/except blocks, handling quantization\u2011specific failures, implementing fallback to an FP32 model, adding retries with exponential back\u2011off, using circuit\u2011breaker patterns, detailed logging/monitoring, health\u2011check endpoints, and input validation. Including these points would demonstrate a comprehensive error\u2011handling strategy."
+  },
+  {
+    "role": "AI / LLM Engineer",
+    "topic": "Retrieval-Augmented Generation (RAG) Architecture",
+    "question": "In a RAG pipeline, how would you identify and mitigate a Python\u2011level bottleneck caused by inefficient batch retrieval from a FAISS index?",
+    "answer": "RAG retrieves relevant documents from vector store like ChromaDB.",
+    "score": 2.0,
+    "feedback": "Your response mentions the general RAG flow but does not address how to identify or mitigate a Python\u2011level bottleneck in FAISS batch retrieval. To improve, discuss profiling tools (e.g., cProfile, line_profiler), replacing per\u2011item searches with FAISS\u2019s batch search, vectorizing embeddings, caching frequent queries, and using Cython/Numba or multiprocessing/asyncio to accelerate heavy loops. Including these concrete steps would demonstrate a deeper understanding of performance optimization."
   }
 ]
