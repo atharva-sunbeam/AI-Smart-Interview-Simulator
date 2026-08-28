@@ -68,7 +68,9 @@ class LLMManager:
             res = requests.get(f"{self.host}/api/tags", timeout=2)
             if res.status_code == 200:
                 from langchain_community.chat_models import ChatOllama
-                target_model = "mistral"
+                tags_data = res.json()
+                models = [m.get("name") for m in tags_data.get("models", []) if "embed" not in m.get("name", "")]
+                target_model = models[0] if models else "llama3.1:latest"
                 self.llm = ChatOllama(model=target_model, base_url=self.host)
                 self.is_connected = True
                 self.provider = "ollama"
@@ -120,7 +122,7 @@ class LLMManager:
 
 
 class OllamaClient(LLMManager):
-    def __init__(self, model="mistral", host="http://localhost:11434"):
+    def __init__(self, model="llama3.1:latest", host="http://localhost:11434"):
         super().__init__(provider="auto", model_name=model, host=host)
 
 
@@ -593,7 +595,8 @@ class FeedbackAgent:
 
 class SuperAgent:
     """
-    Supervising Orchestrator Agent with Interview Blueprinting & Strict Difficulty Enforcement.
+    Supervising Orchestrator Agent with Interview Blueprinting & Framework Integration.
+    Delegates to InterviewController to execute CrewAI multi-agent tasks and LangChain tools.
     """
     def __init__(self, rag_pipeline: RAGPipeline, llm_manager: LLMManager = None):
         self.llm_manager = llm_manager or LLMManager()
@@ -604,76 +607,39 @@ class SuperAgent:
         self.followup_agent = FollowUpAgent(self.llm_manager)
         self.feedback_agent = FeedbackAgent(self.llm_manager)
 
+        # Framework-backed Interview Controller
+        from core.interview_controller import InterviewController
+        self.controller = InterviewController()
+
     def create_interview_blueprint(self, role, skills=None, projects=None, count=5):
-        """
-        Creates an ordered interview blueprint for the role, re-ordering topics based on skills
-        and injecting Project-Based Question slots when count > 5 according to the defined ratio.
-        """
-        raw_blueprint = get_role_blueprint(role)
-
-        if skills:
-            skills_flat = [s.lower() for s in skills]
-            prioritized = []
-            remaining = []
-            for topic in raw_blueprint:
-                topic_lower = topic.lower()
-                if any(s in topic_lower or topic_lower in s for s in skills_flat):
-                    prioritized.append(topic)
-                else:
-                    remaining.append(topic)
-            blueprint = prioritized + remaining
-        else:
-            blueprint = list(raw_blueprint)
-
-        # Inject Project-Based Question slots when count > 5 and projects exist
-        if count > 5 and projects and len(projects) > 0:
-            num_project_q = 1 if count <= 7 else 2
-            project_topic = "Candidate Resume Project & Real-World Experience"
-
-            if num_project_q >= 1 and len(blueprint) >= 3:
-                blueprint.insert(3, project_topic)
-            if num_project_q >= 2 and len(blueprint) >= 6:
-                blueprint.insert(6, project_topic)
-
-        return blueprint
+        self.controller.state.target_role = role
+        self.controller.state.total_questions_target = count
+        if skills or projects:
+            self.controller.state.resume_context["skills"] = skills or []
+            self.controller.state.resume_context["projects"] = projects or []
+        return self.controller.get_interview_blueprint()
 
     def get_questions(self, role, difficulty, count, skills=None, projects=None):
-        answered = set()
+        self.controller.initialize_session(
+            role=role,
+            difficulty=difficulty,
+            count=count,
+            resume_context={"skills": skills or [], "projects": projects or []}
+        )
         questions = []
-        blueprint = self.create_interview_blueprint(role, skills, projects, count)
-
-        for i in range(count):
-            topic = blueprint[i % len(blueprint)]
-            q_data = self.qgen_agent.generate_question(
-                role=role,
-                difficulty=difficulty,
-                answered_questions=answered,
-                topic=topic,
-                skills=skills,
-                projects=projects
-            )
-            if q_data:
-                questions.append(q_data)
-                answered.add(q_data["raw_question"])
+        for _ in range(count):
+            q_item = self.controller.generate_next_question()
+            questions.append(q_item)
+            self.controller.state.current_question_index += 1
         return questions
 
     def get_adaptive_difficulty(self, current_difficulty, history, adaptive_mode=False):
-        """
-        Difficulty Control: If `adaptive_mode` is False (default), strictly LOCKS the difficulty
-        to `current_difficulty`.
-        """
-        if not adaptive_mode:
+        if not adaptive_mode or not history:
             return current_difficulty
-
-        if not history:
-            return current_difficulty
-
         recent_scores = [h["score"] for h in history[-2:]]
         avg_score = sum(recent_scores) / len(recent_scores)
-
         levels = ["Easy", "Medium", "Hard"]
         current_idx = levels.index(current_difficulty) if current_difficulty in levels else 1
-
         if avg_score >= 8.0 and current_idx < 2:
             return levels[current_idx + 1]
         elif avg_score < 5.0 and current_idx > 0:
@@ -681,49 +647,22 @@ class SuperAgent:
         return current_difficulty
 
     def evaluate(self, question, expected_answer, user_answer):
-        return self.eval_agent.evaluate_answer(question, expected_answer, user_answer)
+        self.controller.state.current_question = question
+        self.controller.state.current_expected_answer = expected_answer
+        return self.controller.evaluate_candidate_answer(user_answer)
 
     def generate_followup(self, question, expected_answer, user_answer, role="Engineering Candidate", difficulty="Medium"):
-        return self.followup_agent.generate_followup(question, expected_answer, user_answer, role=role, difficulty=difficulty)
+        self.controller.state.current_question = question
+        self.controller.state.target_role = role
+        self.controller.state.difficulty = difficulty
+        return self.controller.generate_followup_question(user_answer)
 
     def generate_report(self, role, history):
-        self.save_session_learning(role, history)
-        return self.feedback_agent.generate_report(role, history)
+        self.controller.state.target_role = role
+        return self.controller.generate_final_report()
 
     def save_session_learning(self, role, history):
-        try:
-            store_dir = "datasets/processed"
-            os.makedirs(store_dir, exist_ok=True)
-            memory_file = os.path.join(store_dir, "learning_memory.json")
+        high_quality = [item for item in history if item.get("score", 0) >= 7.0]
+        if high_quality:
+            self.rag.add_session_to_knowledge_base(role, high_quality)
 
-            existing_memory = []
-            if os.path.exists(memory_file):
-                with open(memory_file, "r", encoding="utf-8") as f:
-                    try:
-                        existing_memory = json.load(f)
-                    except Exception:
-                        existing_memory = []
-
-            new_entries = []
-            for item in history:
-                entry = {
-                    "role": role,
-                    "topic": item.get("topic", "General"),
-                    "question": item.get("question"),
-                    "answer": item.get("answer"),
-                    "score": item.get("score"),
-                    "feedback": item.get("feedback")
-                }
-                new_entries.append(entry)
-
-            existing_memory.extend(new_entries)
-            with open(memory_file, "w", encoding="utf-8") as f:
-                json.dump(existing_memory, f, indent=2)
-
-            high_quality = [item for item in history if item.get("score", 0) >= 7.0]
-            if high_quality:
-                self.rag.add_session_to_knowledge_base(role, high_quality)
-                print(f"[SuperAgent Self-Learning] Enriched RAG Vector Store with {len(high_quality)} new Q&A pairs.")
-
-        except Exception as e:
-            print(f"[SuperAgent Self-Learning Error] {e}")

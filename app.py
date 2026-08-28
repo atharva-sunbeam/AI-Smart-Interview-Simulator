@@ -286,6 +286,29 @@ with st.sidebar:
             st.markdown(f"**Progress:**\n`Question {q_num} of {tot_q}`")
 
         st.markdown("---")
+        # Developer / Viva Debug Mode: OFF by default
+        show_debug = st.checkbox("⚙️ Show Developer / Viva Debug Console", value=False)
+        if show_debug:
+            st.markdown("<div style='background: rgba(30, 41, 59, 0.6); padding: 12px; border-radius: 8px; font-size: 12px;'>", unsafe_allow_html=True)
+            st.markdown("**Active Framework Architecture:**")
+            st.markdown("- **CrewAI Orchestrator**: `Agent → Task → Crew → Process.sequential → kickoff`")
+            st.markdown("- **LangChain Core**: `create_agent()`, `@tool` functions, Pydantic schemas")
+            st.markdown("---")
+            if hasattr(super_agent, "controller") and super_agent.controller.state.debug_logs:
+                st.markdown("**Live Execution Logs:**")
+                logs = super_agent.controller.state.debug_logs[-10:]
+                for entry in reversed(logs):
+                    comp = entry.get("component", "System")
+                    badge_icon = "🟢" if comp == "CrewAI" else ("🔵" if comp == "LangChain" else "🟠")
+                    st.markdown(f"{badge_icon} **[{entry['timestamp']}] {comp}**: {entry['action']}")
+                    if entry.get("details"):
+                        with st.expander("Details", expanded=False):
+                            st.json(entry["details"])
+            else:
+                st.caption("No framework logs recorded yet.")
+            st.markdown("</div>", unsafe_allow_html=True)
+
+        st.markdown("---")
         if st.button("Reset Interview", use_container_width=True):
             cancel_active_speech()
             st.session_state.step = "home"
@@ -516,7 +539,7 @@ elif st.session_state.step == "role_selection":
 elif st.session_state.step == "session":
     # Synthesize questions if not yet loaded
     if not st.session_state.questions:
-        with st.spinner("Synthesizing topic blueprint and question sequence using Groq API & Knowledge Base..."):
+        with st.spinner("Synthesizing topic blueprint and question sequence using CrewAI & LangChain..."):
             questions = super_agent.get_questions(
                 role=st.session_state.selected_role,
                 difficulty=st.session_state.selected_difficulty,
@@ -542,7 +565,6 @@ elif st.session_state.step == "session":
         st.rerun()
 
     current_q_data = st.session_state.questions[q_idx]
-    # STRICT DIFFICULTY LOCK: Always keep selected difficulty level
     current_difficulty = st.session_state.selected_difficulty
     current_q_data["difficulty"] = current_difficulty
 
@@ -552,11 +574,11 @@ elif st.session_state.step == "session":
     elif st.session_state.in_followup and st.session_state.followup_evaluation is None:
         text_to_speak = f"Here is a follow-up question. {st.session_state.followup_question}"
     elif st.session_state.in_followup and st.session_state.followup_evaluation:
-        score = st.session_state.followup_evaluation["score"]
+        score = st.session_state.followup_evaluation.get("overall_score", st.session_state.followup_evaluation.get("score", 5.0))
         speech_feedback = st.session_state.followup_evaluation["feedback"].replace("*", "").replace("#", "").replace("`", "")
         text_to_speak = f"Follow-up score: {score} out of 10. {speech_feedback}"
     else:
-        score = st.session_state.current_evaluation["score"]
+        score = st.session_state.current_evaluation.get("overall_score", st.session_state.current_evaluation.get("score", 5.0))
         speech_feedback = st.session_state.current_evaluation["feedback"].replace("*", "").replace("#", "").replace("`", "")
         text_to_speak = f"You scored {score} out of 10. {speech_feedback}"
 
@@ -568,8 +590,8 @@ elif st.session_state.step == "session":
         f"<h4>Question {q_idx+1} of {total_q}</h4>"
         f"<p style='font-size: 18px; color: #ffffff;'>{current_q_data['question']}</p>"
         f"<div style='margin-top: 10px;'>"
-        f"Active Blueprint Topic: <span class='topic-badge-active'>{active_topic}</span> "
-        f"Strict Difficulty: <span class='difficulty-badge-{current_difficulty.lower()}'>{current_difficulty}</span>"
+        f"Active Topic: <span class='topic-badge-active'>{active_topic}</span> "
+        f"Difficulty: <span class='difficulty-badge-{current_difficulty.lower()}'>{current_difficulty}</span>"
         f"</div>"
         f"</div>",
         unsafe_allow_html=True
@@ -584,7 +606,7 @@ elif st.session_state.step == "session":
     if st.session_state.in_followup:
         st.markdown(
             f"<div style='background: rgba(245, 158, 11, 0.1); border-left: 4px solid #f59e0b; padding: 16px; border-radius: 8px; margin-bottom: 20px;'>"
-            f"⚠️ <strong>Follow-up Active:</strong> {st.session_state.followup_question}"
+            f"⚠️ <strong>Targeted Follow-up Active:</strong> {st.session_state.followup_question}"
             f"</div>",
             unsafe_allow_html=True
         )
@@ -599,98 +621,122 @@ elif st.session_state.step == "session":
     user_ans = st.text_area(
         label,
         key=input_key,
-        height=150,
-        placeholder="Explain your answer in technical detail here (or click Record Voice Answer above to speak)..."
+        height=140,
+        placeholder="Explain your technical reasoning here (or click Record Voice Answer above to speak)..."
     )
 
     final_user_ans = user_ans.strip()
 
-    # Display Standalone Main Question Evaluation
+    # Submit Main Answer Action
     if not st.session_state.in_followup and st.session_state.current_evaluation is None:
-        if st.button("Submit Main Answer"):
+        if st.button("Submit Answer"):
             if not final_user_ans:
-                st.warning("Please input an answer before submitting.")
+                st.warning("Please input or record an answer before submitting.")
             else:
-                with st.spinner("Answer Evaluator Agent checking technical accuracy..."):
+                with st.spinner("Answer Evaluator Agent analyzing response accuracy & missing concepts..."):
                     eval_res = super_agent.evaluate(
                         question=current_q_data["question"],
                         expected_answer=current_q_data["expected_answer"],
                         user_answer=final_user_ans
                     )
-                    st.session_state.main_evaluation = {
-                        "question": current_q_data["question"],
-                        "topic": active_topic,
-                        "score": eval_res["score"],
-                        "feedback": eval_res["feedback"],
-                        "user_answer": final_user_ans,
-                        "is_followup": False
-                    }
-                    st.session_state.current_evaluation = st.session_state.main_evaluation
+                    eval_res["user_answer"] = final_user_ans
+                    eval_res["topic"] = active_topic
+                    st.session_state.main_evaluation = eval_res
+                    st.session_state.current_evaluation = eval_res
                 st.rerun()
 
-    # Display Standalone Follow-up Question Evaluation
+    # Submit Follow-up Answer Action
     elif st.session_state.in_followup and st.session_state.followup_evaluation is None:
         if st.button("Submit Follow-up Answer"):
             if not final_user_ans:
-                st.warning("Please input an answer before submitting.")
+                st.warning("Please input or record an answer before submitting.")
             else:
-                with st.spinner("Answer Evaluator Agent evaluating follow-up response independently..."):
+                with st.spinner("Answer Evaluator Agent assessing follow-up response..."):
                     eval_res = super_agent.evaluate(
                         question=st.session_state.followup_question,
                         expected_answer=current_q_data["expected_answer"],
                         user_answer=final_user_ans
                     )
-                    st.session_state.followup_evaluation = {
-                        "question": st.session_state.followup_question,
-                        "topic": active_topic,
-                        "score": eval_res["score"],
-                        "feedback": eval_res["feedback"],
-                        "user_answer": final_user_ans,
-                        "is_followup": True
-                    }
+                    eval_res["user_answer"] = final_user_ans
+                    eval_res["topic"] = active_topic
+                    eval_res["is_followup"] = True
+                    st.session_state.followup_evaluation = eval_res
                 st.rerun()
 
-    # Feedback Cards
-    if not st.session_state.in_followup and st.session_state.current_evaluation:
-        eval_data = st.session_state.current_evaluation
-        score = eval_data["score"]
+    # Render Multi-Part Feedback Cards
+    eval_data = st.session_state.current_evaluation if not st.session_state.in_followup else st.session_state.followup_evaluation
+    if eval_data:
+        score = eval_data.get("overall_score", eval_data.get("score", 5.0))
         score_class = "score-badge-high" if score >= 8.0 else ("score-badge-med" if score >= 5.0 else "score-badge-low")
 
         st.markdown("<div class='glass-card'>", unsafe_allow_html=True)
-        st.markdown("### Main Question Feedback")
-        st.markdown(f"<span class='score-badge {score_class}'>{score} / 10</span>", unsafe_allow_html=True)
+        st.markdown("### Technical Evaluation Feedback")
+        st.markdown(f"<span class='score-badge {score_class}'>Overall Score: {score} / 10</span>", unsafe_allow_html=True)
         st.write("")
-        st.markdown(eval_data["feedback"])
+
+        # Sub-scores Breakdown Grid
+        c1, c2, c3, c4, c5 = st.columns(5)
+        c1.metric("Technical Accuracy", f"{eval_data.get('technical_score', score)} / 10")
+        c2.metric("Relevance", f"{eval_data.get('relevance_score', score)} / 10")
+        c3.metric("Completeness", f"{eval_data.get('completeness_score', score)} / 10")
+        c4.metric("Clarity", f"{eval_data.get('clarity_score', score)} / 10")
+        c5.metric("Technical Depth", f"{eval_data.get('depth_score', score)} / 10")
+
+        st.markdown("---")
+        st.markdown(f"**Feedback Explanation:**\n{eval_data.get('feedback', '')}")
+
+        if eval_data.get("strengths"):
+            st.markdown("**What You Did Well:**")
+            for s in eval_data["strengths"]:
+                st.markdown(f"• {s}")
+
+        if eval_data.get("weaknesses"):
+            st.markdown("**What Was Missing / Areas for Improvement:**")
+            for w in eval_data["weaknesses"]:
+                st.markdown(f"• {w}")
+
+        if eval_data.get("missing_concepts"):
+            st.markdown("**Detected Technical Knowledge Gaps:**")
+            gap_badges = "".join([f"<span class='skill-badge'>{gap}</span>" for gap in eval_data["missing_concepts"]])
+            st.markdown(gap_badges, unsafe_allow_html=True)
+
+        if current_q_data.get("expected_answer"):
+            st.markdown("---")
+            st.markdown("#### 🎯 Expected Key Terminologies & Focus Areas:")
+            st.info(current_q_data["expected_answer"])
+
         st.markdown("</div>", unsafe_allow_html=True)
 
+        # Action Buttons
+        follow_needed = eval_data.get("follow_up_needed", False) or score < 9.5 or len(eval_data.get("missing_concepts", [])) > 0
         col_fu, col_nxt = st.columns([1, 1])
-        with col_fu:
-            if st.button("❓ Ask Real-Time Follow-Up Question", use_container_width=True):
-                st.session_state.in_followup = True
-                with st.spinner("Follow-Up Agent generating real-time probing question..."):
-                    st.session_state.followup_question = super_agent.generate_followup(
-                        question=current_q_data["question"],
-                        expected_answer=current_q_data["expected_answer"],
-                        user_answer=st.session_state.main_evaluation["user_answer"],
-                        role=st.session_state.selected_role,
-                        difficulty=st.session_state.selected_difficulty
-                    )
-                st.rerun()
 
+        # Button 1: Answer Follow-Up Question (Only when on main question evaluation and follow-up is recommended)
+        if not st.session_state.in_followup and follow_needed:
+            with col_fu:
+                if st.button("❓ Answer Follow-Up Question ->", use_container_width=True, type="primary"):
+                    cancel_active_speech()
+                    st.session_state.in_followup = True
+                    with st.spinner("🤖 Follow-Up Agent generating targeted probing question..."):
+                        st.session_state.followup_question = super_agent.generate_followup(
+                            question=current_q_data["question"],
+                            expected_answer=current_q_data["expected_answer"],
+                            user_answer=st.session_state.main_evaluation["user_answer"],
+                            role=st.session_state.selected_role,
+                            difficulty=st.session_state.selected_difficulty
+                        )
+                    st.rerun()
+
+        # Button 2: Proceed directly to Next Question (or Finish & View Final Report)
         with col_nxt:
             btn_label = "Proceed to Next Question ->" if q_idx + 1 < total_q else "Finish & View Final Report ->"
             if st.button(btn_label, use_container_width=True):
                 cancel_active_speech()
                 # Save main question evaluation to history
                 if st.session_state.main_evaluation:
-                    st.session_state.history.append({
-                        "question": st.session_state.main_evaluation["question"],
-                        "topic": st.session_state.main_evaluation["topic"],
-                        "score": st.session_state.main_evaluation["score"],
-                        "answer": st.session_state.main_evaluation["user_answer"],
-                        "feedback": st.session_state.main_evaluation["feedback"],
-                        "is_followup": False
-                    })
+                    st.session_state.history.append(st.session_state.main_evaluation)
+                if st.session_state.followup_evaluation:
+                    st.session_state.history.append(st.session_state.followup_evaluation)
 
                 st.session_state.current_evaluation = None
                 st.session_state.main_evaluation = None
@@ -711,60 +757,6 @@ elif st.session_state.step == "session":
                         st.session_state.final_report = report
                     st.rerun()
 
-    elif st.session_state.in_followup and st.session_state.followup_evaluation:
-        eval_data = st.session_state.followup_evaluation
-        score = eval_data["score"]
-        score_class = "score-badge-high" if score >= 8.0 else ("score-badge-med" if score >= 5.0 else "score-badge-low")
-
-        st.markdown("<div class='glass-card'>", unsafe_allow_html=True)
-        st.markdown("### Standalone Follow-up Feedback")
-        st.markdown(f"<span class='score-badge {score_class}'>{score} / 10</span>", unsafe_allow_html=True)
-        st.write("")
-        st.markdown(eval_data["feedback"])
-        st.markdown("</div>", unsafe_allow_html=True)
-
-        btn_label = "Proceed to Next Question ->" if q_idx + 1 < total_q else "Finish & View Final Report ->"
-        if st.button(btn_label, use_container_width=True):
-            cancel_active_speech()
-            # Save both main and follow-up evaluations as distinct entries
-            if st.session_state.main_evaluation:
-                st.session_state.history.append({
-                    "question": st.session_state.main_evaluation["question"],
-                    "topic": st.session_state.main_evaluation["topic"],
-                    "score": st.session_state.main_evaluation["score"],
-                    "answer": st.session_state.main_evaluation["user_answer"],
-                    "feedback": st.session_state.main_evaluation["feedback"],
-                    "is_followup": False
-                })
-
-            st.session_state.history.append({
-                "question": st.session_state.followup_evaluation["question"],
-                "topic": st.session_state.followup_evaluation["topic"],
-                "score": st.session_state.followup_evaluation["score"],
-                "answer": st.session_state.followup_evaluation["user_answer"],
-                "feedback": st.session_state.followup_evaluation["feedback"],
-                "is_followup": True
-            })
-
-            st.session_state.current_evaluation = None
-            st.session_state.main_evaluation = None
-            st.session_state.in_followup = False
-            st.session_state.followup_question = ""
-            st.session_state.followup_evaluation = None
-
-            if q_idx + 1 < total_q:
-                st.session_state.current_q_idx += 1
-                st.rerun()
-            else:
-                st.session_state.step = "feedback_report"
-                with st.spinner("Feedback Agent compiling diagnostic report & updating system memory..."):
-                    report = super_agent.generate_report(
-                        role=st.session_state.selected_role,
-                        history=st.session_state.history
-                    )
-                    st.session_state.final_report = report
-                st.rerun()
-
 # Page 5: Feedback Report & Diagnostic Evaluation
 elif st.session_state.step == "feedback_report":
     cancel_active_speech()
@@ -772,13 +764,26 @@ elif st.session_state.step == "feedback_report":
     st.markdown("<h2 class='premium-header'>Interview Evaluation & Self-Learning Report</h2>", unsafe_allow_html=True)
     st.write("Congratulations on completing your technical interview session! Below is your comprehensive diagnostic feedback.")
 
+    # Guarantee final report is generated and populated
+    if not st.session_state.get("final_report"):
+        with st.spinner("Compiling comprehensive diagnostic report & updating system memory..."):
+            st.session_state.final_report = super_agent.generate_report(
+                role=st.session_state.selected_role,
+                history=st.session_state.history
+            )
+
+    report_content = st.session_state.get("final_report", "")
+    if not report_content and hasattr(super_agent, "controller") and super_agent.controller.state.final_report:
+        report_content = super_agent.controller.state.final_report
+        st.session_state.final_report = report_content
+
     st.markdown("<div class='glass-card'>", unsafe_allow_html=True)
-    st.markdown(st.session_state.final_report)
+    st.markdown(report_content)
     st.markdown("</div>", unsafe_allow_html=True)
 
     st.download_button(
         label="📥 Download Markdown Report",
-        data=st.session_state.final_report,
+        data=report_content,
         file_name=f"interview_report_{st.session_state.selected_role.replace(' ', '_').lower()}.md",
         mime="text/markdown",
         use_container_width=True
